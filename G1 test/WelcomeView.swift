@@ -28,7 +28,6 @@ struct WelcomeView: View {
             VStack(spacing: 16) {
                 NavigationLink(destination: EnglishTestMenuView()) {
                     HStack {
-                        Image(systemName: "plus")
                         Text("ENGLISH")
                             .fontWeight(.semibold)
                     }
@@ -41,7 +40,6 @@ struct WelcomeView: View {
 
                 NavigationLink(destination: PersianTestMenuView()) {
                     HStack {
-                        Image(systemName: "plus")
                         Text("فارسی")
                             .fontWeight(.semibold)
                     }
