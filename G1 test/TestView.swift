@@ -120,9 +120,7 @@ struct TestView: View {
             }
         }
         .onAppear {
-            if questions.isEmpty {
-                TestSeeder.seedIfNeeded(context: PersistenceController.shared.container.viewContext)
-            }
+            TestSeeder.seedIfNeeded(context: PersistenceController.shared.container.viewContext)
         }
     }
     
