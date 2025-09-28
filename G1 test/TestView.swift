@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import CoreData
 
 struct TestView: View {
     // Reusable parameters
@@ -27,6 +28,8 @@ struct TestView: View {
         title: String = "G1 Trial Test 1 (English)",
         idStart: Int? = nil
     ) {
+        // Ensure database is seeded before building the fetch request
+        TestSeeder.seedIfNeeded(context: PersistenceController.shared.container.viewContext)
         self.testID = testID
         self.questionsPerTest = questionsPerTest
         self.titleText = title
@@ -40,6 +43,7 @@ struct TestView: View {
             lower = (testID - 1) * questionsPerTest + 1
             upper = testID * questionsPerTest
         }
+
 
         _questions = FetchRequest(
             entity: Question.entity(),
@@ -74,7 +78,7 @@ struct TestView: View {
                     OptionButton(option: "D", text: question.optionD ?? "", selectedOption: $selectedOption, showAnswer: showAnswer, correctOption: question.correctOption ?? "")
                 }
                 .padding()
-                .onChange(of: selectedOption) { newValue in
+                .onChange(of: selectedOption) { oldValue, newValue in
                     guard let selected = newValue else { return }
                     let q = questions[currentIndex]
                     q.userChoice = selected
@@ -120,7 +124,9 @@ struct TestView: View {
             }
         }
         .onAppear {
-            TestSeeder.seedIfNeeded(context: PersistenceController.shared.container.viewContext)
+            // DEBUG: log fetched IDs for this view's current range
+            let ids = questions.map { Int($0.id) }
+            print("DEBUG TestView fetched ids=\(ids)")
         }
     }
     

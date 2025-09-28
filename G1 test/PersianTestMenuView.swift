@@ -47,7 +47,7 @@ struct PersianTestMenuView: View {
                             .cornerRadius(10)
                         }
                     } else if title == "تست ۳" {
-                        NavigationLink(destination: TestView(testID: 3, questionsPerTest: 20, title: "تست ۳", idStart: 141)) {
+                        NavigationLink(destination: TestView(testID: 3, questionsPerTest: 20, title: "تست ۳", idStart: 140)) {
                             HStack {
                                 Text(title)
                                     .fontWeight(.semibold)
@@ -59,7 +59,7 @@ struct PersianTestMenuView: View {
                             .cornerRadius(10)
                         }
                     } else if title == "تست ۴" {
-                        NavigationLink(destination: TestView(testID: 4, questionsPerTest: 20, title: "تست ۴", idStart: 161)) {
+                        NavigationLink(destination: TestView(testID: 4, questionsPerTest: 20, title: "تست ۴", idStart: 160)) {
                             HStack {
                                 Text(title)
                                     .fontWeight(.semibold)
