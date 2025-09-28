@@ -6,7 +6,12 @@
 //
 
 import SwiftUI
+import UIKit
 import CoreData
+
+private func imageExists(_ name: String) -> Bool {
+    return UIImage(named: name) != nil
+}
 
 struct TestView: View {
     // Reusable parameters
@@ -70,6 +75,14 @@ struct TestView: View {
                 Text(question.question ?? "")
                     .font(.headline)
                     .padding()
+
+                if let img = question.imageName, !img.isEmpty, imageExists(img) {
+                    Image(img)
+                        .resizable()
+                        .scaledToFit()
+                        .frame(maxHeight: 220)
+                        .padding(.bottom, 8)
+                }
 
                 VStack(spacing: 10) {
                     OptionButton(option: "A", text: question.optionA ?? "", selectedOption: $selectedOption, showAnswer: showAnswer, correctOption: question.correctOption ?? "")
