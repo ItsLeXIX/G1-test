@@ -36,7 +36,7 @@ struct EnglishTestMenuView: View {
                             .cornerRadius(10)
                         }
                     }else if title == "TEST 2" {
-                        NavigationLink(destination: TestView(testID: 1, questionsPerTest: 20, title: "TEST 2", idStart: 21)) {
+                        NavigationLink(destination: TestView(testID: 2, questionsPerTest: 20, title: "TEST 2", idStart: 21)) {
                             HStack {
                                 Text(title)
                                     .fontWeight(.semibold)
@@ -48,7 +48,7 @@ struct EnglishTestMenuView: View {
                             .cornerRadius(10)
                         }
                     }else if title == "TEST 3" {
-                        NavigationLink(destination: TestView(testID: 1, questionsPerTest: 20, title: "TEST 3", idStart: 31)) {
+                        NavigationLink(destination: TestView(testID: 3, questionsPerTest: 20, title: "TEST 3", idStart: 41)) {
                             HStack {
                                 Text(title)
                                     .fontWeight(.semibold)
@@ -60,7 +60,7 @@ struct EnglishTestMenuView: View {
                             .cornerRadius(10)
                         }
                     }else if title == "TEST 4" {
-                        NavigationLink(destination: TestView(testID: 1, questionsPerTest: 20, title: "TEST 4", idStart: 41)) {
+                        NavigationLink(destination: TestView(testID: 1, questionsPerTest: 20, title: "TEST 4", idStart: 61)) {
                             HStack {
                                 Text(title)
                                     .fontWeight(.semibold)
@@ -72,7 +72,7 @@ struct EnglishTestMenuView: View {
                             .cornerRadius(10)
                         }
                     }else if title == "TEST 5" {
-                        NavigationLink(destination: TestView(testID: 1, questionsPerTest: 20, title: "TEST 5", idStart: 51)) {
+                        NavigationLink(destination: TestView(testID: 4, questionsPerTest: 20, title: "TEST 5", idStart: 81)) {
                             HStack {
                                 Text(title)
                                     .fontWeight(.semibold)
@@ -84,7 +84,7 @@ struct EnglishTestMenuView: View {
                             .cornerRadius(10)
                         }
                     }else if title == "TEST 5" {
-                        NavigationLink(destination: TestView(testID: 1, questionsPerTest: 20, title: "TEST 5", idStart: 51)) {
+                        NavigationLink(destination: TestView(testID: 5, questionsPerTest: 20, title: "TEST 5", idStart: 101)) {
                             HStack {
                                 Text(title)
                                     .fontWeight(.semibold)
@@ -96,7 +96,7 @@ struct EnglishTestMenuView: View {
                             .cornerRadius(10)
                         }
                     }else if title == "TEST 6" {
-                        NavigationLink(destination: TestView(testID: 1, questionsPerTest: 20, title: "TEST 6", idStart: 61)) {
+                        NavigationLink(destination: TestView(testID: 6, questionsPerTest: 20, title: "TEST 6", idStart: 121)) {
                             HStack {
                                 Text(title)
                                     .fontWeight(.semibold)

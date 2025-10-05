@@ -6,7 +6,19 @@
 //
 
 import SwiftUI
+import UIKit
 import CoreData
+
+private func imageExists(_ name: String) -> Bool {
+    return UIImage(named: name) != nil
+}
+
+private struct QuizChoice: Identifiable, Hashable {
+    let id = UUID()
+    let text: String
+    let originalKey: String   // "A"/"B"/"C"/"D" as stored in Core Data
+    let isCorrect: Bool
+}
 
 struct TestView: View {
     // Reusable parameters
@@ -21,6 +33,8 @@ struct TestView: View {
     @State private var selectedOption: String? = nil
     @State private var showAnswer = false
     @State private var showResults = false
+    @State private var shuffledQuestions: [Question] = []
+    @State private var shuffledChoices: [NSManagedObjectID: [QuizChoice]] = [:]
 
     init(
         testID: Int = 1,
@@ -53,41 +67,67 @@ struct TestView: View {
         )
     }
     
+    private func makeShuffledChoices(for q: Question) -> [QuizChoice] {
+        let correct = (q.correctOption ?? "").trimmingCharacters(in: .whitespacesAndNewlines).uppercased()
+        var items: [QuizChoice] = []
+        if let a = q.optionA, !a.isEmpty { items.append(QuizChoice(text: a, originalKey: "A", isCorrect: correct == "A")) }
+        if let b = q.optionB, !b.isEmpty { items.append(QuizChoice(text: b, originalKey: "B", isCorrect: correct == "B")) }
+        if let c = q.optionC, !c.isEmpty { items.append(QuizChoice(text: c, originalKey: "C", isCorrect: correct == "C")) }
+        if let d = q.optionD, !d.isEmpty { items.append(QuizChoice(text: d, originalKey: "D", isCorrect: correct == "D")) }
+        items.shuffle()
+        return items
+    }
+    
     var body: some View {
         VStack {
             Text(titleText)
                 .font(.title3).bold()
 
-            ProgressView(value: Double(currentIndex + 1), total: Double(questions.count))
+            ProgressView(value: Double(currentIndex + 1), total: Double(shuffledQuestions.count))
                 .padding()
-            Text("\(currentIndex + 1)/\(questions.count)")
+            Text("\(currentIndex + 1)/\(shuffledQuestions.count)")
                 .font(.subheadline)
                 .foregroundColor(.secondary)
 
-            if questions.indices.contains(currentIndex) {
-                let question = questions[currentIndex]
+            if shuffledQuestions.indices.contains(currentIndex) {
+                let question = shuffledQuestions[currentIndex]
+                let choices = shuffledChoices[question.objectID] ?? []
 
                 Text(question.question ?? "")
                     .font(.headline)
                     .padding()
 
-                VStack(spacing: 10) {
-                    OptionButton(option: "A", text: question.optionA ?? "", selectedOption: $selectedOption, showAnswer: showAnswer, correctOption: question.correctOption ?? "")
-                    OptionButton(option: "B", text: question.optionB ?? "", selectedOption: $selectedOption, showAnswer: showAnswer, correctOption: question.correctOption ?? "")
-                    OptionButton(option: "C", text: question.optionC ?? "", selectedOption: $selectedOption, showAnswer: showAnswer, correctOption: question.correctOption ?? "")
-                    OptionButton(option: "D", text: question.optionD ?? "", selectedOption: $selectedOption, showAnswer: showAnswer, correctOption: question.correctOption ?? "")
-                }
-                .padding()
-                .onChange(of: selectedOption) { oldValue, newValue in
-                    guard let selected = newValue else { return }
-                    let q = questions[currentIndex]
-                    q.userChoice = selected
-                    try? q.managedObjectContext?.save()
-                    showAnswer = true
+                if let img = question.imageName, !img.isEmpty, imageExists(img) {
+                    Image(img)
+                        .resizable()
+                        .scaledToFit()
+                        .frame(maxHeight: 220)
+                        .padding(.bottom, 8)
                 }
 
+                VStack(spacing: 10) {
+                    ForEach(choices) { choice in
+                        ChoiceButton(
+                            text: choice.text,
+                            isSelected: (selectedOption == choice.originalKey),
+                            showAnswer: showAnswer,
+                            isCorrect: choice.isCorrect
+                        ) {
+                            if !showAnswer {
+                                selectedOption = choice.originalKey
+                                // persist the user's selected original option key (A/B/C/D)
+                                let q = question
+                                q.userChoice = choice.originalKey
+                                try? q.managedObjectContext?.save()
+                                showAnswer = true
+                            }
+                        }
+                    }
+                }
+                .padding()
+
                 Button(action: {
-                    if currentIndex + 1 < questions.count {
+                    if currentIndex + 1 < shuffledQuestions.count {
                         currentIndex += 1
                         selectedOption = nil
                         showAnswer = false
@@ -95,7 +135,7 @@ struct TestView: View {
                         showResults = true
                     }
                 }) {
-                    Text(currentIndex + 1 < questions.count ? "Next" : "Finish")
+                    Text(currentIndex + 1 < shuffledQuestions.count ? "Next" : "Finish")
                         .bold()
                         .frame(maxWidth: .infinity)
                         .padding()
@@ -111,22 +151,32 @@ struct TestView: View {
         }
         .padding()
         .sheet(isPresented: $showResults) {
-            ResultsView(score: computedScore, total: questions.count) {
+            ResultsView(score: computedScore, total: shuffledQuestions.count) {
                 // Reset state and clear choices
                 currentIndex = 0
                 selectedOption = nil
                 showAnswer = false
                 showResults = false
-                if let ctx = questions.first?.managedObjectContext {
-                    for q in questions { q.userChoice = "" }
+                if let ctx = shuffledQuestions.first?.managedObjectContext {
+                    for q in shuffledQuestions { q.userChoice = "" }
                     try? ctx.save()
                 }
+                // Re-shuffle for a new session
+                shuffledQuestions = questions.shuffled()
+                shuffledChoices = Dictionary(uniqueKeysWithValues: shuffledQuestions.map { ($0.objectID, makeShuffledChoices(for: $0)) })
             }
         }
         .onAppear {
-            // DEBUG: log fetched IDs for this view's current range
+            // Build shuffled question order once per view appearance
+            if shuffledQuestions.isEmpty {
+                shuffledQuestions = questions.shuffled()
+                shuffledChoices = Dictionary(uniqueKeysWithValues: shuffledQuestions.map { ($0.objectID, makeShuffledChoices(for: $0)) })
+            }
+            // DEBUG: log fetched and shuffled IDs
             let ids = questions.map { Int($0.id) }
+            let shuffledIDs = shuffledQuestions.map { Int($0.id) }
             print("DEBUG TestView fetched ids=\(ids)")
+            print("DEBUG TestView shuffled ids=\(shuffledIDs)")
         }
     }
     
@@ -139,21 +189,22 @@ struct TestView: View {
     }
 }
 
-private struct OptionButton: View {
-    let option: String
+private struct ChoiceButton: View {
     let text: String
-    @Binding var selectedOption: String?
+    let isSelected: Bool
     let showAnswer: Bool
-    let correctOption: String
+    let isCorrect: Bool
+    let onSelect: () -> Void
 
     var body: some View {
-        Button(action: { if !showAnswer { selectedOption = option } }) {
-            HStack(spacing: 12) {
+        Button(action: { onSelect() }) {
+            HStack(alignment: .top, spacing: 12) {
                 Image(systemName: iconName)
-                Text("\(option). \(text)")
+                Text(text)
                     .multilineTextAlignment(.leading)
-                Spacer()
+                    .fixedSize(horizontal: false, vertical: true)
             }
+            .frame(maxWidth: .infinity, alignment: .leading)
             .padding(12)
             .background(background)
             .clipShape(RoundedRectangle(cornerRadius: 10))
@@ -161,15 +212,13 @@ private struct OptionButton: View {
                 RoundedRectangle(cornerRadius: 10)
                     .stroke(borderColor, lineWidth: 1)
             )
+            .contentShape(Rectangle())
         }
         .buttonStyle(.plain)
-        .disabled(showAnswer) // lock after reveal
+        .disabled(showAnswer && !isSelected) // lock others after reveal
     }
 
     // MARK: - Visual State
-    private var isSelected: Bool { selectedOption == option }
-    private var isCorrect: Bool { option.uppercased() == correctOption.uppercased() }
-
     private var iconName: String {
         if showAnswer {
             return isCorrect ? "checkmark.circle.fill" : (isSelected ? "xmark.circle.fill" : "circle")
