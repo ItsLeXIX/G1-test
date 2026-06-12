@@ -21,6 +21,7 @@ private struct QuizChoice: Identifiable, Hashable {
 }
 
 struct TestView: View {
+    @Environment(\.dismiss) private var dismiss
     // Reusable parameters
     private let testID: Int
     private let questionsPerTest: Int
@@ -151,7 +152,10 @@ struct TestView: View {
         }
         .padding()
         .sheet(isPresented: $showResults) {
-            ResultsView(score: computedScore, total: shuffledQuestions.count) {
+            ResultsView(
+                score: computedScore,
+                total: shuffledQuestions.count,
+                onRetry: {
                 // Reset state and clear choices
                 currentIndex = 0
                 selectedOption = nil
@@ -164,7 +168,12 @@ struct TestView: View {
                 // Re-shuffle for a new session
                 shuffledQuestions = questions.shuffled()
                 shuffledChoices = Dictionary(uniqueKeysWithValues: shuffledQuestions.map { ($0.objectID, makeShuffledChoices(for: $0)) })
-            }
+                },
+                onGoToTests: {
+                    showResults = false
+                    dismiss()
+                }
+            )
         }
         .onAppear {
             // Build shuffled question order once per view appearance
@@ -251,6 +260,7 @@ private struct ResultsView: View {
     let score: Int
     let total: Int
     var onRetry: () -> Void
+    var onGoToTests: () -> Void
 
     var body: some View {
         VStack(spacing: 16) {
@@ -263,6 +273,10 @@ private struct ResultsView: View {
                 .padding(.horizontal)
             Button("Try Again") { onRetry() }
                 .buttonStyle(.borderedProminent)
+            Button("بازگشت به تست‌ها") {
+                onGoToTests()
+            }
+            .buttonStyle(.borderedProminent)
         }
         .padding()
     }
