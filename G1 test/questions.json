@@ -1,0 +1,2704 @@
+{
+  "questions": [
+    {
+      "id": "en-1",
+      "language": "en",
+      "category": "rules",
+      "test": 1,
+      "text": "What does a red traffic light mean?",
+      "options": [
+        "Stop",
+        "Go",
+        "Yield",
+        "Speed up"
+      ],
+      "correctIndex": 0,
+      "imageName": null
+    },
+    {
+      "id": "en-2",
+      "language": "en",
+      "category": "rules",
+      "test": 1,
+      "text": "When should you yield at an intersection?",
+      "options": [
+        "When you see a stop sign",
+        "When entering from a side road",
+        "Only if there are pedestrians",
+        "Never"
+      ],
+      "correctIndex": 1,
+      "imageName": null
+    },
+    {
+      "id": "en-3",
+      "language": "en",
+      "category": "signs",
+      "test": 1,
+      "text": "What shape is a STOP sign?",
+      "options": [
+        "Octagon",
+        "Triangle",
+        "Circle",
+        "Rectangle"
+      ],
+      "correctIndex": 0,
+      "imageName": "3"
+    },
+    {
+      "id": "en-4",
+      "language": "en",
+      "category": "rules",
+      "test": 1,
+      "text": "At a four‑way stop, who has the right‑of‑way?",
+      "options": [
+        "The largest vehicle",
+        "The vehicle that stops first",
+        "The vehicle on the left",
+        "Whoever flashes headlights"
+      ],
+      "correctIndex": 1,
+      "imageName": null
+    },
+    {
+      "id": "en-5",
+      "language": "en",
+      "category": "signs",
+      "test": 1,
+      "text": "A YIELD sign means you must…",
+      "options": [
+        "Slow down and give right‑of‑way",
+        "Stop completely every time",
+        "Speed up to merge first",
+        "Ignore if no police are present"
+      ],
+      "correctIndex": 0,
+      "imageName": "5"
+    },
+    {
+      "id": "en-6",
+      "language": "en",
+      "category": "rules",
+      "test": 1,
+      "text": "What is the minimum safe following distance in good conditions?",
+      "options": [
+        "Two‑second rule",
+        "Half a car length",
+        "One second",
+        "Five car lengths"
+      ],
+      "correctIndex": 0,
+      "imageName": null
+    },
+    {
+      "id": "en-7",
+      "language": "en",
+      "category": "signs",
+      "test": 1,
+      "text": "This sign warns of a train crossing ahead. What should you do?",
+      "options": [
+        "Speed up to beat the train",
+        "Look, listen, and be prepared to stop",
+        "Turn around immediately",
+        "Park on the tracks briefly"
+      ],
+      "correctIndex": 1,
+      "imageName": "7"
+    },
+    {
+      "id": "en-8",
+      "language": "en",
+      "category": "rules",
+      "test": 1,
+      "text": "What must you do when a school bus has flashing red lights?",
+      "options": [
+        "Pass carefully on the left",
+        "Slow down and proceed",
+        "Stop from both directions until the lights stop",
+        "Honk and continue"
+      ],
+      "correctIndex": 2,
+      "imageName": null
+    },
+    {
+      "id": "en-9",
+      "language": "en",
+      "category": "signs",
+      "test": 1,
+      "text": "‘Divided highway begins’ means…",
+      "options": [
+        "A median will separate directions ahead",
+        "Road narrows to one lane",
+        "Two‑way traffic ends",
+        "One‑way street begins"
+      ],
+      "correctIndex": 0,
+      "imageName": "9"
+    },
+    {
+      "id": "en-10",
+      "language": "en",
+      "category": "rules",
+      "test": 1,
+      "text": "A solid yellow line on your side of the road means…",
+      "options": [
+        "No passing",
+        "Passing allowed",
+        "Bus lane",
+        "Bike lane"
+      ],
+      "correctIndex": 0,
+      "imageName": null
+    },
+    {
+      "id": "en-11",
+      "language": "en",
+      "category": "signs",
+      "test": 1,
+      "text": "This sign means the road may be slippery when wet. What should you do?",
+      "options": [
+        "Brake hard",
+        "Slow down and avoid sudden moves",
+        "Turn off headlights",
+        "Speed up to dry the tires"
+      ],
+      "correctIndex": 1,
+      "imageName": "11"
+    },
+    {
+      "id": "en-12",
+      "language": "en",
+      "category": "rules",
+      "test": 1,
+      "text": "When must you use headlights?",
+      "options": [
+        "Only on highways",
+        "Only in rain",
+        "Only outside cities",
+        "From sunset to sunrise or when visibility is poor"
+      ],
+      "correctIndex": 3,
+      "imageName": null
+    },
+    {
+      "id": "en-13",
+      "language": "en",
+      "category": "signs",
+      "test": 1,
+      "text": "Two‑way traffic ahead sign warns you to…",
+      "options": [
+        "Expect traffic only in your lane",
+        "Expect oncoming traffic",
+        "Road closed ahead",
+        "Freeway begins"
+      ],
+      "correctIndex": 1,
+      "imageName": "13"
+    },
+    {
+      "id": "en-14",
+      "language": "en",
+      "category": "rules",
+      "test": 1,
+      "text": "When an emergency vehicle approaches with lights and siren, you must…",
+      "options": [
+        "Maintain speed",
+        "Stop in your lane",
+        "Pull to the right and stop",
+        "Speed up to clear the way"
+      ],
+      "correctIndex": 2,
+      "imageName": null
+    },
+    {
+      "id": "en-15",
+      "language": "en",
+      "category": "signs",
+      "test": 1,
+      "text": "No‑passing zone (pennant) means…",
+      "options": [
+        "Bus lane ahead",
+        "Passing allowed for trucks",
+        "Do not pass in this area",
+        "Keep right of island"
+      ],
+      "correctIndex": 2,
+      "imageName": "15"
+    },
+    {
+      "id": "en-16",
+      "language": "en",
+      "category": "rules",
+      "test": 1,
+      "text": "What should you do if you start to hydroplane?",
+      "options": [
+        "Brake hard and steer sharply",
+        "Accelerate to regain traction",
+        "Ease off the accelerator and steer gently",
+        "Turn off traction control"
+      ],
+      "correctIndex": 2,
+      "imageName": null
+    },
+    {
+      "id": "en-17",
+      "language": "en",
+      "category": "signs",
+      "test": 1,
+      "text": "Merge sign indicates you should…",
+      "options": [
+        "Stop and wait",
+        "Adjust speed and merge when safe",
+        "Make a U‑turn",
+        "Drive on the shoulder"
+      ],
+      "correctIndex": 1,
+      "imageName": "17"
+    },
+    {
+      "id": "en-18",
+      "language": "en",
+      "category": "rules",
+      "test": 1,
+      "text": "What is the legal blood‑alcohol limit for G1 drivers?",
+      "options": [
+        "0.05",
+        "0.00 (zero tolerance)",
+        "0.03",
+        "0.08"
+      ],
+      "correctIndex": 1,
+      "imageName": null
+    },
+    {
+      "id": "en-19",
+      "language": "en",
+      "category": "signs",
+      "test": 1,
+      "text": "Pedestrian crossing sign means…",
+      "options": [
+        "No pedestrians allowed",
+        "Playground ahead",
+        "Pedestrian crossing ahead—be prepared to stop",
+        "School bus stop only"
+      ],
+      "correctIndex": 2,
+      "imageName": "19"
+    },
+    {
+      "id": "en-20",
+      "language": "en",
+      "category": "rules",
+      "test": 1,
+      "text": "A flashing amber (yellow) traffic light means…",
+      "options": [
+        "Stop and wait for green",
+        "Stop, then proceed when safe",
+        "Speed up to clear the intersection",
+        "Proceed with caution"
+      ],
+      "correctIndex": 3,
+      "imageName": null
+    },
+    {
+      "id": "fa-101",
+      "language": "fa",
+      "category": "signs",
+      "test": 1,
+      "text": "اين علامت ساختمانى به چه معناست؟",
+      "options": [
+        "خیابان سنگفرش شده يا شياردار است",
+        "عمليات راهدارى در پيش است.",
+        "تابلوى ساخت و ساز جایگزین پرچمدار در حال انجام وظيفه.",
+        "علامت ساخت و ساز براى كاهش سرعت و اطاعت از جهت پرچم."
+      ],
+      "correctIndex": 1,
+      "imageName": "1"
+    },
+    {
+      "id": "fa-102",
+      "language": "fa",
+      "category": "signs",
+      "test": 1,
+      "text": "اين تابلوى راه به چه معناست؟",
+      "options": [
+        "شما بايد به چپ بپیچید.",
+        "بايد به راست بپیچید",
+        "شما بايد مستقيم برويد.",
+        "همه چرخش ها مجاز است."
+      ],
+      "correctIndex": 1,
+      "imageName": "2"
+    },
+    {
+      "id": "fa-103",
+      "language": "fa",
+      "category": "signs",
+      "test": 1,
+      "text": "اين تابلوى راه پشت خودرو به چه معناست؟",
+      "options": [
+        "خودرویی با سرعت كم",
+        "تابلوى ايست در پيش رو",
+        "وسيله نقليه دارای حمل مواد خطرناك",
+        "حق تقدم را بدهيد"
+      ],
+      "correctIndex": 0,
+      "imageName": "3"
+    },
+    {
+      "id": "fa-104",
+      "language": "fa",
+      "category": "signs",
+      "test": 1,
+      "text": "اين تابلوى راه به چه معناست?",
+      "options": [
+        "هتل",
+        "مسابقه اسب دوانى",
+        "تپه ها",
+        "بيمارستان"
+      ],
+      "correctIndex": 3,
+      "imageName": "4"
+    },
+    {
+      "id": "fa-105",
+      "language": "fa",
+      "category": "signs",
+      "test": 1,
+      "text": "اين تابلوى راه به چه معناست؟",
+      "options": [
+        "هیچ چیز مجاز نيست",
+        "دور برگردان مجاز است",
+        "گردش به چپ ممنوع",
+        "دور زدن ممنوع است"
+      ],
+      "correctIndex": 3,
+      "imageName": "5"
+    },
+    {
+      "id": "fa-106",
+      "language": "fa",
+      "category": "signs",
+      "test": 1,
+      "text": "اين تابلوى راه به چه معناست؟",
+      "options": [
+        "هواپيما وجود دارد.",
+        "فرود هواپیما",
+        "مسير به يك فرودگاه.",
+        "نمايش هوايي در پيش است."
+      ],
+      "correctIndex": 2,
+      "imageName": "6"
+    },
+    {
+      "id": "fa-107",
+      "language": "fa",
+      "category": "signs",
+      "test": 1,
+      "text": "اين تابلوى راه به چه معناست؟",
+      "options": [
+        "پارک کردن به سمت راست",
+        "اين جاده كمى به سمت راست در جلو مى چرخد.",
+        "اين جاده جلوتر به طور تند به سمت راست مى چرخد",
+        "ترافيك بايد از راست خارج شود."
+      ],
+      "correctIndex": 2,
+      "imageName": "7"
+    },
+    {
+      "id": "fa-108",
+      "language": "fa",
+      "category": "signs",
+      "test": 1,
+      "text": "اين تابلوى راه به چه معناست؟",
+      "options": [
+        " گردش به چب ممنوع.",
+        "مستقيم رفتن مجاز نيست.",
+        "مستقيم رفتن مجاز است.",
+        "گردش به راست مجاز نيست."
+      ],
+      "correctIndex": 1,
+      "imageName": "8"
+    },
+    {
+      "id": "fa-109",
+      "language": "fa",
+      "category": "signs",
+      "test": 1,
+      "text": "اين تابلوى راه به چه معناست؟",
+      "options": [
+        "اب روى جاده است",
+        "سطح جاده ناهموار يا پر از دست انداز در پيش رو",
+        "جاده باريك در پيش رو",
+        "پل در پيش رو بالا می‌رود تا اجازه عبور قايقها رابدهد"
+      ],
+      "correctIndex": 3,
+      "imageName": "9"
+    },
+    {
+      "id": "fa-110",
+      "language": "fa",
+      "category": "signs",
+      "test": 1,
+      "text": "اين تابلوى راه به چه معناست؟",
+      "options": [
+        "شما بايد حق تقدم را بدهيد.",
+        "شما حق تقدم داريد.",
+        "در جلو منطقه مدرسه است.",
+        "در جلو يك تقاطع راه آهن قرار دارد."
+      ],
+      "correctIndex": 0,
+      "imageName": "10"
+    },
+    {
+      "id": "fa-111",
+      "language": "fa",
+      "category": "signs",
+      "test": 1,
+      "text": "اين علامت نشان مى دهد",
+      "options": [
+        "يك وضعيت موقت",
+        "يك ممنوعيت",
+        "اخطار",
+        "اطلاعات و جهت"
+      ],
+      "correctIndex": 1,
+      "imageName": "11"
+    },
+    {
+      "id": "fa-112",
+      "language": "fa",
+      "category": "signs",
+      "test": 1,
+      "text": "اين تابلوى راه به چه معناست؟",
+      "options": [
+        "فقط پاركينك ماشين برفى (اسنوموبيل)",
+        "ماشين هاى برفى (اسنوموبيل) مى توانند از اين جاده استفاده كنند",
+        "عبور ماشين برفى (اسنوموبيل) از اين جاده ممنوع است",
+        "تعميرگاه ماشين برفى (اسنوموبيل) در پيش است."
+      ],
+      "correctIndex": 1,
+      "imageName": "12"
+    },
+    {
+      "id": "fa-113",
+      "language": "fa",
+      "category": "signs",
+      "test": 1,
+      "text": "اين علامت به چه معناست؟",
+      "options": [
+        "فاصله مشخصى را حفظ كنيد",
+        "در جلو عمليات ساختمانى در حال انجام است",
+        "راه جلوتر بسته است! در ترافيك ادغام شويد",
+        "علائم مسير انحرافى را دنبال كنيد تا به مسير اصلى بازگردید"
+      ],
+      "correctIndex": 3,
+      "imageName": "13"
+    },
+    {
+      "id": "fa-114",
+      "language": "fa",
+      "category": "signs",
+      "test": 1,
+      "text": "اين تابلوى راه به چه معناست؟",
+      "options": [
+        "چراغ راهنمای ترافيكى در پيش رو.",
+        "تقاطع راه آهن جلوتر.",
+        "تابلو ايست در پيش رو.",
+        "دست انداز در پيش رو."
+      ],
+      "correctIndex": 0,
+      "imageName": "14"
+    },
+    {
+      "id": "fa-115",
+      "language": "fa",
+      "category": "signs",
+      "test": 1,
+      "text": "اين تابلوى راه به چه معناست؟",
+      "options": [
+        "روشن گذاشتن موتور خودرو در حالت ساکن برای بیش از ۳ دقیقه ممنوع است.",
+        "توقف بيش از 3 دقيقه غیر مجاز است",
+        "بيش از 3 دقيقه سیگار نكشيد",
+        "پارک کردن خودرو در این محدوده به مدت ۳ دقیقه مجاز است."
+      ],
+      "correctIndex": 0,
+      "imageName": "15"
+    },
+    {
+      "id": "fa-116",
+      "language": "fa",
+      "category": "signs",
+      "test": 1,
+      "text": "اين تابلوى راه به چه معناست؟",
+      "options": [
+        "مراقب عابران پياده باشيد",
+        "سرعت خود را كم نكنيد.",
+        "تقاطع را مسدود نكنيد.",
+        "در تقاطع سرعت خود را افزايش دهيد."
+      ],
+      "correctIndex": 2,
+      "imageName": "16"
+    },
+    {
+      "id": "fa-117",
+      "language": "fa",
+      "category": "signs",
+      "test": 1,
+      "text": "اين تابلوى راه به چه معناست؟",
+      "options": [
+        "سبقت گرفتن ممنوع",
+        "پارك ممنوع",
+        "ورود سواری ممنوع",
+        "توقف نکنید"
+      ],
+      "correctIndex": 0,
+      "imageName": "17"
+    },
+    {
+      "id": "fa-118",
+      "language": "fa",
+      "category": "signs",
+      "test": 1,
+      "text": "اين تابلوى راه به چه معناست؟",
+      "options": [
+        "گردش به راست مجاز نيست.",
+        "گردش به چپ مجاز نيست.",
+        "يك جاده فرعى پنهان در جلو وجود دارد.",
+        "دور برگردان مجاز نيست."
+      ],
+      "correctIndex": 2,
+      "imageName": "18"
+    },
+    {
+      "id": "fa-119",
+      "language": "fa",
+      "category": "signs",
+      "test": 1,
+      "text": "اين تابلوى راه به چه معناست؟",
+      "options": [
+        "پارک ممنوع",
+        "توقف ممنوع",
+        "ورود دوچرخه به اين جاده ممنوع است.",
+        "دوچرخه ها در اين جاده مجاز هستند."
+      ],
+      "correctIndex": 2,
+      "imageName": "19"
+    },
+    {
+      "id": "fa-120",
+      "language": "fa",
+      "category": "signs",
+      "test": 1,
+      "text": "اين تابلوى راه به چه معناست؟",
+      "options": [
+        "اجازه پارك در هر زمانى وجود ندارد.",
+        "شما نمى توانيد در زمان هاى اعلام شده بين تابلوها پارك كنيد.",
+        "شما مى توانيد در منطقه مشخص شده در زمان هاى اعلام شده پارك كنيد.",
+        "فقط پارک کردن در آخر هفته ممنوع نيست."
+      ],
+      "correctIndex": 2,
+      "imageName": "20"
+    },
+    {
+      "id": "fa-121",
+      "language": "fa",
+      "category": "rules",
+      "test": 2,
+      "text": "اگر راننده‌اى به دليل بى‌احتياطى رانندگى محكوم شود، شش امتياز منفى دريافت مى‌كند و مى‌تواند با چه چيزى مواجه شود؟",
+      "options": [
+        "همه موارد فوق",
+        "جريمه تا 2000 دلار",
+        "حبس تا شش ماه",
+        "تعليق مجوز تا دوسال"
+      ],
+      "correctIndex": 0,
+      "imageName": null
+    },
+    {
+      "id": "fa-122",
+      "language": "fa",
+      "category": "rules",
+      "test": 2,
+      "text": "هنگام رانندگى در يك خيابان دوطرفه صداى آژير وسيله نقليه اضطرارى را مى‌شنويد، قانون شما را ملزم به چه كارى مى‌كند؟",
+      "options": [
+        "سرعت بگيريد و از مسير خارج شويد",
+        "به راننده علامت بدهيد كه عبور كند",
+        "تا جايى كه امكان دارد به راست بكشيد و متوقف شويد",
+        "با همان سرعت ادامه دهيد"
+      ],
+      "correctIndex": 2,
+      "imageName": null
+    },
+    {
+      "id": "fa-123",
+      "language": "fa",
+      "category": "rules",
+      "test": 2,
+      "text": "هنگام رانندگى اگر تماسى دريافت كنيد و كسى نيست كه پاسخ دهد، چه كارى بايد بكنيد؟",
+      "options": [
+        "قبل از استفاده از تلفن كنار بكشيد و پارك كنيد",
+        "به تلفن پاسخ دهيد و سريع قطع كنيد",
+        "فوراً تلفن را پاسخ دهيد",
+        "پيامك بدهيد كه در حال رانندگى هستيد"
+      ],
+      "correctIndex": 0,
+      "imageName": null
+    },
+    {
+      "id": "fa-124",
+      "language": "fa",
+      "category": "rules",
+      "test": 2,
+      "text": "چراغ سبز چشمك‌زن در تقاطع يعنى…",
+      "options": [
+        "مى‌توانيد به راست بپيچيد",
+        "مى‌توانيد مستقيم برويد",
+        "همه موارد فوق",
+        "مى‌توانيد به چپ بپيچيد"
+      ],
+      "correctIndex": 2,
+      "imageName": null
+    },
+    {
+      "id": "fa-125",
+      "language": "fa",
+      "category": "rules",
+      "test": 2,
+      "text": "در چه شرايطى مى‌توان گواهينامه رانندگى را باطل كرد؟",
+      "options": [
+        "هريك از شرايط فوق",
+        "دستكارى يا جعل گواهينامه",
+        "عدم موفقيت در بازآزمون",
+        "عدم حضور در آزمون يا معاينه پزشكى الزامى"
+      ],
+      "correctIndex": 0,
+      "imageName": null
+    },
+    {
+      "id": "fa-126",
+      "language": "fa",
+      "category": "rules",
+      "test": 2,
+      "text": "محكوميت به فرار از پليس: تعليق گواهينامه تا چه مدت؟",
+      "options": [
+        "5 سال",
+        "5 هفته",
+        "5 ماه",
+        "3 روز"
+      ],
+      "correctIndex": 0,
+      "imageName": null
+    },
+    {
+      "id": "fa-127",
+      "language": "fa",
+      "category": "rules",
+      "test": 2,
+      "text": "راننده G2، 19 ساله با بيش از 6 ماه تجربه: بين نيمه‌شب تا 5 صبح چند مسافر ناشناس 19 ساله يا كمتر مى‌تواند حمل كند؟",
+      "options": [
+        "2",
+        "4",
+        "1",
+        "3"
+      ],
+      "correctIndex": 3,
+      "imageName": null
+    },
+    {
+      "id": "fa-128",
+      "language": "fa",
+      "category": "rules",
+      "test": 2,
+      "text": "در انتاريو شب‌ها كى بايد نوربالا را كم كنيد؟",
+      "options": [
+        "وقتى 150 مترى وسيله نقليه ديگر هستيد",
+        "وقتى 400 مترى وسيله نقليه ديگر هستيد",
+        "وقتى 60 مترى روبه‌رو يا 150 مترى خودرویى كه دنبال مى‌كنيد هستيد",
+        "وقتى 150 مترى روبه‌رو يا 60 مترى خودرویى كه دنبال مى‌كنيد هستيد"
+      ],
+      "correctIndex": 3,
+      "imageName": null
+    },
+    {
+      "id": "fa-129",
+      "language": "fa",
+      "category": "rules",
+      "test": 2,
+      "text": "وقتى در ميدان هستيد…",
+      "options": [
+        "در جهت عقربه‌هاى ساعت برانيد",
+        "مى‌توانيد خط را تغيير دهيد",
+        "مى‌توانيد متوقف شويد",
+        "در خلاف جهت عقربه‌هاى ساعت برانيد"
+      ],
+      "correctIndex": 3,
+      "imageName": null
+    },
+    {
+      "id": "fa-130",
+      "language": "fa",
+      "category": "rules",
+      "test": 2,
+      "text": "به تقاطعى مى‌رسيد كه چراغ‌ها كار نمى‌كنند. چه بايد كرد؟",
+      "options": [
+        "حق تقدم را رها نكنيد",
+        "سرعت را كم كنيد و با احتياط ادامه دهيد",
+        "مثل چهارراه داراى تابلو توقف رفتار كنيد",
+        "سرعت گرفته و با احتياط ادامه دهيد"
+      ],
+      "correctIndex": 2,
+      "imageName": null
+    },
+    {
+      "id": "fa-131",
+      "language": "fa",
+      "category": "rules",
+      "test": 2,
+      "text": "چراغ قرمز است و افسر پليس به شما اشاره مى‌كند عبور كنيد. چه مى‌كنيد؟",
+      "options": [
+        "بايستيد و مطمئن شويد",
+        "صبر كنيد تا سبز شود",
+        "عبور كنيد",
+        "به افسر بگوييد چراغ قرمز است"
+      ],
+      "correctIndex": 2,
+      "imageName": null
+    },
+    {
+      "id": "fa-132",
+      "language": "fa",
+      "category": "rules",
+      "test": 2,
+      "text": "لاستيك شما ناگهان مى‌تركد. چه مى‌كنيد؟",
+      "options": [
+        "خودرو را خارج از جاده متوقف كنيد",
+        "تمركز را بر هدايت بگذاريد",
+        "تمام موارد بالا",
+        "پا را از روى گاز برداريد"
+      ],
+      "correctIndex": 2,
+      "imageName": null
+    },
+    {
+      "id": "fa-133",
+      "language": "fa",
+      "category": "rules",
+      "test": 2,
+      "text": "نزديك تقاطع چراغ از سبز به زرد تغيير مى‌كند. چه كنيد؟",
+      "options": [
+        "سرعت را زياد كنيد و عبور كنيد",
+        "اگر ايمن است توقف كنيد؛ وگرنه با احتياط عبور كنيد",
+        "به عابرين هشدار دهيد",
+        "به رانندگان هشدار دهيد"
+      ],
+      "correctIndex": 1,
+      "imageName": null
+    },
+    {
+      "id": "fa-134",
+      "language": "fa",
+      "category": "rules",
+      "test": 2,
+      "text": "راننده داراى گواهينامه كامل با 15 امتياز منفى: تعليق به مدت…",
+      "options": [
+        "1 هفته",
+        "2 هفته",
+        "30 روز",
+        "3 ماه"
+      ],
+      "correctIndex": 2,
+      "imageName": null
+    },
+    {
+      "id": "fa-135",
+      "language": "fa",
+      "category": "rules",
+      "test": 2,
+      "text": "در تصادف داراى مصدوم، بايد حادثه را به چه كسى گزارش كنيد؟",
+      "options": [
+        "پليس بلافاصله",
+        "وزارت حمل و نقل بلافاصله",
+        "پليس ظرف 48 ساعت",
+        "وزارت حمل و نقل ظرف 48 ساعت"
+      ],
+      "correctIndex": 0,
+      "imageName": null
+    },
+    {
+      "id": "fa-136",
+      "language": "fa",
+      "category": "rules",
+      "test": 2,
+      "text": "حداقل فاصله هنگام سبقت از دوچرخه‌سوار؟",
+      "options": [
+        "2 متر",
+        "1.5 متر",
+        "1 متر",
+        "0.5 متر"
+      ],
+      "correctIndex": 2,
+      "imageName": null
+    },
+    {
+      "id": "fa-137",
+      "language": "fa",
+      "category": "rules",
+      "test": 2,
+      "text": "تغيير آدرس يا نام: تا چه زمانى بايد به وزارت اطلاع دهيد؟",
+      "options": [
+        "10 روز",
+        "6 روز",
+        "2 هفته",
+        "1 ماه"
+      ],
+      "correctIndex": 1,
+      "imageName": null
+    },
+    {
+      "id": "fa-138",
+      "language": "fa",
+      "category": "rules",
+      "test": 2,
+      "text": "راننده G1/G2 با الكل يا مواد مخدر: با كدام مجازات‌ها مواجه مى‌شود؟",
+      "options": [
+        "همه موارد فوق",
+        "تعليق 30 روزه پس از محكوميت",
+        "تعليق فورى 3 روزه",
+        "جريمه 60 تا 500 دلار پس از محكوميت"
+      ],
+      "correctIndex": 0,
+      "imageName": null
+    },
+    {
+      "id": "fa-139",
+      "language": "fa",
+      "category": "rules",
+      "test": 2,
+      "text": "اتوبوس مدرسه با چراغ قرمز چشمك‌زن و بازوى توقف باز ايستاده است…",
+      "options": [
+        "بهتر است حداقل 20 متر فاصله بگيريد",
+        "اگر در طرف مقابل هستيد مى‌توانيد ادامه دهيد",
+        "بايد حداقل 20 متر فاصله بگيريد",
+        "سرعت را تا 20 كيلومتر كاهش دهيد"
+      ],
+      "correctIndex": 2,
+      "imageName": null
+    },
+    {
+      "id": "fa-140",
+      "language": "fa",
+      "category": "rules",
+      "test": 2,
+      "text": "به علامت ادغام ترافيك نزديك مى‌شويد. چه مى‌كنيد؟",
+      "options": [
+        "بوق بزنيد",
+        "سرعت و موقعيت را تنظيم كنيد",
+        "اول اجازه دهيد ماشين‌هاى پشت بروند",
+        "توقف كامل كرده سپس حركت كنيد"
+      ],
+      "correctIndex": 1,
+      "imageName": null
+    },
+    {
+      "id": "fa-141",
+      "language": "fa",
+      "category": "signs",
+      "test": 3,
+      "text": "اين علامت به چه معناست؟",
+      "options": [
+        "شما بايد به خط سمت راست حركت كنيد.",
+        "شما نبايد در لاين سمت راست رانندگى كنيد.",
+        "اگر در لاين سمت راست باقى بمانيد مى توانيد خارج شويد.",
+        "اگر در لاين سمت راست باقى مانده ايد بايد خارج شويد."
+      ],
+      "correctIndex": 3,
+      "imageName": "41"
+    },
+    {
+      "id": "fa-142",
+      "language": "fa",
+      "category": "signs",
+      "test": 3,
+      "text": "اين تابلوى راه به چه معناست؟",
+      "options": [
+        "ورودى كاميون جلوتر",
+        "منطقه مدرسه جلوتر",
+        "ايستگاه مخفى اتوبوس مدرسه جلوتر",
+        "تقاطع مخفى پيش رو"
+      ],
+      "correctIndex": 2,
+      "imageName": "42"
+    },
+    {
+      "id": "fa-143",
+      "language": "fa",
+      "category": "signs",
+      "test": 3,
+      "text": "شما به يك علامت رعایت حق تقدم نزديك مى شويد. چه كارى بايد انجام دهيد؟",
+      "options": [
+        "بوق خود را به صدا دربیاورید",
+        "توقف كنيد، سپس به آرامى وارد ترافيك شويد.",
+        "توقف كنيد، سپس سريع وارد ترافيك شويد.",
+        "سرعت خود را كم كنيد، در صورت لزوم توقف كنيد، ودر مسير حق تقدم قرار بگيريد."
+      ],
+      "correctIndex": 3,
+      "imageName": "43"
+    },
+    {
+      "id": "fa-144",
+      "language": "fa",
+      "category": "signs",
+      "test": 3,
+      "text": "اين علامت به چه معناست؟",
+      "options": [
+        "تقاطع كنترل نشده",
+        "محل عبور عابر پياده",
+        "وارد نشويد",
+        "گذرگاه راه آهن"
+      ],
+      "correctIndex": 3,
+      "imageName": "44"
+    },
+    {
+      "id": "fa-145",
+      "language": "fa",
+      "category": "signs",
+      "test": 3,
+      "text": "اين تابلوى راه به چه معناست؟",
+      "options": [
+        "وارد نشويد.",
+        "ايستادن ممنوع است",
+        "سبقت ممنوع",
+        "پارك نكنيد."
+      ],
+      "correctIndex": 0,
+      "imageName": "45"
+    },
+    {
+      "id": "fa-146",
+      "language": "fa",
+      "category": "signs",
+      "test": 3,
+      "text": "اين علامت به چه معناست؟",
+      "options": [
+        "پل باريك پیش رو است .",
+        "جاده در حال ساخت ",
+        "بزرگراه تقسيم شده آغاز مى شود.",
+        "بزرگراه تقسيم شده به پايان مى رسد."
+      ],
+      "correctIndex": 2,
+      "imageName": "46"
+    },
+    {
+      "id": "fa-147",
+      "language": "fa",
+      "category": "signs",
+      "test": 3,
+      "text": "اين تابلوى راه به چه معناست؟",
+      "options": [
+        "فقط ورود حيوانات خانگى مجاز هستند",
+        "ورود عابر پياده ممنوع است",
+        "ورود دوچرخه مجاز نيست",
+        "ممنوعيت ورود كودكان"
+      ],
+      "correctIndex": 1,
+      "imageName": "47"
+    },
+    {
+      "id": "fa-148",
+      "language": "fa",
+      "category": "signs",
+      "test": 3,
+      "text": "اين علامت به چه معناست؟",
+      "options": [
+        "شما نبايد در لاين سمت راست رانندگى كنيد.",
+        "اين يك لاین دو طرفه برای گردش به چپ است",
+        "بزرگراه جلوتر به پايان مى رسد.",
+        "جاده در حال منشعب شدن است"
+      ],
+      "correctIndex": 1,
+      "imageName": "48"
+    },
+    {
+      "id": "fa-149",
+      "language": "fa",
+      "category": "signs",
+      "test": 3,
+      "text": "اين علامت به چه معناست؟",
+      "options": [
+        "محل پارك مخصوص معلولين",
+        "تيم نقشه بردارى در جلو مشغول به كار است",
+        "بيمارستان در پيش رو است ",
+        "توقف در هر زمانى ممنوع است "
+      ],
+      "correctIndex": 0,
+      "imageName": "49"
+    },
+    {
+      "id": "fa-150",
+      "language": "fa",
+      "category": "signs",
+      "test": 3,
+      "text": "اين تابلوى راه به چه معناست؟",
+      "options": [
+        "راه پر پيج و خم",
+        "هنگام خيس بودن جاده لغزنده است",
+        "جاده به چپ و سپس به راست مى پيجد",
+        "خروجى خط به سمت راست."
+      ],
+      "correctIndex": 0,
+      "imageName": "50"
+    },
+    {
+      "id": "fa-151",
+      "language": "fa",
+      "category": "signs",
+      "test": 3,
+      "text": "اين تابلوى راه به چه معناست؟",
+      "options": [
+        "ممكن است آب روى جاده جارى شود",
+        "وارد جاده نشويد.",
+        "منطقه ساخت و ساز در پيش است.",
+        "ورودى كاميون جلوتر."
+      ],
+      "correctIndex": 0,
+      "imageName": "51"
+    },
+    {
+      "id": "fa-152",
+      "language": "fa",
+      "category": "signs",
+      "test": 3,
+      "text": "اين تابلوى راه به چه معناست؟",
+      "options": [
+        "مسير كاميون.",
+        "علامت منع",
+        "مسير دوچرخه سوارى.",
+        "علامت مجاز."
+      ],
+      "correctIndex": 3,
+      "imageName": "52"
+    },
+    {
+      "id": "fa-153",
+      "language": "fa",
+      "category": "signs",
+      "test": 3,
+      "text": "اين تابلوى راه به چه معناست؟",
+      "options": [
+        "مى توانيد با چراغ قرمز به سمت راست بپيچيد.",
+        "بزرگراه تقسيم شده به پايان مى رسد.",
+        "شما نمى توانيد با چراغ سبز به سمت راست بپيچيد.",
+        "شما نبايد روى چراغ قرمز به سمت راست بپيچيد."
+      ],
+      "correctIndex": 3,
+      "imageName": "53"
+    },
+    {
+      "id": "fa-154",
+      "language": "fa",
+      "category": "signs",
+      "test": 3,
+      "text": "این علامت به چه معناست؟",
+      "options": [
+        "وجود مانع در جلو و خط شیب دار نشان می‌دهد از کدام سمت عبور کنید",
+        "این محل برای توقف و استراحت است.",
+        "مسیر در اینجا به بن‌بست می‌رسد.",
+        "خط صعودى نشان مى دهد از كدام سمت         سبقت بگيريد."
+      ],
+      "correctIndex": 0,
+      "imageName": "54"
+    },
+    {
+      "id": "fa-155",
+      "language": "fa",
+      "category": "signs",
+      "test": 3,
+      "text": "اين علامت به چه معناست؟",
+      "options": [
+        "در طول زمان ها و روزهاى نوشته شده متوقف نشويد.",
+        "در زمان ها و روزهاى نوشته شده وارد نشويد.",
+        "فقط انواع خاصى از وسايل نقليه مجاز به تردد در اين خط در زمان ها وروزهاى نوشته شده هستند.",
+        "در ساعات و روزهاى نوشته شده فقط دوچرخه مجاز به ورود به اين خط است."
+      ],
+      "correctIndex": 2,
+      "imageName": "55"
+    },
+    {
+      "id": "fa-156",
+      "language": "fa",
+      "category": "signs",
+      "test": 3,
+      "text": "اين علامت به چه معناست؟",
+      "options": [
+        "باید از سمت راست مانع پیش رو عبور کنید.",
+        "از سمت راست سایر رانندگان سبقت بگیرید.",
+        "جاده پر از پیچ و خم است.",
+        "جاده به سمت راست می‌پیچد."
+      ],
+      "correctIndex": 0,
+      "imageName": "56"
+    },
+    {
+      "id": "fa-157",
+      "language": "fa",
+      "category": "signs",
+      "test": 3,
+      "text": "اين تابلوى راه به چه معناست؟",
+      "options": [
+        "مهدكودك در پيش است.",
+        "منطقه عبور بچه ها",
+        "مراقب افراد داراى معلوليت باشيد.",
+        "تقاطع با مدرسه در پيش است"
+      ],
+      "correctIndex": 3,
+      "imageName": "57"
+    },
+    {
+      "id": "fa-158",
+      "language": "fa",
+      "category": "signs",
+      "test": 3,
+      "text": "اين راننده از سيگنال دستى استفاده مى كند. راننده قصد دارد …",
+      "options": [
+        "به سمت چب برود ، به سمت چپ بپیچد .",
+        "به سمت راست بپيچد .",
+        "سرعت خود را زیاد کند ",
+        "كاهش سرعت کند يا توقف کند . "
+      ],
+      "correctIndex": 0,
+      "imageName": "58"
+    },
+    {
+      "id": "fa-159",
+      "language": "fa",
+      "category": "signs",
+      "test": 3,
+      "text": "اين علامت به چه معناست؟",
+      "options": [
+        "پارك هاى استانى را نشان مى دهد",
+        "املاى صحيح شهرها يا شهرستان ها را نشان مى دهد",
+        "كذرگاه راه آهن پیش رو را نشان مى دهد",
+        "فاصله شهرها يا شهرستان ها را نشان مى دهد"
+      ],
+      "correctIndex": 3,
+      "imageName": "59"
+    },
+    {
+      "id": "fa-160",
+      "language": "fa",
+      "category": "signs",
+      "test": 3,
+      "text": "اين تابلوى راه به چه معناست؟",
+      "options": [
+        "محدوديت سرعت براى مدارس روستایی",
+        "حداكثر سرعت 50 كيلومتر در ساعت از اين علامت تا علامت بعدى",
+        "انتهاى منطقه 50 كيلومتر بر ساعت",
+        "محدوديت سرعت به 50 كيلومتر در ساعت ، جلوتر تغيير می‌كند"
+      ],
+      "correctIndex": 3,
+      "imageName": "60"
+    },
+    {
+      "id": "fa-161",
+      "language": "fa",
+      "category": "rules",
+      "test": 4,
+      "text": "استفاده از كدام يك از موارد زير هنگام رانندگى ممنوع است؟",
+      "options": [
+        "لپتاپ",
+        "تلفن همراه دستى",
+        "همه موارد فوق",
+        "پخش كننده ضبط صوت"
+      ],
+      "correctIndex": 2,
+      "imageName": null
+    },
+    {
+      "id": "fa-162",
+      "language": "fa",
+      "category": "rules",
+      "test": 4,
+      "text": "يك افسر پليس مى تواند از صاحب وسيله نقليه ارائه چه مداركى را درخواست کند؟",
+      "options": [
+        "سند مالكيت وسيله نقليه",
+        "گواهينامه رانندگی معتبر",
+        "كارت بيمه مسئوليت",
+        "همه موارد فوق"
+      ],
+      "correctIndex": 3,
+      "imageName": null
+    },
+    {
+      "id": "fa-163",
+      "language": "fa",
+      "category": "rules",
+      "test": 4,
+      "text": "يك راننده مبتدى كه به رانندگى بی\\u{200C}دقت محكوم شده، در سومين تخلف با كداميك از مجازات هاى زير روبرو خواهد شد؟",
+      "options": [
+        "جريمه، لغو گواهينامه و حذف از سيستم گواهينامه تدريجى",
+        "فقط حذف از سيستم گواهينامه تدريجى",
+        "جريمه، تعليق گواهينامه و امتياز منفی",
+        "فقط لغو گواهینامه"
+      ],
+      "correctIndex": 0,
+      "imageName": null
+    },
+    {
+      "id": "fa-164",
+      "language": "fa",
+      "category": "rules",
+      "test": 4,
+      "text": "اگر به دليل رانندگى با سرعت 50 كيلومتر در ساعت بيشتر از حد مجاز محكوم شويد، باكدام يك از مجازات هاى زير روبرو خواهيد شد؟",
+      "options": [
+        "حداقل 2000 دلار جريمه",
+        "همه موارد فوق",
+        "تعليق گواهینامه تا 2 سال يا 6 امتياز منفی",
+        "حبس تا 6 ماه"
+      ],
+      "correctIndex": 1,
+      "imageName": null
+    },
+    {
+      "id": "fa-165",
+      "language": "fa",
+      "category": "rules",
+      "test": 4,
+      "text": "اگر در حين رانندگى خسته شويد، بايد …",
+      "options": [
+        "قهوه بنوش.",
+        "موسيقى را بلندتر كنيد",
+        "پنجره هاى خود را باز كنيد تا هواى تازه وارد ماشين شود.",
+        "توقف كنید و استراحت كنید"
+      ],
+      "correctIndex": 3,
+      "imageName": null
+    },
+    {
+      "id": "fa-166",
+      "language": "fa",
+      "category": "rules",
+      "test": 4,
+      "text": "براى کنترل كردن وسيله نقليه هنگام لغزش خودرو چه بايد كرد؟",
+      "options": [
+        "ترمزها را به شدت فشار دهيد",
+        "مستقيم به جلو هدايت كنيد",
+        "درجهت مخالف لغزش هدايت كنيد.",
+        "در مسيرى كه مى\\u{200C}خواهيد برويد هدايت كنيد"
+      ],
+      "correctIndex": 3,
+      "imageName": null
+    },
+    {
+      "id": "fa-167",
+      "language": "fa",
+      "category": "rules",
+      "test": 4,
+      "text": "آيا رانندگان مسئول اين هستند كه کمربند مسافران خود را ببندند؟",
+      "options": [
+        "فقط آن مسافرانى كه در صندلى جلو هستند",
+        "فقط مسافران كه 16 سال يا بيشتر دارند.",
+        "فقط مسافران زير 16 سال.",
+        "فقط مسافران بالاى 18 سال."
+      ],
+      "correctIndex": 2,
+      "imageName": null
+    },
+    {
+      "id": "fa-168",
+      "language": "fa",
+      "category": "rules",
+      "test": 4,
+      "text": "شما به چند برف\\u{200C}روب نزديك مى\\u{200C}شويد كه يك آزادراه را پاكسازى مى\\u{200C}كنند. چه كارى را نبايد انجام دهيد؟",
+      "options": [
+        "سعى كنيد از بين آنها عبور كنيد",
+        "قوانين جاده را رعايت كنيد",
+        "فاصله ايمن را حفظ كنيد",
+        "منتظر بمانيد تا به ترافيك اجازه عبور ايمن دهند"
+      ],
+      "correctIndex": 0,
+      "imageName": null
+    },
+    {
+      "id": "fa-169",
+      "language": "fa",
+      "category": "rules",
+      "test": 4,
+      "text": "وقتى به يك تقاطع نزديك مى\\u{200C}شويد، متوجه مى\\u{200C}شويد كه جاده آن سوى تقاطع با ترافيك مسدود شده است. چه كارى بايد انجام دهيد؟",
+      "options": [
+        "بوق خود را به صدا درآوريد تا به ترافيك پيش رو براى ادامه مسير هشدار دهيد.",
+        "توقف كن و دريك كافه استراحت کن",
+        "قبل از ورود به تقاطع توقف كنيد و منتظر بمانيد تا ترافيك پيش رو حرکت کند .",
+        "تاحد امكان به خودروى جلويى نزديك شويد."
+      ],
+      "correctIndex": 2,
+      "imageName": null
+    },
+    {
+      "id": "fa-170",
+      "language": "fa",
+      "category": "rules",
+      "test": 4,
+      "text": "عبور از يك وسيله نقليه ديگر در سمت راست …",
+      "options": [
+        "زمانى مجاز است كه خيابان يا بزرگراه داراى دو يا چند لاين ترافيك در جهتى است كه شما در آن حركت مى\\u{200C}كنيد",
+        "زمانى مجاز است كه خيابان يا بزرگراه داراى ترافيك باشد.",
+        "درهر خيابان يا بزرگراه مجاز است.",
+        "مجاز نيست."
+      ],
+      "correctIndex": 0,
+      "imageName": null
+    },
+    {
+      "id": "fa-171",
+      "language": "fa",
+      "category": "rules",
+      "test": 4,
+      "text": "هنگام عبور از يك دوچرخه\\u{200C}سوار، اگر حداقل 1 متر فاصله نگذازيد، اين كار مى\\u{200C}تواند منجر به چند امتياز منفی شود؟",
+      "options": [
+        "6",
+        "3",
+        "2",
+        "8"
+      ],
+      "correctIndex": 2,
+      "imageName": null
+    },
+    {
+      "id": "fa-172",
+      "language": "fa",
+      "category": "rules",
+      "test": 4,
+      "text": "زمانى كه راننده وسيله نقليه ديگرى قصد دارد از سمت چپ شما سبقت بگيرد، چه بايد بكنيد؟",
+      "options": [
+        "سرعت بگيريد و در وسط جاده رانندگى كنيد.",
+        "به سمت چپ حركت كنيد و اجازه ندهيد وسيله نقليه سبقت بگيرد.",
+        "به سمت راست حركت كنيد و اجازه دهيد وسيله نقليه سبقت بگيرد.",
+        "به راننده علامت بدهيد كه سبقت نگيرد."
+      ],
+      "correctIndex": 2,
+      "imageName": null
+    },
+    {
+      "id": "fa-173",
+      "language": "fa",
+      "category": "rules",
+      "test": 4,
+      "text": "قانون دو ثانيه براى تعيين چه چيزى استفاده مى\\u{200C}شود؟",
+      "options": [
+        "چقدر سريع مى\\u{200C}توانيد به موانع واكنش نشان دهيد",
+        "با چه سرعتى در حال حركت هستيد",
+        "چقدر سوخت صرفه\\u{200C}جويى خواهيد كرد",
+        "آيا با فاصله\\u{200C}اى امن از ماشين روبرو حركت مى\\u{200C}كنيد يا خير"
+      ],
+      "correctIndex": 3,
+      "imageName": null
+    },
+    {
+      "id": "fa-174",
+      "language": "fa",
+      "category": "rules",
+      "test": 4,
+      "text": "شما به يك منطقه ساخت و ساز نزديك مى\\u{200C}شويد. چه كارى بايد انجام دهيد؟",
+      "options": [
+        "بوق خود را به صدا درآوريد تا به كارگران هشدار دهيد.",
+        "در صورت لزوم سرعت خود را كاهش دهيد و حق تقدم را بدهيد.",
+        "توقف كنيد تا زمانى كه كارگران به شما علامت دهند كه ادامه دهيد،",
+        "سرعت خود را افزايش دهيد تا به سرعت از منطقه خارج شويد."
+      ],
+      "correctIndex": 1,
+      "imageName": null
+    },
+    {
+      "id": "fa-175",
+      "language": "fa",
+      "category": "rules",
+      "test": 4,
+      "text": "مى\\u{200C}خواهيد گردش به راست در چراغ قرمزى كه گردش به راست مجاز است انجام دهيد. قبل از ورود و انجام پيچ چه بايد كرد؟",
+      "options": [
+        "چراغ راهنماى چپ را روشن كنيد، سپس ادامه دهيد.",
+        "چراغ راهنماى راست را روشن كنيد، سپس ادامه دهيد.",
+        "متوقف شويد. به وسايل نقليه و پياده\\u{200C}روها حق تقدم بدهيد. اگر مسير ايمن است، چراغ راهنماى راست را روشن كرده و با احتياط بپيچيد.",
+        "سرعت خود را افزايش دهيد، سپس ادامه دهيد."
+      ],
+      "correctIndex": 2,
+      "imageName": null
+    },
+    {
+      "id": "fa-176",
+      "language": "fa",
+      "category": "rules",
+      "test": 4,
+      "text": "خطوط سفيد شكسته نشان\\u{200C}دهنده چيست؟",
+      "options": [
+        "آنها خطوط ترافيكى را كه در جهت مخالف حركت مى\\u{200C}كنند جدا مى\\u{200C}كنند.",
+        "آنها نشان مى\\u{200C}دهند كه عبور از خطوط ممنوع است.",
+        "آنها نشان مى\\u{200C}دهند كه جاده جلوتر به پايان مى\\u{200C}رسد",
+        "آنها لاين\\u{200C}هاى ترافيكى را كه در يك جهت حركت مى\\u{200C}كنند جدا مى\\u{200C}كنند"
+      ],
+      "correctIndex": 3,
+      "imageName": null
+    },
+    {
+      "id": "fa-177",
+      "language": "fa",
+      "category": "rules",
+      "test": 4,
+      "text": "در جاده\\u{200C}اى با ترافيك دوطرفه، قصد داريد به چپ بپيچيد. در چه موقعيتى بايد باشيد؟",
+      "options": [
+        "نزديك به سمت راست جاده",
+        "نزديك به سمت چپ جاده",
+        "در هر موقعيتى؛ فقط سيگنال مهم است.",
+        "در سمت راست و تا حد امكان نزديك به خط مركزى جاده"
+      ],
+      "correctIndex": 3,
+      "imageName": null
+    },
+    {
+      "id": "fa-178",
+      "language": "fa",
+      "category": "rules",
+      "test": 4,
+      "text": "اگر به دليل عدم توقف هنگام دستور توقف افسر پليس محكوم شويد، ممكن است با كدام مجازات\\u{200C}ها روبرو شويد؟",
+      "options": [
+        "تا 6 ماه زندان",
+        "جريمه تا 25000 دلار",
+        "تعليق مجوز به مدت 5 سال",
+        "همه موارد فوق"
+      ],
+      "correctIndex": 3,
+      "imageName": null
+    },
+    {
+      "id": "fa-179",
+      "language": "fa",
+      "category": "rules",
+      "test": 4,
+      "text": "بدون انجام چه كارهايى نبايد تغيير لاين داد؟",
+      "options": [
+        "دادن سيگنال مناسب و سپس اطمينان از ايمنى تغيير خط",
+        "بوق زدن و سپس اطمينان از ايمنى",
+        "دادن سيگنال به موقع و كاهش سرعت",
+        "فقط نگاه به آينه و تغيير لاين"
+      ],
+      "correctIndex": 0,
+      "imageName": null
+    },
+    {
+      "id": "fa-180",
+      "language": "fa",
+      "category": "rules",
+      "test": 4,
+      "text": "اگر براى اتوبوس مدرسه\\u{200C}اى كه چراغ قرمز آن چشمك مى\\u{200C}زند، توقف نكنيد، براى اولين بار با كدام مجازات روبرو مى\\u{200C}شويد؟",
+      "options": [
+        "جريمه تا 2000 دلار و 6 امتياز منفی",
+        "الزام مجدد براى شركت در تست\\u{200C}هاى جاده\\u{200C}اى",
+        "جريمه تا 1000 دلار و 3 امتياز منفی",
+        "1 سال حبس"
+      ],
+      "correctIndex": 0,
+      "imageName": null
+    },
+    {
+      "id": "fa-181",
+      "language": "fa",
+      "category": "signs",
+      "test": 5,
+      "text": "اين تابلوى راه به چه معناست؟",
+      "options": [
+        "اين گذركاه عابر پياده است.",
+        "حداكثر سرعت 40 كيلومتر در ساعت ، در هر زمان است.",
+        "در ساعات مدرسه كه چراغ زرد چشمك مي‌زند ، سرعت مجاز 40 كيلومتر در ساعت است.",
+        "اين يك علامت هشدار است."
+      ],
+      "correctIndex": 2,
+      "imageName": "81"
+    },
+    {
+      "id": "fa-182",
+      "language": "fa",
+      "category": "signs",
+      "test": 5,
+      "text": "اين تابلوى راه به چه معناست؟",
+      "options": [
+        "در اين محل به عابران پياده و سرعت خود بيشتر دقت کنید",
+        "شما مى توانيد اين علامت را ناديده بگيريد.",
+        "وارد نشويد.",
+        "اين منطقه داراى جرم و جنايت بالاست."
+      ],
+      "correctIndex": 0,
+      "imageName": "82"
+    },
+    {
+      "id": "fa-183",
+      "language": "fa",
+      "category": "signs",
+      "test": 5,
+      "text": "اين تابلوى راه به چه معناست؟",
+      "options": [
+        "ورودى اتوبوس جلوتر در سمت راست",
+        "به سمت راست برانید",
+        "ورودى كاميون جلوتر در سمت راست",
+        "ايستگاه مخفى اتوبوس مدرسه در مسیر"
+      ],
+      "correctIndex": 0,
+      "imageName": "83"
+    },
+    {
+      "id": "fa-184",
+      "language": "fa",
+      "category": "signs",
+      "test": 5,
+      "text": "اين تابلوى راه به چه معناست؟",
+      "options": [
+        "جاده دوطرفه است .",
+        "اينجا ايستادن مجاز نيست",
+        "تقاطع مخفى پيش رو",
+        "جاده وقتی خيس است لغزنده است."
+      ],
+      "correctIndex": 0,
+      "imageName": "84"
+    },
+    {
+      "id": "fa-185",
+      "language": "fa",
+      "category": "signs",
+      "test": 5,
+      "text": "اين راننده از سيگنال دستی استفاده مى كند. راننده قصد دارد",
+      "options": [
+        "سرعت بگیرد",
+        "كاهش سرعت يا توقف کند",
+        "به سمت راست برود يا بپیچد",
+        "به سمت چپ برود يا بپیچد"
+      ],
+      "correctIndex": 2,
+      "imageName": "85"
+    },
+    {
+      "id": "fa-186",
+      "language": "fa",
+      "category": "signs",
+      "test": 5,
+      "text": "اين تابلوى راه به چه معناست؟",
+      "options": [
+        "كنترل كننده ترافيك در پيش رو است",
+        "كار در جاده ، در پيش رو است",
+        "مراقب عابران پياده باشيد",
+        "تيم نقشه بردارى در جلو مشغول به كار است"
+      ],
+      "correctIndex": 0,
+      "imageName": "86"
+    },
+    {
+      "id": "fa-187",
+      "language": "fa",
+      "category": "signs",
+      "test": 5,
+      "text": "اين تابلوى راه به چه معناست؟",
+      "options": [
+        "سطح سنگفرش شده جلوتر به پايان مى رسد",
+        "جاده تقسيم شده جلوتر",
+        "مراقب سقوط سنگ ها باشيد",
+        "تقاطع را مسدود نكنيد"
+      ],
+      "correctIndex": 0,
+      "imageName": "87"
+    },
+    {
+      "id": "fa-188",
+      "language": "fa",
+      "category": "signs",
+      "test": 5,
+      "text": "اين علامت راهنمايى و رانندگى نشان مى دهد :",
+      "options": [
+        "جهت حركت براى هر لاين",
+        "شما مى توانيد از هر لاينى به هر جهتى برانيد.",
+        "شما نبايد وارد اين منطقه شويد.",
+        "شما نمى توانيد در اينجا بپيچيد."
+      ],
+      "correctIndex": 0,
+      "imageName": "88"
+    },
+    {
+      "id": "fa-189",
+      "language": "fa",
+      "category": "signs",
+      "test": 5,
+      "text": "اين تابلوى راه به چه معناست؟",
+      "options": [
+        "زيرگذر جلوتر است",
+        "جلوتر پل باريک است",
+        "سطح سنگفرش شده جلوتر به پايان مى رسد",
+        "جلوتر جاده دوطرفه است"
+      ],
+      "correctIndex": 1,
+      "imageName": "89"
+    },
+    {
+      "id": "fa-190",
+      "language": "fa",
+      "category": "signs",
+      "test": 5,
+      "text": "اين تابلوى راه به چه معناست؟",
+      "options": [
+        "در جاده پيش رو يک پيج تند يا انحناى شديد وجود دارد.",
+        "در جاده پيش رو يک پيج يا انحناى جزئى وجود دارد",
+        "اكر وسايل نقليه سريع ترى در كنار شما هستند، در سمت چب بمانيد.",
+        "اين لاین به سمت چب خارج مى شود"
+      ],
+      "correctIndex": 1,
+      "imageName": "90"
+    },
+    {
+      "id": "fa-191",
+      "language": "fa",
+      "category": "signs",
+      "test": 5,
+      "text": "اين تابلوى راه به چه معناست؟",
+      "options": [
+        "500 فوت جلوتر سنگفرش وجود ندارد",
+        "بررسی وزن ماشین پيش رو",
+        "جاده پر دست انداز پيش رو",
+        "مسیر شيب دار جلوتر است"
+      ],
+      "correctIndex": 3,
+      "imageName": "91"
+    },
+    {
+      "id": "fa-192",
+      "language": "fa",
+      "category": "signs",
+      "test": 5,
+      "text": "اين تابلوى راه به چه معناست؟",
+      "options": [
+        "پل جلوتر",
+        "تقاطع راه آهن جلوتر",
+        "گذرگاه عابر پياده جلوتر",
+        "تقاطع مخفى پيش رو"
+      ],
+      "correctIndex": 1,
+      "imageName": "92"
+    },
+    {
+      "id": "fa-193",
+      "language": "fa",
+      "category": "signs",
+      "test": 5,
+      "text": "اين تابلوى راه به چه معناست؟",
+      "options": [
+        "مسیر های انحرافی",
+        "پارك های موجود در مسیر",
+        "تابلوى جهت برای مسیر های مختلف",
+        "تابلوى جهت برای عابر پياده"
+      ],
+      "correctIndex": 2,
+      "imageName": "93"
+    },
+    {
+      "id": "fa-194",
+      "language": "fa",
+      "category": "signs",
+      "test": 5,
+      "text": "اين تابلوى راه به چه معناست؟",
+      "options": [
+        "ورود دوچرخه ممنوع",
+        "پارك ممنوع",
+        "گردش به چپ با حضور دوچرخه ممنوع",
+        "گذرگاه دوچرخه در پيش است"
+      ],
+      "correctIndex": 3,
+      "imageName": "94"
+    },
+    {
+      "id": "fa-195",
+      "language": "fa",
+      "category": "signs",
+      "test": 5,
+      "text": "اين تابلوى راه به چه معناست؟",
+      "options": [
+        "اكر چراغ هاى راهنمايي چشمك مى زنند، بايد براى اتوبوس مدرسه توقف كنيد.",
+        "مى توانيد اين علامت را ناديده بگيريد",
+        "اگر اتوبوس مدرسه چشمك مى زند، مى توانيد از كنار اتوبوس مدرسه با احتیاط رد شويد.",
+        "اگر يك اتوبوس مدرسه چراغ چشمک می زند، بايد براى اتوبوس مدرسه توقف كنيد."
+      ],
+      "correctIndex": 3,
+      "imageName": "95"
+    },
+    {
+      "id": "fa-196",
+      "language": "fa",
+      "category": "signs",
+      "test": 5,
+      "text": "اين تابلوى راه به چه معناست؟",
+      "options": [
+        "ترافيك به هم مى پيوندد جلوتر.",
+        "تقاطع پنهان",
+        "جاده جلوتر به دو راهى مى رسد",
+        "پيج تند در جلو"
+      ],
+      "correctIndex": 2,
+      "imageName": "96"
+    },
+    {
+      "id": "fa-197",
+      "language": "fa",
+      "category": "signs",
+      "test": 5,
+      "text": "اين تابلوى راه به چه معناست؟",
+      "options": [
+        "اين يك بزرگراه با دو خط سريع السير است.",
+        "براى استفاده از اين خط بايد دو يا چند مسافر در وسيله نقليه باشند.",
+        "دوخط دريكى ادغام مى شوند.",
+        "دو خط جلوتر بسته است"
+      ],
+      "correctIndex": 1,
+      "imageName": "97"
+    },
+    {
+      "id": "fa-198",
+      "language": "fa",
+      "category": "signs",
+      "test": 5,
+      "text": "اين تابلوى راه به چه معناست؟ ",
+      "options": [
+        "بايد به راست بپيچيد",
+        "بايد به چپ بپيچيد",
+        "شما نبايد به راست بپيچيد.",
+        "شما نبايد به چپ بپيچيد."
+      ],
+      "correctIndex": 3,
+      "imageName": "98"
+    },
+    {
+      "id": "fa-199",
+      "language": "fa",
+      "category": "signs",
+      "test": 5,
+      "text": "اين تابلوى راه به چه معناست؟",
+      "options": [
+        "یک تقاطع مخفى پيش رو است",
+        "گردش به چب ممنوع است",
+        "ادغام ترافيك پيش رو است",
+        "فقط در مسیر مستقیم حرکت کنید"
+      ],
+      "correctIndex": 2,
+      "imageName": "99"
+    },
+    {
+      "id": "fa-200",
+      "language": "fa",
+      "category": "signs",
+      "test": 5,
+      "text": "اين تابلوى راه به چه معناست؟",
+      "options": [
+        "آب روى جاده در پيش رو است",
+        "ترافيك روبرو در پيش رو است",
+        "زيرگذر در پيش رو است",
+        "جاده پر دست انداز پيش رو است"
+      ],
+      "correctIndex": 2,
+      "imageName": "100"
+    },
+    {
+      "id": "fa-201",
+      "language": "fa",
+      "category": "rules",
+      "test": 6,
+      "text": "در صورت نبودن تابلو سرعت مجاز ، حداكثر سرعت مجاز در شهرها، شهرک ها و روستاها چقدر است ؟",
+      "options": [
+        "60 km/h.",
+        "50 km/h.",
+        "80 km/h.",
+        "40 km/h."
+      ],
+      "correctIndex": 1,
+      "imageName": null
+    },
+    {
+      "id": "fa-202",
+      "language": "fa",
+      "category": "rules",
+      "test": 6,
+      "text": "يک راننده‌ی ، تحت تعلیم سطح يك (كلاس G1) مى تواند تحت نظارت يک راننده‌ی داراى گواهينامه کامل كه حداقل …… تجربه رانندگی دارد، رانندگى كند.",
+      "options": [
+        "3 سال",
+        "2 سال",
+        "5 سال",
+        "4 سال"
+      ],
+      "correctIndex": 0,
+      "imageName": null
+    },
+    {
+      "id": "fa-203",
+      "language": "fa",
+      "category": "rules",
+      "test": 6,
+      "text": "شما به تقاطعى نزديک مى شويد كه در آن چراغ راهنمایی يا افسر پليس وجود ندارد. يك عابر پياده درخط عابر پياده در كنار خيابان شماست. چه کاری باید انجام دهید ؟",
+      "options": [
+        "دادن حق تقدم به عابر پياده",
+        "سرعت خود راكم كنيد و با احتياط ادامه دهيد.",
+        "بوق خود را به صدا درآوريد تا به عابر پياده هشدار دهيد.",
+        "سرعت خود را افزايش دهيد و از عابر پياده عبور كنيد."
+      ],
+      "correctIndex": 0,
+      "imageName": null
+    },
+    {
+      "id": "fa-204",
+      "language": "fa",
+      "category": "rules",
+      "test": 6,
+      "text": "در انتاريو، هنگام رانندگى در شب، در چه فاصله ای از وسیله نقلیه دیگری بايد نور چراغهاى خود راكم كنيد (از نور پايين استفاده كنيد)",
+      "options": [
+        "60 متر.",
+        "150 متر.",
+        "125 متر.",
+        "90 متر."
+      ],
+      "correctIndex": 0,
+      "imageName": null
+    },
+    {
+      "id": "fa-205",
+      "language": "fa",
+      "category": "rules",
+      "test": 6,
+      "text": "چه زمانى مى توان در بزرگراه با حداكثر سرعت مجاز رانندگی كرد؟",
+      "options": [
+        "فقط در روز",
+        "فقط زمانى كه انجام اين كار بى خطر باشد",
+        "فقط در جاده هاى يک طرفه",
+        "هر زمان ممکن است "
+      ],
+      "correctIndex": 1,
+      "imageName": null
+    },
+    {
+      "id": "fa-206",
+      "language": "fa",
+      "category": "rules",
+      "test": 6,
+      "text": "يك راننده G2 با سن 19 سال يا كمتر كه 6 ماه يا كمتر تجربه رانندگى دارد، می‌تواند  بين نيمه شب تا 5:00 صبح چند مسافر ، نامرتبط باهم که 19 سال يا كمتررا دارند حمل كند ؟",
+      "options": [
+        "1",
+        "2",
+        "4",
+        "3"
+      ],
+      "correctIndex": 0,
+      "imageName": null
+    },
+    {
+      "id": "fa-207",
+      "language": "fa",
+      "category": "rules",
+      "test": 6,
+      "text": "دريك تقاطع كه چراغ راهنمایی سيگنال سبز را نشان می‌دهد , كدام يك از موارد زير نسبت به بقيه حق تقدم دارد؟",
+      "options": [
+        "چرخش وسايل نقليه به چب",
+        "عبور عابرين پياده با چراغ",
+        "عبور عابرين پياده برخلاف چراغ",
+        "چرخش وسايل نقليه به راست"
+      ],
+      "correctIndex": 1,
+      "imageName": null
+    },
+    {
+      "id": "fa-208",
+      "language": "fa",
+      "category": "rules",
+      "test": 6,
+      "text": "اگر در مسیر ، خودرویی از عقب به پشت خودروی شما بسیار نزدیک شده ( به شما چسبانده است ) چه كارى بايد انجام دهيد؟",
+      "options": [
+        "هريك از موارد بالا را انجام دهيد",
+        "سعی کنید اگر بی خطر است کنار بکشید تا بگذرد .",
+        "زمانى كه ايمن است به خط ديگرى برويد.",
+        "سعی کنید فاصله خود را از خودروى جلويى افزايش دهيد."
+      ],
+      "correctIndex": 0,
+      "imageName": null
+    },
+    {
+      "id": "fa-209",
+      "language": "fa",
+      "category": "rules",
+      "test": 6,
+      "text": "در حين رانندگى، يک راننده سطح دو (كلاس G2) نبايد غلظت الكل خونش بيشتر از اين باشد.",
+      "options": [
+        "0.08%",
+        "صفر",
+        "0.05%",
+        "0.02%"
+      ],
+      "correctIndex": 1,
+      "imageName": null
+    },
+    {
+      "id": "fa-210",
+      "language": "fa",
+      "category": "rules",
+      "test": 6,
+      "text": "رانندگى سريع تر از برد نور چراغهاى شما در شب خطرناک است زيرا",
+      "options": [
+        "چون شما نمى توانيد در صورت وجود موانع یا خطر  به موقع در فاصله روشن شده توقف كنید",
+        "چراغ هاى نور بالای شما باعث آزار خودرو ها می‌شود ",
+        "اين کار مى تواند باترى ماشين را تخليه كند",
+        "نشان می‌دهد شما خيلى سريع رانندگى مى كنيد"
+      ],
+      "correctIndex": 0,
+      "imageName": null
+    },
+    {
+      "id": "fa-211",
+      "language": "fa",
+      "category": "rules",
+      "test": 6,
+      "text": "استفاده از تلفن همراه هنگام رانندگی",
+      "options": [
+        "يک راه خوب براى انجام چندکار هم زمان است ",
+        "بهتر است انجام نشود ولی قابل قبول است ",
+        "باید اجتناب شود چون خطر برخورد را افزايش مى دهد",
+        "بايد اجتناب شود ، اما غيرقانونى نيست "
+      ],
+      "correctIndex": 2,
+      "imageName": null
+    },
+    {
+      "id": "fa-212",
+      "language": "fa",
+      "category": "rules",
+      "test": 6,
+      "text": "در انتاريو, نمى توانيد  ………. را در کمپر  يا تريلر یا قايقی ،  كه در حال يدک كشيدن آن با خودرو هستيد، حمل كنيد.",
+      "options": [
+        "مواد قابل اشتعال",
+        "سلاح گرم ",
+        "انسان",
+        "حيوانات خانگی "
+      ],
+      "correctIndex": 2,
+      "imageName": null
+    },
+    {
+      "id": "fa-213",
+      "language": "fa",
+      "category": "rules",
+      "test": 6,
+      "text": "علامت \\\"پارک ممنوع\\\" به معنی",
+      "options": [
+        "شما مى توانيد به طور موقت توقف كنيد تا مسافران را سوار يا پیاده كنيد، اما نه كالا ",
+        "شما مى توانيد به طور موقت براى بارگیری يا تخليه كالا متوقف شويد اما نه مسافران.",
+        "شما به هر دليلى نمى توانيد متوقف شويد",
+        "مى توانيد براى سوار يا تخليه مسافران يا كالاها به طور موقت توقف كنيد"
+      ],
+      "correctIndex": 3,
+      "imageName": null
+    },
+    {
+      "id": "fa-214",
+      "language": "fa",
+      "category": "rules",
+      "test": 6,
+      "text": "هنگام رانندگى درمه شديد، بايد از چه چراغی استفاده كنیم ؟",
+      "options": [
+        "چراغ هاى خطر",
+        "چراغ هاى جلو نور بالا",
+        "چراغ هاى خطر و چراغ هاى نور بالا ",
+        "چراغ هاى جلو كم نور"
+      ],
+      "correctIndex": 3,
+      "imageName": null
+    },
+    {
+      "id": "fa-215",
+      "language": "fa",
+      "category": "rules",
+      "test": 6,
+      "text": "كدام يک از وسايل نقليه زير ممكن است داراى چراغ قرمز قابل مشاهده از جلو باشند؟",
+      "options": [
+        "وسايل نقليه تفريحى",
+        "دوچرخه",
+        "وسايل نقليه اضطرارى",
+        "كاميون ها"
+      ],
+      "correctIndex": 2,
+      "imageName": null
+    },
+    {
+      "id": "fa-216",
+      "language": "fa",
+      "category": "rules",
+      "test": 6,
+      "text": "شما به تقاطعى نزديک مى شويد كه چراغ راهنمايي زرد چشمک زن دارد. چه كارى بايد انجام دهيد؟",
+      "options": [
+        "با همان سرعت ادامه دهيد",
+        "اگر به راست مى پيچيد، توقف كنيد",
+        "میتوانید مستقیم بدون کم کردن سرعت بروید ",
+        "سرعت خود را كم كنيد و با احتياط ادامه دهيد"
+      ],
+      "correctIndex": 3,
+      "imageName": null
+    },
+    {
+      "id": "fa-217",
+      "language": "fa",
+      "category": "rules",
+      "test": 6,
+      "text": "شما در حال برنامه ريزى براى عبور مستقيم از تقاطع هستيد ، سيگنال چراغ راهنمايى قرمز است چه كارى بايد انجام دهيد؟",
+      "options": [
+        "توقف كنيد و پس از باز شدن راه ادامه دهيد",
+        "سرعت خود راكم كنيد و اگر خودرویی نبود ادامه دهيد",
+        "توقف كنيد وفقط زمانى ادامه دهيد كه سيگنال سبز شد و مسیر ایمن شد",
+        "توقف كنيد، تسليم عابران پياده شويد و سپس با احتياط ادامه دهيد"
+      ],
+      "correctIndex": 2,
+      "imageName": null
+    },
+    {
+      "id": "fa-218",
+      "language": "fa",
+      "category": "rules",
+      "test": 6,
+      "text": "شما در حال برنامه ريزى براى عبور ازيک موتور سيكلت هستيد. چه كارى بايد انجام دهيد؟",
+      "options": [
+        "هيچ کاری نباید کرد ",
+        "قبل از عبور بوق بزنید تا او را مطلع کنید ",
+        "هما نطور كه از يک ماشين رد مى شويد عبور كنيد",
+        "قبل از عبور چراغ هاى نور بالای خود را روشن كنيد"
+      ],
+      "correctIndex": 2,
+      "imageName": null
+    },
+    {
+      "id": "fa-219",
+      "language": "fa",
+      "category": "rules",
+      "test": 6,
+      "text": "اگر راننده اى با گواهينامه كامل به دليل استفاده از دستگاه های الكترونيكى دستی در حين رانندگی محكوم شود, براى اولين بار با كدام يک از مجازات هاى زير مواجه خواهد شد؟",
+      "options": [
+        "جريمه اى تا سقف ۵۰۰ دلار و ٢ امتياز منفى",
+        "هيچ كدام از موارد بالا برای بار اول جریمه نمی‌شود ",
+        "جریمه ای تا سقف ۲۰۰۰ دلار و ۴ امتیاز منفی ",
+        "جريمه اى تا سقف ١٠٠٠ دلار و ٣ امتياز منفى"
+      ],
+      "correctIndex": 3,
+      "imageName": null
+    },
+    {
+      "id": "fa-220",
+      "language": "fa",
+      "category": "rules",
+      "test": 6,
+      "text": "مصرف الكل يا مواد مخدر با آسيب رساندن به كدام يک از موارد زير بر راننده تأثير مى گذارد؟",
+      "options": [
+        "چشم انداز",
+        "همه موارد فوق",
+        "تصمیم گیری ",
+        "زمان پاسخ"
+      ],
+      "correctIndex": 1,
+      "imageName": null
+    },
+    {
+      "id": "fa-221",
+      "language": "fa",
+      "category": "signs",
+      "test": 7,
+      "text": "اين علامت به چه معناست؟",
+      "options": [
+        "راه باريك مى‌شود.",
+        "راه دوطرفه مى‌شود.",
+        "راه يكطرفه مى‌شود.",
+        "جاده به سمت چپ می‌پیچد."
+      ],
+      "correctIndex": 0,
+      "imageName": "121"
+    },
+    {
+      "id": "fa-222",
+      "language": "fa",
+      "category": "signs",
+      "test": 7,
+      "text": "اين تابلوى راه به چه معناست؟",
+      "options": [
+        "پایان بزرگراه تقسیم شده.",
+        "شروع بزرگراه تقسیم شده.",
+        "جاده باریک می‌شود.",
+        "جاده به راست می‌پیچد."
+      ],
+      "correctIndex": 1,
+      "imageName": "122"
+    },
+    {
+      "id": "fa-223",
+      "language": "fa",
+      "category": "signs",
+      "test": 7,
+      "text": "اين تابلوى راه به چه معناست؟",
+      "options": [
+        "عبور عابر پیاده ممنوع.",
+        "عبور دوچرخه ممنوع.",
+        "گذرگاه عابر پیاده در پیش است.",
+        "گذرگاه دوچرخه در پیش است."
+      ],
+      "correctIndex": 2,
+      "imageName": "123"
+    },
+    {
+      "id": "fa-224",
+      "language": "fa",
+      "category": "signs",
+      "test": 7,
+      "text": "اين تابلوى راه به چه معناست؟",
+      "options": [
+        "راه در جلو بسته است.",
+        "حق تقدم با شماست.",
+        "تقاطع راه‌آهن در پیش است.",
+        "تابلوی ایست در پیش است."
+      ],
+      "correctIndex": 3,
+      "imageName": "124"
+    },
+    {
+      "id": "fa-225",
+      "language": "fa",
+      "category": "signs",
+      "test": 7,
+      "text": "اين تابلوى راه به چه معناست؟",
+      "options": [
+        "حداکثر سرعت مجاز 60 کیلومتر در ساعت است.",
+        "حداقل سرعت مجاز 60 کیلومتر در ساعت است.",
+        "محدودیت سرعت به 60 کیلومتر در ساعت تغییر می‌کند.",
+        "پایان محدودیت سرعت."
+      ],
+      "correctIndex": 0,
+      "imageName": "125"
+    },
+    {
+      "id": "fa-226",
+      "language": "fa",
+      "category": "signs",
+      "test": 7,
+      "text": "اين تابلوى راه به چه معناست؟",
+      "options": [
+        "پارک کردن مجاز است.",
+        "پارک کردن ممنوع است.",
+        "توقف ممنوع است.",
+        "پارک کردن فقط برای اتوبوس مجاز است."
+      ],
+      "correctIndex": 1,
+      "imageName": "126"
+    },
+    {
+      "id": "fa-227",
+      "language": "fa",
+      "category": "signs",
+      "test": 7,
+      "text": "اين تابلوى راه به چه معناست؟",
+      "options": [
+        "چراغ راهنمایی در پیش است.",
+        "تقاطع بدون کنترل در پیش است.",
+        "پل متحرک در پیش است.",
+        "دوربرگردان مجاز است."
+      ],
+      "correctIndex": 0,
+      "imageName": "127"
+    },
+    {
+      "id": "fa-228",
+      "language": "fa",
+      "category": "signs",
+      "test": 7,
+      "text": "اين تابلوى راه به چه معناست؟",
+      "options": [
+        "گردش به راست مجاز است.",
+        "گردش به راست ممنوع است.",
+        "گردش به چپ مجاز است.",
+        "گردش به چپ ممنوع است."
+      ],
+      "correctIndex": 1,
+      "imageName": "128"
+    },
+    {
+      "id": "fa-229",
+      "language": "fa",
+      "category": "signs",
+      "test": 7,
+      "text": "اين تابلوى راه به چه معناست؟",
+      "options": [
+        "خروجی سمت راست در پیش است.",
+        "راه باریک می‌شود.",
+        "خروجی سمت چپ در پیش است.",
+        "جاده به سمت چپ می‌پیچد."
+      ],
+      "correctIndex": 0,
+      "imageName": "129"
+    },
+    {
+      "id": "fa-230",
+      "language": "fa",
+      "category": "signs",
+      "test": 7,
+      "text": "اين تابلوى راه به چه معناست؟",
+      "options": [
+        "ایستادن مجاز است.",
+        "ایستادن ممنوع است.",
+        "پارک کردن مجاز است.",
+        "پارک کردن فقط برای تاکسی مجاز است."
+      ],
+      "correctIndex": 1,
+      "imageName": "130"
+    },
+    {
+      "id": "fa-231",
+      "language": "fa",
+      "category": "signs",
+      "test": 7,
+      "text": "اين تابلوى راه به چه معناست؟",
+      "options": [
+        "پل متحرک در پیش است.",
+        "پل باریک در پیش است.",
+        "پل در پیش است.",
+        "پل بسته است."
+      ],
+      "correctIndex": 2,
+      "imageName": "131"
+    },
+    {
+      "id": "fa-232",
+      "language": "fa",
+      "category": "signs",
+      "test": 7,
+      "text": "اين تابلوى راه به چه معناست؟",
+      "options": [
+        "جاده به چپ می‌پیچد.",
+        "جاده به راست می‌پیچد.",
+        "پیچ تند به راست در پیش است.",
+        "پیچ تند به چپ در پیش است."
+      ],
+      "correctIndex": 0,
+      "imageName": "132"
+    },
+    {
+      "id": "fa-233",
+      "language": "fa",
+      "category": "signs",
+      "test": 7,
+      "text": "اين تابلوى راه به چه معناست؟",
+      "options": [
+        "سطح جاده ناهموار است.",
+        "جاده لغزنده است.",
+        "جاده پر از دست انداز است.",
+        "آب روی جاده است."
+      ],
+      "correctIndex": 2,
+      "imageName": "133"
+    },
+    {
+      "id": "fa-234",
+      "language": "fa",
+      "category": "signs",
+      "test": 7,
+      "text": "اين تابلوى راه به چه معناست؟",
+      "options": [
+        "راه یکطرفه است.",
+        "راه دوطرفه است.",
+        "جاده به سمت راست می‌پیچد.",
+        "جاده به سمت چپ می‌پیچد."
+      ],
+      "correctIndex": 1,
+      "imageName": "134"
+    },
+    {
+      "id": "fa-235",
+      "language": "fa",
+      "category": "signs",
+      "test": 7,
+      "text": "اين تابلوى راه به چه معناست؟",
+      "options": [
+        "ورود کامیون مجاز است.",
+        "ورود کامیون ممنوع است.",
+        "ورود اتوبوس ممنوع است.",
+        "ورود دوچرخه ممنوع است."
+      ],
+      "correctIndex": 1,
+      "imageName": "135"
+    },
+    {
+      "id": "fa-236",
+      "language": "fa",
+      "category": "signs",
+      "test": 7,
+      "text": "اين تابلوى راه به چه معناست؟",
+      "options": [
+        "ایستگاه اتوبوس در پیش است.",
+        "ایستگاه قطار در پیش است.",
+        "ایستگاه تاکسی در پیش است.",
+        "ایستگاه پلیس در پیش است."
+      ],
+      "correctIndex": 0,
+      "imageName": "136"
+    },
+    {
+      "id": "fa-237",
+      "language": "fa",
+      "category": "signs",
+      "test": 7,
+      "text": "اين تابلوى راه به چه معناست؟",
+      "options": [
+        "حق تقدم با شماست.",
+        "حق تقدم با دیگران است.",
+        "تابلوی ایست در پیش است.",
+        "چراغ راهنمایی در پیش است."
+      ],
+      "correctIndex": 1,
+      "imageName": "137"
+    },
+    {
+      "id": "fa-238",
+      "language": "fa",
+      "category": "signs",
+      "test": 7,
+      "text": "اين تابلوى راه به چه معناست؟",
+      "options": [
+        "جاده به سمت راست می‌پیچد.",
+        "جاده به سمت چپ می‌پیچد.",
+        "جاده به سمت چپ و سپس راست می‌پیچد.",
+        "جاده مستقیم است."
+      ],
+      "correctIndex": 0,
+      "imageName": "138"
+    },
+    {
+      "id": "fa-239",
+      "language": "fa",
+      "category": "signs",
+      "test": 7,
+      "text": "اين تابلوى راه به چه معناست؟",
+      "options": [
+        "پارک کردن فقط برای معلولین مجاز است.",
+        "پارک کردن برای همه مجاز است.",
+        "پارک کردن برای معلولین ممنوع است.",
+        "پارک کردن فقط برای تاکسی مجاز است."
+      ],
+      "correctIndex": 0,
+      "imageName": "139"
+    },
+    {
+      "id": "fa-240",
+      "language": "fa",
+      "category": "signs",
+      "test": 7,
+      "text": "اين تابلوى راه به چه معناست؟",
+      "options": [
+        "عبور حیوانات وحشی در پیش است.",
+        "عبور حیوانات خانگی در پیش است.",
+        "عبور عابر پیاده در پیش است.",
+        "عبور دوچرخه در پیش است."
+      ],
+      "correctIndex": 0,
+      "imageName": "140"
+    },
+    {
+      "id": "fa-241",
+      "language": "fa",
+      "category": "rules",
+      "test": 8,
+      "text": "هروسيله نقليه بايد حداقل چه رقمی را براى بیمه  شخص ثالث انتخاب کند  ؟",
+      "options": [
+        "$200,000.",
+        "$500,000.",
+        "$1000,000.",
+        "$300,000."
+      ],
+      "correctIndex": 0,
+      "imageName": null
+    },
+    {
+      "id": "fa-242",
+      "language": "fa",
+      "category": "rules",
+      "test": 8,
+      "text": "به گذرگاه راه آهن نزديك مى شويد. سيگنال هاى عبور هشدار مى دهد كه قطار در حال نزديك شدن است. چه كارى بايد انجام دهيد؟",
+      "options": [
+        "سرعت خود راكم كنيد و با احتياط ادامه دهيد.",
+        "حداقل 5 متر از خط راه آهن توقف كنيد.",
+        "حداقل 2 متر از خط راه آهن توقف كنيد.",
+        "سرعت خود را افزايش دهيد ودر سريعترين زمان ممكن از مسيرها عبور كنيد."
+      ],
+      "correctIndex": 1,
+      "imageName": null
+    },
+    {
+      "id": "fa-243",
+      "language": "fa",
+      "category": "rules",
+      "test": 8,
+      "text": "چراغ قرمز با فلش سبز به چه معناست؟",
+      "options": [
+        "مى توانيد در جهت فلش بچرخيد.",
+        "توقف كنيد وسپس مى توانيد در جهت فلش بچرخيد.",
+        "بايستيد و منتظر چراغ سبز باشيد. فلش سبز علامتى براى عابران پياده است.",
+        "قبل از چرخش در جهت فلش توقف كنيد و منتظر چراغ سبز باشيد."
+      ],
+      "correctIndex": 0,
+      "imageName": null
+    },
+    {
+      "id": "fa-244",
+      "language": "fa",
+      "category": "rules",
+      "test": 8,
+      "text": "شما در جاده اى خيس رانندگى مى كنيد و بايد سريع توقف كنيد. اگر وسيله نقليه شما ترمز ضد قفل (ABS) ندارد، چه كارى بايد انجام دهيد؟",
+      "options": [
+        "ترمزها را پمپ كنيد.",
+        "فشار ترمز ثابت را اعمال كنيد، اگر چرخ ها قفل شدند كمى رها كنيد و دوباره فشار دهيد.",
+        "محكم ترمز كن",
+        "احتراق را خاموش كنيد و ترمز دستی را فشار دهيد."
+      ],
+      "correctIndex": 1,
+      "imageName": null
+    },
+    {
+      "id": "fa-245",
+      "language": "fa",
+      "category": "rules",
+      "test": 8,
+      "text": "شخصی كه گواهينامه رانندگى او در حالت تعليق است, مى تواند",
+      "options": [
+        "در صورت همراهى راننده داراى گواهينامه رانندگى كنيد.",
+        "تحت هيچ شرايطى رانندگى نكنید",
+        "رانندگى به سمت محل كار و برگشتن",
+        "در مواقع اضطرارى رانندگى كنيد"
+      ],
+      "correctIndex": 1,
+      "imageName": null
+    },
+    {
+      "id": "fa-246",
+      "language": "fa",
+      "category": "rules",
+      "test": 8,
+      "text": "خودروهاى برف روب در جاده هاى عمومى به چراغ هاى چشمك زن چه رنگی مجهز هستند ؟",
+      "options": [
+        "نارنجى",
+        "رنگ زرد",
+        "آبى",
+        "قرمز"
+      ],
+      "correctIndex": 2,
+      "imageName": null
+    },
+    {
+      "id": "fa-247",
+      "language": "fa",
+      "category": "rules",
+      "test": 8,
+      "text": "كدام يک از موارد زير نشانه رانندگى تهاجمى است؟",
+      "options": [
+        "بررسی هاى مكرر اطراف",
+        "همه موارد فوق ",
+        "اجتناب از تماس چشمى",
+        "جلوگيرى از عبور ساير رانندگان"
+      ],
+      "correctIndex": 3,
+      "imageName": null
+    },
+    {
+      "id": "fa-248",
+      "language": "fa",
+      "category": "rules",
+      "test": 8,
+      "text": "كدام يک از عبارات زير در مورد دوچرخه سواران نادرست است؟",
+      "options": [
+        "قبل از عبور از يک دوچرخه سوار، در صورت امكان مسير را تغيير دهيد.",
+        "هنگام عبور از دوچرخه سوار بايد حداقل يک متر فاصله بگذاريد.",
+        "پشت دوچرخه سواران را خيلى دنبال نكنيد.",
+        "دوچرخه سواران از استفاده از لاين سمت چپ براى گردش به چپ منع هستند ."
+      ],
+      "correctIndex": 3,
+      "imageName": null
+    },
+    {
+      "id": "fa-249",
+      "language": "fa",
+      "category": "rules",
+      "test": 8,
+      "text": "براى خارج شدن از پارک ، شما بايد",
+      "options": [
+        "راهنمای خود را بزنيد واز كنار جدول حركت كنيد.",
+        "به سرعت از كنار جدول حركت كنيد.",
+        "ترافيک را بررسی كنيد، راهنمای خود را بزنيد و زمانى كه ايمن باشد از كنار جدول حركت كنيد.",
+        "بوق بزنيد و به آرامى از كنار جدول حركت كنيد."
+      ],
+      "correctIndex": 2,
+      "imageName": null
+    },
+    {
+      "id": "fa-250",
+      "language": "fa",
+      "category": "rules",
+      "test": 8,
+      "text": "چه زمانى مى توانيد گواهينامه رانندگى خود را به شخص ديگرى قرض دهيد؟",
+      "options": [
+        "فقط براى اهداف شناسایی",
+        "هرگز نمیتوانید",
+        "زمانى كه آن شخص در حال يادگيرى رانندگى است",
+        "در مواقع اضطرارى"
+      ],
+      "correctIndex": 1,
+      "imageName": null
+    },
+    {
+      "id": "fa-251",
+      "language": "fa",
+      "category": "rules",
+      "test": 8,
+      "text": "در كدام یک از مكان هاى زير، چرخش دوربرگردان خطرناک يا غيرقانونى است؟",
+      "options": [
+        "دریک منحنی يا روى تپه، جايى كه ديد در هردو جهت كمتراز 150 متر (500 فوت) است.",
+        "در تمامى مكان هاى فوق ",
+        "در 150 مترى (500 فوت) پل، راهرو يا تونل اگر ديد راننده مسدود شده باشد.",
+        "در گذرگاه راه آهن يا در فاصله 30 مترى (100 فوت) از گذرگاه راه آهن"
+      ],
+      "correctIndex": 1,
+      "imageName": null
+    },
+    {
+      "id": "fa-252",
+      "language": "fa",
+      "category": "rules",
+      "test": 8,
+      "text": "هنگام پايين آمدن از یک جاده طولانى و شيب دار، چگونه بايد سرعت خود را كنترل كنيد؟",
+      "options": [
+        "دنده خودرو را به حالت خلاص تغيير دهيد.",
+        "خودرو را خاموش كنيد.",
+        "به ترمز زدن ادامه دهيد.",
+        "تعويض به دنده پايين تر."
+      ],
+      "correctIndex": 3,
+      "imageName": null
+    },
+    {
+      "id": "fa-253",
+      "language": "fa",
+      "category": "rules",
+      "test": 8,
+      "text": "هنگام تغيير خط دريک بزرگراه چند بانده، راننده بايد",
+      "options": [
+        "آينه ها و سيگنال را بررسی كند",
+        "سيگنال هاى اضطرارى خطر را فعال كند",
+        "با بيشترين سرعت ممكن به خط جديد حركت كند ",
+        "از بوق استفاده كند "
+      ],
+      "correctIndex": 0,
+      "imageName": null
+    },
+    {
+      "id": "fa-254",
+      "language": "fa",
+      "category": "rules",
+      "test": 8,
+      "text": "به تابلوى ايست نزديك مى شويد. راننده بايد چه كاركند؟",
+      "options": [
+        "سرعت خود راكم كنيد، بوق بزنيد و سپس ادامه دهيد.",
+        "سرعت خود راكم كنيد و اگر راه ایمن است ادامه دهيد.",
+        "توقف كنيد، بوق بزنيد، سپس ادامه دهيد.",
+        "توقف كنيد، و هنگامى كه مسیر ها ايمن بود، ادامه دهيد."
+      ],
+      "correctIndex": 3,
+      "imageName": null
+    },
+    {
+      "id": "fa-255",
+      "language": "fa",
+      "category": "rules",
+      "test": 8,
+      "text": "تراموا توقف كرده است تا مسافران را سوار يا پياده كند در جايى كه هيچ منطقه ايمنی وجود ندارد. قانون چه چيزى را از شما مى خواهد كه قبل از عبور از تراموا انجام دهيد؟",
+      "options": [
+        "بوق بزنيد و با احتياط عبور كنيد.",
+        "از سمت چپ عبور كنيد زمانى كه مسير آزاد است.",
+        "دومتر پشت درهاى عقب كه مسافران سوار يا پياده مى شوند، توقف كنيد و فقط زمانى كه ايمن است ادامه دهيد.",
+        "پشت تراموا بايستيد و در صورت ايمن بودن ادامه دهيد."
+      ],
+      "correctIndex": 2,
+      "imageName": null
+    },
+    {
+      "id": "fa-256",
+      "language": "fa",
+      "category": "rules",
+      "test": 8,
+      "text": "وقتی راننده وسيله نقليه ديگرى علامت مى دهد كه قصد عبور از وسيله نقليه شمارا دارد چه بايد كرد؟",
+      "options": [
+        "به راننده ديگر علامت دهيد كه پشت شما بماند.",
+        "به سمت راست خط خود حركت كنيد و سرعت خود را افزايش دهيد.",
+        "به سمت راست خط خود حركت كنيد و سرعت خود را افزايش ندهيد.",
+        "به سمت چپ حركت كنيد تا راه وسيله نقليه عبورى را مسدود كنيد و مانع سرعت زیادش بشوید. "
+      ],
+      "correctIndex": 2,
+      "imageName": null
+    },
+    {
+      "id": "fa-257",
+      "language": "fa",
+      "category": "rules",
+      "test": 8,
+      "text": "پس از مصاحبه با راننده ای که 9 امتيازى منفی در  گواهینامه كامل خود دارد ، وزارت حمل و نقل ممكن است گواهينامه رانندگى او را به كدام يك از دلايل زير تعليق كند؟",
+      "options": [
+        "راننده كمتر از 5 سال سابقه رانندگى داشته است .",
+        "راننده براى مقاصد تجارى نيازى به گواهينامه ندارد.",
+        "همه موارد فوق دلايل معتبرى براى تعليق هستند.",
+        "راننده نتوانست به طور رضايت بخش توضيح دهد كه چرا نبايد گواهينامه او به حالت تعليق درآيد."
+      ],
+      "correctIndex": 3,
+      "imageName": null
+    },
+    {
+      "id": "fa-258",
+      "language": "fa",
+      "category": "rules",
+      "test": 8,
+      "text": "يک اتوبوس مدرسه با چراغ هاى قرمز چشمک زن جلوى شما متوقف شده است. قانون شمارا ملزم مى كند هنگام دیدن این صحنه  يا در حال سبقت گرفتن از اتوبوس چه كارى انجام دهيد؟",
+      "options": [
+        "منتظر عبور وسايل نقليه نزديک تر  باشيد.",
+        "سرعت خود را كم كنيد و با احتياط عبور كنيد.",
+        "تا زمانى كه اتوبوس حركت كند يا چراغهاى سيگنال قرمز خاموش شوند، متوقف بمانيد.",
+        "زمانى كه بوق خود را به صدا در مى آوريد مهم نيست میتوانید گذر کنید. "
+      ],
+      "correctIndex": 2,
+      "imageName": null
+    },
+    {
+      "id": "fa-259",
+      "language": "fa",
+      "category": "rules",
+      "test": 8,
+      "text": "در یک جاده دو لاین خط کشی زرد شكسته در بین لاین های جاده به اين معنی است كه شما مى توانيد",
+      "options": [
+        "فقط در ساعات روز عبور كنيد.",
+        "فقط در شرايط رانندگى ايده آل عبور كنيد.",
+        "بگذرید اگر مسیر ایمن است.",
+        "در هر حالتی میتوانید عبور کنید . "
+      ],
+      "correctIndex": 2,
+      "imageName": null
+    },
+    {
+      "id": "fa-260",
+      "language": "fa",
+      "category": "rules",
+      "test": 8,
+      "text": "اگر چرخ هاى سمت راست شما از روى جاده به بیرون از جاده افتادند ، بهترين راه براى بازگشت به جاده چيست؟",
+      "options": [
+        "براى كاهش سرعت خود، ترمز بگيريد سپس هدایت به داخل جاده ",
+        "ترمز را فشار دهيد و به سریعا به سمت چپ هدايت كنيد.",
+        "پاى خود را از روى پدال گاز برداريد، اجازه دهيد سرعت خودرويتان كم شود و به آرامى به سمت جاده برگرديد.",
+        "پای خود را از گاز برداشته و سریعا به سمت چپ  هدايت كنيد."
+      ],
+      "correctIndex": 2,
+      "imageName": null
+    }
+  ]
+}
