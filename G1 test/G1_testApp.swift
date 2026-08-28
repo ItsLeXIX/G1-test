@@ -9,12 +9,14 @@ import SwiftUI
 
 @main
 struct G1_testApp: App {
-    let persistenceController = PersistenceController.shared
+    // Single shared store for the user's missed questions, injected into
+    // the environment so any screen can read or update it.
+    @State private var mistakes = MistakesStore()
 
     var body: some Scene {
         WindowGroup {
             ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+                .environment(mistakes)
         }
     }
 }

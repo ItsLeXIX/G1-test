@@ -7,51 +7,45 @@
 
 import SwiftUI
 
+/// Landing screen: shows the app title and lets the user pick a language.
 struct WelcomeView: View {
     var body: some View {
-        VStack(spacing: 20) {
-            Text("Welcome To G1 test Drive")
-                .font(.title)
-                .fontWeight(.bold)
+        VStack(spacing: 24) {
+            Text("G1 Practice Test")
+                .font(.largeTitle.bold())
                 .multilineTextAlignment(.center)
 
-            Text("Please select your language")
-                .font(.headline)
-                .foregroundColor(.gray)
-                .multilineTextAlignment(.center)
-            
+            Text("آزمون تمرینی جی-۱")
+                .font(.title3)
+                .foregroundStyle(.secondary)
+
             Image("welcomeImage")
                 .resizable()
                 .scaledToFit()
-                .frame(height: 250)
-            
-            VStack(spacing: 16) {
-                NavigationLink(destination: EnglishTestMenuView()) {
-                    HStack {
-                        Text("ENGLISH")
-                            .fontWeight(.semibold)
-                    }
-                    .frame(maxWidth: .infinity)
-                    .padding()
-                    .background(Color.teal)
-                    .foregroundColor(.white)
-                    .cornerRadius(10)
-                }
+                .frame(height: 240)
+                .accessibilityHidden(true)
 
-                NavigationLink(destination: PersianTestMenuView()) {
-                    HStack {
-                        Text("فارسی")
+            VStack(spacing: 16) {
+                ForEach(AppLanguage.allCases) { language in
+                    NavigationLink {
+                        TestMenuView(language: language)
+                    } label: {
+                        Text(language.displayName)
                             .fontWeight(.semibold)
+                            .frame(maxWidth: .infinity)
+                            .padding()
+                            .background(Color.teal, in: .rect(cornerRadius: 12))
+                            .foregroundStyle(.white)
                     }
-                    .frame(maxWidth: .infinity)
-                    .padding()
-                    .background(Color.teal)
-                    .foregroundColor(.white)
-                    .cornerRadius(10)
                 }
             }
             .padding(.horizontal, 40)
-            }
+        }
         .padding()
     }
+}
+
+#Preview {
+    NavigationStack { WelcomeView() }
+        .environment(MistakesStore())
 }
