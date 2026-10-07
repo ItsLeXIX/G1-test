@@ -1,0 +1,35 @@
+# ---- macOS ----
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# ---- Xcode: per-user state (window layout, breakpoints, scheme order) ----
+# Changes every time someone opens the project; causes pointless commits
+# and push/pull conflicts between collaborators.
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+
+# ---- Xcode: build output ----
+build/
+DerivedData/
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# ---- Swift Package Manager ----
+.build/
+.swiftpm/
+Packages/
+
+# ---- CocoaPods / Carthage (in case they're added later) ----
+Pods/
+Carthage/Build/
+
+# ---- Misc ----
+*.swp
+*~
