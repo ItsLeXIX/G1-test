@@ -26,10 +26,10 @@ enum QuestionBank {
         Set(all.filter { $0.language == language }.map(\.test)).sorted()
     }
 
-    /// Questions for a specific language + test, sorted by id for stable order.
+    /// Questions for a specific language + test, in id order.
     static func questions(language: AppLanguage, test: Int) -> [Question] {
         all.filter { $0.language == language && $0.test == test }
-            .sorted { $0.id < $1.id }
+            .sorted(by: idOrder)
     }
 
     /// A random selection across all tests of a language (a "mock exam").
@@ -40,7 +40,13 @@ enum QuestionBank {
     /// Questions matching a set of ids, restricted to one language.
     static func questions(ids: Set<String>, language: AppLanguage) -> [Question] {
         all.filter { $0.language == language && ids.contains($0.id) }
-            .sorted { $0.id < $1.id }
+            .sorted(by: idOrder)
+    }
+
+    /// Orders ids like "fa-181" < "fa-200" by their number. Comparing the
+    /// strings directly would put "fa-200" before "fa-181".
+    private static func idOrder(_ a: Question, _ b: Question) -> Bool {
+        a.id.compare(b.id, options: .numeric) == .orderedAscending
     }
 
     // MARK: - Loading
