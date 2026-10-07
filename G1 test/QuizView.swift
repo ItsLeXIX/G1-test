@@ -12,6 +12,7 @@ import SwiftUI
 struct QuizView: View {
     @State private var vm: QuizViewModel
     private let strings: AppStrings
+    @Environment(\.dismiss) private var dismiss
 
     init(viewModel: QuizViewModel) {
         _vm = State(initialValue: viewModel)
@@ -29,7 +30,12 @@ struct QuizView: View {
         .navigationTitle(vm.title)
         .navigationBarTitleDisplayMode(.inline)
         .environment(\.layoutDirection, vm.language.isRightToLeft ? .rightToLeft : .leftToRight)
-        .sheet(isPresented: $vm.showResults) {
+        .onAppear {
+            // Safety net: never reopen a set that was already finished.
+            // (Leaving mid-set with Back keeps progress on purpose.)
+            if vm.isFinished { vm.restart() }
+        }
+        .sheet(isPresented: $vm.showResults, onDismiss: closeIfFinished) {
             ResultsView(
                 score: vm.correctCount,
                 total: vm.total,
@@ -38,6 +44,15 @@ struct QuizView: View {
             )
             .presentationDetents([.medium])
         }
+    }
+
+    /// Runs whenever the results sheet goes away. "Try again" restarts the
+    /// set (isFinished is cleared), so we stay. "Done" or swiping the sheet
+    /// down leaves a finished set: reset it and return to the test list.
+    private func closeIfFinished() {
+        guard vm.isFinished else { return }
+        vm.restart()
+        dismiss()
     }
 
     // MARK: - Quiz content

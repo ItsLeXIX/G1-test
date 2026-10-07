@@ -33,6 +33,9 @@ final class QuizViewModel {
     private(set) var isAnswered = false
     private(set) var correctCount = 0
     var showResults = false
+    /// True once the last question has been answered and results were shown.
+    /// Cleared by `restart()`, so a finished set always starts fresh.
+    private(set) var isFinished = false
 
     private let mistakes: MistakesStore
 
@@ -83,6 +86,7 @@ final class QuizViewModel {
     /// Advances to the next question, or shows results if finished.
     func advance() {
         if isLastQuestion {
+            isFinished = true
             showResults = true
         } else {
             currentIndex += 1
@@ -99,6 +103,7 @@ final class QuizViewModel {
         selectedChoiceID = nil
         isAnswered = false
         correctCount = 0
+        isFinished = false
         showResults = false
     }
 
