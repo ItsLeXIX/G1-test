@@ -1805,15 +1805,15 @@
       "language": "en",
       "category": "signs",
       "test": 7,
-      "text": "What does this sign mean?",
+      "text": "What does this road sign mean?",
       "options": [
-        "The road narrows.",
-        "The road becomes two-way.",
-        "The road becomes one-way.",
-        "The road turns to the left."
+        "The road ahead curves right and then left.",
+        "The road ahead curves left and then right.",
+        "Intersection ahead",
+        "Narrow road ahead."
       ],
       "correctIndex": 0,
-      "imageName": "121"
+      "imageName": "101"
     },
     {
       "id": "en-222",
@@ -1822,13 +1822,13 @@
       "test": 7,
       "text": "What does this road sign mean?",
       "options": [
-        "End of divided highway.",
-        "Start of divided highway.",
-        "The road narrows.",
-        "The road turns right."
+        "Maximum speed limit at night",
+        "Recommended speed in a construction zone",
+        "Mounted under a curve warning sign, this sign shows the maximum safe speed for the curve.",
+        "Maximum safe speed on the shoulder of the road"
       ],
-      "correctIndex": 1,
-      "imageName": "122"
+      "correctIndex": 2,
+      "imageName": "102"
     },
     {
       "id": "en-223",
@@ -1837,28 +1837,28 @@
       "test": 7,
       "text": "What does this road sign mean?",
       "options": [
-        "No pedestrian crossing.",
-        "No bicycle crossing.",
-        "Pedestrian crossing ahead.",
-        "Bicycle crossing ahead."
+        "No passing.",
+        "Steep hill ahead",
+        "Falling rock possible ahead",
+        "No trucks allowed."
       ],
       "correctIndex": 2,
-      "imageName": "123"
+      "imageName": "103"
     },
     {
       "id": "en-224",
       "language": "en",
       "category": "signs",
       "test": 7,
-      "text": "What does this road sign mean?",
+      "text": "This sign means parking is allowed for which vehicles?",
       "options": [
-        "Road closed ahead.",
-        "You have the right-of-way.",
-        "Railway crossing ahead.",
-        "Stop sign ahead."
+        "Parking for electric vehicles",
+        "Only for vehicles with very young passengers",
+        "Only for vehicles that have a valid permit to park in this location.",
+        "Parking for all vehicles"
       ],
-      "correctIndex": 3,
-      "imageName": "124"
+      "correctIndex": 2,
+      "imageName": "104"
     },
     {
       "id": "en-225",
@@ -1867,13 +1867,13 @@
       "test": 7,
       "text": "What does this road sign mean?",
       "options": [
-        "The maximum speed limit is 60 km/h.",
-        "The minimum speed limit is 60 km/h.",
-        "The speed limit changes to 60 km/h.",
-        "End of speed limit."
+        "Slow-moving vehicles ahead",
+        "Dead-end street ahead.",
+        "Stop sign ahead.",
+        "Yield sign ahead."
       ],
-      "correctIndex": 0,
-      "imageName": "125"
+      "correctIndex": 2,
+      "imageName": "105"
     },
     {
       "id": "en-226",
@@ -1882,13 +1882,13 @@
       "test": 7,
       "text": "What does this road sign mean?",
       "options": [
-        "Parking is allowed.",
-        "No parking.",
-        "No stopping.",
-        "Parking for buses only."
+        "This lane is for trucks only.",
+        "This lane is for buses only.",
+        "This lane is for bicycles only.",
+        "This lane is not for bicycles."
       ],
-      "correctIndex": 1,
-      "imageName": "126"
+      "correctIndex": 2,
+      "imageName": "106"
     },
     {
       "id": "en-227",
@@ -1897,13 +1897,13 @@
       "test": 7,
       "text": "What does this road sign mean?",
       "options": [
-        "Traffic lights ahead.",
-        "Uncontrolled intersection ahead.",
-        "Movable bridge ahead.",
-        "U-turns are permitted."
+        "Divided highway ahead",
+        "One-way street ahead",
+        "Hidden intersection ahead",
+        "Narrow road ahead."
       ],
-      "correctIndex": 0,
-      "imageName": "127"
+      "correctIndex": 3,
+      "imageName": "107"
     },
     {
       "id": "en-228",
@@ -1912,13 +1912,13 @@
       "test": 7,
       "text": "What does this road sign mean?",
       "options": [
-        "Right turns are permitted.",
-        "No right turn.",
-        "Left turns are permitted.",
-        "No left turn."
+        "Narrow road ahead.",
+        "Railway crossing ahead",
+        "Intersection ahead",
+        "Hidden intersection ahead"
       ],
-      "correctIndex": 1,
-      "imageName": "128"
+      "correctIndex": 2,
+      "imageName": "108"
     },
     {
       "id": "en-229",
@@ -1927,13 +1927,13 @@
       "test": 7,
       "text": "What does this road sign mean?",
       "options": [
-        "Exit on the right ahead.",
-        "The road narrows.",
-        "Exit on the left ahead.",
-        "The road turns to the left."
+        "Divided highway ends.",
+        "Divided highway ahead",
+        "Road under construction",
+        "Narrow bridge ahead"
       ],
       "correctIndex": 0,
-      "imageName": "129"
+      "imageName": "109"
     },
     {
       "id": "en-230",
@@ -1942,13 +1942,13 @@
       "test": 7,
       "text": "What does this road sign mean?",
       "options": [
-        "Standing is permitted.",
-        "No standing.",
-        "Parking is permitted.",
-        "Parking for taxis only."
+        "Do not honk at animals.",
+        "Animal route, for deer only",
+        "A zoo is ahead.",
+        "Deer may frequently cross the road in this section."
       ],
-      "correctIndex": 1,
-      "imageName": "130"
+      "correctIndex": 3,
+      "imageName": "110"
     },
     {
       "id": "en-231",
@@ -1957,13 +1957,13 @@
       "test": 7,
       "text": "What does this road sign mean?",
       "options": [
-        "Movable bridge ahead.",
-        "Narrow bridge ahead.",
-        "Bridge ahead.",
-        "Bridge closed."
+        "None of the above",
+        "Intersection with an unpaved road ahead",
+        "Railway crossing ahead",
+        "Bridge intersection ahead"
       ],
       "correctIndex": 2,
-      "imageName": "131"
+      "imageName": "111"
     },
     {
       "id": "en-232",
@@ -1972,13 +1972,13 @@
       "test": 7,
       "text": "What does this road sign mean?",
       "options": [
-        "The road turns left.",
-        "The road turns right.",
-        "Sharp right turn ahead.",
-        "Sharp left turn ahead."
+        "Factory ahead",
+        "Construction zone ahead.",
+        "Bumpy or uneven pavement ahead",
+        "Bridge ahead"
       ],
-      "correctIndex": 0,
-      "imageName": "132"
+      "correctIndex": 2,
+      "imageName": "112"
     },
     {
       "id": "en-233",
@@ -1987,13 +1987,13 @@
       "test": 7,
       "text": "What does this road sign mean?",
       "options": [
-        "The road surface is uneven.",
-        "The road is slippery.",
-        "The road is full of bumps.",
-        "Water on the road."
+        "Snowmobiles cross this road ahead.",
+        "Snowmobiles are not allowed.",
+        "A snowmobile repair shop is ahead.",
+        "There is snowmobile parking ahead."
       ],
-      "correctIndex": 2,
-      "imageName": "133"
+      "correctIndex": 0,
+      "imageName": "113"
     },
     {
       "id": "en-234",
@@ -2002,13 +2002,13 @@
       "test": 7,
       "text": "What does this road sign mean?",
       "options": [
-        "One-way road.",
-        "Two-way road.",
-        "The road turns to the right.",
-        "The road turns to the left."
+        "This is a pedestrian crossover.",
+        "Do not stand or stop in this area.",
+        "This is a construction zone.",
+        "Do not block the intersection."
       ],
-      "correctIndex": 1,
-      "imageName": "134"
+      "correctIndex": 0,
+      "imageName": "114"
     },
     {
       "id": "en-235",
@@ -2017,13 +2017,13 @@
       "test": 7,
       "text": "What does this road sign mean?",
       "options": [
-        "Trucks are allowed.",
-        "No trucks.",
-        "No buses.",
-        "No bicycles."
+        "This road is an official bicycle route.",
+        "There is a bicycle crossing ahead.",
+        "Pedestrians are not allowed on this road.",
+        "This lane is for bicycles only."
       ],
-      "correctIndex": 1,
-      "imageName": "135"
+      "correctIndex": 0,
+      "imageName": "115"
     },
     {
       "id": "en-236",
@@ -2032,13 +2032,13 @@
       "test": 7,
       "text": "What does this road sign mean?",
       "options": [
-        "Bus stop ahead.",
-        "Train station ahead.",
-        "Taxi stand ahead.",
-        "Police station ahead."
+        "Fire truck entrance ahead on the right",
+        "Bus entrance ahead on the right",
+        "Truck entrance ahead on the right",
+        "None of the above"
       ],
       "correctIndex": 0,
-      "imageName": "136"
+      "imageName": "116"
     },
     {
       "id": "en-237",
@@ -2047,13 +2047,13 @@
       "test": 7,
       "text": "What does this road sign mean?",
       "options": [
-        "You have the right-of-way.",
-        "Others have the right-of-way.",
-        "Stop sign ahead.",
-        "Traffic lights ahead."
+        "Vehicles that do not stop at this red light will be photographed.",
+        "Police are present at this intersection.",
+        "Vehicles that stop at this red light will be photographed.",
+        "You must obey the traffic signals."
       ],
-      "correctIndex": 1,
-      "imageName": "137"
+      "correctIndex": 0,
+      "imageName": "117"
     },
     {
       "id": "en-238",
@@ -2062,13 +2062,13 @@
       "test": 7,
       "text": "What does this road sign mean?",
       "options": [
-        "The road turns to the right.",
-        "The road turns to the left.",
-        "The road turns left and then right.",
-        "The road is straight."
+        "You may stop temporarily to load or unload goods, but not to pick up or drop off passengers.",
+        "You may not stop for any reason.",
+        "You may stop temporarily to pick up or drop off passengers or to load or unload goods.",
+        "You may stop temporarily to pick up or drop off passengers, but not to load or unload goods."
       ],
-      "correctIndex": 0,
-      "imageName": "138"
+      "correctIndex": 3,
+      "imageName": "118"
     },
     {
       "id": "en-239",
@@ -2077,28 +2077,28 @@
       "test": 7,
       "text": "What does this road sign mean?",
       "options": [
-        "Parking is allowed only for persons with disabilities.",
-        "Parking is allowed for everyone.",
-        "Parking is prohibited for persons with disabilities.",
-        "Parking for taxis only."
+        "Slow vehicles must turn right.",
+        "Slow vehicles must keep to the right.",
+        "The right lane is for faster traffic.",
+        "Slow down when you are in the right lane."
       ],
-      "correctIndex": 0,
-      "imageName": "139"
+      "correctIndex": 1,
+      "imageName": "119"
     },
     {
       "id": "en-240",
       "language": "en",
       "category": "signs",
       "test": 7,
-      "text": "What does this road sign mean?",
+      "text": "What does this sign mean?",
       "options": [
-        "Wild animal crossing ahead.",
-        "Pet crossing ahead.",
-        "Pedestrian crossing ahead.",
-        "Bicycle crossing ahead."
+        "Slow down to avoid skidding and swerving.",
+        "The road surface is slippery when wet.",
+        "Pavement ends ahead.",
+        "The road surface is under repair, which may make your vehicle skid."
       ],
-      "correctIndex": 0,
-      "imageName": "140"
+      "correctIndex": 1,
+      "imageName": "120"
     },
     {
       "id": "en-241",
@@ -2712,7 +2712,7 @@
         "0.05%.",
         "0.02%."
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "imageName": null
     },
     {
@@ -2728,7 +2728,7 @@
         "The one turning left has the right-of-way."
       ],
       "correctIndex": 0,
-      "imageName": null
+      "imageName": "161"
     },
     {
       "id": "en-283",
@@ -6005,300 +6005,300 @@
       "language": "fa",
       "category": "signs",
       "test": 7,
-      "text": "اين علامت به چه معناست؟",
+      "text": "این تابلوی راه به چه معناست؟",
       "options": [
-        "راه باريك مى‌شود.",
-        "راه دوطرفه مى‌شود.",
-        "راه يكطرفه مى‌شود.",
-        "جاده به سمت چپ می‌پیچد."
+        "جاده جلو به راست و سپس به چپ می‌پیچد.",
+        "جاده جلو به چپ و سپس به راست می‌پیچد.",
+        "تقاطع جلوتر",
+        "جاده باریکی در پیش است."
       ],
       "correctIndex": 0,
-      "imageName": "121"
+      "imageName": "101"
     },
     {
       "id": "fa-222",
       "language": "fa",
       "category": "signs",
       "test": 7,
-      "text": "اين تابلوى راه به چه معناست؟",
+      "text": "این تابلوی راه به چه معناست؟",
       "options": [
-        "پایان بزرگراه تقسیم شده.",
-        "شروع بزرگراه تقسیم شده.",
-        "جاده باریک می‌شود.",
-        "جاده به راست می‌پیچد."
+        "حداکثر سرعت مجاز در شب",
+        "سرعت توصیه‌شده در منطقه ساخت و ساز",
+        "این تابلو که زیر علامت هشدار پیچ نصب شده است، حداکثر سرعت ایمن برای پیچ را نشان می‌دهد.",
+        "حداکثر سرعت ایمن در شانه جاده"
       ],
-      "correctIndex": 1,
-      "imageName": "122"
+      "correctIndex": 2,
+      "imageName": "102"
     },
     {
       "id": "fa-223",
       "language": "fa",
       "category": "signs",
       "test": 7,
-      "text": "اين تابلوى راه به چه معناست؟",
+      "text": "این تابلوی راه به چه معناست؟",
       "options": [
-        "عبور عابر پیاده ممنوع.",
-        "عبور دوچرخه ممنوع.",
-        "گذرگاه عابر پیاده در پیش است.",
-        "گذرگاه دوچرخه در پیش است."
+        "عبور مجاز نیست.",
+        "جاده شیب‌دار جلوتر",
+        "احتمال ریزش سنگ در پیش رو",
+        "ورود کامیون مجاز نیست."
       ],
       "correctIndex": 2,
-      "imageName": "123"
+      "imageName": "103"
     },
     {
       "id": "fa-224",
       "language": "fa",
       "category": "signs",
       "test": 7,
-      "text": "اين تابلوى راه به چه معناست؟",
+      "text": "این علامت به معنای مجاز بودن پارک برای چه خودرویی است؟",
       "options": [
-        "راه در جلو بسته است.",
-        "حق تقدم با شماست.",
-        "تقاطع راه‌آهن در پیش است.",
-        "تابلوی ایست در پیش است."
+        "محل پارک برای خودروهای برقی",
+        "فقط برای وسایل نقلیه با مسافران بسیار خردسال",
+        "فقط برای وسایل نقلیه‌ای که دارای مجوز معتبر پارک در این مکان هستند.",
+        "محل پارک برای همه وسایل نقلیه"
       ],
-      "correctIndex": 3,
-      "imageName": "124"
+      "correctIndex": 2,
+      "imageName": "104"
     },
     {
       "id": "fa-225",
       "language": "fa",
       "category": "signs",
       "test": 7,
-      "text": "اين تابلوى راه به چه معناست؟",
+      "text": "این تابلوی راه به چه معناست؟",
       "options": [
-        "حداکثر سرعت مجاز 60 کیلومتر در ساعت است.",
-        "حداقل سرعت مجاز 60 کیلومتر در ساعت است.",
-        "محدودیت سرعت به 60 کیلومتر در ساعت تغییر می‌کند.",
-        "پایان محدودیت سرعت."
+        "وسایل نقلیه با سرعت آهسته در جلو",
+        "خیابان بن‌بست در پیش رو است.",
+        "علامت توقف جلوتر است.",
+        "علامت حق تقدم جلوتر است."
       ],
-      "correctIndex": 0,
-      "imageName": "125"
+      "correctIndex": 2,
+      "imageName": "105"
     },
     {
       "id": "fa-226",
       "language": "fa",
       "category": "signs",
       "test": 7,
-      "text": "اين تابلوى راه به چه معناست؟",
+      "text": "این تابلوی راه به چه معناست؟",
       "options": [
-        "پارک کردن مجاز است.",
-        "پارک کردن ممنوع است.",
-        "توقف ممنوع است.",
-        "پارک کردن فقط برای اتوبوس مجاز است."
+        "این خط فقط برای کامیون‌ها است.",
+        "این خط فقط مخصوص اتوبوس است.",
+        "این خط فقط مخصوص دوچرخه است.",
+        "این خط مخصوص دوچرخه نیست."
       ],
-      "correctIndex": 1,
-      "imageName": "126"
+      "correctIndex": 2,
+      "imageName": "106"
     },
     {
       "id": "fa-227",
       "language": "fa",
       "category": "signs",
       "test": 7,
-      "text": "اين تابلوى راه به چه معناست؟",
+      "text": "این تابلوی راه به چه معناست؟",
       "options": [
-        "چراغ راهنمایی در پیش است.",
-        "تقاطع بدون کنترل در پیش است.",
-        "پل متحرک در پیش است.",
-        "دوربرگردان مجاز است."
+        "بزرگراه تقسیم‌شده جلوتر",
+        "خیابان یک‌طرفه جلوتر",
+        "تقاطع مخفی پیش رو",
+        "جاده باریکی در پیش است."
       ],
-      "correctIndex": 0,
-      "imageName": "127"
+      "correctIndex": 3,
+      "imageName": "107"
     },
     {
       "id": "fa-228",
       "language": "fa",
       "category": "signs",
       "test": 7,
-      "text": "اين تابلوى راه به چه معناست؟",
+      "text": "این تابلوی راه به چه معناست؟",
       "options": [
-        "گردش به راست مجاز است.",
-        "گردش به راست ممنوع است.",
-        "گردش به چپ مجاز است.",
-        "گردش به چپ ممنوع است."
+        "جاده باریکی در پیش رو است.",
+        "تقاطع راه‌آهن جلوتر",
+        "تقاطع جلوتر",
+        "تقاطع مخفی پیش رو"
       ],
-      "correctIndex": 1,
-      "imageName": "128"
+      "correctIndex": 2,
+      "imageName": "108"
     },
     {
       "id": "fa-229",
       "language": "fa",
       "category": "signs",
       "test": 7,
-      "text": "اين تابلوى راه به چه معناست؟",
+      "text": "این تابلوی راه به چه معناست؟",
       "options": [
-        "خروجی سمت راست در پیش است.",
-        "راه باریک می‌شود.",
-        "خروجی سمت چپ در پیش است.",
-        "جاده به سمت چپ می‌پیچد."
+        "بزرگراه تقسیم‌شده به پایان می‌رسد.",
+        "بزرگراه تقسیم‌شده جلوتر",
+        "جاده در حال ساخت",
+        "پل باریک جلوتر"
       ],
       "correctIndex": 0,
-      "imageName": "129"
+      "imageName": "109"
     },
     {
       "id": "fa-230",
       "language": "fa",
       "category": "signs",
       "test": 7,
-      "text": "اين تابلوى راه به چه معناست؟",
+      "text": "این تابلوی راه به چه معناست؟",
       "options": [
-        "ایستادن مجاز است.",
-        "ایستادن ممنوع است.",
-        "پارک کردن مجاز است.",
-        "پارک کردن فقط برای تاکسی مجاز است."
+        "برای حیوانات بوق نزنید.",
+        "مسیر حیوانات، فقط برای گوزن‌ها",
+        "یک باغ‌وحش در پیش رو است.",
+        "در این بخش از جاده، گوزن‌ها ممکن است به طور مکرر از جاده عبور کنند."
       ],
-      "correctIndex": 1,
-      "imageName": "130"
+      "correctIndex": 3,
+      "imageName": "110"
     },
     {
       "id": "fa-231",
       "language": "fa",
       "category": "signs",
       "test": 7,
-      "text": "اين تابلوى راه به چه معناست؟",
+      "text": "این تابلوی راه به چه معناست؟",
       "options": [
-        "پل متحرک در پیش است.",
-        "پل باریک در پیش است.",
-        "پل در پیش است.",
-        "پل بسته است."
+        "هیچ کدام از موارد بالا",
+        "تقاطع با جاده آسفالت‌نشده جلوتر",
+        "تقاطع راه‌آهن جلوتر",
+        "تقاطع پل جلوتر"
       ],
       "correctIndex": 2,
-      "imageName": "131"
+      "imageName": "111"
     },
     {
       "id": "fa-232",
       "language": "fa",
       "category": "signs",
       "test": 7,
-      "text": "اين تابلوى راه به چه معناست؟",
+      "text": "این تابلوی راه به چه معناست؟",
       "options": [
-        "جاده به چپ می‌پیچد.",
-        "جاده به راست می‌پیچد.",
-        "پیچ تند به راست در پیش است.",
-        "پیچ تند به چپ در پیش است."
+        "کارخانه جلوتر",
+        "منطقه ساخت و ساز در پیش است.",
+        "جاده سنگفرش یا سنگفرش ناهموار پیش رو",
+        "وجود پل جلوتر"
       ],
-      "correctIndex": 0,
-      "imageName": "132"
+      "correctIndex": 2,
+      "imageName": "112"
     },
     {
       "id": "fa-233",
       "language": "fa",
       "category": "signs",
       "test": 7,
-      "text": "اين تابلوى راه به چه معناست؟",
+      "text": "این تابلوی راه به چه معناست؟",
       "options": [
-        "سطح جاده ناهموار است.",
-        "جاده لغزنده است.",
-        "جاده پر از دست انداز است.",
-        "آب روی جاده است."
+        "ماشین‌های برفی (اسنوموبیل) جلوتر از این جاده عبور می‌کنند.",
+        "ورود ماشین‌های برفی (اسنوموبیل) ممنوع است.",
+        "یک تعمیرگاه ماشین برفی (اسنوموبیل) جلوتر است.",
+        "جلوتر پارکینگ ماشین برفی (اسنوموبیل) وجود دارد."
       ],
-      "correctIndex": 2,
-      "imageName": "133"
+      "correctIndex": 0,
+      "imageName": "113"
     },
     {
       "id": "fa-234",
       "language": "fa",
       "category": "signs",
       "test": 7,
-      "text": "اين تابلوى راه به چه معناست؟",
+      "text": "این تابلوی راه به چه معناست؟",
       "options": [
-        "راه یکطرفه است.",
-        "راه دوطرفه است.",
-        "جاده به سمت راست می‌پیچد.",
-        "جاده به سمت چپ می‌پیچد."
+        "این یک کراس‌اوور عابر پیاده است.",
+        "در این قسمت از ایستادن و توقف خودداری کنید.",
+        "این منطقه ساخت و ساز است.",
+        "تقاطع را مسدود نکنید."
       ],
-      "correctIndex": 1,
-      "imageName": "134"
+      "correctIndex": 0,
+      "imageName": "114"
     },
     {
       "id": "fa-235",
       "language": "fa",
       "category": "signs",
       "test": 7,
-      "text": "اين تابلوى راه به چه معناست؟",
+      "text": "این تابلوی راه به چه معناست؟",
       "options": [
-        "ورود کامیون مجاز است.",
-        "ورود کامیون ممنوع است.",
-        "ورود اتوبوس ممنوع است.",
-        "ورود دوچرخه ممنوع است."
+        "این جاده یک مسیر رسمی دوچرخه‌سواری است.",
+        "یک گذرگاه دوچرخه در جلو وجود دارد.",
+        "تردد عابر پیاده در این جاده ممنوع است.",
+        "این خط فقط مخصوص دوچرخه است."
       ],
-      "correctIndex": 1,
-      "imageName": "135"
+      "correctIndex": 0,
+      "imageName": "115"
     },
     {
       "id": "fa-236",
       "language": "fa",
       "category": "signs",
       "test": 7,
-      "text": "اين تابلوى راه به چه معناست؟",
+      "text": "این تابلوی راه به چه معناست؟",
       "options": [
-        "ایستگاه اتوبوس در پیش است.",
-        "ایستگاه قطار در پیش است.",
-        "ایستگاه تاکسی در پیش است.",
-        "ایستگاه پلیس در پیش است."
+        "ورودی ماشین آتش‌نشانی جلوتر در سمت راست",
+        "ورودی اتوبوس جلوتر در سمت راست",
+        "ورودی کامیون جلوتر در سمت راست",
+        "هیچ کدام از موارد بالا"
       ],
       "correctIndex": 0,
-      "imageName": "136"
+      "imageName": "116"
     },
     {
       "id": "fa-237",
       "language": "fa",
       "category": "signs",
       "test": 7,
-      "text": "اين تابلوى راه به چه معناست؟",
+      "text": "این تابلوی راه به چه معناست؟",
       "options": [
-        "حق تقدم با شماست.",
-        "حق تقدم با دیگران است.",
-        "تابلوی ایست در پیش است.",
-        "چراغ راهنمایی در پیش است."
+        "از خودروهایی که در این چراغ قرمز توقف نکنند، عکس گرفته خواهد شد.",
+        "در این تقاطع پلیس حضور دارد.",
+        "از خودروهایی که در این چراغ قرمز توقف کنند، عکس گرفته خواهد شد.",
+        "شما باید از سیگنال‌های ترافیکی پیروی کنید."
       ],
-      "correctIndex": 1,
-      "imageName": "137"
+      "correctIndex": 0,
+      "imageName": "117"
     },
     {
       "id": "fa-238",
       "language": "fa",
       "category": "signs",
       "test": 7,
-      "text": "اين تابلوى راه به چه معناست؟",
+      "text": "این تابلوی راه به چه معناست؟",
       "options": [
-        "جاده به سمت راست می‌پیچد.",
-        "جاده به سمت چپ می‌پیچد.",
-        "جاده به سمت چپ و سپس راست می‌پیچد.",
-        "جاده مستقیم است."
+        "می‌توانید به طور موقت برای بارگیری یا تخلیه کالا توقف کنید، اما نه برای سوار یا پیاده کردن مسافران.",
+        "به هیچ دلیلی اجازه توقف ندارید.",
+        "می‌توانید به طور موقت برای سوار یا پیاده کردن مسافران یا بارگیری یا تخلیه کالا توقف کنید.",
+        "می‌توانید به طور موقت برای سوار یا پیاده کردن مسافران توقف کنید، اما نه برای بارگیری یا تخلیه کالا."
       ],
-      "correctIndex": 0,
-      "imageName": "138"
+      "correctIndex": 3,
+      "imageName": "118"
     },
     {
       "id": "fa-239",
       "language": "fa",
       "category": "signs",
       "test": 7,
-      "text": "اين تابلوى راه به چه معناست؟",
+      "text": "این تابلوی راه به چه معناست؟",
       "options": [
-        "پارک کردن فقط برای معلولین مجاز است.",
-        "پارک کردن برای همه مجاز است.",
-        "پارک کردن برای معلولین ممنوع است.",
-        "پارک کردن فقط برای تاکسی مجاز است."
+        "وسایل نقلیه کندرو باید به سمت راست بپیچند.",
+        "وسایل نقلیه کندرو باید در سمت راست حرکت کنند.",
+        "خط راست برای ترافیک سریع‌تر است.",
+        "وقتی در لاین سمت راست هستید سرعت خود را کم کنید."
       ],
-      "correctIndex": 0,
-      "imageName": "139"
+      "correctIndex": 1,
+      "imageName": "119"
     },
     {
       "id": "fa-240",
       "language": "fa",
       "category": "signs",
       "test": 7,
-      "text": "اين تابلوى راه به چه معناست؟",
+      "text": "این علامت به چه معناست؟",
       "options": [
-        "عبور حیوانات وحشی در پیش است.",
-        "عبور حیوانات خانگی در پیش است.",
-        "عبور عابر پیاده در پیش است.",
-        "عبور دوچرخه در پیش است."
+        "برای جلوگیری از لغزش و انحراف، سرعت خود را کاهش دهید.",
+        "سطح جاده هنگام خیس بودن لغزنده است.",
+        "سطح آسفالت در جلو تمام می‌شود.",
+        "سطح جاده در دست تعمیر است که ممکن است بر لغزش خودروی شما تأثیر بگذارد."
       ],
-      "correctIndex": 0,
-      "imageName": "140"
+      "correctIndex": 1,
+      "imageName": "120"
     },
     {
       "id": "fa-241",
@@ -6912,7 +6912,7 @@
         "0.05%.",
         "0.02%."
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "imageName": null
     },
     {
@@ -6928,7 +6928,7 @@
         "كس كه به چپ مى چرخد حق تقدم دارد."
       ],
       "correctIndex": 0,
-      "imageName": null
+      "imageName": "161"
     },
     {
       "id": "fa-283",
