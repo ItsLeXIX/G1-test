@@ -1,303 +1,4203 @@
 {
   "questions": [
     {
-      "id": "en-1",
-      "language": "en",
-      "category": "rules",
-      "test": 1,
-      "text": "What does a red traffic light mean?",
-      "options": [
-        "Stop",
-        "Go",
-        "Yield",
-        "Speed up"
-      ],
-      "correctIndex": 0,
-      "imageName": null
-    },
-    {
-      "id": "en-2",
-      "language": "en",
-      "category": "rules",
-      "test": 1,
-      "text": "When should you yield at an intersection?",
-      "options": [
-        "When you see a stop sign",
-        "When entering from a side road",
-        "Only if there are pedestrians",
-        "Never"
-      ],
-      "correctIndex": 1,
-      "imageName": null
-    },
-    {
-      "id": "en-3",
+      "id": "en-101",
       "language": "en",
       "category": "signs",
       "test": 1,
-      "text": "What shape is a STOP sign?",
+      "text": "What does this construction sign mean?",
       "options": [
-        "Octagon",
-        "Triangle",
-        "Circle",
-        "Rectangle"
+        "The street is paved or grooved.",
+        "Road work ahead.",
+        "Construction sign replacing a flagger on duty.",
+        "Construction sign to slow down and obey the flagger's direction."
+      ],
+      "correctIndex": 1,
+      "imageName": "1"
+    },
+    {
+      "id": "en-102",
+      "language": "en",
+      "category": "signs",
+      "test": 1,
+      "text": "What does this road sign mean?",
+      "options": [
+        "You must turn left.",
+        "You must turn right.",
+        "You must go straight.",
+        "All turns are permitted."
+      ],
+      "correctIndex": 1,
+      "imageName": "2"
+    },
+    {
+      "id": "en-103",
+      "language": "en",
+      "category": "signs",
+      "test": 1,
+      "text": "What does this sign on the back of a vehicle mean?",
+      "options": [
+        "Slow-moving vehicle",
+        "Stop sign ahead",
+        "Vehicle carrying dangerous goods",
+        "Yield the right-of-way"
       ],
       "correctIndex": 0,
       "imageName": "3"
     },
     {
-      "id": "en-4",
-      "language": "en",
-      "category": "rules",
-      "test": 1,
-      "text": "At a four‑way stop, who has the right‑of‑way?",
-      "options": [
-        "The largest vehicle",
-        "The vehicle that stops first",
-        "The vehicle on the left",
-        "Whoever flashes headlights"
-      ],
-      "correctIndex": 1,
-      "imageName": null
-    },
-    {
-      "id": "en-5",
+      "id": "en-104",
       "language": "en",
       "category": "signs",
       "test": 1,
-      "text": "A YIELD sign means you must…",
+      "text": "What does this road sign mean?",
       "options": [
-        "Slow down and give right‑of‑way",
-        "Stop completely every time",
-        "Speed up to merge first",
-        "Ignore if no police are present"
+        "Hotel",
+        "Horse racing",
+        "Hills",
+        "Hospital"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
+      "imageName": "4"
+    },
+    {
+      "id": "en-105",
+      "language": "en",
+      "category": "signs",
+      "test": 1,
+      "text": "What does this road sign mean?",
+      "options": [
+        "Nothing is permitted",
+        "U-turns are permitted",
+        "No left turn",
+        "No U-turn"
+      ],
+      "correctIndex": 3,
       "imageName": "5"
     },
     {
-      "id": "en-6",
-      "language": "en",
-      "category": "rules",
-      "test": 1,
-      "text": "What is the minimum safe following distance in good conditions?",
-      "options": [
-        "Two‑second rule",
-        "Half a car length",
-        "One second",
-        "Five car lengths"
-      ],
-      "correctIndex": 0,
-      "imageName": null
-    },
-    {
-      "id": "en-7",
+      "id": "en-106",
       "language": "en",
       "category": "signs",
       "test": 1,
-      "text": "This sign warns of a train crossing ahead. What should you do?",
+      "text": "What does this road sign mean?",
       "options": [
-        "Speed up to beat the train",
-        "Look, listen, and be prepared to stop",
-        "Turn around immediately",
-        "Park on the tracks briefly"
+        "There are airplanes.",
+        "Airplane landing",
+        "Route to an airport.",
+        "Air show ahead."
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
+      "imageName": "6"
+    },
+    {
+      "id": "en-107",
+      "language": "en",
+      "category": "signs",
+      "test": 1,
+      "text": "What does this road sign mean?",
+      "options": [
+        "Parking to the right",
+        "The road ahead turns slightly to the right.",
+        "The road ahead turns sharply to the right.",
+        "Traffic must exit to the right."
+      ],
+      "correctIndex": 2,
       "imageName": "7"
     },
     {
-      "id": "en-8",
-      "language": "en",
-      "category": "rules",
-      "test": 1,
-      "text": "What must you do when a school bus has flashing red lights?",
-      "options": [
-        "Pass carefully on the left",
-        "Slow down and proceed",
-        "Stop from both directions until the lights stop",
-        "Honk and continue"
-      ],
-      "correctIndex": 2,
-      "imageName": null
-    },
-    {
-      "id": "en-9",
+      "id": "en-108",
       "language": "en",
       "category": "signs",
       "test": 1,
-      "text": "‘Divided highway begins’ means…",
+      "text": "What does this road sign mean?",
       "options": [
-        "A median will separate directions ahead",
-        "Road narrows to one lane",
-        "Two‑way traffic ends",
-        "One‑way street begins"
+        "No left turn.",
+        "Going straight is not permitted.",
+        "Going straight is permitted.",
+        "Right turns are not permitted."
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
+      "imageName": "8"
+    },
+    {
+      "id": "en-109",
+      "language": "en",
+      "category": "signs",
+      "test": 1,
+      "text": "What does this road sign mean?",
+      "options": [
+        "Water on the road",
+        "Uneven or bumpy road surface ahead",
+        "Narrow road ahead",
+        "The bridge ahead lifts to let boats pass"
+      ],
+      "correctIndex": 3,
       "imageName": "9"
     },
     {
-      "id": "en-10",
-      "language": "en",
-      "category": "rules",
-      "test": 1,
-      "text": "A solid yellow line on your side of the road means…",
-      "options": [
-        "No passing",
-        "Passing allowed",
-        "Bus lane",
-        "Bike lane"
-      ],
-      "correctIndex": 0,
-      "imageName": null
-    },
-    {
-      "id": "en-11",
+      "id": "en-110",
       "language": "en",
       "category": "signs",
       "test": 1,
-      "text": "This sign means the road may be slippery when wet. What should you do?",
+      "text": "What does this road sign mean?",
       "options": [
-        "Brake hard",
-        "Slow down and avoid sudden moves",
-        "Turn off headlights",
-        "Speed up to dry the tires"
+        "You must yield the right-of-way.",
+        "You have the right-of-way.",
+        "There is a school zone ahead.",
+        "There is a railway crossing ahead."
+      ],
+      "correctIndex": 0,
+      "imageName": "10"
+    },
+    {
+      "id": "en-111",
+      "language": "en",
+      "category": "signs",
+      "test": 1,
+      "text": "This sign indicates",
+      "options": [
+        "A temporary condition",
+        "A prohibition",
+        "A warning",
+        "Information and direction"
       ],
       "correctIndex": 1,
       "imageName": "11"
     },
     {
-      "id": "en-12",
-      "language": "en",
-      "category": "rules",
-      "test": 1,
-      "text": "When must you use headlights?",
-      "options": [
-        "Only on highways",
-        "Only in rain",
-        "Only outside cities",
-        "From sunset to sunrise or when visibility is poor"
-      ],
-      "correctIndex": 3,
-      "imageName": null
-    },
-    {
-      "id": "en-13",
+      "id": "en-112",
       "language": "en",
       "category": "signs",
       "test": 1,
-      "text": "Two‑way traffic ahead sign warns you to…",
+      "text": "What does this road sign mean?",
       "options": [
-        "Expect traffic only in your lane",
-        "Expect oncoming traffic",
-        "Road closed ahead",
-        "Freeway begins"
+        "Snowmobile parking only",
+        "Snowmobiles may use this road",
+        "Snowmobiles are not allowed on this road",
+        "Snowmobile repair shop ahead."
       ],
       "correctIndex": 1,
+      "imageName": "12"
+    },
+    {
+      "id": "en-113",
+      "language": "en",
+      "category": "signs",
+      "test": 1,
+      "text": "What does this sign mean?",
+      "options": [
+        "Keep a set distance",
+        "Construction work is underway ahead",
+        "Road closed ahead! Merge with traffic",
+        "Follow the detour signs to return to the main route"
+      ],
+      "correctIndex": 3,
       "imageName": "13"
     },
     {
-      "id": "en-14",
-      "language": "en",
-      "category": "rules",
-      "test": 1,
-      "text": "When an emergency vehicle approaches with lights and siren, you must…",
-      "options": [
-        "Maintain speed",
-        "Stop in your lane",
-        "Pull to the right and stop",
-        "Speed up to clear the way"
-      ],
-      "correctIndex": 2,
-      "imageName": null
-    },
-    {
-      "id": "en-15",
+      "id": "en-114",
       "language": "en",
       "category": "signs",
       "test": 1,
-      "text": "No‑passing zone (pennant) means…",
+      "text": "What does this road sign mean?",
       "options": [
-        "Bus lane ahead",
-        "Passing allowed for trucks",
-        "Do not pass in this area",
-        "Keep right of island"
+        "Traffic lights ahead.",
+        "Railway crossing ahead.",
+        "Stop sign ahead.",
+        "Bump ahead."
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
+      "imageName": "14"
+    },
+    {
+      "id": "en-115",
+      "language": "en",
+      "category": "signs",
+      "test": 1,
+      "text": "What does this road sign mean?",
+      "options": [
+        "Idling a vehicle's engine for more than 3 minutes is prohibited.",
+        "Stopping for more than 3 minutes is not allowed",
+        "Do not smoke for more than 3 minutes",
+        "Parking in this area is allowed for 3 minutes."
+      ],
+      "correctIndex": 0,
       "imageName": "15"
     },
     {
-      "id": "en-16",
-      "language": "en",
-      "category": "rules",
-      "test": 1,
-      "text": "What should you do if you start to hydroplane?",
-      "options": [
-        "Brake hard and steer sharply",
-        "Accelerate to regain traction",
-        "Ease off the accelerator and steer gently",
-        "Turn off traction control"
-      ],
-      "correctIndex": 2,
-      "imageName": null
-    },
-    {
-      "id": "en-17",
+      "id": "en-116",
       "language": "en",
       "category": "signs",
       "test": 1,
-      "text": "Merge sign indicates you should…",
+      "text": "What does this road sign mean?",
       "options": [
-        "Stop and wait",
-        "Adjust speed and merge when safe",
-        "Make a U‑turn",
-        "Drive on the shoulder"
+        "Watch for pedestrians",
+        "Do not slow down.",
+        "Do not block the intersection.",
+        "Speed up in the intersection."
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
+      "imageName": "16"
+    },
+    {
+      "id": "en-117",
+      "language": "en",
+      "category": "signs",
+      "test": 1,
+      "text": "What does this road sign mean?",
+      "options": [
+        "No passing",
+        "No parking",
+        "No cars allowed",
+        "Do not stop"
+      ],
+      "correctIndex": 0,
       "imageName": "17"
     },
     {
-      "id": "en-18",
-      "language": "en",
-      "category": "rules",
-      "test": 1,
-      "text": "What is the legal blood‑alcohol limit for G1 drivers?",
-      "options": [
-        "0.05",
-        "0.00 (zero tolerance)",
-        "0.03",
-        "0.08"
-      ],
-      "correctIndex": 1,
-      "imageName": null
-    },
-    {
-      "id": "en-19",
+      "id": "en-118",
       "language": "en",
       "category": "signs",
       "test": 1,
-      "text": "Pedestrian crossing sign means…",
+      "text": "What does this road sign mean?",
       "options": [
-        "No pedestrians allowed",
-        "Playground ahead",
-        "Pedestrian crossing ahead—be prepared to stop",
-        "School bus stop only"
+        "Right turns are not permitted.",
+        "Left turns are not permitted.",
+        "There is a hidden side road ahead.",
+        "U-turns are not permitted."
+      ],
+      "correctIndex": 2,
+      "imageName": "18"
+    },
+    {
+      "id": "en-119",
+      "language": "en",
+      "category": "signs",
+      "test": 1,
+      "text": "What does this road sign mean?",
+      "options": [
+        "No parking",
+        "No stopping",
+        "Bicycles are not allowed on this road.",
+        "Bicycles are allowed on this road."
       ],
       "correctIndex": 2,
       "imageName": "19"
     },
     {
-      "id": "en-20",
+      "id": "en-120",
+      "language": "en",
+      "category": "signs",
+      "test": 1,
+      "text": "What does this road sign mean?",
+      "options": [
+        "Parking is not allowed at any time.",
+        "You cannot park between the signs during the times shown.",
+        "You can park in the marked area during the times shown.",
+        "Only weekend parking is not prohibited."
+      ],
+      "correctIndex": 2,
+      "imageName": "20"
+    },
+    {
+      "id": "en-121",
       "language": "en",
       "category": "rules",
-      "test": 1,
-      "text": "A flashing amber (yellow) traffic light means…",
+      "test": 2,
+      "text": "If a driver is convicted of careless driving, they receive six demerit points and can face what?",
       "options": [
-        "Stop and wait for green",
-        "Stop, then proceed when safe",
-        "Speed up to clear the intersection",
-        "Proceed with caution"
+        "All of the above",
+        "A fine of up to $2,000",
+        "Up to six months in jail",
+        "A licence suspension of up to two years"
+      ],
+      "correctIndex": 0,
+      "imageName": null
+    },
+    {
+      "id": "en-122",
+      "language": "en",
+      "category": "rules",
+      "test": 2,
+      "text": "While driving on a two-way street, you hear the siren of an emergency vehicle. What does the law require you to do?",
+      "options": [
+        "Speed up and get out of the way",
+        "Signal the driver to pass",
+        "Pull over as far to the right as possible and stop",
+        "Continue at the same speed"
+      ],
+      "correctIndex": 2,
+      "imageName": null
+    },
+    {
+      "id": "en-123",
+      "language": "en",
+      "category": "rules",
+      "test": 2,
+      "text": "If you receive a call while driving and no one else is there to answer it, what should you do?",
+      "options": [
+        "Pull over and park before using the phone",
+        "Answer the phone and hang up quickly",
+        "Answer the phone immediately",
+        "Text that you are driving"
+      ],
+      "correctIndex": 0,
+      "imageName": null
+    },
+    {
+      "id": "en-124",
+      "language": "en",
+      "category": "rules",
+      "test": 2,
+      "text": "A flashing green light at an intersection means…",
+      "options": [
+        "You may turn right",
+        "You may go straight",
+        "All of the above",
+        "You may turn left"
+      ],
+      "correctIndex": 2,
+      "imageName": null
+    },
+    {
+      "id": "en-125",
+      "language": "en",
+      "category": "rules",
+      "test": 2,
+      "text": "Under what circumstances can a driver's licence be cancelled?",
+      "options": [
+        "Any of the above",
+        "Tampering with or forging the licence",
+        "Failing a re-examination",
+        "Failing to attend a required test or medical examination"
+      ],
+      "correctIndex": 0,
+      "imageName": null
+    },
+    {
+      "id": "en-126",
+      "language": "en",
+      "category": "rules",
+      "test": 2,
+      "text": "Convicted of fleeing from police: the licence is suspended for how long?",
+      "options": [
+        "5 years",
+        "5 weeks",
+        "5 months",
+        "3 days"
+      ],
+      "correctIndex": 0,
+      "imageName": null
+    },
+    {
+      "id": "en-127",
+      "language": "en",
+      "category": "rules",
+      "test": 2,
+      "text": "A 19-year-old G2 driver with more than 6 months of experience: how many unrelated passengers aged 19 or under can they carry between midnight and 5 a.m.?",
+      "options": [
+        "2",
+        "4",
+        "1",
+        "3"
       ],
       "correctIndex": 3,
+      "imageName": null
+    },
+    {
+      "id": "en-128",
+      "language": "en",
+      "category": "rules",
+      "test": 2,
+      "text": "In Ontario, when must you dim your high beams at night?",
+      "options": [
+        "When you are within 150 metres of another vehicle",
+        "When you are within 400 metres of another vehicle",
+        "When you are within 60 metres of an oncoming vehicle or 150 metres of a vehicle you are following",
+        "When you are within 150 metres of an oncoming vehicle or 60 metres of a vehicle you are following"
+      ],
+      "correctIndex": 3,
+      "imageName": null
+    },
+    {
+      "id": "en-129",
+      "language": "en",
+      "category": "rules",
+      "test": 2,
+      "text": "When you are in a roundabout…",
+      "options": [
+        "Drive clockwise",
+        "You may change lanes",
+        "You may stop",
+        "Drive counter-clockwise"
+      ],
+      "correctIndex": 3,
+      "imageName": null
+    },
+    {
+      "id": "en-130",
+      "language": "en",
+      "category": "rules",
+      "test": 2,
+      "text": "You arrive at an intersection where the traffic lights are not working. What should you do?",
+      "options": [
+        "Do not give up the right-of-way",
+        "Slow down and proceed with caution",
+        "Treat it like an all-way stop intersection",
+        "Speed up and proceed with caution"
+      ],
+      "correctIndex": 2,
+      "imageName": null
+    },
+    {
+      "id": "en-131",
+      "language": "en",
+      "category": "rules",
+      "test": 2,
+      "text": "The light is red and a police officer signals you to go through. What do you do?",
+      "options": [
+        "Stop and make sure",
+        "Wait until it turns green",
+        "Go through",
+        "Tell the officer the light is red"
+      ],
+      "correctIndex": 2,
+      "imageName": null
+    },
+    {
+      "id": "en-132",
+      "language": "en",
+      "category": "rules",
+      "test": 2,
+      "text": "Your tire suddenly blows out. What do you do?",
+      "options": [
+        "Stop the vehicle off the road",
+        "Focus on steering",
+        "All of the above",
+        "Take your foot off the gas"
+      ],
+      "correctIndex": 2,
+      "imageName": null
+    },
+    {
+      "id": "en-133",
+      "language": "en",
+      "category": "rules",
+      "test": 2,
+      "text": "Near an intersection, the light changes from green to yellow. What should you do?",
+      "options": [
+        "Speed up and go through",
+        "Stop if it is safe; otherwise proceed with caution",
+        "Warn pedestrians",
+        "Warn other drivers"
+      ],
+      "correctIndex": 1,
+      "imageName": null
+    },
+    {
+      "id": "en-134",
+      "language": "en",
+      "category": "rules",
+      "test": 2,
+      "text": "A fully licensed driver with 15 demerit points: suspension for…",
+      "options": [
+        "1 week",
+        "2 weeks",
+        "30 days",
+        "3 months"
+      ],
+      "correctIndex": 2,
+      "imageName": null
+    },
+    {
+      "id": "en-135",
+      "language": "en",
+      "category": "rules",
+      "test": 2,
+      "text": "In a collision with injuries, who must you report it to?",
+      "options": [
+        "The police, immediately",
+        "The Ministry of Transportation, immediately",
+        "The police, within 48 hours",
+        "The Ministry of Transportation, within 48 hours"
+      ],
+      "correctIndex": 0,
+      "imageName": null
+    },
+    {
+      "id": "en-136",
+      "language": "en",
+      "category": "rules",
+      "test": 2,
+      "text": "What is the minimum distance when passing a cyclist?",
+      "options": [
+        "2 metres",
+        "1.5 metres",
+        "1 metre",
+        "0.5 metres"
+      ],
+      "correctIndex": 2,
+      "imageName": null
+    },
+    {
+      "id": "en-137",
+      "language": "en",
+      "category": "rules",
+      "test": 2,
+      "text": "Change of address or name: within how long must you notify the Ministry?",
+      "options": [
+        "10 days",
+        "6 days",
+        "2 weeks",
+        "1 month"
+      ],
+      "correctIndex": 1,
+      "imageName": null
+    },
+    {
+      "id": "en-138",
+      "language": "en",
+      "category": "rules",
+      "test": 2,
+      "text": "A G1/G2 driver with alcohol or drugs: which penalties will they face?",
+      "options": [
+        "All of the above",
+        "A 30-day suspension upon conviction",
+        "An immediate 3-day suspension",
+        "A fine of $60 to $500 upon conviction"
+      ],
+      "correctIndex": 0,
+      "imageName": null
+    },
+    {
+      "id": "en-139",
+      "language": "en",
+      "category": "rules",
+      "test": 2,
+      "text": "A school bus is stopped with its red lights flashing and its stop arm out…",
+      "options": [
+        "It is better to stay at least 20 metres away",
+        "If you are on the opposite side, you may continue",
+        "You must stay at least 20 metres away",
+        "Slow down to 20 km/h"
+      ],
+      "correctIndex": 2,
+      "imageName": null
+    },
+    {
+      "id": "en-140",
+      "language": "en",
+      "category": "rules",
+      "test": 2,
+      "text": "You are approaching a traffic merge sign. What do you do?",
+      "options": [
+        "Sound your horn",
+        "Adjust your speed and position",
+        "First let the cars behind you go",
+        "Come to a full stop, then go"
+      ],
+      "correctIndex": 1,
+      "imageName": null
+    },
+    {
+      "id": "en-141",
+      "language": "en",
+      "category": "signs",
+      "test": 3,
+      "text": "What does this sign mean?",
+      "options": [
+        "You must move to the right lane.",
+        "You must not drive in the right lane.",
+        "If you stay in the right lane, you may exit.",
+        "If you stay in the right lane, you must exit."
+      ],
+      "correctIndex": 3,
+      "imageName": "41"
+    },
+    {
+      "id": "en-142",
+      "language": "en",
+      "category": "signs",
+      "test": 3,
+      "text": "What does this road sign mean?",
+      "options": [
+        "Truck entrance ahead",
+        "School zone ahead",
+        "Hidden school bus stop ahead",
+        "Hidden intersection ahead"
+      ],
+      "correctIndex": 2,
+      "imageName": "42"
+    },
+    {
+      "id": "en-143",
+      "language": "en",
+      "category": "signs",
+      "test": 3,
+      "text": "You are approaching a yield sign. What should you do?",
+      "options": [
+        "Sound your horn",
+        "Stop, then slowly enter traffic.",
+        "Stop, then quickly enter traffic.",
+        "Slow down, stop if necessary, and yield the right-of-way."
+      ],
+      "correctIndex": 3,
+      "imageName": "43"
+    },
+    {
+      "id": "en-144",
+      "language": "en",
+      "category": "signs",
+      "test": 3,
+      "text": "What does this sign mean?",
+      "options": [
+        "Uncontrolled intersection",
+        "Pedestrian crossing",
+        "Do not enter",
+        "Railway crossing"
+      ],
+      "correctIndex": 3,
+      "imageName": "44"
+    },
+    {
+      "id": "en-145",
+      "language": "en",
+      "category": "signs",
+      "test": 3,
+      "text": "What does this road sign mean?",
+      "options": [
+        "Do not enter.",
+        "No standing",
+        "No passing",
+        "Do not park."
+      ],
+      "correctIndex": 0,
+      "imageName": "45"
+    },
+    {
+      "id": "en-146",
+      "language": "en",
+      "category": "signs",
+      "test": 3,
+      "text": "What does this sign mean?",
+      "options": [
+        "Narrow bridge ahead.",
+        "Road under construction",
+        "Divided highway begins.",
+        "Divided highway ends."
+      ],
+      "correctIndex": 2,
+      "imageName": "46"
+    },
+    {
+      "id": "en-147",
+      "language": "en",
+      "category": "signs",
+      "test": 3,
+      "text": "What does this road sign mean?",
+      "options": [
+        "Only pets are allowed",
+        "No pedestrians allowed",
+        "Bicycles are not allowed",
+        "No children allowed"
+      ],
+      "correctIndex": 1,
+      "imageName": "47"
+    },
+    {
+      "id": "en-148",
+      "language": "en",
+      "category": "signs",
+      "test": 3,
+      "text": "What does this sign mean?",
+      "options": [
+        "You must not drive in the right lane.",
+        "This is a two-way left-turn lane.",
+        "The highway ends ahead.",
+        "The road is splitting."
+      ],
+      "correctIndex": 1,
+      "imageName": "48"
+    },
+    {
+      "id": "en-149",
+      "language": "en",
+      "category": "signs",
+      "test": 3,
+      "text": "What does this sign mean?",
+      "options": [
+        "Parking for persons with disabilities",
+        "A survey crew is working ahead",
+        "Hospital ahead",
+        "No stopping at any time"
+      ],
+      "correctIndex": 0,
+      "imageName": "49"
+    },
+    {
+      "id": "en-150",
+      "language": "en",
+      "category": "signs",
+      "test": 3,
+      "text": "What does this road sign mean?",
+      "options": [
+        "Winding road",
+        "Slippery when wet",
+        "The road turns left and then right",
+        "Lane exits to the right."
+      ],
+      "correctIndex": 0,
+      "imageName": "50"
+    },
+    {
+      "id": "en-151",
+      "language": "en",
+      "category": "signs",
+      "test": 3,
+      "text": "What does this road sign mean?",
+      "options": [
+        "Water may flow over the road",
+        "Do not enter the road.",
+        "Construction zone ahead.",
+        "Truck entrance ahead."
+      ],
+      "correctIndex": 0,
+      "imageName": "51"
+    },
+    {
+      "id": "en-152",
+      "language": "en",
+      "category": "signs",
+      "test": 3,
+      "text": "What does this road sign mean?",
+      "options": [
+        "Truck route.",
+        "Prohibitive sign",
+        "Bicycle route.",
+        "Permissive sign."
+      ],
+      "correctIndex": 3,
+      "imageName": "52"
+    },
+    {
+      "id": "en-153",
+      "language": "en",
+      "category": "signs",
+      "test": 3,
+      "text": "What does this road sign mean?",
+      "options": [
+        "You may turn right on a red light.",
+        "Divided highway ends.",
+        "You cannot turn right on a green light.",
+        "You must not turn right on a red light."
+      ],
+      "correctIndex": 3,
+      "imageName": "53"
+    },
+    {
+      "id": "en-154",
+      "language": "en",
+      "category": "signs",
+      "test": 3,
+      "text": "What does this sign mean?",
+      "options": [
+        "There is an obstruction ahead, and the sloping lines show which side to pass on",
+        "This place is for stopping and resting.",
+        "The road comes to a dead end here.",
+        "The upward lines show which side to pass other vehicles on."
+      ],
+      "correctIndex": 0,
+      "imageName": "54"
+    },
+    {
+      "id": "en-155",
+      "language": "en",
+      "category": "signs",
+      "test": 3,
+      "text": "What does this sign mean?",
+      "options": [
+        "Do not stop during the times and days shown.",
+        "Do not enter during the times and days shown.",
+        "Only certain types of vehicles are allowed in this lane during the times and days shown.",
+        "Only bicycles are allowed in this lane during the times and days shown."
+      ],
+      "correctIndex": 2,
+      "imageName": "55"
+    },
+    {
+      "id": "en-156",
+      "language": "en",
+      "category": "signs",
+      "test": 3,
+      "text": "What does this sign mean?",
+      "options": [
+        "You must pass to the right of the obstruction ahead.",
+        "Pass other drivers on the right.",
+        "The road is winding.",
+        "The road turns to the right."
+      ],
+      "correctIndex": 0,
+      "imageName": "56"
+    },
+    {
+      "id": "en-157",
+      "language": "en",
+      "category": "signs",
+      "test": 3,
+      "text": "What does this road sign mean?",
+      "options": [
+        "Daycare ahead.",
+        "Children crossing area",
+        "Watch for persons with disabilities.",
+        "School crossing ahead"
+      ],
+      "correctIndex": 3,
+      "imageName": "57"
+    },
+    {
+      "id": "en-158",
+      "language": "en",
+      "category": "signs",
+      "test": 3,
+      "text": "This driver is using a hand signal. The driver intends to…",
+      "options": [
+        "Go left, turn left.",
+        "Turn right.",
+        "Speed up",
+        "Slow down or stop."
+      ],
+      "correctIndex": 0,
+      "imageName": "58"
+    },
+    {
+      "id": "en-159",
+      "language": "en",
+      "category": "signs",
+      "test": 3,
+      "text": "What does this sign mean?",
+      "options": [
+        "It shows provincial parks",
+        "It shows the correct spelling of cities or towns",
+        "It shows a railway crossing ahead",
+        "It shows the distance to cities or towns"
+      ],
+      "correctIndex": 3,
+      "imageName": "59"
+    },
+    {
+      "id": "en-160",
+      "language": "en",
+      "category": "signs",
+      "test": 3,
+      "text": "What does this road sign mean?",
+      "options": [
+        "Speed limit for rural schools",
+        "Maximum speed of 50 km/h from this sign to the next sign",
+        "End of the 50 km/h zone",
+        "The speed limit changes to 50 km/h ahead"
+      ],
+      "correctIndex": 3,
+      "imageName": "60"
+    },
+    {
+      "id": "en-161",
+      "language": "en",
+      "category": "rules",
+      "test": 4,
+      "text": "Which of the following is prohibited while driving?",
+      "options": [
+        "A laptop",
+        "A hand-held cell phone",
+        "All of the above",
+        "A tape/audio player"
+      ],
+      "correctIndex": 2,
+      "imageName": null
+    },
+    {
+      "id": "en-162",
+      "language": "en",
+      "category": "rules",
+      "test": 4,
+      "text": "Which documents can a police officer ask the owner of a vehicle to show?",
+      "options": [
+        "The vehicle ownership",
+        "A valid driver's licence",
+        "The liability insurance card",
+        "All of the above"
+      ],
+      "correctIndex": 3,
+      "imageName": null
+    },
+    {
+      "id": "en-163",
+      "language": "en",
+      "category": "rules",
+      "test": 4,
+      "text": "A novice driver convicted of careless driving will face which of the following penalties on a third offence?",
+      "options": [
+        "A fine, cancellation of the licence, and removal from the graduated licensing system",
+        "Removal from the graduated licensing system only",
+        "A fine, licence suspension, and demerit points",
+        "Cancellation of the licence only"
+      ],
+      "correctIndex": 0,
+      "imageName": null
+    },
+    {
+      "id": "en-164",
+      "language": "en",
+      "category": "rules",
+      "test": 4,
+      "text": "If you are convicted of driving 50 km/h or more over the speed limit, which of the following penalties will you face?",
+      "options": [
+        "A fine of at least $2,000",
+        "All of the above",
+        "A licence suspension of up to 2 years or 6 demerit points",
+        "Up to 6 months in jail"
+      ],
+      "correctIndex": 1,
+      "imageName": null
+    },
+    {
+      "id": "en-165",
+      "language": "en",
+      "category": "rules",
+      "test": 4,
+      "text": "If you become tired while driving, you should…",
+      "options": [
+        "Drink coffee.",
+        "Turn the music up louder",
+        "Open your windows to let fresh air into the car.",
+        "Stop and rest"
+      ],
+      "correctIndex": 3,
+      "imageName": null
+    },
+    {
+      "id": "en-166",
+      "language": "en",
+      "category": "rules",
+      "test": 4,
+      "text": "What should you do to control your vehicle when it skids?",
+      "options": [
+        "Press the brakes hard",
+        "Steer straight ahead",
+        "Steer in the opposite direction of the skid.",
+        "Steer in the direction you want to go"
+      ],
+      "correctIndex": 3,
+      "imageName": null
+    },
+    {
+      "id": "en-167",
+      "language": "en",
+      "category": "rules",
+      "test": 4,
+      "text": "Are drivers responsible for making sure their passengers wear seatbelts?",
+      "options": [
+        "Only passengers in the front seat",
+        "Only passengers aged 16 or older.",
+        "Only passengers under 16.",
+        "Only passengers over 18."
+      ],
+      "correctIndex": 2,
+      "imageName": null
+    },
+    {
+      "id": "en-168",
+      "language": "en",
+      "category": "rules",
+      "test": 4,
+      "text": "You are approaching several snowplows clearing a freeway. What should you NOT do?",
+      "options": [
+        "Try to pass between them",
+        "Obey the rules of the road",
+        "Keep a safe distance",
+        "Wait until they let traffic pass safely"
+      ],
+      "correctIndex": 0,
+      "imageName": null
+    },
+    {
+      "id": "en-169",
+      "language": "en",
+      "category": "rules",
+      "test": 4,
+      "text": "As you approach an intersection, you notice the road on the other side of the intersection is blocked with traffic. What should you do?",
+      "options": [
+        "Sound your horn to warn the traffic ahead to keep moving.",
+        "Stop and rest at a café",
+        "Stop before entering the intersection and wait until the traffic ahead moves.",
+        "Get as close as possible to the vehicle in front."
+      ],
+      "correctIndex": 2,
+      "imageName": null
+    },
+    {
+      "id": "en-170",
+      "language": "en",
+      "category": "rules",
+      "test": 4,
+      "text": "Passing another vehicle on the right …",
+      "options": [
+        "Is allowed when the street or highway has two or more lanes of traffic in the direction you are travelling",
+        "Is allowed when the street or highway has traffic.",
+        "Is allowed on any street or highway.",
+        "Is not allowed."
+      ],
+      "correctIndex": 0,
+      "imageName": null
+    },
+    {
+      "id": "en-171",
+      "language": "en",
+      "category": "rules",
+      "test": 4,
+      "text": "When passing a cyclist, if you do not leave at least 1 metre of space, how many demerit points can this result in?",
+      "options": [
+        "6",
+        "3",
+        "2",
+        "8"
+      ],
+      "correctIndex": 2,
+      "imageName": null
+    },
+    {
+      "id": "en-172",
+      "language": "en",
+      "category": "rules",
+      "test": 4,
+      "text": "When the driver of another vehicle is about to pass you on the left, what should you do?",
+      "options": [
+        "Speed up and drive in the middle of the road.",
+        "Move to the left and do not let the vehicle pass.",
+        "Move to the right and let the vehicle pass.",
+        "Signal the driver not to pass."
+      ],
+      "correctIndex": 2,
+      "imageName": null
+    },
+    {
+      "id": "en-173",
+      "language": "en",
+      "category": "rules",
+      "test": 4,
+      "text": "What is the two-second rule used to determine?",
+      "options": [
+        "How quickly you can react to obstacles",
+        "How fast you are travelling",
+        "How much fuel you will save",
+        "Whether you are driving at a safe distance from the car ahead"
+      ],
+      "correctIndex": 3,
+      "imageName": null
+    },
+    {
+      "id": "en-174",
+      "language": "en",
+      "category": "rules",
+      "test": 4,
+      "text": "You are approaching a construction zone. What should you do?",
+      "options": [
+        "Sound your horn to warn the workers.",
+        "Slow down if necessary and yield the right-of-way.",
+        "Stop until the workers signal you to continue.",
+        "Speed up to get out of the zone quickly."
+      ],
+      "correctIndex": 1,
+      "imageName": null
+    },
+    {
+      "id": "en-175",
+      "language": "en",
+      "category": "rules",
+      "test": 4,
+      "text": "You want to turn right at a red light where right turns are permitted. What should you do before entering and making the turn?",
+      "options": [
+        "Turn on your left signal, then proceed.",
+        "Turn on your right signal, then proceed.",
+        "Stop. Yield to vehicles and pedestrians. If the way is safe, turn on your right signal and turn carefully.",
+        "Speed up, then proceed."
+      ],
+      "correctIndex": 2,
+      "imageName": null
+    },
+    {
+      "id": "en-176",
+      "language": "en",
+      "category": "rules",
+      "test": 4,
+      "text": "What do broken white lines indicate?",
+      "options": [
+        "They separate lanes of traffic moving in opposite directions.",
+        "They show that crossing the lines is prohibited.",
+        "They show that the road ends ahead",
+        "They separate lanes of traffic moving in the same direction"
+      ],
+      "correctIndex": 3,
+      "imageName": null
+    },
+    {
+      "id": "en-177",
+      "language": "en",
+      "category": "rules",
+      "test": 4,
+      "text": "On a road with two-way traffic, you intend to turn left. What position should you be in?",
+      "options": [
+        "Close to the right side of the road",
+        "Close to the left side of the road",
+        "Any position; only the signal matters.",
+        "In the right lane, as close as possible to the centre line of the road"
+      ],
+      "correctIndex": 3,
+      "imageName": null
+    },
+    {
+      "id": "en-178",
+      "language": "en",
+      "category": "rules",
+      "test": 4,
+      "text": "If you are convicted of failing to stop when signalled by a police officer, which penalties may you face?",
+      "options": [
+        "Up to 6 months in jail",
+        "A fine of up to $25,000",
+        "A licence suspension of 5 years",
+        "All of the above"
+      ],
+      "correctIndex": 3,
+      "imageName": null
+    },
+    {
+      "id": "en-179",
+      "language": "en",
+      "category": "rules",
+      "test": 4,
+      "text": "What must you do before changing lanes?",
+      "options": [
+        "Give the proper signal, then make sure the lane change is safe",
+        "Sound your horn, then make sure it is safe",
+        "Signal in time and slow down",
+        "Only look in the mirror and change lanes"
+      ],
+      "correctIndex": 0,
+      "imageName": null
+    },
+    {
+      "id": "en-180",
+      "language": "en",
+      "category": "rules",
+      "test": 4,
+      "text": "If you fail to stop for a school bus with its red lights flashing, which penalty will you face for a first offence?",
+      "options": [
+        "A fine of up to $2,000 and 6 demerit points",
+        "Having to retake the road tests",
+        "A fine of up to $1,000 and 3 demerit points",
+        "1 year in jail"
+      ],
+      "correctIndex": 0,
+      "imageName": null
+    },
+    {
+      "id": "en-181",
+      "language": "en",
+      "category": "signs",
+      "test": 5,
+      "text": "What does this road sign mean?",
+      "options": [
+        "This is a pedestrian crossing.",
+        "The maximum speed is 40 km/h at all times.",
+        "During school hours, when the yellow lights are flashing, the speed limit is 40 km/h.",
+        "This is a warning sign."
+      ],
+      "correctIndex": 2,
+      "imageName": "81"
+    },
+    {
+      "id": "en-182",
+      "language": "en",
+      "category": "signs",
+      "test": 5,
+      "text": "What does this road sign mean?",
+      "options": [
+        "In this area, pay extra attention to pedestrians and your speed",
+        "You may ignore this sign.",
+        "Do not enter.",
+        "This is a high-crime area."
+      ],
+      "correctIndex": 0,
+      "imageName": "82"
+    },
+    {
+      "id": "en-183",
+      "language": "en",
+      "category": "signs",
+      "test": 5,
+      "text": "What does this road sign mean?",
+      "options": [
+        "Bus entrance ahead on the right",
+        "Drive to the right",
+        "Truck entrance ahead on the right",
+        "Hidden school bus stop on the route"
+      ],
+      "correctIndex": 0,
+      "imageName": "83"
+    },
+    {
+      "id": "en-184",
+      "language": "en",
+      "category": "signs",
+      "test": 5,
+      "text": "What does this road sign mean?",
+      "options": [
+        "Two-way road.",
+        "No standing here",
+        "Hidden intersection ahead",
+        "Slippery when wet."
+      ],
+      "correctIndex": 0,
+      "imageName": "84"
+    },
+    {
+      "id": "en-185",
+      "language": "en",
+      "category": "signs",
+      "test": 5,
+      "text": "This driver is using a hand signal. The driver intends to",
+      "options": [
+        "Speed up",
+        "Slow down or stop",
+        "Go right or turn right",
+        "Go left or turn left"
+      ],
+      "correctIndex": 2,
+      "imageName": "85"
+    },
+    {
+      "id": "en-186",
+      "language": "en",
+      "category": "signs",
+      "test": 5,
+      "text": "What does this road sign mean?",
+      "options": [
+        "Traffic control person ahead",
+        "Road work ahead",
+        "Watch for pedestrians",
+        "A survey crew is working ahead"
+      ],
+      "correctIndex": 0,
+      "imageName": "86"
+    },
+    {
+      "id": "en-187",
+      "language": "en",
+      "category": "signs",
+      "test": 5,
+      "text": "What does this road sign mean?",
+      "options": [
+        "Pavement ends ahead",
+        "Divided road ahead",
+        "Watch for falling rock",
+        "Do not block the intersection"
+      ],
+      "correctIndex": 0,
+      "imageName": "87"
+    },
+    {
+      "id": "en-188",
+      "language": "en",
+      "category": "signs",
+      "test": 5,
+      "text": "This traffic sign indicates:",
+      "options": [
+        "The direction of travel for each lane",
+        "You may drive in any direction from any lane.",
+        "You must not enter this area.",
+        "You cannot turn here."
+      ],
+      "correctIndex": 0,
+      "imageName": "88"
+    },
+    {
+      "id": "en-189",
+      "language": "en",
+      "category": "signs",
+      "test": 5,
+      "text": "What does this road sign mean?",
+      "options": [
+        "Underpass ahead",
+        "Narrow bridge ahead",
+        "Pavement ends ahead",
+        "Two-way road ahead"
+      ],
+      "correctIndex": 1,
+      "imageName": "89"
+    },
+    {
+      "id": "en-190",
+      "language": "en",
+      "category": "signs",
+      "test": 5,
+      "text": "What does this road sign mean?",
+      "options": [
+        "There is a sharp turn or curve in the road ahead.",
+        "There is a slight bend or curve in the road ahead",
+        "If faster vehicles are beside you, stay on the left.",
+        "This lane exits to the left"
+      ],
+      "correctIndex": 1,
+      "imageName": "90"
+    },
+    {
+      "id": "en-191",
+      "language": "en",
+      "category": "signs",
+      "test": 5,
+      "text": "What does this road sign mean?",
+      "options": [
+        "No pavement 500 feet ahead",
+        "Vehicle weight check ahead",
+        "Bumpy road ahead",
+        "Steep hill ahead"
+      ],
+      "correctIndex": 3,
+      "imageName": "91"
+    },
+    {
+      "id": "en-192",
+      "language": "en",
+      "category": "signs",
+      "test": 5,
+      "text": "What does this road sign mean?",
+      "options": [
+        "Bridge ahead",
+        "Railway crossing ahead",
+        "Pedestrian crossing ahead",
+        "Hidden intersection ahead"
+      ],
+      "correctIndex": 1,
+      "imageName": "92"
+    },
+    {
+      "id": "en-193",
+      "language": "en",
+      "category": "signs",
+      "test": 5,
+      "text": "What does this road sign mean?",
+      "options": [
+        "Detour routes",
+        "Parks along the route",
+        "Direction sign for different destinations",
+        "Direction sign for pedestrians"
+      ],
+      "correctIndex": 2,
+      "imageName": "93"
+    },
+    {
+      "id": "en-194",
+      "language": "en",
+      "category": "signs",
+      "test": 5,
+      "text": "What does this road sign mean?",
+      "options": [
+        "No bicycles",
+        "No parking",
+        "No left turn when bicycles are present",
+        "Bicycle crossing ahead"
+      ],
+      "correctIndex": 3,
+      "imageName": "94"
+    },
+    {
+      "id": "en-195",
+      "language": "en",
+      "category": "signs",
+      "test": 5,
+      "text": "What does this road sign mean?",
+      "options": [
+        "If the traffic lights are flashing, you must stop for the school bus.",
+        "You may ignore this sign",
+        "If the school bus is flashing, you may pass the school bus with caution.",
+        "If a school bus has its lights flashing, you must stop for the school bus."
+      ],
+      "correctIndex": 3,
+      "imageName": "95"
+    },
+    {
+      "id": "en-196",
+      "language": "en",
+      "category": "signs",
+      "test": 5,
+      "text": "What does this road sign mean?",
+      "options": [
+        "Traffic joins together ahead.",
+        "Hidden intersection",
+        "The road ahead splits in two",
+        "Sharp turn ahead"
+      ],
+      "correctIndex": 2,
+      "imageName": "96"
+    },
+    {
+      "id": "en-197",
+      "language": "en",
+      "category": "signs",
+      "test": 5,
+      "text": "What does this road sign mean?",
+      "options": [
+        "This is a highway with two express lanes.",
+        "To use this lane, there must be two or more people in the vehicle.",
+        "Two lanes merge into one.",
+        "Two lanes are closed ahead"
+      ],
+      "correctIndex": 1,
+      "imageName": "97"
+    },
+    {
+      "id": "en-198",
+      "language": "en",
+      "category": "signs",
+      "test": 5,
+      "text": "What does this road sign mean?",
+      "options": [
+        "You must turn right",
+        "You must turn left",
+        "You must not turn right.",
+        "You must not turn left."
+      ],
+      "correctIndex": 3,
+      "imageName": "98"
+    },
+    {
+      "id": "en-199",
+      "language": "en",
+      "category": "signs",
+      "test": 5,
+      "text": "What does this road sign mean?",
+      "options": [
+        "There is a hidden intersection ahead",
+        "No left turn",
+        "Traffic merging ahead",
+        "Go straight only"
+      ],
+      "correctIndex": 2,
+      "imageName": "99"
+    },
+    {
+      "id": "en-200",
+      "language": "en",
+      "category": "signs",
+      "test": 5,
+      "text": "What does this road sign mean?",
+      "options": [
+        "Water on the road ahead",
+        "Oncoming traffic ahead",
+        "Underpass ahead",
+        "Bumpy road ahead"
+      ],
+      "correctIndex": 2,
+      "imageName": "100"
+    },
+    {
+      "id": "en-201",
+      "language": "en",
+      "category": "rules",
+      "test": 6,
+      "text": "If there are no speed limit signs, what is the maximum speed limit in cities, towns, and villages?",
+      "options": [
+        "60 km/h.",
+        "50 km/h.",
+        "80 km/h.",
+        "40 km/h."
+      ],
+      "correctIndex": 1,
+      "imageName": null
+    },
+    {
+      "id": "en-202",
+      "language": "en",
+      "category": "rules",
+      "test": 6,
+      "text": "A Level One (Class G1) learner driver may drive under the supervision of a fully licensed driver who has at least …… of driving experience.",
+      "options": [
+        "3 years",
+        "2 years",
+        "5 years",
+        "4 years"
+      ],
+      "correctIndex": 0,
+      "imageName": null
+    },
+    {
+      "id": "en-203",
+      "language": "en",
+      "category": "rules",
+      "test": 6,
+      "text": "You are approaching an intersection with no traffic lights or police officer. A pedestrian is in the crosswalk on your side of the street. What should you do?",
+      "options": [
+        "Yield the right-of-way to the pedestrian",
+        "Slow down and proceed with caution.",
+        "Sound your horn to warn the pedestrian.",
+        "Speed up and pass the pedestrian."
+      ],
+      "correctIndex": 0,
+      "imageName": null
+    },
+    {
+      "id": "en-204",
+      "language": "en",
+      "category": "rules",
+      "test": 6,
+      "text": "In Ontario, when driving at night, at what distance from another vehicle must you dim your headlights (use low beams)?",
+      "options": [
+        "60 metres.",
+        "150 metres.",
+        "125 metres.",
+        "90 metres."
+      ],
+      "correctIndex": 0,
+      "imageName": null
+    },
+    {
+      "id": "en-205",
+      "language": "en",
+      "category": "rules",
+      "test": 6,
+      "text": "When can you drive at the maximum speed limit on a highway?",
+      "options": [
+        "Only during the day",
+        "Only when it is safe to do so",
+        "Only on one-way roads",
+        "Any time"
+      ],
+      "correctIndex": 1,
+      "imageName": null
+    },
+    {
+      "id": "en-206",
+      "language": "en",
+      "category": "rules",
+      "test": 6,
+      "text": "A G2 driver aged 19 or under with 6 months or less of driving experience can carry how many unrelated passengers aged 19 or under between midnight and 5:00 a.m.?",
+      "options": [
+        "1",
+        "2",
+        "4",
+        "3"
+      ],
+      "correctIndex": 0,
+      "imageName": null
+    },
+    {
+      "id": "en-207",
+      "language": "en",
+      "category": "rules",
+      "test": 6,
+      "text": "At an intersection where the traffic light shows a green signal, which of the following has the right-of-way over the others?",
+      "options": [
+        "Vehicles turning left",
+        "Pedestrians crossing with the light",
+        "Pedestrians crossing against the light",
+        "Vehicles turning right"
+      ],
+      "correctIndex": 1,
+      "imageName": null
+    },
+    {
+      "id": "en-208",
+      "language": "en",
+      "category": "rules",
+      "test": 6,
+      "text": "If a vehicle behind you is following too closely (tailgating you), what should you do?",
+      "options": [
+        "Do any of the above",
+        "If it is safe, try to pull over and let it pass.",
+        "Move to another lane when it is safe.",
+        "Try to increase your distance from the vehicle in front."
+      ],
+      "correctIndex": 0,
+      "imageName": null
+    },
+    {
+      "id": "en-209",
+      "language": "en",
+      "category": "rules",
+      "test": 6,
+      "text": "While driving, a Level Two (Class G2) driver's blood alcohol concentration must not be more than this.",
+      "options": [
+        "0.08%",
+        "Zero",
+        "0.05%",
+        "0.02%"
+      ],
+      "correctIndex": 1,
+      "imageName": null
+    },
+    {
+      "id": "en-210",
+      "language": "en",
+      "category": "rules",
+      "test": 6,
+      "text": "Driving faster than the range of your headlights at night is dangerous because",
+      "options": [
+        "You cannot stop in time within the lit distance if there are obstacles or hazards",
+        "Your high beams bother other vehicles",
+        "It can drain the car battery",
+        "It shows that you are driving too fast"
+      ],
+      "correctIndex": 0,
+      "imageName": null
+    },
+    {
+      "id": "en-211",
+      "language": "en",
+      "category": "rules",
+      "test": 6,
+      "text": "Using a cell phone while driving",
+      "options": [
+        "Is a good way to multitask",
+        "Is better not done but is acceptable",
+        "Should be avoided because it increases the risk of a collision",
+        "Should be avoided, but it is not illegal"
+      ],
+      "correctIndex": 2,
+      "imageName": null
+    },
+    {
+      "id": "en-212",
+      "language": "en",
+      "category": "rules",
+      "test": 6,
+      "text": "In Ontario, you cannot carry ………. in a camper, trailer, or boat that you are towing with a vehicle.",
+      "options": [
+        "Flammable materials",
+        "Firearms",
+        "People",
+        "Pets"
+      ],
+      "correctIndex": 2,
+      "imageName": null
+    },
+    {
+      "id": "en-213",
+      "language": "en",
+      "category": "rules",
+      "test": 6,
+      "text": "A \"No Parking\" sign means",
+      "options": [
+        "You may stop temporarily to pick up or drop off passengers, but not goods",
+        "You may stop temporarily to load or unload goods, but not passengers.",
+        "You cannot stop for any reason",
+        "You may stop temporarily to pick up or drop off passengers or goods"
+      ],
+      "correctIndex": 3,
+      "imageName": null
+    },
+    {
+      "id": "en-214",
+      "language": "en",
+      "category": "rules",
+      "test": 6,
+      "text": "When driving in heavy fog, which lights should you use?",
+      "options": [
+        "Hazard lights",
+        "High-beam headlights",
+        "Hazard lights and high-beam headlights",
+        "Low-beam headlights"
+      ],
+      "correctIndex": 3,
+      "imageName": null
+    },
+    {
+      "id": "en-215",
+      "language": "en",
+      "category": "rules",
+      "test": 6,
+      "text": "Which of the following vehicles may have red lights that are visible from the front?",
+      "options": [
+        "Recreational vehicles",
+        "Bicycles",
+        "Emergency vehicles",
+        "Trucks"
+      ],
+      "correctIndex": 2,
+      "imageName": null
+    },
+    {
+      "id": "en-216",
+      "language": "en",
+      "category": "rules",
+      "test": 6,
+      "text": "You are approaching an intersection with a flashing yellow traffic light. What should you do?",
+      "options": [
+        "Continue at the same speed",
+        "Stop if you are turning right",
+        "You may go straight without slowing down",
+        "Slow down and proceed with caution"
+      ],
+      "correctIndex": 3,
+      "imageName": null
+    },
+    {
+      "id": "en-217",
+      "language": "en",
+      "category": "rules",
+      "test": 6,
+      "text": "You are planning to go straight through an intersection and the traffic signal is red. What should you do?",
+      "options": [
+        "Stop, and continue once the way is clear",
+        "Slow down and continue if there are no vehicles",
+        "Stop, and continue only when the signal turns green and the way is safe",
+        "Stop, yield to pedestrians, and then proceed with caution"
+      ],
+      "correctIndex": 2,
+      "imageName": null
+    },
+    {
+      "id": "en-218",
+      "language": "en",
+      "category": "rules",
+      "test": 6,
+      "text": "You are planning to pass a motorcycle. What should you do?",
+      "options": [
+        "Nothing needs to be done",
+        "Sound your horn before passing to let them know",
+        "Pass the same way you would pass a car",
+        "Turn on your high beams before passing"
+      ],
+      "correctIndex": 2,
+      "imageName": null
+    },
+    {
+      "id": "en-219",
+      "language": "en",
+      "category": "rules",
+      "test": 6,
+      "text": "If a fully licensed driver is convicted of using a hand-held electronic device while driving, which of the following penalties will they face for a first offence?",
+      "options": [
+        "A fine of up to $500 and 2 demerit points",
+        "None of the above; there is no penalty for a first offence",
+        "A fine of up to $2,000 and 4 demerit points",
+        "A fine of up to $1,000 and 3 demerit points"
+      ],
+      "correctIndex": 3,
+      "imageName": null
+    },
+    {
+      "id": "en-220",
+      "language": "en",
+      "category": "rules",
+      "test": 6,
+      "text": "Alcohol or drug use affects a driver by impairing which of the following?",
+      "options": [
+        "Vision",
+        "All of the above",
+        "Decision-making",
+        "Reaction time"
+      ],
+      "correctIndex": 1,
+      "imageName": null
+    },
+    {
+      "id": "en-221",
+      "language": "en",
+      "category": "signs",
+      "test": 7,
+      "text": "What does this sign mean?",
+      "options": [
+        "The road narrows.",
+        "The road becomes two-way.",
+        "The road becomes one-way.",
+        "The road turns to the left."
+      ],
+      "correctIndex": 0,
+      "imageName": "121"
+    },
+    {
+      "id": "en-222",
+      "language": "en",
+      "category": "signs",
+      "test": 7,
+      "text": "What does this road sign mean?",
+      "options": [
+        "End of divided highway.",
+        "Start of divided highway.",
+        "The road narrows.",
+        "The road turns right."
+      ],
+      "correctIndex": 1,
+      "imageName": "122"
+    },
+    {
+      "id": "en-223",
+      "language": "en",
+      "category": "signs",
+      "test": 7,
+      "text": "What does this road sign mean?",
+      "options": [
+        "No pedestrian crossing.",
+        "No bicycle crossing.",
+        "Pedestrian crossing ahead.",
+        "Bicycle crossing ahead."
+      ],
+      "correctIndex": 2,
+      "imageName": "123"
+    },
+    {
+      "id": "en-224",
+      "language": "en",
+      "category": "signs",
+      "test": 7,
+      "text": "What does this road sign mean?",
+      "options": [
+        "Road closed ahead.",
+        "You have the right-of-way.",
+        "Railway crossing ahead.",
+        "Stop sign ahead."
+      ],
+      "correctIndex": 3,
+      "imageName": "124"
+    },
+    {
+      "id": "en-225",
+      "language": "en",
+      "category": "signs",
+      "test": 7,
+      "text": "What does this road sign mean?",
+      "options": [
+        "The maximum speed limit is 60 km/h.",
+        "The minimum speed limit is 60 km/h.",
+        "The speed limit changes to 60 km/h.",
+        "End of speed limit."
+      ],
+      "correctIndex": 0,
+      "imageName": "125"
+    },
+    {
+      "id": "en-226",
+      "language": "en",
+      "category": "signs",
+      "test": 7,
+      "text": "What does this road sign mean?",
+      "options": [
+        "Parking is allowed.",
+        "No parking.",
+        "No stopping.",
+        "Parking for buses only."
+      ],
+      "correctIndex": 1,
+      "imageName": "126"
+    },
+    {
+      "id": "en-227",
+      "language": "en",
+      "category": "signs",
+      "test": 7,
+      "text": "What does this road sign mean?",
+      "options": [
+        "Traffic lights ahead.",
+        "Uncontrolled intersection ahead.",
+        "Movable bridge ahead.",
+        "U-turns are permitted."
+      ],
+      "correctIndex": 0,
+      "imageName": "127"
+    },
+    {
+      "id": "en-228",
+      "language": "en",
+      "category": "signs",
+      "test": 7,
+      "text": "What does this road sign mean?",
+      "options": [
+        "Right turns are permitted.",
+        "No right turn.",
+        "Left turns are permitted.",
+        "No left turn."
+      ],
+      "correctIndex": 1,
+      "imageName": "128"
+    },
+    {
+      "id": "en-229",
+      "language": "en",
+      "category": "signs",
+      "test": 7,
+      "text": "What does this road sign mean?",
+      "options": [
+        "Exit on the right ahead.",
+        "The road narrows.",
+        "Exit on the left ahead.",
+        "The road turns to the left."
+      ],
+      "correctIndex": 0,
+      "imageName": "129"
+    },
+    {
+      "id": "en-230",
+      "language": "en",
+      "category": "signs",
+      "test": 7,
+      "text": "What does this road sign mean?",
+      "options": [
+        "Standing is permitted.",
+        "No standing.",
+        "Parking is permitted.",
+        "Parking for taxis only."
+      ],
+      "correctIndex": 1,
+      "imageName": "130"
+    },
+    {
+      "id": "en-231",
+      "language": "en",
+      "category": "signs",
+      "test": 7,
+      "text": "What does this road sign mean?",
+      "options": [
+        "Movable bridge ahead.",
+        "Narrow bridge ahead.",
+        "Bridge ahead.",
+        "Bridge closed."
+      ],
+      "correctIndex": 2,
+      "imageName": "131"
+    },
+    {
+      "id": "en-232",
+      "language": "en",
+      "category": "signs",
+      "test": 7,
+      "text": "What does this road sign mean?",
+      "options": [
+        "The road turns left.",
+        "The road turns right.",
+        "Sharp right turn ahead.",
+        "Sharp left turn ahead."
+      ],
+      "correctIndex": 0,
+      "imageName": "132"
+    },
+    {
+      "id": "en-233",
+      "language": "en",
+      "category": "signs",
+      "test": 7,
+      "text": "What does this road sign mean?",
+      "options": [
+        "The road surface is uneven.",
+        "The road is slippery.",
+        "The road is full of bumps.",
+        "Water on the road."
+      ],
+      "correctIndex": 2,
+      "imageName": "133"
+    },
+    {
+      "id": "en-234",
+      "language": "en",
+      "category": "signs",
+      "test": 7,
+      "text": "What does this road sign mean?",
+      "options": [
+        "One-way road.",
+        "Two-way road.",
+        "The road turns to the right.",
+        "The road turns to the left."
+      ],
+      "correctIndex": 1,
+      "imageName": "134"
+    },
+    {
+      "id": "en-235",
+      "language": "en",
+      "category": "signs",
+      "test": 7,
+      "text": "What does this road sign mean?",
+      "options": [
+        "Trucks are allowed.",
+        "No trucks.",
+        "No buses.",
+        "No bicycles."
+      ],
+      "correctIndex": 1,
+      "imageName": "135"
+    },
+    {
+      "id": "en-236",
+      "language": "en",
+      "category": "signs",
+      "test": 7,
+      "text": "What does this road sign mean?",
+      "options": [
+        "Bus stop ahead.",
+        "Train station ahead.",
+        "Taxi stand ahead.",
+        "Police station ahead."
+      ],
+      "correctIndex": 0,
+      "imageName": "136"
+    },
+    {
+      "id": "en-237",
+      "language": "en",
+      "category": "signs",
+      "test": 7,
+      "text": "What does this road sign mean?",
+      "options": [
+        "You have the right-of-way.",
+        "Others have the right-of-way.",
+        "Stop sign ahead.",
+        "Traffic lights ahead."
+      ],
+      "correctIndex": 1,
+      "imageName": "137"
+    },
+    {
+      "id": "en-238",
+      "language": "en",
+      "category": "signs",
+      "test": 7,
+      "text": "What does this road sign mean?",
+      "options": [
+        "The road turns to the right.",
+        "The road turns to the left.",
+        "The road turns left and then right.",
+        "The road is straight."
+      ],
+      "correctIndex": 0,
+      "imageName": "138"
+    },
+    {
+      "id": "en-239",
+      "language": "en",
+      "category": "signs",
+      "test": 7,
+      "text": "What does this road sign mean?",
+      "options": [
+        "Parking is allowed only for persons with disabilities.",
+        "Parking is allowed for everyone.",
+        "Parking is prohibited for persons with disabilities.",
+        "Parking for taxis only."
+      ],
+      "correctIndex": 0,
+      "imageName": "139"
+    },
+    {
+      "id": "en-240",
+      "language": "en",
+      "category": "signs",
+      "test": 7,
+      "text": "What does this road sign mean?",
+      "options": [
+        "Wild animal crossing ahead.",
+        "Pet crossing ahead.",
+        "Pedestrian crossing ahead.",
+        "Bicycle crossing ahead."
+      ],
+      "correctIndex": 0,
+      "imageName": "140"
+    },
+    {
+      "id": "en-241",
+      "language": "en",
+      "category": "rules",
+      "test": 8,
+      "text": "What is the minimum amount of third-party liability insurance every vehicle must have?",
+      "options": [
+        "$200,000.",
+        "$500,000.",
+        "$1,000,000.",
+        "$300,000."
+      ],
+      "correctIndex": 0,
+      "imageName": null
+    },
+    {
+      "id": "en-242",
+      "language": "en",
+      "category": "rules",
+      "test": 8,
+      "text": "You are approaching a railway crossing. The crossing signals warn that a train is approaching. What should you do?",
+      "options": [
+        "Slow down and proceed with caution.",
+        "Stop at least 5 metres from the railway track.",
+        "Stop at least 2 metres from the railway track.",
+        "Speed up and cross the tracks as quickly as possible."
+      ],
+      "correctIndex": 1,
+      "imageName": null
+    },
+    {
+      "id": "en-243",
+      "language": "en",
+      "category": "rules",
+      "test": 8,
+      "text": "What does a red light with a green arrow mean?",
+      "options": [
+        "You may turn in the direction of the arrow.",
+        "Stop, then you may turn in the direction of the arrow.",
+        "Stop and wait for the green light. The green arrow is a signal for pedestrians.",
+        "Stop and wait for the green light before turning in the direction of the arrow."
+      ],
+      "correctIndex": 0,
+      "imageName": null
+    },
+    {
+      "id": "en-244",
+      "language": "en",
+      "category": "rules",
+      "test": 8,
+      "text": "You are driving on a wet road and must stop quickly. If your vehicle does not have anti-lock brakes (ABS), what should you do?",
+      "options": [
+        "Pump the brakes.",
+        "Apply steady brake pressure; if the wheels lock, release slightly and press again.",
+        "Brake hard",
+        "Turn off the ignition and apply the parking brake."
+      ],
+      "correctIndex": 1,
+      "imageName": null
+    },
+    {
+      "id": "en-245",
+      "language": "en",
+      "category": "rules",
+      "test": 8,
+      "text": "A person whose driver's licence is suspended may",
+      "options": [
+        "Drive if accompanied by a licensed driver.",
+        "Not drive under any circumstances",
+        "Drive to and from work",
+        "Drive in emergencies"
+      ],
+      "correctIndex": 1,
+      "imageName": null
+    },
+    {
+      "id": "en-246",
+      "language": "en",
+      "category": "rules",
+      "test": 8,
+      "text": "What colour flashing lights are snowplows on public roads equipped with?",
+      "options": [
+        "Orange",
+        "Yellow",
+        "Blue",
+        "Red"
+      ],
+      "correctIndex": 2,
+      "imageName": null
+    },
+    {
+      "id": "en-247",
+      "language": "en",
+      "category": "rules",
+      "test": 8,
+      "text": "Which of the following is a sign of aggressive driving?",
+      "options": [
+        "Frequent checks of your surroundings",
+        "All of the above",
+        "Avoiding eye contact",
+        "Preventing other drivers from passing"
+      ],
+      "correctIndex": 3,
+      "imageName": null
+    },
+    {
+      "id": "en-248",
+      "language": "en",
+      "category": "rules",
+      "test": 8,
+      "text": "Which of the following statements about cyclists is false?",
+      "options": [
+        "Before passing a cyclist, change lanes if possible.",
+        "When passing a cyclist, you must leave at least one metre of space.",
+        "Do not follow cyclists too closely.",
+        "Cyclists are prohibited from using the left lane to turn left."
+      ],
+      "correctIndex": 3,
+      "imageName": null
+    },
+    {
+      "id": "en-249",
+      "language": "en",
+      "category": "rules",
+      "test": 8,
+      "text": "To pull out of a parking spot, you should",
+      "options": [
+        "Signal and move away from the curb.",
+        "Move away from the curb quickly.",
+        "Check traffic, signal, and move away from the curb when it is safe.",
+        "Sound your horn and move away from the curb slowly."
+      ],
+      "correctIndex": 2,
+      "imageName": null
+    },
+    {
+      "id": "en-250",
+      "language": "en",
+      "category": "rules",
+      "test": 8,
+      "text": "When can you lend your driver's licence to someone else?",
+      "options": [
+        "Only for identification purposes",
+        "Never",
+        "When that person is learning to drive",
+        "In emergencies"
+      ],
+      "correctIndex": 1,
+      "imageName": null
+    },
+    {
+      "id": "en-251",
+      "language": "en",
+      "category": "rules",
+      "test": 8,
+      "text": "In which of the following places is a U-turn dangerous or illegal?",
+      "options": [
+        "On a curve or on a hill, where visibility in both directions is less than 150 metres (500 feet).",
+        "In all of the places above",
+        "Within 150 metres (500 feet) of a bridge, viaduct, or tunnel if the driver's view is blocked.",
+        "At a railway crossing or within 30 metres (100 feet) of a railway crossing"
+      ],
+      "correctIndex": 1,
+      "imageName": null
+    },
+    {
+      "id": "en-252",
+      "language": "en",
+      "category": "rules",
+      "test": 8,
+      "text": "When going down a long, steep road, how should you control your speed?",
+      "options": [
+        "Shift the vehicle into neutral.",
+        "Turn off the vehicle.",
+        "Keep braking.",
+        "Shift into a lower gear."
+      ],
+      "correctIndex": 3,
+      "imageName": null
+    },
+    {
+      "id": "en-253",
+      "language": "en",
+      "category": "rules",
+      "test": 8,
+      "text": "When changing lanes on a multi-lane highway, the driver should",
+      "options": [
+        "Check the mirrors and signal",
+        "Turn on the emergency hazard lights",
+        "Move into the new lane as fast as possible",
+        "Use the horn"
+      ],
+      "correctIndex": 0,
+      "imageName": null
+    },
+    {
+      "id": "en-254",
+      "language": "en",
+      "category": "rules",
+      "test": 8,
+      "text": "You are approaching a stop sign. What should the driver do?",
+      "options": [
+        "Slow down, sound the horn, and then continue.",
+        "Slow down and continue if the way is safe.",
+        "Stop, sound the horn, then continue.",
+        "Stop, and continue when the way is safe."
+      ],
+      "correctIndex": 3,
+      "imageName": null
+    },
+    {
+      "id": "en-255",
+      "language": "en",
+      "category": "rules",
+      "test": 8,
+      "text": "A streetcar has stopped to pick up or drop off passengers where there is no safety zone. What does the law require you to do before passing the streetcar?",
+      "options": [
+        "Sound your horn and pass with caution.",
+        "Pass on the left when the way is clear.",
+        "Stop two metres behind the rear doors where passengers are getting on or off, and continue only when it is safe.",
+        "Stop behind the streetcar and continue if it is safe."
+      ],
+      "correctIndex": 2,
+      "imageName": null
+    },
+    {
+      "id": "en-256",
+      "language": "en",
+      "category": "rules",
+      "test": 8,
+      "text": "When the driver of another vehicle signals that they want to pass your vehicle, what should you do?",
+      "options": [
+        "Signal the other driver to stay behind you.",
+        "Move to the right side of your lane and speed up.",
+        "Move to the right side of your lane and do not speed up.",
+        "Move to the left to block the passing vehicle and stop it from speeding."
+      ],
+      "correctIndex": 2,
+      "imageName": null
+    },
+    {
+      "id": "en-257",
+      "language": "en",
+      "category": "rules",
+      "test": 8,
+      "text": "After an interview with a driver who has 9 demerit points on their full licence, the Ministry of Transportation may suspend their driver's licence for which of the following reasons?",
+      "options": [
+        "The driver has had less than 5 years of driving experience.",
+        "The driver does not need the licence for business purposes.",
+        "All of the above are valid reasons for suspension.",
+        "The driver could not satisfactorily explain why their licence should not be suspended."
+      ],
+      "correctIndex": 3,
+      "imageName": null
+    },
+    {
+      "id": "en-258",
+      "language": "en",
+      "category": "rules",
+      "test": 8,
+      "text": "A school bus with flashing red lights has stopped in front of you. What does the law require you to do when you see this or are about to pass the bus?",
+      "options": [
+        "Wait for the closer vehicles to pass.",
+        "Slow down and pass with caution.",
+        "Stay stopped until the bus moves or the red signal lights are turned off.",
+        "It doesn't matter; you may pass when you sound your horn."
+      ],
+      "correctIndex": 2,
+      "imageName": null
+    },
+    {
+      "id": "en-259",
+      "language": "en",
+      "category": "rules",
+      "test": 8,
+      "text": "On a two-lane road, a broken yellow line marked between the lanes means that you may",
+      "options": [
+        "Pass only during daytime hours.",
+        "Pass only in ideal driving conditions.",
+        "Pass if the way is safe.",
+        "Pass under any conditions."
+      ],
+      "correctIndex": 2,
+      "imageName": null
+    },
+    {
+      "id": "en-260",
+      "language": "en",
+      "category": "rules",
+      "test": 8,
+      "text": "If your right wheels drop off the road onto the shoulder, what is the best way to get back onto the road?",
+      "options": [
+        "Brake to slow down, then steer back onto the road",
+        "Press the brake and quickly steer to the left.",
+        "Take your foot off the gas pedal, let your vehicle slow down, and gently steer back onto the road.",
+        "Take your foot off the gas and quickly steer to the left."
+      ],
+      "correctIndex": 2,
+      "imageName": null
+    },
+    {
+      "id": "en-261",
+      "language": "en",
+      "category": "signs",
+      "test": 9,
+      "text": "What does this sign mean?",
+      "options": [
+        "Road work ahead",
+        "A traffic control person is ahead",
+        "A survey crew is working on the road ahead.",
+        "Watch for pedestrians and be prepared to share the road with them."
+      ],
+      "correctIndex": 2,
+      "imageName": "141"
+    },
+    {
+      "id": "en-262",
+      "language": "en",
+      "category": "signs",
+      "test": 9,
+      "text": "What does this road sign mean?",
+      "options": [
+        "School buses pick up or drop off in this area without using flashing red lights or a stop arm.",
+        "School buses pick up or drop off in this area by turning on flashing red lights and opening the stop arm.",
+        "Only school buses may travel in this area.",
+        "You may park here."
+      ],
+      "correctIndex": 0,
+      "imageName": "142"
+    },
+    {
+      "id": "en-263",
+      "language": "en",
+      "category": "signs",
+      "test": 9,
+      "text": "This driver is using a hand signal. The driver intends to",
+      "options": [
+        "Go left, turn left.",
+        "Slow down or stop.",
+        "Speed up the vehicle.",
+        "Go right, turn right."
+      ],
+      "correctIndex": 1,
+      "imageName": "143"
+    },
+    {
+      "id": "en-264",
+      "language": "en",
+      "category": "signs",
+      "test": 9,
+      "text": "What does this road sign mean?",
+      "options": [
+        "A detour is ahead.",
+        "Danger! Sharp turn ahead.",
+        "There is a playground on the right.",
+        "Danger! The road ends ahead."
+      ],
+      "correctIndex": 1,
+      "imageName": "144"
+    },
+    {
+      "id": "en-265",
+      "language": "en",
+      "category": "signs",
+      "test": 9,
+      "text": "What does this sign mean?",
+      "options": [
+        "There is a gentle bend or curve in the road ahead.",
+        "Keep to the right of the traffic island.",
+        "The road splits ahead.",
+        "There is a passing lane ahead."
+      ],
+      "correctIndex": 3,
+      "imageName": "145"
+    },
+    {
+      "id": "en-266",
+      "language": "en",
+      "category": "signs",
+      "test": 9,
+      "text": "What does this road sign mean?",
+      "options": [
+        "The left lane ends ahead",
+        "The right lane ends ahead",
+        "Speed lane ahead",
+        "Narrow passage ahead"
+      ],
+      "correctIndex": 1,
+      "imageName": "146"
+    },
+    {
+      "id": "en-267",
+      "language": "en",
+      "category": "signs",
+      "test": 9,
+      "text": "What does this sign mean?",
+      "options": [
+        "In this area, vehicles are not allowed to enter or exit the HOV lane.",
+        "This is a pedestrian route.",
+        "A railway crossing is ahead.",
+        "There is a hazard close to the edge of the road."
+      ],
+      "correctIndex": 0,
+      "imageName": "147"
+    },
+    {
+      "id": "en-268",
+      "language": "en",
+      "category": "signs",
+      "test": 9,
+      "text": "What does this road sign mean?",
+      "options": [
+        "Maximum safe speed on a ramp",
+        "Speed limit change ahead",
+        "Maximum speed limit on the highway",
+        "Maximum safe speed for the curve"
+      ],
+      "correctIndex": 2,
+      "imageName": "148"
+    },
+    {
+      "id": "en-269",
+      "language": "en",
+      "category": "signs",
+      "test": 9,
+      "text": "What does this sign mean?",
+      "options": [
+        "Stop and yield to approaching vehicles.",
+        "Slow down and yield to approaching vehicles.",
+        "Slow down and then continue.",
+        "Slow down and proceed with caution."
+      ],
+      "correctIndex": 0,
+      "imageName": "149"
+    },
+    {
+      "id": "en-270",
+      "language": "en",
+      "category": "signs",
+      "test": 9,
+      "text": "What does this sign mean?",
+      "options": [
+        "Do not turn or make U-turns except during the times shown.",
+        "Do not turn left",
+        "Do not turn left except during the times shown.",
+        "Do not turn left during the times shown"
+      ],
+      "correctIndex": 3,
+      "imageName": "150"
+    },
+    {
+      "id": "en-271",
+      "language": "en",
+      "category": "signs",
+      "test": 9,
+      "text": "What does this sign mean?",
+      "options": [
+        "Traffic must move in one direction only.",
+        "Keep to the right of the traffic island.",
+        "There is a sharp turn or turns in the road ahead.",
+        "Vehicles in this lane must turn right."
+      ],
+      "correctIndex": 0,
+      "imageName": "151"
+    },
+    {
+      "id": "en-272",
+      "language": "en",
+      "category": "signs",
+      "test": 9,
+      "text": "What does this road sign mean?",
+      "options": [
+        "None of the above",
+        "Gravel road ahead",
+        "Intersection with a bridge ahead",
+        "Paved or grooved surface ahead"
+      ],
+      "correctIndex": 3,
+      "imageName": "152"
+    },
+    {
+      "id": "en-273",
+      "language": "en",
+      "category": "signs",
+      "test": 9,
+      "text": "What does a pair of these signs mean?",
+      "options": [
+        "Do not stop in the area between the signs.",
+        "Do not stop in the area between the signs except to load or unload.",
+        "You may stand in the area between the signs.",
+        "Do not park in the area between the signs."
+      ],
+      "correctIndex": 0,
+      "imageName": "153"
+    },
+    {
+      "id": "en-274",
+      "language": "en",
+      "category": "signs",
+      "test": 9,
+      "text": "What does this road sign mean?",
+      "options": [
+        "A roundabout is 300 metres ahead.",
+        "A freeway interchange is 300 metres ahead.",
+        "U-turns are permitted 300 metres ahead.",
+        "Keep left."
+      ],
+      "correctIndex": 0,
+      "imageName": "154"
+    },
+    {
+      "id": "en-275",
+      "language": "en",
+      "category": "signs",
+      "test": 9,
+      "text": "What does this road sign mean?",
+      "options": [
+        "Keep left.",
+        "Stay to the left of the centre island.",
+        "You must turn left.",
+        "There is a sharp curve to the left."
+      ],
+      "correctIndex": 3,
+      "imageName": "155"
+    },
+    {
+      "id": "en-276",
+      "language": "en",
+      "category": "signs",
+      "test": 9,
+      "text": "What does this sign mean?",
+      "options": [
+        "Pedestrian crossing",
+        "Playground area",
+        "A walking path",
+        "School zone"
+      ],
+      "correctIndex": 0,
+      "imageName": "156"
+    },
+    {
+      "id": "en-277",
+      "language": "en",
+      "category": "signs",
+      "test": 9,
+      "text": "What does this sign mean?",
+      "options": [
+        "The road turns right",
+        "A gentle bend or curve in the road ahead",
+        "Yield to the right",
+        "This lane is closed ahead"
+      ],
+      "correctIndex": 3,
+      "imageName": "157"
+    },
+    {
+      "id": "en-278",
+      "language": "en",
+      "category": "signs",
+      "test": 9,
+      "text": "What does this sign mean?",
+      "options": [
+        "Narrow bridge one kilometre ahead",
+        "Construction work one kilometre ahead",
+        "Detour one kilometre ahead",
+        "There is a traffic control person one kilometre ahead."
+      ],
+      "correctIndex": 1,
+      "imageName": "158"
+    },
+    {
+      "id": "en-279",
+      "language": "en",
+      "category": "signs",
+      "test": 9,
+      "text": "What type of sign is this?",
+      "options": [
+        "A temporary conditions sign",
+        "A warning sign",
+        "A regulatory sign for vehicles",
+        "An information and direction sign"
+      ],
+      "correctIndex": 2,
+      "imageName": "159"
+    },
+    {
+      "id": "en-280",
+      "language": "en",
+      "category": "signs",
+      "test": 9,
+      "text": "What does this pavement marking mean?",
+      "options": [
+        "A sharp curve is ahead.",
+        "An HOV lane begins ahead.",
+        "This is a bicycle route.",
+        "Shared lane! Vehicles and bicycles both travel in this lane."
+      ],
+      "correctIndex": 3,
+      "imageName": "160"
+    },
+    {
+      "id": "en-281",
+      "language": "en",
+      "category": "rules",
+      "test": 10,
+      "text": "While driving, a Class G1 learner must be supervised by an accompanying driver. The accompanying driver's blood alcohol level must be less than",
+      "options": [
+        "0.08%.",
+        "0.5%.",
+        "0.05%.",
+        "0.02%."
+      ],
+      "correctIndex": 1,
+      "imageName": null
+    },
+    {
+      "id": "en-282",
+      "language": "en",
+      "category": "rules",
+      "test": 10,
+      "text": "Two vehicles approach an uncontrolled intersection from opposite directions at the same time. One plans to go straight. The other intends to turn left. Which vehicle has the right-of-way?",
+      "options": [
+        "The one going straight has the right-of-way.",
+        "Both vehicles must stop first and then proceed.",
+        "Both have the right-of-way.",
+        "The one turning left has the right-of-way."
+      ],
+      "correctIndex": 0,
+      "imageName": null
+    },
+    {
+      "id": "en-283",
+      "language": "en",
+      "category": "rules",
+      "test": 10,
+      "text": "When a streetcar stops to pick up or drop off passengers where there is a safety island, what does the law require you to do?",
+      "options": [
+        "Stop at least two metres behind the safety island.",
+        "Sound your horn and pass with caution.",
+        "Pass with caution and be ready to stop if a pedestrian makes a sudden or unexpected move.",
+        "Stop at least two metres behind the streetcar's rear doors."
+      ],
+      "correctIndex": 2,
+      "imageName": null
+    },
+    {
+      "id": "en-284",
+      "language": "en",
+      "category": "rules",
+      "test": 10,
+      "text": "If you are convicted for the first time of driving while your licence is suspended, besides losing your licence for another six months, which of the following additional penalties will you face?",
+      "options": [
+        "Either jail, a fine, or both",
+        "A fine between $2,000 and $5,000",
+        "Six months in jail",
+        "None"
+      ],
+      "correctIndex": 0,
+      "imageName": null
+    },
+    {
+      "id": "en-285",
+      "language": "en",
+      "category": "rules",
+      "test": 10,
+      "text": "Driving at the maximum speed limit at night is more dangerous than during the day because",
+      "options": [
+        "At night you cannot see as far ahead.",
+        "Some drivers illegally drive with only low beams.",
+        "Roads are slippery at night.",
+        "Your reaction time is four times slower at night."
+      ],
+      "correctIndex": 0,
+      "imageName": null
+    },
+    {
+      "id": "en-286",
+      "language": "en",
+      "category": "rules",
+      "test": 10,
+      "text": "If, while driving at night, you meet a vehicle with blinding headlights, what should you do?",
+      "options": [
+        "Look at the headlights of the approaching vehicle.",
+        "Look toward the right edge of the road.",
+        "Turn on your own headlights.",
+        "Quickly open and close your eyes."
+      ],
+      "correctIndex": 1,
+      "imageName": null
+    },
+    {
+      "id": "en-287",
+      "language": "en",
+      "category": "rules",
+      "test": 10,
+      "text": "If a driver misses their exit on a highway, what should they do?",
+      "options": [
+        "Take the next exit.",
+        "If there are no other vehicles around, back up.",
+        "Turn around.",
+        "Stop on the shoulder and check your map."
+      ],
+      "correctIndex": 0,
+      "imageName": null
+    },
+    {
+      "id": "en-288",
+      "language": "en",
+      "category": "rules",
+      "test": 10,
+      "text": "If a G1 or G2 licence holder accumulates 9 or more demerit points within two years, their licence will be suspended for….",
+      "options": [
+        "2 weeks.",
+        "2 years.",
+        "60 days.",
+        "1 year."
+      ],
+      "correctIndex": 2,
+      "imageName": null
+    },
+    {
+      "id": "en-289",
+      "language": "en",
+      "category": "rules",
+      "test": 10,
+      "text": "In heavy rain, when there is so much water on the road that the tires cannot push it aside, the car rides on a layer of water and control is reduced. This is called hydroplaning. What should you do to prevent it?",
+      "options": [
+        "Make sure your tires have enough tread depth.",
+        "Always keep your tire pressure at the proper level.",
+        "Reduce your speed when driving in the rain.",
+        "All of the above."
+      ],
+      "correctIndex": 3,
+      "imageName": null
+    },
+    {
+      "id": "en-290",
+      "language": "en",
+      "category": "rules",
+      "test": 10,
+      "text": "You must keep at least ….. of safe distance from the vehicle in front of you.",
+      "options": [
+        "2 seconds",
+        "3 seconds",
+        "5 seconds",
+        "1 second"
+      ],
+      "correctIndex": 0,
+      "imageName": null
+    },
+    {
+      "id": "en-291",
+      "language": "en",
+      "category": "rules",
+      "test": 10,
+      "text": "You are leaving your vehicle parked on the right side of the street, and the street slopes downhill. What should you do?",
+      "options": [
+        "Check your parking brake and turn your front wheels to the left",
+        "Place a rock under the wheels",
+        "Check your parking brake and turn your front wheels to the right",
+        "Check your parking brake and keep your front wheels parallel to the street."
+      ],
+      "correctIndex": 2,
+      "imageName": null
+    },
+    {
+      "id": "en-292",
+      "language": "en",
+      "category": "rules",
+      "test": 10,
+      "text": "Examples of hands-free devices include:",
+      "options": [
+        "A global positioning system (GPS) device that is properly secured to the dashboard or another accessible place in the vehicle.",
+        "A portable audio player connected to the vehicle's sound system with a pre-set playlist.",
+        "A cell phone with an earpiece or headset using voice dialing, or connected to the vehicle's sound system.",
+        "All of the above"
+      ],
+      "correctIndex": 3,
+      "imageName": null
+    },
+    {
+      "id": "en-293",
+      "language": "en",
+      "category": "rules",
+      "test": 10,
+      "text": "You cannot park within …. of a fire hydrant.",
+      "options": [
+        "3 metres",
+        "5 metres",
+        "6 metres",
+        "2 metres"
+      ],
+      "correctIndex": 0,
+      "imageName": null
+    },
+    {
+      "id": "en-294",
+      "language": "en",
+      "category": "rules",
+      "test": 10,
+      "text": "If your brakes fail,",
+      "options": [
+        "Apply the parking brake gently but firmly.",
+        "Do all of the above",
+        "Turn on your emergency flashers",
+        "Pump the brake pedal"
+      ],
+      "correctIndex": 1,
+      "imageName": null
+    },
+    {
+      "id": "en-295",
+      "language": "en",
+      "category": "rules",
+      "test": 10,
+      "text": "When getting out of your car on a busy street, when should you open the door?",
+      "options": [
+        "Any time.",
+        "After nightfall",
+        "When you are sure it can be done safely.",
+        "When you turn on your four-way flashers."
+      ],
+      "correctIndex": 2,
+      "imageName": null
+    },
+    {
+      "id": "en-296",
+      "language": "en",
+      "category": "rules",
+      "test": 10,
+      "text": "If you have completed a government-approved driver education course and hold a G1 licence, after at least how many months of holding the G1 can you take the G2 road test?",
+      "options": [
+        "6 months.",
+        "10 months.",
+        "12 months.",
+        "8 months."
+      ],
+      "correctIndex": 3,
+      "imageName": null
+    },
+    {
+      "id": "en-297",
+      "language": "en",
+      "category": "rules",
+      "test": 10,
+      "text": "You are on a two-lane road. In the centre of the road there is a solid yellow line and a broken yellow line. The solid yellow line is on your side. Which of the following statements is correct?",
+      "options": [
+        "Pass only when no traffic is in sight.",
+        "Passing is safe during the day.",
+        "Passing is unsafe.",
+        "Passing is safe."
+      ],
+      "correctIndex": 2,
+      "imageName": null
+    },
+    {
+      "id": "en-298",
+      "language": "en",
+      "category": "rules",
+      "test": 10,
+      "text": "In Ontario, when must you turn on your headlights?",
+      "options": [
+        "From half an hour after sunset to half an hour before sunrise, and at any other time you cannot see clearly for 150 metres.",
+        "Between sunset and sunrise, and at any other time you cannot see clearly for 150 metres",
+        "Between sunset and dawn, and at any other time you cannot see clearly up to 150 metres",
+        "From half an hour before sunset to half an hour after sunrise, and at any other time you cannot see clearly for 150 metres."
+      ],
+      "correctIndex": 3,
+      "imageName": null
+    },
+    {
+      "id": "en-299",
+      "language": "en",
+      "category": "rules",
+      "test": 10,
+      "text": "When must you report a collision to the police?",
+      "options": [
+        "Any of the above",
+        "Someone was injured",
+        "The damage to the vehicles is more than $2,000.",
+        "You suspect the other person may have committed a driving offence"
+      ],
+      "correctIndex": 0,
+      "imageName": null
+    },
+    {
+      "id": "en-300",
+      "language": "en",
+      "category": "rules",
+      "test": 10,
+      "text": "If you have a G1 licence, when can you drive on 400-series highways or high-speed expressways?",
+      "options": [
+        "When accompanied by a driver with 4 years of driving experience.",
+        "If you drive carefully.",
+        "When you think you have enough experience.",
+        "When you are accompanied by a driving instructor."
+      ],
+      "correctIndex": 3,
+      "imageName": null
+    },
+    {
+      "id": "en-301",
+      "language": "en",
+      "category": "rules",
+      "test": 11,
+      "text": "If the traffic light changes while a pedestrian is still crossing the street, who has the right-of-way?",
+      "options": [
+        "Vehicles coming from the left",
+        "Turning vehicles",
+        "The pedestrian",
+        "Vehicles from the right"
+      ],
+      "correctIndex": 2,
+      "imageName": null
+    },
+    {
+      "id": "en-302",
+      "language": "en",
+      "category": "rules",
+      "test": 11,
+      "text": "You are driving on a two-lane road. If the vehicle ahead of you stops for a pedestrian, what should you do?",
+      "options": [
+        "Pass the stopped car on the left.",
+        "Sound your horn to alert the pedestrian.",
+        "Pass the stopped car on the right.",
+        "Do not pass the stopped vehicle"
+      ],
+      "correctIndex": 3,
+      "imageName": null
+    },
+    {
+      "id": "en-303",
+      "language": "en",
+      "category": "rules",
+      "test": 11,
+      "text": "Snowplows on public roads are equipped with ……. flashing lights.",
+      "options": [
+        "Blue",
+        "Yellow",
+        "Orange",
+        "Red"
+      ],
+      "correctIndex": 0,
+      "imageName": null
+    },
+    {
+      "id": "en-304",
+      "language": "en",
+      "category": "rules",
+      "test": 11,
+      "text": "What vehicle is equipped with a flashing blue light?",
+      "options": [
+        "An emergency vehicle",
+        "A snowplow",
+        "A local police unit",
+        "A truck carrying dangerous goods"
+      ],
+      "correctIndex": 1,
+      "imageName": null
+    },
+    {
+      "id": "en-305",
+      "language": "en",
+      "category": "rules",
+      "test": 11,
+      "text": "When can a police officer ask to inspect a vehicle?",
+      "options": [
+        "If you have time",
+        "Anywhere, at any time",
+        "If the vehicle owner allows it",
+        "Only during the day"
+      ],
+      "correctIndex": 1,
+      "imageName": null
+    },
+    {
+      "id": "en-306",
+      "language": "en",
+      "category": "rules",
+      "test": 11,
+      "text": "You are following a commercial vehicle on a highway. What is a safe distance at 80 km/h?",
+      "options": [
+        "100 metres (330 feet)",
+        "60 metres (200 feet)",
+        "25 metres (80 feet)",
+        "40 metres (130 feet)"
+      ],
+      "correctIndex": 1,
+      "imageName": null
+    },
+    {
+      "id": "en-307",
+      "language": "en",
+      "category": "rules",
+      "test": 11,
+      "text": "Which of the following can lead to a charge of dangerous or careless driving?",
+      "options": [
+        "Not signalling before a turn",
+        "Changing lanes many times while driving",
+        "Not changing lanes safely on a highway",
+        "Causing a collision while using a cell phone"
+      ],
+      "correctIndex": 3,
+      "imageName": null
+    },
+    {
+      "id": "en-308",
+      "language": "en",
+      "category": "rules",
+      "test": 11,
+      "text": "A driver is convicted for the first time of drinking and driving. For how long is their licence suspended?",
+      "options": [
+        "3 months",
+        "6 months",
+        "1 year",
+        "1 month"
+      ],
+      "correctIndex": 2,
+      "imageName": null
+    },
+    {
+      "id": "en-309",
+      "language": "en",
+      "category": "rules",
+      "test": 11,
+      "text": "You are planning to make a U-turn. What is the most important thing to remember?",
+      "options": [
+        "The traffic laws",
+        "Where your vehicle will end up.",
+        "The angle of the curve you want to make.",
+        "The length of your vehicle"
+      ],
+      "correctIndex": 0,
+      "imageName": null
+    },
+    {
+      "id": "en-310",
+      "language": "en",
+      "category": "rules",
+      "test": 11,
+      "text": "When turning left from a one-way street, where on the street should you be?",
+      "options": [
+        "As far to the left as possible",
+        "In the centre lane",
+        "It doesn't matter which lane you are in",
+        "As far to the right as possible"
+      ],
+      "correctIndex": 0,
+      "imageName": null
+    },
+    {
+      "id": "en-311",
+      "language": "en",
+      "category": "rules",
+      "test": 11,
+      "text": "What is the correct hand signal to indicate stopping or slowing down?",
+      "options": [
+        "Arm bent upward",
+        "Hand making a circular motion",
+        "Arm straight out to the left",
+        "Arm pointing downward"
+      ],
+      "correctIndex": 3,
+      "imageName": null
+    },
+    {
+      "id": "en-312",
+      "language": "en",
+      "category": "rules",
+      "test": 11,
+      "text": "When is pavement slippery?",
+      "options": [
+        "After a long period of rain.",
+        "When it is new.",
+        "Right after it starts raining",
+        "When it is hot from the sun."
+      ],
+      "correctIndex": 2,
+      "imageName": null
+    },
+    {
+      "id": "en-313",
+      "language": "en",
+      "category": "rules",
+      "test": 11,
+      "text": "What is the minimum distance you must keep behind the vehicle in front?",
+      "options": [
+        "2 seconds",
+        "3 seconds",
+        "1 second",
+        "4 seconds"
+      ],
+      "correctIndex": 0,
+      "imageName": null
+    },
+    {
+      "id": "en-314",
+      "language": "en",
+      "category": "rules",
+      "test": 11,
+      "text": "You intend to pass a cyclist, but at the same time a vehicle is approaching from the opposite direction at a short distance. In this situation, what is the best and safest thing to do?",
+      "options": [
+        "Do not let the oncoming vehicle pass.",
+        "Speed up to pass the cyclist quickly.",
+        "Slow down and let the oncoming vehicle pass first.",
+        "Warn the cyclist about the approaching oncoming vehicle."
+      ],
+      "correctIndex": 2,
+      "imageName": null
+    },
+    {
+      "id": "en-315",
+      "language": "en",
+      "category": "rules",
+      "test": 11,
+      "text": "A broken yellow line on the left side of your lane means",
+      "options": [
+        "You may pass if the way is safe.",
+        "You can never pass",
+        "You may pass at any time",
+        "You may only pass during the day."
+      ],
+      "correctIndex": 0,
+      "imageName": null
+    },
+    {
+      "id": "en-316",
+      "language": "en",
+      "category": "rules",
+      "test": 11,
+      "text": "If a G1 or G2 driver accumulates ……. demerit points within 2 years, their licence will be suspended.",
+      "options": [
+        "9",
+        "6",
+        "8",
+        "7"
+      ],
+      "correctIndex": 0,
+      "imageName": null
+    },
+    {
+      "id": "en-317",
+      "language": "en",
+      "category": "rules",
+      "test": 11,
+      "text": "If a commercial vehicle breaks down on a highway at night, warning signs, flares, or reflectors must be placed …… both in front of and behind the vehicle.",
+      "options": [
+        "15 metres (50 feet)",
+        "90 metres (300 feet)",
+        "30 metres (100 feet)",
+        "60 metres (200 feet)"
+      ],
+      "correctIndex": 2,
+      "imageName": null
+    },
+    {
+      "id": "en-318",
+      "language": "en",
+      "category": "rules",
+      "test": 11,
+      "text": "When you are not passing or turning left, where should you drive?",
+      "options": [
+        "In the right lane",
+        "In the middle of the road",
+        "In whichever lane seems easiest for you",
+        "In the left lane"
+      ],
+      "correctIndex": 0,
+      "imageName": null
+    },
+    {
+      "id": "en-319",
+      "language": "en",
+      "category": "rules",
+      "test": 11,
+      "text": "What is the correct hand signal to show that you are turning right?",
+      "options": [
+        "Left hand and arm down",
+        "Left hand making a circular motion",
+        "Left hand and arm straight out",
+        "Put your left hand out with the elbow bent and your hand pointing up"
+      ],
+      "correctIndex": 3,
+      "imageName": null
+    },
+    {
+      "id": "en-320",
+      "language": "en",
+      "category": "rules",
+      "test": 11,
+      "text": "If you have a G1 licence, what condition must the driver accompanying you meet?",
+      "options": [
+        "Have completed a driving course.",
+        "Sit in the front passenger seat",
+        "Be the owner of the vehicle",
+        "Be a member of your family"
+      ],
+      "correctIndex": 1,
+      "imageName": null
+    },
+    {
+      "id": "en-321",
+      "language": "en",
+      "category": "rules",
+      "test": 12,
+      "text": "You are leaving a lane, a driveway, or a building's parking lot, crossing a sidewalk or entering a street or highway. What should you do?",
+      "options": [
+        "Use hand signals to show that you have the right-of-way.",
+        "Sound your horn and proceed with caution.",
+        "Yield the right-of-way to vehicles already on the main road.",
+        "Accelerate and enter the highway quickly."
+      ],
+      "correctIndex": 2,
+      "imageName": null
+    },
+    {
+      "id": "en-322",
+      "language": "en",
+      "category": "rules",
+      "test": 12,
+      "text": "Are you allowed to turn left on a red light?",
+      "options": [
+        "Yes, at any time.",
+        "Yes, but only from a two-way street onto another two-way street.",
+        "No",
+        "Yes, but only from a one-way street onto another one-way street."
+      ],
+      "correctIndex": 3,
+      "imageName": null
+    },
+    {
+      "id": "en-323",
+      "language": "en",
+      "category": "rules",
+      "test": 12,
+      "text": "When parking facing downhill, which way should you turn your front wheels?",
+      "options": [
+        "Toward the curb",
+        "It doesn't matter",
+        "Away from the curb",
+        "Straight"
+      ],
+      "correctIndex": 0,
+      "imageName": null
+    },
+    {
+      "id": "en-324",
+      "language": "en",
+      "category": "rules",
+      "test": 12,
+      "text": "What is the correct hand signal to show that you are turning left?",
+      "options": [
+        "Left hand and arm straight out",
+        "Left hand making a circular motion",
+        "Left hand and arm up",
+        "Left hand and arm down"
+      ],
+      "correctIndex": 0,
+      "imageName": null
+    },
+    {
+      "id": "en-325",
+      "language": "en",
+      "category": "rules",
+      "test": 12,
+      "text": "Why should you often pay extra attention to motorcycles?",
+      "options": [
+        "Their smaller size always gives them the right-of-way.",
+        "Their smaller size makes them hard to see and makes it hard to judge their speed and distance.",
+        "Their smaller size gives them the right-of-way in traffic.",
+        "They are very expensive."
+      ],
+      "correctIndex": 1,
+      "imageName": null
+    },
+    {
+      "id": "en-326",
+      "language": "en",
+      "category": "rules",
+      "test": 12,
+      "text": "A driver has been involved in a collision. By when can they report it to the police?",
+      "options": [
+        "Within 24 hours",
+        "Within 72 hours",
+        "Immediately, directly",
+        "Within 48 hours"
+      ],
+      "correctIndex": 2,
+      "imageName": null
+    },
+    {
+      "id": "en-327",
+      "language": "en",
+      "category": "rules",
+      "test": 12,
+      "text": "How can you increase pedestrian safety?",
+      "options": [
+        "Do all of the above.",
+        "Drive slowly anywhere there is a pedestrian crossing.",
+        "Keep eye contact with pedestrians.",
+        "Be extra careful at dusk."
+      ],
+      "correctIndex": 0,
+      "imageName": null
+    },
+    {
+      "id": "en-328",
+      "language": "en",
+      "category": "rules",
+      "test": 12,
+      "text": "Which of the following rules is the most important for G1 licence holders?",
+      "options": [
+        "They must hold the steering wheel at the 10 o'clock and 2 o'clock positions.",
+        "A person with at least 4 years of driving experience must supervise your driving.",
+        "They must only drive during daytime hours.",
+        "They must drive alone so they are not distracted."
+      ],
+      "correctIndex": 1,
+      "imageName": null
+    },
+    {
+      "id": "en-329",
+      "language": "en",
+      "category": "rules",
+      "test": 12,
+      "text": "If you have a G2 licence, which is true?",
+      "options": [
+        "There are no restrictions on your driving.",
+        "You cannot drive on 400-series highways or high-speed expressways.",
+        "Your BAC level must be zero whenever you drive.",
+        "You are allowed to drive from midnight to 5:00 a.m. unless you are accompanied by a driving instructor."
+      ],
+      "correctIndex": 2,
+      "imageName": null
+    },
+    {
+      "id": "en-330",
+      "language": "en",
+      "category": "rules",
+      "test": 12,
+      "text": "Under all road and weather conditions, you should always drive at a speed that lets you come to a complete stop within what distance?",
+      "options": [
+        "90 metres (300 feet).",
+        "150 metres (500 feet).",
+        "60 metres (200 feet).",
+        "A safe distance"
+      ],
+      "correctIndex": 3,
+      "imageName": null
+    },
+    {
+      "id": "en-331",
+      "language": "en",
+      "category": "rules",
+      "test": 12,
+      "text": "When do you need to wear a seatbelt?",
+      "options": [
+        "Whenever we feel it is necessary.",
+        "Whenever you travel in a vehicle.",
+        "Only when driving at night",
+        "Only if you are a senior or a child under 16."
+      ],
+      "correctIndex": 1,
+      "imageName": null
+    },
+    {
+      "id": "en-332",
+      "language": "en",
+      "category": "rules",
+      "test": 12,
+      "text": "You are at an intersection waiting to turn left. The light turns red while you are in the intersection. What should you do?",
+      "options": [
+        "Back up into the left-turn lane.",
+        "Complete the left turn when it is safe.",
+        "Stop in the middle of the intersection and turn right.",
+        "Continue straight ahead."
+      ],
+      "correctIndex": 1,
+      "imageName": null
+    },
+    {
+      "id": "en-333",
+      "language": "en",
+      "category": "rules",
+      "test": 12,
+      "text": "You see a cyclist in your path. What should you do?",
+      "options": [
+        "Signal and pass quickly.",
+        "Expect the cyclist to give you the right-of-way.",
+        "Stay in the same lane and pass with caution.",
+        "Check your blind spots and mirrors, signal, change lanes, and pass when it is safe."
+      ],
+      "correctIndex": 3,
+      "imageName": null
+    },
+    {
+      "id": "en-334",
+      "language": "en",
+      "category": "rules",
+      "test": 12,
+      "text": "If you see a motorcycle in your path and want to pass it, what should you do?",
+      "options": [
+        "Stay close to the motorcycle.",
+        "Check your blind spots and mirrors, signal, change lanes, and pass when it is safe.",
+        "Signal to the motorcycle and pass.",
+        "Stay in the same lane and pass with caution."
+      ],
+      "correctIndex": 1,
+      "imageName": null
+    },
+    {
+      "id": "en-335",
+      "language": "en",
+      "category": "rules",
+      "test": 12,
+      "text": "When two vehicles arrive at an uncontrolled intersection from different roads at about the same time, which vehicle has the right-of-way?",
+      "options": [
+        "The vehicle approaching from the right.",
+        "The vehicle approaching from the left.",
+        "The vehicle with more passengers.",
+        "The vehicle moving faster."
+      ],
+      "correctIndex": 0,
+      "imageName": null
+    },
+    {
+      "id": "en-336",
+      "language": "en",
+      "category": "rules",
+      "test": 12,
+      "text": "You are driving in the right lane and see a bus leaving a bus bay with its left-turn signal on. What should you do?",
+      "options": [
+        "You should speed up and pass the bus.",
+        "You should slow down or stop to let the bus in.",
+        "You should quickly pass the bus.",
+        "You should ignore the bus."
+      ],
+      "correctIndex": 1,
+      "imageName": null
+    },
+    {
+      "id": "en-337",
+      "language": "en",
+      "category": "rules",
+      "test": 12,
+      "text": "What should you do to actively prevent a collision?",
+      "options": [
+        "Do not drive in bad weather.",
+        "Use your high-beam headlights.",
+        "Do not drive when traffic is heavy.",
+        "Watch the space around your vehicle and adjust your speed to the conditions."
+      ],
+      "correctIndex": 3,
+      "imageName": null
+    },
+    {
+      "id": "en-338",
+      "language": "en",
+      "category": "rules",
+      "test": 12,
+      "text": "Which blood alcohol concentration (BAC) can get you convicted of impaired driving?",
+      "options": [
+        "0.8",
+        "0.16",
+        "0.08",
+        "0.05"
+      ],
+      "correctIndex": 2,
+      "imageName": null
+    },
+    {
+      "id": "en-339",
+      "language": "en",
+      "category": "rules",
+      "test": 12,
+      "text": "What must you do to upgrade from a Class G1 licence to a G2?",
+      "options": [
+        "Pass a road test after waiting the required amount of time.",
+        "Choose a Ministry-approved driver education program.",
+        "Nothing; the G2 licence is mailed to you after 12 months.",
+        "Pass the G2 written test"
+      ],
+      "correctIndex": 0,
+      "imageName": null
+    },
+    {
+      "id": "en-340",
+      "language": "en",
+      "category": "rules",
+      "test": 12,
+      "text": "Which of the following statements about three-point turns is true?",
+      "options": [
+        "During a three-point turn, you must check three times that the way is safe.",
+        "All of the above are true.",
+        "On narrow roads, you must make a three-point turn to change direction.",
+        "A three-point turn should not be made on a curve, near a railway crossing, on top of a hill, or near anything blocking your view."
+      ],
+      "correctIndex": 1,
+      "imageName": null
+    },
+    {
+      "id": "en-341",
+      "language": "en",
+      "category": "rules",
+      "test": 13,
+      "text": "If you are convicted of driving how many km/h over the speed limit will 4 demerit points be added to your driving record?",
+      "options": [
+        "49 to 59",
+        "10 to 29",
+        "10",
+        "30 to 40"
+      ],
+      "correctIndex": 3,
+      "imageName": null
+    },
+    {
+      "id": "en-342",
+      "language": "en",
+      "category": "rules",
+      "test": 13,
+      "text": "Which of the following is a sign of aggressive driving?",
+      "options": [
+        "Avoiding eye contact",
+        "All of the above",
+        "Preventing other drivers from passing",
+        "Changing lanes frequently"
+      ],
+      "correctIndex": 1,
+      "imageName": null
+    },
+    {
+      "id": "en-343",
+      "language": "en",
+      "category": "rules",
+      "test": 13,
+      "text": "Within what distance of a bridge can you not park?",
+      "options": [
+        "110 metres",
+        "25 metres",
+        "125 metres",
+        "100 metres"
+      ],
+      "correctIndex": 3,
+      "imageName": null
+    },
+    {
+      "id": "en-344",
+      "language": "en",
+      "category": "rules",
+      "test": 13,
+      "text": "You are driving on a wet road and must stop quickly. If your vehicle does not have anti-lock brakes (ABS), what should you do?",
+      "options": [
+        "Apply pressure to the brake pedal; if the wheels lock, release slightly and press again.",
+        "Turn off the engine and pull the parking brake.",
+        "Brake hard.",
+        "Pump the brakes repeatedly."
+      ],
+      "correctIndex": 0,
+      "imageName": null
+    },
+    {
+      "id": "en-345",
+      "language": "en",
+      "category": "rules",
+      "test": 13,
+      "text": "To leave a parking space or parking lot, what should you do?",
+      "options": [
+        "Check traffic, signal, and pull away from the curb quickly.",
+        "Signal and pull away from the curb.",
+        "Sound your horn and pull away from the curb slowly.",
+        "Check traffic, signal, and pull away from the curb when it is safe."
+      ],
+      "correctIndex": 3,
+      "imageName": null
+    },
+    {
+      "id": "en-346",
+      "language": "en",
+      "category": "rules",
+      "test": 13,
+      "text": "When entering a highway, what should you do after signalling?",
+      "options": [
+        "Increase your speed and then carefully merge with traffic.",
+        "Slow down and be ready to stop.",
+        "Reduce your speed.",
+        "Stop in the acceleration lane."
+      ],
+      "correctIndex": 0,
+      "imageName": null
+    },
+    {
+      "id": "en-347",
+      "language": "en",
+      "category": "rules",
+      "test": 13,
+      "text": "Where should you position your vehicle when turning right?",
+      "options": [
+        "Closer to the right side of the road.",
+        "In any position, as long as you signal.",
+        "Closer to the left side of the road.",
+        "Closer to the centre line."
+      ],
+      "correctIndex": 0,
+      "imageName": null
+    },
+    {
+      "id": "en-348",
+      "language": "en",
+      "category": "rules",
+      "test": 13,
+      "text": "You were found guilty of driving the wrong way on a one-way road. How many demerit points will be added to your driving record?",
+      "options": [
+        "6",
+        "3",
+        "5",
+        "2"
+      ],
+      "correctIndex": 1,
+      "imageName": null
+    },
+    {
+      "id": "en-349",
+      "language": "en",
+      "category": "rules",
+      "test": 13,
+      "text": "If you are convicted of which of the following, 6 demerit points will be added to your driving record?",
+      "options": [
+        "Racing",
+        "Any of the above",
+        "Failing to stop for a school bus",
+        "Driving 50 km/h or more over the posted speed limit."
+      ],
+      "correctIndex": 1,
+      "imageName": null
+    },
+    {
+      "id": "en-350",
+      "language": "en",
+      "category": "rules",
+      "test": 13,
+      "text": "Where can you not park?",
+      "options": [
+        "Any of the above",
+        "A crosswalk",
+        "A sidewalk",
+        "A driveway"
+      ],
+      "correctIndex": 0,
+      "imageName": null
+    },
+    {
+      "id": "en-351",
+      "language": "en",
+      "category": "rules",
+      "test": 13,
+      "text": "You have been convicted of following too closely, that is, tailgating the car in front. How many demerit points will be added to your driving record?",
+      "options": [
+        "4",
+        "3",
+        "2",
+        "1"
+      ],
+      "correctIndex": 0,
+      "imageName": null
+    },
+    {
+      "id": "en-352",
+      "language": "en",
+      "category": "rules",
+      "test": 13,
+      "text": "What happens if a fully licensed driver gets 6 demerit points on their driving record?",
+      "options": [
+        "Their driver's licence will be suspended.",
+        "They will face a large fine.",
+        "Their licence will be cancelled.",
+        "A warning letter will be sent to them."
+      ],
+      "correctIndex": 3,
+      "imageName": null
+    },
+    {
+      "id": "en-353",
+      "language": "en",
+      "category": "rules",
+      "test": 13,
+      "text": "Which of the following statements about the demerit point system is true?",
+      "options": [
+        "Demerit points are added to your driving record every year.",
+        "Demerit points stay on your driving record for 2 years from the date of the offence.",
+        "You only get demerit points on your record for breaking driving laws in Ontario.",
+        "You start with 2 demerit points and gain points for convictions and traffic violations."
+      ],
+      "correctIndex": 1,
+      "imageName": null
+    },
+    {
+      "id": "en-354",
+      "language": "en",
+      "category": "rules",
+      "test": 13,
+      "text": "Within how many metres of the nearest rail of a railway crossing can you not park?",
+      "options": [
+        "15",
+        "10",
+        "5",
+        "25"
+      ],
+      "correctIndex": 0,
+      "imageName": null
+    },
+    {
+      "id": "en-355",
+      "language": "en",
+      "category": "rules",
+      "test": 13,
+      "text": "While you hold a G1 licence, your blood alcohol level must not exceed what amount when driving?",
+      "options": [
+        "0.02",
+        "0.5",
+        "Zero",
+        "0.05"
+      ],
+      "correctIndex": 2,
+      "imageName": null
+    },
+    {
+      "id": "en-356",
+      "language": "en",
+      "category": "rules",
+      "test": 13,
+      "text": "If you are under 20 years old and have held your G2 licence for at least six months, which is true?",
+      "options": [
+        "You may carry up to 3 passengers aged 19 or under.",
+        "You will not need to wear a seatbelt.",
+        "You may carry as many passengers as there are seatbelts.",
+        "You may drive with a blood alcohol level of 0.02."
+      ],
+      "correctIndex": 0,
+      "imageName": null
+    },
+    {
+      "id": "en-357",
+      "language": "en",
+      "category": "rules",
+      "test": 13,
+      "text": "If a novice driver gets how many demerit points on their driving record will they receive their first warning letter?",
+      "options": [
+        "2 to 5",
+        "2 to 3",
+        "1 to 3",
+        "5"
+      ],
+      "correctIndex": 0,
+      "imageName": null
+    },
+    {
+      "id": "en-358",
+      "language": "en",
+      "category": "rules",
+      "test": 13,
+      "text": "How long must you have held your licence, at minimum, before you can take the full G road test?",
+      "options": [
+        "24 months.",
+        "6 months.",
+        "12 months.",
+        "3 months."
+      ],
+      "correctIndex": 2,
+      "imageName": null
+    },
+    {
+      "id": "en-359",
+      "language": "en",
+      "category": "rules",
+      "test": 13,
+      "text": "If you are convicted of leaving the scene of a collision, how many demerit points will be added to your driving record?",
+      "options": [
+        "3",
+        "5",
+        "7",
+        "6"
+      ],
+      "correctIndex": 2,
+      "imageName": null
+    },
+    {
+      "id": "en-360",
+      "language": "en",
+      "category": "rules",
+      "test": 13,
+      "text": "What is the maximum amount of time a new driver has to complete the graduated licensing process?",
+      "options": [
+        "5 years",
+        "2 years",
+        "4 years",
+        "3 years"
+      ],
+      "correctIndex": 0,
+      "imageName": null
+    },
+    {
+      "id": "en-361",
+      "language": "en",
+      "category": "rules",
+      "test": 14,
+      "text": "You have been convicted of carrying a child passenger who is not properly secured. How many demerit points will be added to your driving record?",
+      "options": [
+        "3",
+        "4",
+        "2",
+        "0"
+      ],
+      "correctIndex": 2,
+      "imageName": null
+    },
+    {
+      "id": "en-362",
+      "language": "en",
+      "category": "rules",
+      "test": 14,
+      "text": "While you hold a G1 licence, you may only drive with another driver who:",
+      "options": [
+        "Has a full G licence.",
+        "Has at least 4 years of driving experience.",
+        "Is the only passenger in the front seat.",
+        "Meets all of the requirements above."
+      ],
+      "correctIndex": 3,
+      "imageName": null
+    },
+    {
+      "id": "en-363",
+      "language": "en",
+      "category": "rules",
+      "test": 14,
+      "text": "If the police stop a driver suspected of being impaired and the driver refuses a breath or blood test, for how long will their licence be suspended immediately?",
+      "options": [
+        "For 2 months",
+        "Indefinitely",
+        "For 90 days",
+        "Until further notice"
+      ],
+      "correctIndex": 2,
+      "imageName": null
+    },
+    {
+      "id": "en-364",
+      "language": "en",
+      "category": "rules",
+      "test": 14,
+      "text": "You are convicted of a Criminal Code offence for the first time. What penalty will you receive?",
+      "options": [
+        "A 1-year licence suspension",
+        "A 2-month licence suspension",
+        "A lifetime driving ban",
+        "A 2-year licence suspension"
+      ],
+      "correctIndex": 0,
+      "imageName": null
+    },
+    {
+      "id": "en-365",
+      "language": "en",
+      "category": "rules",
+      "test": 14,
+      "text": "Both the G1 written test and the G2 road test will assess your knowledge of what?",
+      "options": [
+        "Driving on highways",
+        "Driving only in residential areas",
+        "How fast you can drive",
+        "How safely you drive"
+      ],
+      "correctIndex": 3,
+      "imageName": null
+    },
+    {
+      "id": "en-366",
+      "language": "en",
+      "category": "rules",
+      "test": 14,
+      "text": "Where can G1 licence holders not drive?",
+      "options": [
+        "In residential areas, except during the day.",
+        "On country roads, unless accompanied by a driving instructor.",
+        "On rural roads with speed limits below 80 km/h.",
+        "On 400-series highways, unless accompanied by a driving instructor."
+      ],
+      "correctIndex": 3,
+      "imageName": null
+    },
+    {
+      "id": "en-367",
+      "language": "en",
+      "category": "rules",
+      "test": 14,
+      "text": "You have been convicted of backing up on a highway or driving too slowly. How many demerit points will be added to your driving record?",
+      "options": [
+        "2",
+        "Zero",
+        "3",
+        "1"
+      ],
+      "correctIndex": 0,
+      "imageName": null
+    },
+    {
+      "id": "en-368",
+      "language": "en",
+      "category": "rules",
+      "test": 14,
+      "text": "Which of the following statements is false?",
+      "options": [
+        "Fully licensed drivers are allowed to use cell phones while driving.",
+        "You can get 3 demerit points for holding a cell phone while driving.",
+        "You can get 3 demerit points for talking on a cell phone while driving.",
+        "Fully licensed drivers are allowed to use cell phones with a hands-free system while driving."
+      ],
+      "correctIndex": 0,
+      "imageName": null
+    },
+    {
+      "id": "en-369",
+      "language": "en",
+      "category": "rules",
+      "test": 14,
+      "text": "Which of the following statements about demerit points is false?",
+      "options": [
+        "You get demerit points if you are convicted of breaking certain driving laws.",
+        "Demerit points are added to your driving record only for offences you commit in Canada.",
+        "Demerit points stay on your record for two years.",
+        "For new drivers, the consequences of getting demerit points are different from those for fully licensed drivers."
+      ],
+      "correctIndex": 1,
+      "imageName": null
+    },
+    {
+      "id": "en-370",
+      "language": "en",
+      "category": "rules",
+      "test": 14,
+      "text": "If found guilty, which of the following will add demerit points to your driving record?",
+      "options": [
+        "Talking to passengers while driving",
+        "Using headphones in one ear while driving",
+        "Sitting too close to the steering wheel while driving",
+        "Improperly passing or failing to yield to an emergency vehicle"
+      ],
+      "correctIndex": 3,
+      "imageName": null
+    },
+    {
+      "id": "en-371",
+      "language": "en",
+      "category": "rules",
+      "test": 14,
+      "text": "How many passengers can a G2 driver who is at least 20 years old carry in their vehicle?",
+      "options": [
+        "Cannot carry any passengers.",
+        "1 passenger",
+        "Only family members",
+        "As many as there are working seatbelts."
+      ],
+      "correctIndex": 3,
+      "imageName": null
+    },
+    {
+      "id": "en-372",
+      "language": "en",
+      "category": "rules",
+      "test": 14,
+      "text": "While you hold a G1 licence, between which times can you not drive?",
+      "options": [
+        "Midnight and 5 p.m.",
+        "7 p.m. and 7 a.m.",
+        "9 p.m. and 6 a.m.",
+        "Midnight and 5 a.m."
+      ],
+      "correctIndex": 3,
+      "imageName": null
+    },
+    {
+      "id": "en-373",
+      "language": "en",
+      "category": "rules",
+      "test": 14,
+      "text": "What happens if you are convicted of a driving offence in another province?",
+      "options": [
+        "You must surrender your driver's licence.",
+        "Demerit points are added to your record as if the offence happened in Ontario.",
+        "No demerit points will be added to your record.",
+        "You will go to jail in that province."
+      ],
+      "correctIndex": 1,
+      "imageName": null
+    },
+    {
+      "id": "en-374",
+      "language": "en",
+      "category": "rules",
+      "test": 14,
+      "text": "Within what distance of an intersection not controlled by traffic lights can you not park?",
+      "options": [
+        "8 metres",
+        "15 metres",
+        "9 metres",
+        "5 metres"
+      ],
+      "correctIndex": 2,
+      "imageName": null
+    },
+    {
+      "id": "en-375",
+      "language": "en",
+      "category": "rules",
+      "test": 14,
+      "text": "You have been caught driving in the warn range for the second time. For how long will your licence be suspended immediately at the roadside?",
+      "options": [
+        "3 days",
+        "15 days",
+        "5 days",
+        "7 days"
+      ],
+      "correctIndex": 3,
+      "imageName": null
+    },
+    {
+      "id": "en-376",
+      "language": "en",
+      "category": "rules",
+      "test": 14,
+      "text": "What document must you bring to your full licence road test?",
+      "options": [
+        "Your G2 licence",
+        "Your diploma",
+        "Your birth certificate",
+        "Your driver education course certificate"
+      ],
+      "correctIndex": 0,
+      "imageName": null
+    },
+    {
+      "id": "en-377",
+      "language": "en",
+      "category": "rules",
+      "test": 14,
+      "text": "In which of the following places is a U-turn dangerous or illegal?",
+      "options": [
+        "On a curve or on a hill, where visibility in both directions is less than 150 metres.",
+        "In all of the places above",
+        "At a railway crossing or within 30 metres of a railway crossing",
+        "Within 150 metres of a bridge, viaduct, or tunnel if the driver's view is blocked."
+      ],
+      "correctIndex": 1,
+      "imageName": null
+    },
+    {
+      "id": "en-378",
+      "language": "en",
+      "category": "rules",
+      "test": 14,
+      "text": "Which of the following statements about driving with a G2 licence is false?",
+      "options": [
+        "You can drive on all roads in Ontario.",
+        "You must be supervised by a more experienced driver only when driving at night.",
+        "Your blood alcohol level must be zero.",
+        "You should not have time restrictions."
+      ],
+      "correctIndex": 1,
+      "imageName": null
+    },
+    {
+      "id": "en-379",
+      "language": "en",
+      "category": "rules",
+      "test": 14,
+      "text": "A person whose driver's licence is suspended can:",
+      "options": [
+        "Drive if accompanied by a licensed driver.",
+        "Not drive under any circumstances.",
+        "Drive in emergencies.",
+        "Drive only to and from work."
+      ],
+      "correctIndex": 1,
+      "imageName": null
+    },
+    {
+      "id": "en-380",
+      "language": "en",
+      "category": "rules",
+      "test": 14,
+      "text": "Which of the following statements about cyclists is false?",
+      "options": [
+        "When passing a cyclist, you must leave at least one metre of space.",
+        "Cyclists are prohibited from using the left lane to turn left.",
+        "Before passing a cyclist, change lanes if possible.",
+        "Do not follow cyclists too closely."
+      ],
+      "correctIndex": 1,
       "imageName": null
     },
     {
@@ -1235,7 +5135,7 @@
       "language": "fa",
       "category": "rules",
       "test": 4,
-      "text": "يك راننده مبتدى كه به رانندگى بی\\u{200C}دقت محكوم شده، در سومين تخلف با كداميك از مجازات هاى زير روبرو خواهد شد؟",
+      "text": "يك راننده مبتدى كه به رانندگى بی‌دقت محكوم شده، در سومين تخلف با كداميك از مجازات هاى زير روبرو خواهد شد؟",
       "options": [
         "جريمه، لغو گواهينامه و حذف از سيستم گواهينامه تدريجى",
         "فقط حذف از سيستم گواهينامه تدريجى",
@@ -1285,7 +5185,7 @@
         "ترمزها را به شدت فشار دهيد",
         "مستقيم به جلو هدايت كنيد",
         "درجهت مخالف لغزش هدايت كنيد.",
-        "در مسيرى كه مى\\u{200C}خواهيد برويد هدايت كنيد"
+        "در مسيرى كه مى‌خواهيد برويد هدايت كنيد"
       ],
       "correctIndex": 3,
       "imageName": null
@@ -1310,7 +5210,7 @@
       "language": "fa",
       "category": "rules",
       "test": 4,
-      "text": "شما به چند برف\\u{200C}روب نزديك مى\\u{200C}شويد كه يك آزادراه را پاكسازى مى\\u{200C}كنند. چه كارى را نبايد انجام دهيد؟",
+      "text": "شما به چند برف‌روب نزديك مى‌شويد كه يك آزادراه را پاكسازى مى‌كنند. چه كارى را نبايد انجام دهيد؟",
       "options": [
         "سعى كنيد از بين آنها عبور كنيد",
         "قوانين جاده را رعايت كنيد",
@@ -1325,7 +5225,7 @@
       "language": "fa",
       "category": "rules",
       "test": 4,
-      "text": "وقتى به يك تقاطع نزديك مى\\u{200C}شويد، متوجه مى\\u{200C}شويد كه جاده آن سوى تقاطع با ترافيك مسدود شده است. چه كارى بايد انجام دهيد؟",
+      "text": "وقتى به يك تقاطع نزديك مى‌شويد، متوجه مى‌شويد كه جاده آن سوى تقاطع با ترافيك مسدود شده است. چه كارى بايد انجام دهيد؟",
       "options": [
         "بوق خود را به صدا درآوريد تا به ترافيك پيش رو براى ادامه مسير هشدار دهيد.",
         "توقف كن و دريك كافه استراحت کن",
@@ -1342,7 +5242,7 @@
       "test": 4,
       "text": "عبور از يك وسيله نقليه ديگر در سمت راست …",
       "options": [
-        "زمانى مجاز است كه خيابان يا بزرگراه داراى دو يا چند لاين ترافيك در جهتى است كه شما در آن حركت مى\\u{200C}كنيد",
+        "زمانى مجاز است كه خيابان يا بزرگراه داراى دو يا چند لاين ترافيك در جهتى است كه شما در آن حركت مى‌كنيد",
         "زمانى مجاز است كه خيابان يا بزرگراه داراى ترافيك باشد.",
         "درهر خيابان يا بزرگراه مجاز است.",
         "مجاز نيست."
@@ -1355,7 +5255,7 @@
       "language": "fa",
       "category": "rules",
       "test": 4,
-      "text": "هنگام عبور از يك دوچرخه\\u{200C}سوار، اگر حداقل 1 متر فاصله نگذازيد، اين كار مى\\u{200C}تواند منجر به چند امتياز منفی شود؟",
+      "text": "هنگام عبور از يك دوچرخه‌سوار، اگر حداقل 1 متر فاصله نگذازيد، اين كار مى‌تواند منجر به چند امتياز منفی شود؟",
       "options": [
         "6",
         "3",
@@ -1385,12 +5285,12 @@
       "language": "fa",
       "category": "rules",
       "test": 4,
-      "text": "قانون دو ثانيه براى تعيين چه چيزى استفاده مى\\u{200C}شود؟",
+      "text": "قانون دو ثانيه براى تعيين چه چيزى استفاده مى‌شود؟",
       "options": [
-        "چقدر سريع مى\\u{200C}توانيد به موانع واكنش نشان دهيد",
+        "چقدر سريع مى‌توانيد به موانع واكنش نشان دهيد",
         "با چه سرعتى در حال حركت هستيد",
-        "چقدر سوخت صرفه\\u{200C}جويى خواهيد كرد",
-        "آيا با فاصله\\u{200C}اى امن از ماشين روبرو حركت مى\\u{200C}كنيد يا خير"
+        "چقدر سوخت صرفه‌جويى خواهيد كرد",
+        "آيا با فاصله‌اى امن از ماشين روبرو حركت مى‌كنيد يا خير"
       ],
       "correctIndex": 3,
       "imageName": null
@@ -1400,7 +5300,7 @@
       "language": "fa",
       "category": "rules",
       "test": 4,
-      "text": "شما به يك منطقه ساخت و ساز نزديك مى\\u{200C}شويد. چه كارى بايد انجام دهيد؟",
+      "text": "شما به يك منطقه ساخت و ساز نزديك مى‌شويد. چه كارى بايد انجام دهيد؟",
       "options": [
         "بوق خود را به صدا درآوريد تا به كارگران هشدار دهيد.",
         "در صورت لزوم سرعت خود را كاهش دهيد و حق تقدم را بدهيد.",
@@ -1415,11 +5315,11 @@
       "language": "fa",
       "category": "rules",
       "test": 4,
-      "text": "مى\\u{200C}خواهيد گردش به راست در چراغ قرمزى كه گردش به راست مجاز است انجام دهيد. قبل از ورود و انجام پيچ چه بايد كرد؟",
+      "text": "مى‌خواهيد گردش به راست در چراغ قرمزى كه گردش به راست مجاز است انجام دهيد. قبل از ورود و انجام پيچ چه بايد كرد؟",
       "options": [
         "چراغ راهنماى چپ را روشن كنيد، سپس ادامه دهيد.",
         "چراغ راهنماى راست را روشن كنيد، سپس ادامه دهيد.",
-        "متوقف شويد. به وسايل نقليه و پياده\\u{200C}روها حق تقدم بدهيد. اگر مسير ايمن است، چراغ راهنماى راست را روشن كرده و با احتياط بپيچيد.",
+        "متوقف شويد. به وسايل نقليه و پياده‌روها حق تقدم بدهيد. اگر مسير ايمن است، چراغ راهنماى راست را روشن كرده و با احتياط بپيچيد.",
         "سرعت خود را افزايش دهيد، سپس ادامه دهيد."
       ],
       "correctIndex": 2,
@@ -1430,12 +5330,12 @@
       "language": "fa",
       "category": "rules",
       "test": 4,
-      "text": "خطوط سفيد شكسته نشان\\u{200C}دهنده چيست؟",
+      "text": "خطوط سفيد شكسته نشان‌دهنده چيست؟",
       "options": [
-        "آنها خطوط ترافيكى را كه در جهت مخالف حركت مى\\u{200C}كنند جدا مى\\u{200C}كنند.",
-        "آنها نشان مى\\u{200C}دهند كه عبور از خطوط ممنوع است.",
-        "آنها نشان مى\\u{200C}دهند كه جاده جلوتر به پايان مى\\u{200C}رسد",
-        "آنها لاين\\u{200C}هاى ترافيكى را كه در يك جهت حركت مى\\u{200C}كنند جدا مى\\u{200C}كنند"
+        "آنها خطوط ترافيكى را كه در جهت مخالف حركت مى‌كنند جدا مى‌كنند.",
+        "آنها نشان مى‌دهند كه عبور از خطوط ممنوع است.",
+        "آنها نشان مى‌دهند كه جاده جلوتر به پايان مى‌رسد",
+        "آنها لاين‌هاى ترافيكى را كه در يك جهت حركت مى‌كنند جدا مى‌كنند"
       ],
       "correctIndex": 3,
       "imageName": null
@@ -1445,7 +5345,7 @@
       "language": "fa",
       "category": "rules",
       "test": 4,
-      "text": "در جاده\\u{200C}اى با ترافيك دوطرفه، قصد داريد به چپ بپيچيد. در چه موقعيتى بايد باشيد؟",
+      "text": "در جاده‌اى با ترافيك دوطرفه، قصد داريد به چپ بپيچيد. در چه موقعيتى بايد باشيد؟",
       "options": [
         "نزديك به سمت راست جاده",
         "نزديك به سمت چپ جاده",
@@ -1460,7 +5360,7 @@
       "language": "fa",
       "category": "rules",
       "test": 4,
-      "text": "اگر به دليل عدم توقف هنگام دستور توقف افسر پليس محكوم شويد، ممكن است با كدام مجازات\\u{200C}ها روبرو شويد؟",
+      "text": "اگر به دليل عدم توقف هنگام دستور توقف افسر پليس محكوم شويد، ممكن است با كدام مجازات‌ها روبرو شويد؟",
       "options": [
         "تا 6 ماه زندان",
         "جريمه تا 25000 دلار",
@@ -1490,10 +5390,10 @@
       "language": "fa",
       "category": "rules",
       "test": 4,
-      "text": "اگر براى اتوبوس مدرسه\\u{200C}اى كه چراغ قرمز آن چشمك مى\\u{200C}زند، توقف نكنيد، براى اولين بار با كدام مجازات روبرو مى\\u{200C}شويد؟",
+      "text": "اگر براى اتوبوس مدرسه‌اى كه چراغ قرمز آن چشمك مى‌زند، توقف نكنيد، براى اولين بار با كدام مجازات روبرو مى‌شويد؟",
       "options": [
         "جريمه تا 2000 دلار و 6 امتياز منفی",
-        "الزام مجدد براى شركت در تست\\u{200C}هاى جاده\\u{200C}اى",
+        "الزام مجدد براى شركت در تست‌هاى جاده‌اى",
         "جريمه تا 1000 دلار و 3 امتياز منفی",
         "1 سال حبس"
       ],
@@ -4498,606 +8398,6 @@
         "پشت سر دوچرخه‌سواران را خیلی دنبال نکنید."
       ],
       "correctIndex": 1,
-      "imageName": null
-    },
-    {
-      "id": "fa-381",
-      "language": "fa",
-      "category": "signs",
-      "test": 15,
-      "text": "این علامت به چه معناست؟",
-      "options": [
-        "شما باید به خط سمت راست حرکت کنید.",
-        "شما نباید در لاین سمت راست رانندگی کنید.",
-        "اگر در لاین سمت راست باقی بمانید می‌توانید خارج شوید.",
-        "اگر در لاین سمت راست باقی مانده‌اید باید خارج شوید."
-      ],
-      "correctIndex": 3,
-      "imageName": "161"
-    },
-    {
-      "id": "fa-382",
-      "language": "fa",
-      "category": "signs",
-      "test": 15,
-      "text": "این تابلوی راه به چه معناست؟",
-      "options": [
-        "ورودی کامیون جلوتر",
-        "منطقه مدرسه جلوتر",
-        "ایستگاه مخفی اتوبوس مدرسه جلوتر",
-        "تقاطع مخفی پیش رو"
-      ],
-      "correctIndex": 2,
-      "imageName": "162"
-    },
-    {
-      "id": "fa-383",
-      "language": "fa",
-      "category": "signs",
-      "test": 15,
-      "text": "شما به یک علامت رعایت حق تقدم نزدیک می‌شوید. چه کاری باید انجام دهید؟",
-      "options": [
-        "بوق خود را به صدا درآورید.",
-        "توقف کنید، سپس به آرامی وارد ترافیک شوید.",
-        "توقف کنید، سپس سریع وارد ترافیک شوید.",
-        "سرعت خود را کم کنید، در صورت لزوم توقف کنید، و حق تقدم را رعایت کنید."
-      ],
-      "correctIndex": 3,
-      "imageName": "163"
-    },
-    {
-      "id": "fa-384",
-      "language": "fa",
-      "category": "signs",
-      "test": 15,
-      "text": "این علامت به چه معناست؟",
-      "options": [
-        "تقاطع کنترل نشده",
-        "محل عبور عابر پیاده",
-        "وارد نشوید",
-        "گذرگاه راه آهن"
-      ],
-      "correctIndex": 3,
-      "imageName": "164"
-    },
-    {
-      "id": "fa-385",
-      "language": "fa",
-      "category": "signs",
-      "test": 15,
-      "text": "این تابلوی راه به چه معناست؟",
-      "options": [
-        "وارد نشوید.",
-        "ایستادن ممنوع است.",
-        "سبقت ممنوع",
-        "پارک نکنید."
-      ],
-      "correctIndex": 0,
-      "imageName": "165"
-    },
-    {
-      "id": "fa-386",
-      "language": "fa",
-      "category": "signs",
-      "test": 15,
-      "text": "این علامت به چه معناست؟",
-      "options": [
-        "پل باریک پیش رو است.",
-        "جاده در حال ساخت",
-        "بزرگراه تقسیم شده آغاز می‌شود.",
-        "بزرگراه تقسیم شده به پایان می‌رسد."
-      ],
-      "correctIndex": 2,
-      "imageName": "166"
-    },
-    {
-      "id": "fa-387",
-      "language": "fa",
-      "category": "signs",
-      "test": 15,
-      "text": "این تابلوی راه به چه معناست؟",
-      "options": [
-        "فقط ورود حیوانات خانگی مجاز است.",
-        "ورود عابر پیاده ممنوع است.",
-        "ورود دوچرخه مجاز نیست.",
-        "ممنوعیت ورود کودکان"
-      ],
-      "correctIndex": 1,
-      "imageName": "167"
-    },
-    {
-      "id": "fa-388",
-      "language": "fa",
-      "category": "signs",
-      "test": 15,
-      "text": "این علامت به چه معناست؟",
-      "options": [
-        "شما نباید در لاین سمت راست رانندگی کنید.",
-        "این یک لاین دوطرفه برای گردش به چپ است.",
-        "بزرگراه جلوتر به پایان می‌رسد.",
-        "جاده در حال منشعب شدن است."
-      ],
-      "correctIndex": 1,
-      "imageName": "168"
-    },
-    {
-      "id": "fa-389",
-      "language": "fa",
-      "category": "signs",
-      "test": 15,
-      "text": "این علامت به چه معناست؟",
-      "options": [
-        "محل پارک مخصوص معلولین",
-        "تیم نقشه‌برداری در جلو مشغول به کار است.",
-        "بیمارستان در پیش رو است.",
-        "توقف در هر زمانی ممنوع است."
-      ],
-      "correctIndex": 0,
-      "imageName": "169"
-    },
-    {
-      "id": "fa-390",
-      "language": "fa",
-      "category": "signs",
-      "test": 15,
-      "text": "این تابلوی راه به چه معناست؟",
-      "options": [
-        "راه پر پیچ و خم",
-        "هنگام خیس بودن، جاده لغزنده است.",
-        "جاده به چپ و سپس به راست می‌پیچد.",
-        "خروجی خط به سمت راست"
-      ],
-      "correctIndex": 0,
-      "imageName": "170"
-    },
-    {
-      "id": "fa-391",
-      "language": "fa",
-      "category": "signs",
-      "test": 15,
-      "text": "این تابلوی راه به چه معناست؟",
-      "options": [
-        "ممکن است آب روی جاده جاری شود.",
-        "وارد جاده نشوید.",
-        "منطقه ساخت و ساز در پیش است.",
-        "ورودی کامیون جلوتر"
-      ],
-      "correctIndex": 0,
-      "imageName": "171"
-    },
-    {
-      "id": "fa-392",
-      "language": "fa",
-      "category": "signs",
-      "test": 15,
-      "text": "این تابلوی راه به چه معناست؟",
-      "options": [
-        "مسیر کامیون",
-        "علامت منع",
-        "مسیر دوچرخه‌سواری",
-        "علامت مجاز"
-      ],
-      "correctIndex": 3,
-      "imageName": "172"
-    },
-    {
-      "id": "fa-393",
-      "language": "fa",
-      "category": "signs",
-      "test": 15,
-      "text": "این تابلوی راه به چه معناست؟",
-      "options": [
-        "می‌توانید با چراغ قرمز به سمت راست بپیچید.",
-        "بزرگراه تقسیم شده به پایان می‌رسد.",
-        "شما نمی‌توانید با چراغ سبز به سمت راست بپیچید.",
-        "شما نباید با چراغ قرمز به سمت راست بپیچید."
-      ],
-      "correctIndex": 3,
-      "imageName": "173"
-    },
-    {
-      "id": "fa-394",
-      "language": "fa",
-      "category": "signs",
-      "test": 15,
-      "text": "این علامت به چه معناست؟",
-      "options": [
-        "وجود مانع در جلو؛ خطوط شیب‌دار نشان می‌دهند از کدام سمت عبور کنید.",
-        "این محل برای توقف و استراحت است.",
-        "مسیر در اینجا به بن‌بست می‌رسد.",
-        "خطوط صعودی نشان می‌دهند از کدام سمت سبقت بگیرید."
-      ],
-      "correctIndex": 0,
-      "imageName": "174"
-    },
-    {
-      "id": "fa-395",
-      "language": "fa",
-      "category": "signs",
-      "test": 15,
-      "text": "این علامت به چه معناست؟",
-      "options": [
-        "در طول زمان‌ها و روزهای نوشته شده متوقف نشوید.",
-        "در زمان‌ها و روزهای نوشته شده وارد نشوید.",
-        "فقط انواع خاصی از وسایل نقلیه مجاز به تردد در این خط در زمان‌ها و روزهای نوشته شده هستند.",
-        "در ساعات و روزهای نوشته شده فقط دوچرخه مجاز به ورود به این خط است."
-      ],
-      "correctIndex": 2,
-      "imageName": "175"
-    },
-    {
-      "id": "fa-396",
-      "language": "fa",
-      "category": "signs",
-      "test": 15,
-      "text": "این علامت به چه معناست؟",
-      "options": [
-        "باید از سمت راست مانع پیش رو عبور کنید.",
-        "از سمت راست سایر رانندگان سبقت بگیرید.",
-        "جاده پر از پیچ و خم است.",
-        "جاده به سمت راست می‌پیچد."
-      ],
-      "correctIndex": 0,
-      "imageName": "176"
-    },
-    {
-      "id": "fa-397",
-      "language": "fa",
-      "category": "signs",
-      "test": 15,
-      "text": "این تابلوی راه به چه معناست؟",
-      "options": [
-        "مهدکودک در پیش است.",
-        "منطقه عبور بچه‌ها",
-        "مراقب افراد دارای معلولیت باشید.",
-        "تقاطع با مدرسه در پیش است."
-      ],
-      "correctIndex": 3,
-      "imageName": "177"
-    },
-    {
-      "id": "fa-398",
-      "language": "fa",
-      "category": "signs",
-      "test": 15,
-      "text": "این راننده از سیگنال دستی استفاده می‌کند. راننده قصد دارد…",
-      "options": [
-        "به سمت چپ بپیچد.",
-        "به سمت راست بپیچد.",
-        "سرعت خود را زیاد کند.",
-        "سرعت خود را کم کند یا توقف کند."
-      ],
-      "correctIndex": 0,
-      "imageName": "178"
-    },
-    {
-      "id": "fa-399",
-      "language": "fa",
-      "category": "signs",
-      "test": 15,
-      "text": "این علامت به چه معناست؟",
-      "options": [
-        "پارک‌های استانی را نشان می‌دهد.",
-        "املای صحیح شهرها یا شهرستان‌ها را نشان می‌دهد.",
-        "گذرگاه راه آهن پیش رو را نشان می‌دهد.",
-        "فاصله شهرها یا شهرستان‌ها را نشان می‌دهد."
-      ],
-      "correctIndex": 3,
-      "imageName": "179"
-    },
-    {
-      "id": "fa-400",
-      "language": "fa",
-      "category": "signs",
-      "test": 15,
-      "text": "این تابلوی راه به چه معناست؟",
-      "options": [
-        "محدودیت سرعت برای مدارس روستایی",
-        "حداکثر سرعت ۵۰ کیلومتر در ساعت از این علامت تا علامت بعدی",
-        "انتهای منطقه ۵۰ کیلومتر بر ساعت",
-        "محدودیت سرعت جلوتر به ۵۰ کیلومتر در ساعت تغییر می‌کند."
-      ],
-      "correctIndex": 3,
-      "imageName": "180"
-    },
-    {
-      "id": "fa-401",
-      "language": "fa",
-      "category": "rules",
-      "test": 16,
-      "text": "استفاده از کدام یک از موارد زیر هنگام رانندگی ممنوع است؟",
-      "options": [
-        "لپ‌تاپ",
-        "تلفن همراه دستی",
-        "همه موارد فوق",
-        "پخش‌کننده ضبط صوت"
-      ],
-      "correctIndex": 2,
-      "imageName": null
-    },
-    {
-      "id": "fa-402",
-      "language": "fa",
-      "category": "rules",
-      "test": 16,
-      "text": "یک افسر پلیس می‌تواند از صاحب وسیله نقلیه ارائه چه مدارکی را درخواست کند؟",
-      "options": [
-        "سند مالکیت وسیله نقلیه",
-        "گواهینامه رانندگی معتبر",
-        "کارت بیمه مسئولیت",
-        "همه موارد فوق"
-      ],
-      "correctIndex": 3,
-      "imageName": null
-    },
-    {
-      "id": "fa-403",
-      "language": "fa",
-      "category": "rules",
-      "test": 16,
-      "text": "یک راننده مبتدی که به رانندگی بی‌دقت محکوم شده، در سومین تخلف با کدام یک از مجازات‌های زیر روبرو خواهد شد؟",
-      "options": [
-        "جریمه، لغو گواهینامه و حذف از سیستم گواهینامه تدریجی",
-        "فقط حذف از سیستم گواهینامه تدریجی",
-        "جریمه، تعلیق گواهینامه و امتیاز منفی",
-        "فقط لغو گواهینامه"
-      ],
-      "correctIndex": 0,
-      "imageName": null
-    },
-    {
-      "id": "fa-404",
-      "language": "fa",
-      "category": "rules",
-      "test": 16,
-      "text": "اگر به دلیل رانندگی با سرعت ۵۰ کیلومتر در ساعت بیشتر از حد مجاز محکوم شوید، با کدام یک از مجازات‌های زیر روبرو خواهید شد؟",
-      "options": [
-        "حداقل ۲۰۰۰ دلار جریمه",
-        "همه موارد فوق",
-        "تعلیق گواهینامه تا ۲ سال یا ۶ امتیاز منفی",
-        "حبس تا ۶ ماه"
-      ],
-      "correctIndex": 1,
-      "imageName": null
-    },
-    {
-      "id": "fa-405",
-      "language": "fa",
-      "category": "rules",
-      "test": 16,
-      "text": "اگر در حین رانندگی خسته شوید، باید…",
-      "options": [
-        "قهوه بنوشید.",
-        "موسیقی را بلندتر کنید.",
-        "پنجره‌های خود را باز کنید تا هوای تازه وارد ماشین شود.",
-        "توقف کنید و استراحت کنید."
-      ],
-      "correctIndex": 3,
-      "imageName": null
-    },
-    {
-      "id": "fa-406",
-      "language": "fa",
-      "category": "rules",
-      "test": 16,
-      "text": "برای کنترل کردن وسیله نقلیه هنگام لغزش خودرو چه باید کرد؟",
-      "options": [
-        "ترمزها را به شدت فشار دهید.",
-        "مستقیم به جلو هدایت کنید.",
-        "در جهت مخالف لغزش هدایت کنید.",
-        "در مسیری که می‌خواهید بروید هدایت کنید."
-      ],
-      "correctIndex": 3,
-      "imageName": null
-    },
-    {
-      "id": "fa-407",
-      "language": "fa",
-      "category": "rules",
-      "test": 16,
-      "text": "آیا رانندگان مسئول این هستند که کمربند مسافران خود را ببندند؟",
-      "options": [
-        "فقط مسافرانی که در صندلی جلو هستند.",
-        "فقط مسافرانی که ۱۶ سال یا بیشتر دارند.",
-        "فقط مسافران زیر ۱۶ سال.",
-        "فقط مسافران بالای ۱۸ سال."
-      ],
-      "correctIndex": 2,
-      "imageName": null
-    },
-    {
-      "id": "fa-408",
-      "language": "fa",
-      "category": "rules",
-      "test": 16,
-      "text": "شما به چند برف‌روب نزدیک می‌شوید که یک آزادراه را پاکسازی می‌کنند. چه کاری را نباید انجام دهید؟",
-      "options": [
-        "سعی کنید از بین آنها عبور کنید.",
-        "قوانین جاده را رعایت کنید.",
-        "فاصله ایمن را حفظ کنید.",
-        "منتظر بمانید تا به ترافیک اجازه عبور ایمن دهند."
-      ],
-      "correctIndex": 0,
-      "imageName": null
-    },
-    {
-      "id": "fa-409",
-      "language": "fa",
-      "category": "rules",
-      "test": 16,
-      "text": "وقتی به یک تقاطع نزدیک می‌شوید، متوجه می‌شوید که جاده آن سوی تقاطع با ترافیک مسدود شده است. چه کاری باید انجام دهید؟",
-      "options": [
-        "بوق خود را به صدا درآورید تا به ترافیک پیش رو برای ادامه مسیر هشدار دهید.",
-        "توقف کنید و در یک کافه استراحت کنید.",
-        "قبل از ورود به تقاطع توقف کنید و منتظر بمانید تا ترافیک پیش رو حرکت کند.",
-        "تا حد امکان به خودروی جلویی نزدیک شوید."
-      ],
-      "correctIndex": 2,
-      "imageName": null
-    },
-    {
-      "id": "fa-410",
-      "language": "fa",
-      "category": "rules",
-      "test": 16,
-      "text": "عبور از یک وسیله نقلیه دیگر در سمت راست…",
-      "options": [
-        "زمانی مجاز است که خیابان یا بزرگراه دارای دو یا چند لاین ترافیک در جهتی باشد که شما در آن حرکت می‌کنید.",
-        "زمانی مجاز است که خیابان یا بزرگراه دارای ترافیک باشد.",
-        "در هر خیابان یا بزرگراه مجاز است.",
-        "مجاز نیست."
-      ],
-      "correctIndex": 0,
-      "imageName": null
-    },
-    {
-      "id": "fa-411",
-      "language": "fa",
-      "category": "rules",
-      "test": 16,
-      "text": "هنگام عبور از یک دوچرخه‌سوار، اگر حداقل ۱ متر فاصله بین وسیله نقلیه خود و دوچرخه‌سوار نگذارید، این کار می‌تواند منجر به چند امتیاز منفی در سوابق رانندگی شما شود؟",
-      "options": [
-        "۶",
-        "۳",
-        "۲",
-        "۸"
-      ],
-      "correctIndex": 2,
-      "imageName": null
-    },
-    {
-      "id": "fa-412",
-      "language": "fa",
-      "category": "rules",
-      "test": 16,
-      "text": "زمانی که راننده وسیله نقلیه دیگری قصد دارد از سمت چپ شما سبقت بگیرد، چه باید بکنید؟",
-      "options": [
-        "سرعت بگیرید و در وسط جاده رانندگی کنید.",
-        "به سمت چپ حرکت کنید و اجازه ندهید وسیله نقلیه سبقت بگیرد.",
-        "به سمت راست حرکت کنید و اجازه دهید وسیله نقلیه سبقت بگیرد.",
-        "به راننده علامت بدهید که سبقت نگیرد."
-      ],
-      "correctIndex": 2,
-      "imageName": null
-    },
-    {
-      "id": "fa-413",
-      "language": "fa",
-      "category": "rules",
-      "test": 16,
-      "text": "قانون دو ثانیه برای تعیین چه چیزی استفاده می‌شود؟",
-      "options": [
-        "چقدر سریع می‌توانید به موانع واکنش نشان دهید.",
-        "با چه سرعتی در حال حرکت هستید.",
-        "چقدر سوخت صرفه‌جویی خواهید کرد.",
-        "آیا با فاصله‌ای امن از ماشین جلویی حرکت می‌کنید یا خیر."
-      ],
-      "correctIndex": 3,
-      "imageName": null
-    },
-    {
-      "id": "fa-414",
-      "language": "fa",
-      "category": "rules",
-      "test": 16,
-      "text": "شما به یک منطقه ساخت و ساز نزدیک می‌شوید. چه کاری باید انجام دهید؟",
-      "options": [
-        "بوق خود را به صدا درآورید تا به کارگران هشدار دهید.",
-        "در صورت لزوم سرعت خود را کاهش دهید و حق تقدم را بدهید.",
-        "توقف کنید تا زمانی که کارگران به شما علامت دهند که ادامه دهید.",
-        "سرعت خود را افزایش دهید تا به سرعت از منطقه خارج شوید."
-      ],
-      "correctIndex": 1,
-      "imageName": null
-    },
-    {
-      "id": "fa-415",
-      "language": "fa",
-      "category": "rules",
-      "test": 16,
-      "text": "شما می‌خواهید در چراغ قرمزی که گردش به راست در آن مجاز است، به راست بپیچید. قبل از ورود به تقاطع و انجام پیچ چه باید کرد؟",
-      "options": [
-        "چراغ راهنمای چپ را روشن کنید، سپس ادامه دهید.",
-        "چراغ راهنمای راست را روشن کنید، سپس ادامه دهید.",
-        "متوقف شوید. به وسایل نقلیه و عابران پیاده حق تقدم بدهید. اگر مسیر ایمن است، چراغ راهنمای راست را روشن کرده و با احتیاط بپیچید.",
-        "سرعت خود را افزایش دهید، سپس ادامه دهید."
-      ],
-      "correctIndex": 2,
-      "imageName": null
-    },
-    {
-      "id": "fa-416",
-      "language": "fa",
-      "category": "rules",
-      "test": 16,
-      "text": "خطوط سفید شکسته نشان‌دهنده چیست؟",
-      "options": [
-        "آنها خطوط ترافیکی را که در جهت مخالف حرکت می‌کنند جدا می‌کنند.",
-        "آنها نشان می‌دهند که عبور از خطوط ممنوع است.",
-        "آنها نشان می‌دهند که جاده جلوتر به پایان می‌رسد.",
-        "آنها لاین‌های ترافیکی را که در یک جهت حرکت می‌کنند جدا می‌کنند."
-      ],
-      "correctIndex": 3,
-      "imageName": null
-    },
-    {
-      "id": "fa-417",
-      "language": "fa",
-      "category": "rules",
-      "test": 16,
-      "text": "در جاده‌ای که ترافیک در هر دو جهت در حال حرکت است، قصد دارید به چپ بپیچید. در چه موقعیتی باید باشید؟",
-      "options": [
-        "نزدیک به سمت راست جاده",
-        "نزدیک به سمت چپ جاده",
-        "در هر موقعیتی؛ فقط زمانی که سیگنال می‌دهید مهم است.",
-        "در سمت راست و تا حد امکان نزدیک به خط مرکزی جاده"
-      ],
-      "correctIndex": 3,
-      "imageName": null
-    },
-    {
-      "id": "fa-418",
-      "language": "fa",
-      "category": "rules",
-      "test": 16,
-      "text": "اگر به دلیل عدم توقف هنگام دستور توقف یک افسر پلیس محکوم شوید، ممکن است با کدام یک از مجازات‌های زیر روبرو شوید؟",
-      "options": [
-        "تا ۶ ماه زندان",
-        "جریمه تا ۲۵۰۰۰ دلار",
-        "تعلیق گواهینامه به مدت ۵ سال",
-        "همه موارد فوق"
-      ],
-      "correctIndex": 3,
-      "imageName": null
-    },
-    {
-      "id": "fa-419",
-      "language": "fa",
-      "category": "rules",
-      "test": 16,
-      "text": "بدون انجام کدام کار نباید تغییر لاین داد؟",
-      "options": [
-        "دادن سیگنال مناسب و به دنبال آن اطمینان از اینکه تغییر خط می‌تواند با خیال راحت انجام شود.",
-        "بوق زدن و به دنبال آن اطمینان از اینکه تغییر خط می‌تواند با خیال راحت انجام شود.",
-        "دادن سیگنال در وقت مناسب و کاهش سرعت.",
-        "نگاه کردن به آینه و در صورت نبودن خودرو، تغییر لاین."
-      ],
-      "correctIndex": 0,
-      "imageName": null
-    },
-    {
-      "id": "fa-420",
-      "language": "fa",
-      "category": "rules",
-      "test": 16,
-      "text": "اگر برای اتوبوس مدرسه‌ای که چراغ قرمز آن چشمک می‌زند توقف نکنید، برای اولین بار با کدام یک از مجازات‌های زیر مواجه خواهید شد؟",
-      "options": [
-        "جریمه تا ۲۰۰۰ دلار و ۶ امتیاز منفی",
-        "الزام مجدد برای شرکت در تست‌های جاده‌ای",
-        "جریمه تا ۱۰۰۰ دلار و ۳ امتیاز منفی",
-        "۱ سال حبس"
-      ],
-      "correctIndex": 0,
       "imageName": null
     }
   ]
