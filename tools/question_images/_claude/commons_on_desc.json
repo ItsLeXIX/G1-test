@@ -1,0 +1,3106 @@
+{
+ "CA-ON road sign M-511.svg": {
+  "desc": "Bicycle route marker sign",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Ra-001.svg": {
+  "desc": "Stop.  (An \u201cALL-WAY\u201d supplementary plate is optional)",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Ra-001 + Ra-001t (B).svg": {
+  "desc": "Stop.  (The \u201cALL-WAY\u201d supplementary plate is optional)",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Ra-001 + Ra-001t (E).svg": {
+  "desc": "Stop.  (The \u201cALL-WAY\u201d supplementary plate is optional)",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Ra-001t (B).svg": {
+  "desc": "\u201cALL-WAY\u201d supplementary plate.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Ra-001t (E).svg": {
+  "desc": "\u201cALL-WAY\u201d supplementary plate.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Ra-002.svg": {
+  "desc": "Yield.  (A \u201cYIELD\u201d supplementary plate is optional)",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Ra-002 + Ra-002t (B).svg": {
+  "desc": "Yield.  (The \u201cYIELD\u201d supplementary plate is optional)",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Ra-002 + Ra-002t (E).svg": {
+  "desc": "Yield.  (The \u201cYIELD\u201d supplementary plate is optional)",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Ra-002t (B).svg": {
+  "desc": "\u201cYIELD\u201d supplementary plate.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Ra-002t (E).svg": {
+  "desc": "\u201cYIELD\u201d supplementary plate.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Ra-004 (B).svg": {
+  "desc": "Pedestrian crossing.  (A \u201cSTOP FOR PEDESTRIANS\u201d supplementary plate is obligatory; see below.)",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Ra-004 (E).svg": {
+  "desc": "Pedestrian crossing.  (A \u201cSTOP FOR PEDESTRIANS\u201d supplementary plate is obligatory; see below.)",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Ra-004t (B).svg": {
+  "desc": "\"STOP FOR PEDESTRIANS\" supplementary plate.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Ra-004t (E).svg": {
+  "desc": "\"STOP FOR PEDESTRIANS\" supplementary plate.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Ra-005-L.svg": {
+  "desc": "Pedestrian crossing.  (A \u201cSTOP FOR PEDESTRIANS\u201d supplementary plate is obligatory; see below.)",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Ra-005-R.svg": {
+  "desc": "Pedestrian crossing.  (A \u201cSTOP FOR PEDESTRIANS\u201d supplementary plate is obligatory; see below.)",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Ra-006 (B).svg": {
+  "desc": "Cross on green light only.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Ra-006 (E).svg": {
+  "desc": "Cross on green light only.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Ra-007 (B).svg": {
+  "desc": "Cross on walk signal only.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Ra-007 (E).svg": {
+  "desc": "Cross on walk signal only.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Ra-008 (B).svg": {
+  "desc": "Cross only at crossover.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Ra-008 (E).svg": {
+  "desc": "Cross only at crossover.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Ra-009A (B).svg": {
+  "desc": "Cross other side.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Ra-009A (E).svg": {
+  "desc": "Cross other side.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Ra-009 (B).svg": {
+  "desc": "Cross other side.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Ra-009 (E).svg": {
+  "desc": "Cross other side.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Ra-010 (E).svg": {
+  "desc": "No passing here to crossing. (30 metres)",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Ra-010 (F).svg": {
+  "desc": "No passing here to crossing. (30 metres)",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Ra-011 (B).svg": {
+  "desc": "Push button to activate crossing signals, look out for vehicles, and point indicating your intention to cross.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Ra-011 (E).svg": {
+  "desc": "Push button to activate crossing signals, look out for vehicles, and point indicating your intention to cross.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Ra-012-R.svg": {
+  "desc": "Regulatory sign in Ontario, Canada, instructing how to use the crosswalk signal.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Ra-013.svg": {
+  "desc": "Pedestrians must push button to receive the WALK signal.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Ra-014-L.svg": {
+  "desc": "Signalized crossing.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Ra-014-R.svg": {
+  "desc": "Signalized crossing.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Ra-017 (E).svg": {
+  "desc": "Cyclists yield to vehicles.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Ra-017 (F).svg": {
+  "desc": "Cyclists yield to vehicles.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Ra-019 (E).svg": {
+  "desc": "Turning vehicles yield to cyclists and pedestrians.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Ra-019 (F).svg": {
+  "desc": "Turning vehicles yield to cyclists and pedestrians.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-001-010.svg": {
+  "desc": "Maximum speed limit \u2013 10 km/h.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-001-020.svg": {
+  "desc": "Maximum speed limit \u2013 20 km/h.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-001-030.svg": {
+  "desc": "Maximum speed limit \u2013 30 km/h.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-001-040.svg": {
+  "desc": "Maximum speed limit \u2013 40 km/h.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-001-050.svg": {
+  "desc": "Maximum speed limit \u2013 50 km/h.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-001-060.svg": {
+  "desc": "Maximum speed limit \u2013 60 km/h.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-001-070.svg": {
+  "desc": "Maximum speed limit \u2013 70 km/h.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-001-080.svg": {
+  "desc": "Maximum speed limit \u2013 80 km/h.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-001-090.svg": {
+  "desc": "Maximum speed limit \u2013 90 km/h.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-001-100.svg": {
+  "desc": "Maximum speed limit \u2013 100 km/h.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-001-110.svg": {
+  "desc": "Maximum speed limit \u2013 110 km/h.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-001A-010.svg": {
+  "desc": "Maximum speed limit \u2013 10 km/h.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-001A-020.svg": {
+  "desc": "Maximum speed limit \u2013 20 km/h.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-001A-030.svg": {
+  "desc": "Maximum speed limit \u2013 30 km/h.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-001A-040.svg": {
+  "desc": "Maximum speed limit \u2013 40 km/h.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-001A-050.svg": {
+  "desc": "Maximum speed limit \u2013 50 km/h.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-001A-060.svg": {
+  "desc": "Maximum speed limit \u2013 60 km/h.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-001A-070.svg": {
+  "desc": "Maximum speed limit \u2013 70 km/h.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-001A-080.svg": {
+  "desc": "Maximum speed limit \u2013 80 km/h.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-001A-090.svg": {
+  "desc": "Maximum speed limit \u2013 90 km/h.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-001A-100.svg": {
+  "desc": "Maximum speed limit \u2013 100 km/h.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-001A-110.svg": {
+  "desc": "Maximum speed limit \u2013 110 km/h.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-002-10.svg": {
+  "desc": "New maximum speed limit begins \u2013 10 km/h.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-002-10 (B).svg": {
+  "desc": "New maximum speed limit begins \u2013 10 km/h.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-002-20.svg": {
+  "desc": "New maximum speed limit begins \u2013 20 km/h.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-002-20 (B).svg": {
+  "desc": "New maximum speed limit begins \u2013 20 km/h.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-002-30.svg": {
+  "desc": "New maximum speed limit begins \u2013 30 km/h.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-002-30 (B).svg": {
+  "desc": "New maximum speed limit begins \u2013 30 km/h.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-002-40.svg": {
+  "desc": "New maximum speed limit begins \u2013 40 km/h.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-002-40 (B).svg": {
+  "desc": "New maximum speed limit begins \u2013 40 km/h.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-002-50.svg": {
+  "desc": "New maximum speed limit begins \u2013 50 km/h.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-002-50 (B).svg": {
+  "desc": "New maximum speed limit begins \u2013 50 km/h.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-002-60.svg": {
+  "desc": "New maximum speed limit begins \u2013 60 km/h.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-002-60 (B).svg": {
+  "desc": "New maximum speed limit begins \u2013 60 km/h.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-002-70.svg": {
+  "desc": "New maximum speed limit begins \u2013 70 km/h.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-002-70 (B).svg": {
+  "desc": "New maximum speed limit begins \u2013 70 km/h.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-002-80.svg": {
+  "desc": "New maximum speed limit begins \u2013 80 km/h.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-002-80 (B).svg": {
+  "desc": "New maximum speed limit begins \u2013 80 km/h.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-003-10.svg": {
+  "desc": "New maximum speed limit begins \u2013 10 km/h.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-003-100.svg": {
+  "desc": "New maximum speed limit begins \u2013 100 km/h.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-003-100 (B).svg": {
+  "desc": "New maximum speed limit begins \u2013 100 km/h.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-003-10 (B).svg": {
+  "desc": "New maximum speed limit begins \u2013 10 km/h.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-003-110.svg": {
+  "desc": "New maximum speed limit begins \u2013 110 km/h.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-003-110 (B).svg": {
+  "desc": "New maximum speed limit begins \u2013 110 km/h.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-003-20.svg": {
+  "desc": "New maximum speed limit begins \u2013 20 km/h.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-003-20 (B).svg": {
+  "desc": "New maximum speed limit begins \u2013 20 km/h.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-003-30.svg": {
+  "desc": "New maximum speed limit begins \u2013 30 km/h.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-003-30 (B).svg": {
+  "desc": "New maximum speed limit begins \u2013 30 km/h.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-003-40.svg": {
+  "desc": "New maximum speed limit begins \u2013 40 km/h.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-003-40 (B).svg": {
+  "desc": "New maximum speed limit begins \u2013 40 km/h.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-003-50.svg": {
+  "desc": "New maximum speed limit begins \u2013 50 km/h.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-003-50 (B).svg": {
+  "desc": "New maximum speed limit begins \u2013 50 km/h.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-003-60.svg": {
+  "desc": "New maximum speed limit begins \u2013 60 km/h.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-003-60 (B).svg": {
+  "desc": "New maximum speed limit begins \u2013 60 km/h.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-003-70.svg": {
+  "desc": "New maximum speed limit begins \u2013 70 km/h.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-003-70 (B).svg": {
+  "desc": "New maximum speed limit begins \u2013 70 km/h.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-003-80.svg": {
+  "desc": "New maximum speed limit begins \u2013 80 km/h.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-003-80 (B).svg": {
+  "desc": "New maximum speed limit begins \u2013 80 km/h.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-003-90.svg": {
+  "desc": "New maximum speed limit begins \u2013 90 km/h.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-003-90 (B).svg": {
+  "desc": "New maximum speed limit begins \u2013 90 km/h.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-005-10.svg": {
+  "desc": "Reduced maximum speed limit ahead \u2013 10 km/h.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-005-20.svg": {
+  "desc": "Reduced maximum speed limit ahead \u2013 20 km/h.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-005-30.svg": {
+  "desc": "Reduced maximum speed limit ahead \u2013 30 km/h.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-005-40.svg": {
+  "desc": "Reduced maximum speed limit ahead \u2013 40 km/h.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-005-50.svg": {
+  "desc": "Reduced maximum speed limit ahead \u2013 50 km/h.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-005-60.svg": {
+  "desc": "Reduced maximum speed limit ahead \u2013 60 km/h.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-005-70.svg": {
+  "desc": "Reduced maximum speed limit ahead \u2013 70 km/h.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-005-80.svg": {
+  "desc": "Reduced maximum speed limit ahead \u2013 80 km/h.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-005A-10.svg": {
+  "desc": "Reduced maximum speed limit ahead \u2013 10 km/h.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-005A-20.svg": {
+  "desc": "Reduced maximum speed limit ahead \u2013 20 km/h.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-005A-30.svg": {
+  "desc": "Reduced maximum speed limit ahead \u2013 30 km/h.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-005A-40.svg": {
+  "desc": "Reduced maximum speed limit ahead \u2013 40 km/h.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-005A-50.svg": {
+  "desc": "Reduced maximum speed limit ahead \u2013 50 km/h.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-005A-60.svg": {
+  "desc": "Reduced maximum speed limit ahead \u2013 60 km/h.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-005A-70.svg": {
+  "desc": "Reduced maximum speed limit ahead \u2013 70 km/h.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-005A-80.svg": {
+  "desc": "Reduced maximum speed limit ahead \u2013 80 km/h.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-005A-90.svg": {
+  "desc": "Reduced maximum speed limit ahead \u2013 90 km/h.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-006.svg": {
+  "desc": "School zone maximum speed limit \u2013 40 km/h.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-006A (B).svg": {
+  "desc": "School zone maximum speed limit when signals flashing \u2013 40 km/h.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-006A (E).svg": {
+  "desc": "School zone maximum speed limit when signals flashing \u2013 40 km/h.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-006B (E).svg": {
+  "desc": "School Zone Speed Limit sign for King's Highways in Ontario, Canada, with flashing lights during school times (old versions of this sign used blue instead of fluorescent green)",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-007t.svg": {
+  "desc": "\"km/h\" supplementary plate.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-010.svg": {
+  "desc": "No proceeding straight ahead.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-010A (B).svg": {
+  "desc": "No proceeding straight ahead. (with hours of the day and days of the week when the prohibition applies)",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-010A (E).svg": {
+  "desc": "No proceeding straight ahead. (with hours of the day and days of the week when the prohibition applies)",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-010t (B).svg": {
+  "desc": "\"BUSES EXCEPTED\" supplementary plate.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-010t (E).svg": {
+  "desc": "\"BUSES EXCEPTED\" supplementary plate.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-011.svg": {
+  "desc": "No right turn.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-011A (B).svg": {
+  "desc": "No right turn. (with hours of the day and days of the week when the prohibition applies)",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-011A (E).svg": {
+  "desc": "No right turn. (with hours of the day and days of the week when the prohibition applies)",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-012.svg": {
+  "desc": "No left turn.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-012A (B).svg": {
+  "desc": "No left turn. (with hours of the day and days of the week when the prohibition applies)",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-012A (E).svg": {
+  "desc": "No left turn. (with hours of the day and days of the week when the prohibition applies)",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-013.svg": {
+  "desc": "No proceeding straight ahead or turning right.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-014.svg": {
+  "desc": "No proceeding straight ahead or turning left.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-015.svg": {
+  "desc": "No turns.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-016.svg": {
+  "desc": "No U-turn.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-016t (B).svg": {
+  "desc": "\"EXCEPT AUTHORIZED VEHICLES\" supplementary plate.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-016t (E).svg": {
+  "desc": "\"EXCEPT AUTHORIZED VEHICLES\" supplementary plate.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-017t (E).svg": {
+  "desc": "\"BICYCLES EXCEPTED\" supplementary plate.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-017t (F).svg": {
+  "desc": "\"BICYCLES EXCEPTED\" supplementary plate.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-019.svg": {
+  "desc": "Do not enter.  (A \u201cDO NOT ENTER\u201d supplementary plate is optional)  (3rd generation model, current)",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-019 + Rb-019t (B).svg": {
+  "desc": "Do not enter.  (The \u201cDO NOT ENTER\u201d supplementary plate is optional)  (3rd generation model, current)",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-019 + Rb-019t (E).svg": {
+  "desc": "Do not enter.  (The \u201cDO NOT ENTER\u201d supplementary plate is optional)  (3rd generation model, current)",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-019t (B).svg": {
+  "desc": "\u201cDO NOT ENTER\u201d supplementary plate.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-019t (E).svg": {
+  "desc": "\u201cDO NOT ENTER\u201d supplementary plate.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-020 (B).svg": {
+  "desc": "Wrong way \u2013 turn back.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-020 (E).svg": {
+  "desc": "Wrong way \u2013 turn back.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-021-L.svg": {
+  "desc": "One way.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-021-R.svg": {
+  "desc": "One way.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-024.svg": {
+  "desc": "Two-way traffic.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-025-R.svg": {
+  "desc": "Keep right.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-027-R (B).svg": {
+  "desc": "Through traffic keep right.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-027-R (E).svg": {
+  "desc": "Through traffic keep right.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-030.svg": {
+  "desc": "Passing lane ahead.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-030A.svg": {
+  "desc": "Passing lane.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-031.svg": {
+  "desc": "Do not pass.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-034 (E).svg": {
+  "desc": "Slower traffic keep right.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-034 (F).svg": {
+  "desc": "Slower traffic keep right.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-035.svg": {
+  "desc": "Passing permitted. (End of the no passing zone)",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-035t (B).svg": {
+  "desc": "\"PASS WITH CARE\" supplementary plate.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-035t (E).svg": {
+  "desc": "\"PASS WITH CARE\" supplementary plate.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-036 (E).svg": {
+  "desc": "Yield centre lane to opposing traffic.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-036 (F).svg": {
+  "desc": "Yield centre lane to opposing traffic.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-037 (E).svg": {
+  "desc": "Stop for school bus when signals flashing.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-037 (F).svg": {
+  "desc": "Stop for school bus when signals flashing.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-037t (E).svg": {
+  "desc": "\"BOTH DIRECTIONS\" supplementary plate.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-037t (F).svg": {
+  "desc": "\"BOTH DIRECTIONS\" supplementary plate.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-039.svg": {
+  "desc": "Heavy trucks prohibited in this lane.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-039A (E).svg": {
+  "desc": "Heavy trucks prohibited in this lane.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-039A (F).svg": {
+  "desc": "Heavy trucks prohibited in this lane.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-039B (E).svg": {
+  "desc": "Heavy trucks prohibited in this lane.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-039B (F).svg": {
+  "desc": "Heavy trucks prohibited in this lane.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-040A (E).svg": {
+  "desc": "Trucks exceeding 6.5 metres in length prohibited in this lane.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-040A (F).svg": {
+  "desc": "Trucks exceeding 6.5 metres in length prohibited in this lane.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-040B (E).svg": {
+  "desc": "Trucks exceeding 6.5 metres in length prohibited in this lane.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-040B (F).svg": {
+  "desc": "Trucks exceeding 6.5 metres in length prohibited in this lane.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-040 (B).svg": {
+  "desc": "Trucks exceeding 6.5 metres in length prohibited in this lane.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-040 (E).svg": {
+  "desc": "Trucks exceeding 6.5 metres in length prohibited in this lane.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-040 (F).svg": {
+  "desc": "Trucks exceeding 6.5 metres in length prohibited in this lane.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-041.svg": {
+  "desc": "Lane movement sign.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-041t (B).svg": {
+  "desc": "\"LEFT LANE\" supplementary plate.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-041t (E).svg": {
+  "desc": "\"LEFT LANE\" supplementary plate.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-042.svg": {
+  "desc": "Lane movement sign.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-042t (B).svg": {
+  "desc": "\"RIGHT LANE\" supplementary plate.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-042t (E).svg": {
+  "desc": "\"RIGHT LANE\" supplementary plate.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-043.svg": {
+  "desc": "Lane movement sign.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-044.svg": {
+  "desc": "Lane movement sign.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-045.svg": {
+  "desc": "Lane movement sign.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-046.svg": {
+  "desc": "Lane movement sign.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-047.svg": {
+  "desc": "Lane movement sign.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-048.svg": {
+  "desc": "Centre Turning Lane sign in Ontario, Canada (overhead version)",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-048A (E).svg": {
+  "desc": "Centre Turning Lane sign in Ontario, Canada (sidepost version)",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-051-L-R.svg": {
+  "desc": "No parking.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-051-L.svg": {
+  "desc": "No parking.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-051-R.svg": {
+  "desc": "No parking.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-051A-L-R (B).svg": {
+  "desc": "No parking. (with days of the week when the prohibition applies)",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-051A-L-R (E).svg": {
+  "desc": "No parking. (with days of the week when the prohibition applies)",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-051A-L-R (F).svg": {
+  "desc": "No parking. (with days of the week when the prohibition applies)",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-051A-L (B).svg": {
+  "desc": "No parking. (with days of the week when the prohibition applies)",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-051A-L (E).svg": {
+  "desc": "No parking. (with days of the week when the prohibition applies)",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-051A-L (F).svg": {
+  "desc": "No parking. (with days of the week when the prohibition applies)",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-051A-R (B).svg": {
+  "desc": "No parking. (with days of the week when the prohibition applies)",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-051A-R (E).svg": {
+  "desc": "No parking. (with days of the week when the prohibition applies)",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-051A-R (F).svg": {
+  "desc": "No parking. (with days of the week when the prohibition applies)",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-054-L-R (B).svg": {
+  "desc": "No standing.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-054-L-R (E).svg": {
+  "desc": "No standing.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-054-L (B).svg": {
+  "desc": "No standing.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-054-L (E).svg": {
+  "desc": "No standing.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-054-R (B).svg": {
+  "desc": "No standing.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-054-R (E).svg": {
+  "desc": "No standing.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-054A-L-R (B).svg": {
+  "desc": "No standing. (with hours of the day and days of the week when the prohibition applies)",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-054A-L-R (E).svg": {
+  "desc": "No standing. (with hours of the day and days of the week when the prohibition applies)",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-054A-L (B).svg": {
+  "desc": "No standing. (with hours of the day and days of the week when the prohibition applies)",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-054A-L (E).svg": {
+  "desc": "No standing. (with hours of the day and days of the week when the prohibition applies)",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-054A-R (B).svg": {
+  "desc": "No standing. (with hours of the day and days of the week when the prohibition applies)",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-054A-R (E).svg": {
+  "desc": "No standing. (with hours of the day and days of the week when the prohibition applies)",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-055-L-R.svg": {
+  "desc": "No stopping.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-055-L.svg": {
+  "desc": "No stopping.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-055-R.svg": {
+  "desc": "No stopping.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-055A-L-R (B).svg": {
+  "desc": "No stopping. (with days of the week when the prohibition applies)",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-055A-L-R (E).svg": {
+  "desc": "No stopping. (with days of the week when the prohibition applies)",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-055A-L-R (F).svg": {
+  "desc": "No stopping. (with days of the week when the prohibition applies)",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-055A-L (B).svg": {
+  "desc": "No stopping. (with days of the week when the prohibition applies)",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-055A-L (E).svg": {
+  "desc": "No stopping. (with days of the week when the prohibition applies)",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-055A-L (F).svg": {
+  "desc": "No stopping. (with days of the week when the prohibition applies)",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-055A-R (B).svg": {
+  "desc": "No stopping. (with days of the week when the prohibition applies)",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-055A-R (E).svg": {
+  "desc": "No stopping. (with days of the week when the prohibition applies)",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-055A-R (F).svg": {
+  "desc": "No stopping. (with days of the week when the prohibition applies)",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-057 (B).svg": {
+  "desc": "No parking \u2013 snow removal route.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-057 (E).svg": {
+  "desc": "No parking \u2013 snow removal route.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-058 (E).svg": {
+  "desc": "Emergency parking only.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-058 (F).svg": {
+  "desc": "Emergency parking only.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-060.svg": {
+  "desc": "No low speed vehicles. (agricultural vehicles, horse-drawn vehicles...)",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-061.svg": {
+  "desc": "Truck route.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-062.svg": {
+  "desc": "No heavy trucks.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-062A.svg": {
+  "desc": "No heavy trucks. (with hours of the day when the prohibition applies)",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-063.svg": {
+  "desc": "Maximum weight limit \u2013 10 tonnes.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-063A.svg": {
+  "desc": "Maximum weight limit per truck class.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-064.svg": {
+  "desc": "Snowmobile trail.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-065.svg": {
+  "desc": "No snowmobiles.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-066.svg": {
+  "desc": "Do not pass bicycles. (A \"DO NOT PASS BICYCLES\" supplementary plate is optional)",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-066t (E).svg": {
+  "desc": "\"DO NOT PASS BICYCLES\" supplementary plate.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-066t (F).svg": {
+  "desc": "\"DO NOT PASS BICYCLES\" supplementary plate.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-067.svg": {
+  "desc": "No pedal cycles.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-068.svg": {
+  "desc": "No pedestrians or pedal cycles.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-069.svg": {
+  "desc": "Cycle path.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-070.svg": {
+  "desc": "Cyclists must dismount and walk their bicycle.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-071 (E).svg": {
+  "desc": "Shared pathway.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-071 (F).svg": {
+  "desc": "Shared pathway.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-072a (E).svg": {
+  "desc": "Segregated pathway.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-072a (F).svg": {
+  "desc": "Segregated pathway.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-072b (E).svg": {
+  "desc": "Segregated pathway.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-072b (F).svg": {
+  "desc": "Segregated pathway.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-076.svg": {
+  "desc": "Load restriction. (A \"X tonnes per axle\" supplementary plate is mandatory)",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-076tA (E).svg": {
+  "desc": "\"5 tonnes per axle\" supplementary plate.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-076tA (F).svg": {
+  "desc": "\"5 tonnes per axle\" supplementary plate.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-076tB (E).svg": {
+  "desc": "\"MARCH 1 TO MAY 31\" supplementary plate.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-076tB (F).svg": {
+  "desc": "\"MARCH 1 TO MAY 31\" supplementary plate.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-077 (B).svg": {
+  "desc": "Class B road.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-077 (E).svg": {
+  "desc": "Class B road.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-078-R (B).svg": {
+  "desc": "Stop here on red signal.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-078-R (E).svg": {
+  "desc": "Stop here on red signal.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-079-L.svg": {
+  "desc": "Regulatory sign in Ontario, Canada.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-079-R.svg": {
+  "desc": "Regulatory sign in Ontario, Canada.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-081 (B).svg": {
+  "desc": "Left turn signal.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-081 (E).svg": {
+  "desc": "Left turn signal.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-082.svg": {
+  "desc": "Route for vehicles transporting dangerous goods. (A \"DANGEROUS GOODS ROUTE\" supplementary plate is optional)",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-082t (E).svg": {
+  "desc": "\"DANGEROUS GOODS ROUTE\" supplementary plate.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-082t (F).svg": {
+  "desc": "\"DANGEROUS GOODS ROUTE\" supplementary plate.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-083.svg": {
+  "desc": "No vehicles transporting dangerous goods. (A \"DANGEROUS GOODS CARRIERS PROHIBITED\" supplementary plate is optional)",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-083t (E).svg": {
+  "desc": "\"DANGEROUS GOODS CARRIERS PROHIBITED\" supplementary plate.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-083t (F).svg": {
+  "desc": "\"DANGEROUS GOODS CARRIERS PROHIBITED\" supplementary plate.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-084t (B).svg": {
+  "desc": "\"BEGINS\" supplementary plate.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-084t (E).svg": {
+  "desc": "\"BEGINS\" supplementary plate.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-084t (F).svg": {
+  "desc": "\"BEGINS\" supplementary plate.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-085t (B).svg": {
+  "desc": "\"ENDS\" supplementary plate.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-085t (E).svg": {
+  "desc": "\"ENDS\" supplementary plate.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-085t (F).svg": {
+  "desc": "\"ENDS\" supplementary plate.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-088 (E).svg": {
+  "desc": "Vehicles carrying 3 or more persons only.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-088 (F).svg": {
+  "desc": "Vehicles carrying 3 or more persons only.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-089-L (B).svg": {
+  "desc": "School bus loading zone.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-089-L (E).svg": {
+  "desc": "School bus loading zone.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-089-R (B).svg": {
+  "desc": "School bus loading zone.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-089-R (E).svg": {
+  "desc": "School bus loading zone.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-090A (E).svg": {
+  "desc": "Construction zone begins.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-090A (F).svg": {
+  "desc": "Construction zone begins.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-090B (E).svg": {
+  "desc": "Construction zone ends.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-090B (F).svg": {
+  "desc": "Construction zone ends.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-091 (B).svg": {
+  "desc": "Yield to oncoming traffic.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-091 (E).svg": {
+  "desc": "Yield to oncoming traffic.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-091 (F).svg": {
+  "desc": "Yield to oncoming traffic.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-092 (B).svg": {
+  "desc": "Road closed.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-092 (E).svg": {
+  "desc": "Road closed.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-093 (E).svg": {
+  "desc": "Parking regulation sign in Ontario, Canada.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-094-L-R (E).svg": {
+  "desc": "Parking regulation sign in Ontario, Canada.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-095-L-R (E).svg": {
+  "desc": "Parking regulation sign in Ontario, Canada.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-096 (E).svg": {
+  "desc": "Trucks: Enter inspection station when lights flashing.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-096 (F).svg": {
+  "desc": "Trucks: Enter inspection station when lights flashing.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-097 (E).svg": {
+  "desc": "Regulatory sign in Ontario, Canada.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-098 (E).svg": {
+  "desc": "Authorized buses using shoulder begins.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-098 (F).svg": {
+  "desc": "Authorized buses using shoulder begins.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-099 (E).svg": {
+  "desc": "Authorized buses using shoulder ends.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-099 (F).svg": {
+  "desc": "Authorized buses using shoulder ends.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-100 (E).svg": {
+  "desc": "Do not drive on paved shoulder \u2013 authorized buses excepted.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-100 (F).svg": {
+  "desc": "Do not drive on paved shoulder \u2013 authorized buses excepted.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-101 (B).svg": {
+  "desc": "Cyclists stop here on red signal.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-101 (E).svg": {
+  "desc": "Cyclists stop here on red signal.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-102 (B).svg": {
+  "desc": "Cyclists wait on symbol to trigger green signal.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-102 (E).svg": {
+  "desc": "Cyclists wait on symbol to trigger green signal.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-102 (F).svg": {
+  "desc": "Cyclistes attendez sur le symbole pour d\u00e9clencher feu vert.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-130.svg": {
+  "desc": "No parking except while charging",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rb-130 (B).svg": {
+  "desc": "No parking except while charging",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rc-001 (E).svg": {
+  "desc": "Walk on left facing oncoming traffic.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rc-001 (F).svg": {
+  "desc": "Walk on left facing oncoming traffic.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rc-002 (E).svg": {
+  "desc": "No fishing from bridge.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rc-002 (F).svg": {
+  "desc": "No fishing from bridge.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rc-003 (E).svg": {
+  "desc": "Vehicles with lugs prohibited.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rc-003 (F).svg": {
+  "desc": "Vehicles with lugs prohibited.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rc-004.svg": {
+  "desc": "No littering.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rc-004A.svg": {
+  "desc": "No littering \u2013 maximum fine $500.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rc-004t.svg": {
+  "desc": "\"MAXIMUM FINE $500\" supplementary plate.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rc-009 (E).svg": {
+  "desc": "Community safety zone with fines increased.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rc-009 (F).svg": {
+  "desc": "Community safety zone with fines increased.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rc-009tA (F).svg": {
+  "desc": "\"BEGINS\" supplementary plate.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rc-009tB (F).svg": {
+  "desc": "\"ENDS\" supplementary plate.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rc-010.svg": {
+  "desc": "No roller skating.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rc-011 (E).svg": {
+  "desc": "Keep off median.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rc-012.svg": {
+  "desc": "No pedestrians.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rc-013.svg": {
+  "desc": "Use of seat belts compulsory. (A \"COMPULSORY\" supplementary plate is optional)",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Rc-013t.svg": {
+  "desc": "\"COMPULSORY\" supplementary plate.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Wb-001.svg": {
+  "desc": "Stop ahead.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Wb-001A.svg": {
+  "desc": "Yield ahead.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Wc-001.svg": {
+  "desc": "School zone.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Wc-002.svg": {
+  "desc": "School crossing.  (A \"SCHOOL CROSSING\" supplementary plate is optional)  (Authorised 2007)",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Wc-003.svg": {
+  "desc": "Playground.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Wc-007.svg": {
+  "desc": "Pedestrians.",
+  "lic": "Public domain"
+ },
+ "CA-ON road sign Wc-018.svg": {
+  "desc": "Snowmobile crossing. (A \"SNOWMOBILE CROSSING\" supplementary plate is optional)",
+  "lic": "Public domain"
+ },
+ "Ontario Ra-4 (fluorescent).svg": {
+  "desc": "Pedestrian crossing.  (Unofficial)",
+  "lic": "Public domain"
+ },
+ "Ontario Rb-106A (old).svg": {
+  "desc": "Old School Zone Speed Limit sign for King's Highways in Ontario, Canada, with flashing lights during school times (new versions of this sign use fluorescent green instead of blue)",
+  "lic": "Public domain"
+ },
+ "Ontario Rb-33.svg": {
+  "desc": "Keep right except to pass.",
+  "lic": "Public domain"
+ },
+ "Ontario Rb-52.svg": {
+  "desc": "No parking. (with hours of the day and days of the week when the prohibition applies)",
+  "lic": "Public domain"
+ },
+ "Ontario Rb-53.svg": {
+  "desc": "Parking permitted.",
+  "lic": "Public domain"
+ },
+ "Ontario Rb-53A.svg": {
+  "desc": "Parking permitted.",
+  "lic": "Public domain"
+ },
+ "Ontario Rb-56.svg": {
+  "desc": "No stopping. (with hours of the day and days of the week when the prohibition applies)",
+  "lic": "Public domain"
+ },
+ "Ontario Rb-6A (old).svg": {
+  "desc": "School zone maximum speed limit when signals flashing \u2013 40 km/h.",
+  "lic": "Public domain"
+ },
+ "Ontario Rb-6 (old).svg": {
+  "desc": "School zone maximum speed limit \u2013 40 km/h.",
+  "lic": "Public domain"
+ },
+ "Ontario Rb-76.svg": {
+  "desc": "Weight restriction sign in Ontario, Canada.",
+  "lic": "Public domain"
+ },
+ "Ontario Rb-80.svg": {
+  "desc": "Advanced green when flashing.",
+  "lic": "Public domain"
+ },
+ "Ontario Rb-84.svg": {
+  "desc": "Reserved Lane sign in Ontario, Canada (overhead version)",
+  "lic": "Public domain"
+ },
+ "Ontario Rb-84A.svg": {
+  "desc": "English sign indicating a bike lane in Ontario. In some municipalities, the text \"This Lane\" is not shown.",
+  "lic": "Public domain"
+ },
+ "Ontario Rb-85.svg": {
+  "desc": "Reserved Lane sign in Ontario, Canada (overhead version)",
+  "lic": "Public domain"
+ },
+ "Ontario Rb-85A.svg": {
+  "desc": "Reserved Lane sign in Ontario, Canada (sidepost version)",
+  "lic": "Public domain"
+ },
+ "Ontario Rb-86.svg": {
+  "desc": "Reserved Lane sign in Ontario, Canada (overhead version)",
+  "lic": "Public domain"
+ },
+ "Ontario Rb-86A.svg": {
+  "desc": "Reserved Lane sign in Ontario, Canada (sidepost version)",
+  "lic": "Public domain"
+ },
+ "Ontario Rb-87.svg": {
+  "desc": "Reserved Lane sign in Ontario, Canada (overhead version)",
+  "lic": "Public domain"
+ },
+ "Ontario Rb-87A.svg": {
+  "desc": "Reserved Lane sign in Ontario, Canada (sidepost version)",
+  "lic": "Public domain"
+ },
+ "Ontario Wa-11.svg": {
+  "desc": "Intersection.",
+  "lic": "Public domain"
+ },
+ "Ontario Wa-1123L.svg": {
+  "desc": "Warning road sign in Ontario, Canada.",
+  "lic": "Public domain"
+ },
+ "Ontario Wa-1123R.svg": {
+  "desc": "Warning road sign in Ontario, Canada.",
+  "lic": "Public domain"
+ },
+ "Ontario Wa-11A.svg": {
+  "desc": "Intersection (with priority).",
+  "lic": "Public domain"
+ },
+ "Ontario Wa-12AL.svg": {
+  "desc": "Warning road sign in Ontario, Canada.",
+  "lic": "Public domain"
+ },
+ "Ontario Wa-12AR.svg": {
+  "desc": "Warning road sign in Ontario, Canada.",
+  "lic": "Public domain"
+ },
+ "Ontario Wa-12L.svg": {
+  "desc": "Oblique intersection.",
+  "lic": "Public domain"
+ },
+ "Ontario Wa-12R.svg": {
+  "desc": "Oblique intersection.",
+  "lic": "Public domain"
+ },
+ "Ontario Wa-13AL.svg": {
+  "desc": "Intersection (with priority).",
+  "lic": "Public domain"
+ },
+ "Ontario Wa-13AR.svg": {
+  "desc": "Intersection (with priority).",
+  "lic": "Public domain"
+ },
+ "Ontario Wa-13L.svg": {
+  "desc": "Intersection.",
+  "lic": "Public domain"
+ },
+ "Ontario Wa-13R.svg": {
+  "desc": "Intersection.",
+  "lic": "Public domain"
+ },
+ "Ontario Wa-14.svg": {
+  "desc": "T intersection.",
+  "lic": "Public domain"
+ },
+ "Ontario Wa-15.svg": {
+  "desc": "Y intersection.",
+  "lic": "Public domain"
+ },
+ "Ontario Wa-15AL.svg": {
+  "desc": "Y intersection (with priority).",
+  "lic": "Public domain"
+ },
+ "Ontario Wa-15AR.svg": {
+  "desc": "Y intersection (with priority).",
+  "lic": "Public domain"
+ },
+ "Ontario Wa-16L.svg": {
+  "desc": "Warning road sign in Ontario, Canada.",
+  "lic": "Public domain"
+ },
+ "Ontario Wa-16R.svg": {
+  "desc": "Warning road sign in Ontario, Canada.",
+  "lic": "Public domain"
+ },
+ "Ontario Wa-17.svg": {
+  "desc": "Warning road sign in Ontario, Canada.",
+  "lic": "Public domain"
+ },
+ "Ontario Wa-18t.svg": {
+  "desc": "\"HIDDEN\" supplementary plate.",
+  "lic": "Public domain"
+ },
+ "Ontario Wa-19.svg": {
+  "desc": "Cross traffic does not stop.",
+  "lic": "Public domain"
+ },
+ "Ontario Wa-19t.svg": {
+  "desc": "\"AFTER DECEMBER 12TH\" supplementary plate.",
+  "lic": "Public domain"
+ },
+ "Ontario Wa-1L.svg": {
+  "desc": "90\u00b0 turn to the left.",
+  "lic": "Public domain"
+ },
+ "Ontario Wa-1R.svg": {
+  "desc": "90\u00b0 turn to the right.",
+  "lic": "Public domain"
+ },
+ "Ontario Wa-21.svg": {
+  "desc": "Steep slope. (A \"USE LOWER GEAR\" supplementary plate is optional)",
+  "lic": "Public domain"
+ },
+ "Ontario Wa-21t.svg": {
+  "desc": "\"USE LOWER GEAR\" supplementary plate.",
+  "lic": "Public domain"
+ },
+ "Ontario Wa-22.svg": {
+  "desc": "Warning road sign in Ontario, Canada.",
+  "lic": "Public domain"
+ },
+ "Ontario Wa-22A.svg": {
+  "desc": "Warning road sign in Ontario, Canada.",
+  "lic": "Public domain"
+ },
+ "Ontario Wa-22t.svg": {
+  "desc": "\"BUMP\" supplementary plate.",
+  "lic": "Public domain"
+ },
+ "Ontario Wa-23L.svg": {
+  "desc": "Left lane ends. (A \"LEFT LANE ENDS\" supplementary plate is optional)",
+  "lic": "Public domain"
+ },
+ "Ontario Wa-23Lt.svg": {
+  "desc": "\"LEFT LANE ENDS\" supplementary plate.",
+  "lic": "Public domain"
+ },
+ "Ontario Wa-23R.svg": {
+  "desc": "Right lane ends. (A \"RIGHT LANE ENDS\" supplementary plate is optional)",
+  "lic": "Public domain"
+ },
+ "Ontario Wa-23Rt.svg": {
+  "desc": "\"RIGHT LANE ENDS\" supplementary plate.",
+  "lic": "Public domain"
+ },
+ "Ontario Wa-23t.svg": {
+  "desc": "Warning road sign in Ontario, Canada.",
+  "lic": "Public domain"
+ },
+ "Ontario Wa-24.svg": {
+  "desc": "Narrow passage. (A \"ONE LANE\", \"SHOULDER NARROWS\", or \"NARROW BRIDGE\" supplementary plate is optional)",
+  "lic": "Public domain"
+ },
+ "Ontario Wa-24A.svg": {
+  "desc": "One lane only when used by trucks.",
+  "lic": "Public domain"
+ },
+ "Ontario Wa-24t.svg": {
+  "desc": "\"ONE LANE\" supplementary plate.",
+  "lic": "Public domain"
+ },
+ "Ontario Wa-25.svg": {
+  "desc": "Pavement ends. (A \"PAVEMENT ENDS\" supplementary plate is optional)",
+  "lic": "Public domain"
+ },
+ "Ontario Wa-25t.svg": {
+  "desc": "\"PAVEMENT ENDS\" supplementary plate.",
+  "lic": "Public domain"
+ },
+ "Ontario Wa-26.svg": {
+  "desc": "Height limit ahead.",
+  "lic": "Public domain"
+ },
+ "Ontario Wa-27.svg": {
+  "desc": "Height limit.",
+  "lic": "Public domain"
+ },
+ "Ontario Wa-28.svg": {
+  "desc": "Road narrows. (A \"ROAD NARROWS\" supplementary plate is optional)",
+  "lic": "Public domain"
+ },
+ "Ontario Wa-28t.svg": {
+  "desc": "\"ROAD NARROWS\" supplementary plate.",
+  "lic": "Public domain"
+ },
+ "Ontario Wa-29.svg": {
+  "desc": "Soft shoulders.",
+  "lic": "Public domain"
+ },
+ "Ontario Wa-2L.svg": {
+  "desc": "Sharp curve to the left.",
+  "lic": "Public domain"
+ },
+ "Ontario Wa-2R.svg": {
+  "desc": "Sharp curve to the right.",
+  "lic": "Public domain"
+ },
+ "Ontario Wa-30.svg": {
+  "desc": "Opening bridge. (A \"OPENING BRIDGE\" supplementary plate is optional)",
+  "lic": "Public domain"
+ },
+ "Ontario Wa-30A.svg": {
+  "desc": "Temporary bridge.",
+  "lic": "Public domain"
+ },
+ "Ontario Wa-30t.svg": {
+  "desc": "\"OPENING BRIDGE\" supplementary plate.",
+  "lic": "Public domain"
+ },
+ "Ontario Wa-31.svg": {
+  "desc": "No exit / Dead end.",
+  "lic": "Public domain"
+ },
+ "Ontario Wa-32.svg": {
+  "desc": "Advisory speed for highway ramps and exits. (Sign incorporating the \"km/h\" symbol)",
+  "lic": "Public domain"
+ },
+ "Ontario Wa-32A.svg": {
+  "desc": "Advisory speed for highway ramps and exits. (A \"km/h\" supplementary plate is mandatory)",
+  "lic": "Public domain"
+ },
+ "Ontario Wa-32t.svg": {
+  "desc": "\"km/h\" supplementary plate.",
+  "lic": "Public domain"
+ },
+ "Ontario Wa-33L.svg": {
+  "desc": "Warning road sign in Ontario, Canada.",
+  "lic": "Public domain"
+ },
+ "Ontario Wa-33LR.svg": {
+  "desc": "Warning road sign in Ontario, Canada.",
+  "lic": "Public domain"
+ },
+ "Ontario Wa-33R.svg": {
+  "desc": "Warning road sign in Ontario, Canada.",
+  "lic": "Public domain"
+ },
+ "Ontario Wa-34.svg": {
+  "desc": "Divided road begins. (A \"DIVIDED ROAD BEGINS\" supplementary plate is optional)",
+  "lic": "Public domain"
+ },
+ "Ontario Wa-34t.svg": {
+  "desc": "\"DIVIDED ROAD BEGINS\" supplementary plate.",
+  "lic": "Public domain"
+ },
+ "Ontario Wa-35.svg": {
+  "desc": "Divided road ends. (A \"DIVIDED ROAD ENDS\" supplementary plate is optional)",
+  "lic": "Public domain"
+ },
+ "Ontario Wa-35t.svg": {
+  "desc": "\"DIVIDED ROAD ENDS\" supplementary plate.",
+  "lic": "Public domain"
+ },
+ "Ontario Wa-3L.svg": {
+  "desc": "Curve to the left.",
+  "lic": "Public domain"
+ },
+ "Ontario Wa-3R.svg": {
+  "desc": "Curve to the right.",
+  "lic": "Public domain"
+ },
+ "Ontario Wa-4L.svg": {
+  "desc": "Sharp reverse curve to the left.",
+  "lic": "Public domain"
+ },
+ "Ontario Wa-4R.svg": {
+  "desc": "Sharp reverse curve to the right.",
+  "lic": "Public domain"
+ },
+ "Ontario Wa-50L.svg": {
+  "desc": "Motorway exit sign in Ontario, Canada.",
+  "lic": "Public domain"
+ },
+ "Ontario Wa-50R.svg": {
+  "desc": "Motorway exit sign in Ontario, Canada.",
+  "lic": "Public domain"
+ },
+ "Ontario Wa-51L.svg": {
+  "desc": "Motorway exit sign in Ontario, Canada.",
+  "lic": "Public domain"
+ },
+ "Ontario Wa-51R.svg": {
+  "desc": "Motorway exit sign in Ontario, Canada.",
+  "lic": "Public domain"
+ },
+ "Ontario Wa-52L.svg": {
+  "desc": "Motorway exit sign in Ontario, Canada.",
+  "lic": "Public domain"
+ },
+ "Ontario Wa-52R.svg": {
+  "desc": "Motorway exit sign in Ontario, Canada.",
+  "lic": "Public domain"
+ },
+ "Ontario Wa-53L.svg": {
+  "desc": "Motorway exit sign in Ontario, Canada.",
+  "lic": "Public domain"
+ },
+ "Ontario Wa-53R.svg": {
+  "desc": "Motorway exit sign in Ontario, Canada.",
+  "lic": "Public domain"
+ },
+ "Ontario Wa-54L.svg": {
+  "desc": "Motorway exit sign in Ontario, Canada.",
+  "lic": "Public domain"
+ },
+ "Ontario Wa-54R.svg": {
+  "desc": "Motorway exit sign in Ontario, Canada.",
+  "lic": "Public domain"
+ },
+ "Ontario Wa-56R.svg": {
+  "desc": "Right lane exits.",
+  "lic": "Public domain"
+ },
+ "Ontario Wa-57R.svg": {
+  "desc": "Two right lanes exit.",
+  "lic": "Public domain"
+ },
+ "Ontario Wa-58R.svg": {
+  "desc": "Three right lanes exit.",
+  "lic": "Public domain"
+ },
+ "Ontario Wa-5L.svg": {
+  "desc": "Reverse curve to the left.",
+  "lic": "Public domain"
+ },
+ "Ontario Wa-5R.svg": {
+  "desc": "Reverse curve to the right.",
+  "lic": "Public domain"
+ },
+ "Ontario Wa-63.svg": {
+  "desc": "Advised maximum weight \u2013 10 tonnes.",
+  "lic": "Public domain"
+ },
+ "Ontario Wa-63A.svg": {
+  "desc": "Advised maximum weight per truck class.",
+  "lic": "Public domain"
+ },
+ "Ontario Wa-6L.svg": {
+  "desc": "Series of curves with the first to the left.",
+  "lic": "Public domain"
+ },
+ "Ontario Wa-6R.svg": {
+  "desc": "Series of curves with the first to the right.",
+  "lic": "Public domain"
+ },
+ "Ontario Wa-6t.svg": {
+  "desc": "\"FOR ... km\" supplementary plate.",
+  "lic": "Public domain"
+ },
+ "Ontario Wa-70t.svg": {
+  "desc": "Warning road sign in Ontario, Canada.",
+  "lic": "Public domain"
+ },
+ "Ontario Wa-72.svg": {
+  "desc": "Intersection with a divided road.",
+  "lic": "Public domain"
+ },
+ "Ontario Wa-73.svg": {
+  "desc": "Do not block intersection.",
+  "lic": "Public domain"
+ },
+ "Ontario Wa-74.svg": {
+  "desc": "Speed hump. (A \"SPEED HUMP\" supplementary plate is optional)",
+  "lic": "Public domain"
+ },
+ "Ontario Wa-74t.svg": {
+  "desc": "\"SPEED HUMP\" supplementary plate.",
+  "lic": "Public domain"
+ },
+ "Ontario Wa-75L.svg": {
+  "desc": "Risk of truck rollover.",
+  "lic": "Public domain"
+ },
+ "Ontario Wa-75R.svg": {
+  "desc": "Risk of truck rollover.",
+  "lic": "Public domain"
+ },
+ "Ontario Wa-76.svg": {
+  "desc": "Overheight. (A \"WHEN FLASHING\" supplementary plate and flashing yellow signals are mandatory)",
+  "lic": "Public domain"
+ },
+ "Ontario Wa-7t.svg": {
+  "desc": "Advisory speed supplementary plate.",
+  "lic": "Public domain"
+ },
+ "Ontario Wa-8.svg": {
+  "desc": "Road terminates.",
+  "lic": "Public domain"
+ },
+ "Ontario Wa-8AL.svg": {
+  "desc": "Chequerboard warning road sign in Ontario, Canada. These signs are only authorised to mark abrupt and dangerous discontinuities or terminations of the road, such as the end of the road.",
+  "lic": "Public domain"
+ },
+ "Ontario Wa-8AR.svg": {
+  "desc": "Chequerboard warning road sign in Ontario, Canada. These signs are only authorised to mark abrupt and dangerous discontinuities or terminations of the road, such as the end of the road.",
+  "lic": "Public domain"
+ },
+ "Ontario Wa-8L.svg": {
+  "desc": "Chequerboard warning road sign in Ontario, Canada. These signs are only authorised to mark abrupt and dangerous discontinuities or terminations of the road, such as the end of the road.",
+  "lic": "Public domain"
+ },
+ "Ontario Wa-8LR.svg": {
+  "desc": "Chequerboard warning road sign in Ontario, Canada. These signs are only authorised to mark abrupt and dangerous discontinuities or terminations of the road, such as the end of the road.",
+  "lic": "Public domain"
+ },
+ "Ontario Wa-8R.svg": {
+  "desc": "Chequerboard warning road sign in Ontario, Canada. These signs are only authorised to mark abrupt and dangerous discontinuities or terminations of the road, such as the end of the road.",
+  "lic": "Public domain"
+ },
+ "Ontario Wa-9L.svg": {
+  "desc": "Alignment chevron.",
+  "lic": "Public domain"
+ },
+ "Ontario Wa-9R.svg": {
+  "desc": "Alignment chevron.",
+  "lic": "Public domain"
+ },
+ "Ontario Wb-102A.svg": {
+  "desc": "Traffic signals ahead.",
+  "lic": "Public domain"
+ },
+ "Ontario Wb-102At.svg": {
+  "desc": "\"PREPARE TO STOP WHEN FLASHING\" supplementary plate.",
+  "lic": "Public domain"
+ },
+ "Ontario Wb-2.svg": {
+  "desc": "Traffic signals ahead.",
+  "lic": "Public domain"
+ },
+ "Ontario Wb-3.svg": {
+  "desc": "New.",
+  "lic": "Public domain"
+ },
+ "Ontario Wb-4.svg": {
+  "desc": "Two-way traffic ahead.",
+  "lic": "Public domain"
+ },
+ "Ontario Wb-6.svg": {
+  "desc": "Keep right.",
+  "lic": "Public domain"
+ },
+ "Ontario Wb-7.svg": {
+  "desc": "Ramp metered when flashing.",
+  "lic": "Public domain"
+ },
+ "Ontario Wc-104A.svg": {
+  "desc": "Railway level crossing ahead.",
+  "lic": "Public domain"
+ },
+ "Ontario Wc-10L.svg": {
+  "desc": "School bus entrance.",
+  "lic": "Public domain"
+ },
+ "Ontario Wc-10R.svg": {
+  "desc": "School bus entrance.",
+  "lic": "Public domain"
+ },
+ "Ontario Wc-11.svg": {
+  "desc": "Deer.",
+  "lic": "Public domain"
+ },
+ "Ontario Wc-12.svg": {
+  "desc": "Moose.",
+  "lic": "Public domain"
+ },
+ "Ontario Wc-12t.svg": {
+  "desc": "\"NIGHT DANGER\" supplementary plate.",
+  "lic": "Public domain"
+ },
+ "Ontario Wc-13.svg": {
+  "desc": "Cemetery entrance.",
+  "lic": "Public domain"
+ },
+ "Ontario Wc-14.svg": {
+  "desc": "Bicycle crossing ahead.",
+  "lic": "Public domain"
+ },
+ "Ontario Wc-17.svg": {
+  "desc": "Centre line marking ends.",
+  "lic": "Public domain"
+ },
+ "Ontario Wc-18t.svg": {
+  "desc": "\"SNOWMOBILE CROSSING\" supplementary plate.",
+  "lic": "Public domain"
+ },
+ "Ontario Wc-1 (old).svg": {
+  "desc": "School zone.",
+  "lic": "Public domain"
+ },
+ "Ontario Wc-20.svg": {
+  "desc": "Pedestrian crossing. (This sign is illuminated and placed overhead the road)",
+  "lic": "Public domain"
+ },
+ "Ontario Wc-21.svg": {
+  "desc": "Ford / Seasonal flooding / Flash flooding. (A \"WATER OVER ROAD\" supplementary plate is optional)",
+  "lic": "Public domain"
+ },
+ "Ontario Wc-21t.svg": {
+  "desc": "\"WATER OVER ROAD\" supplementary plate.",
+  "lic": "Public domain"
+ },
+ "Ontario Wc-22.svg": {
+  "desc": "Horse riders.",
+  "lic": "Public domain"
+ },
+ "Ontario Wc-23.svg": {
+  "desc": "Horse-drawn vehicles.",
+  "lic": "Public domain"
+ },
+ "Ontario Wc-25L.svg": {
+  "desc": "Fire truck entrance. (A \"FIRE TRUCK ENTRANCE\" supplementary plate is optional)",
+  "lic": "Public domain"
+ },
+ "Ontario Wc-25R.svg": {
+  "desc": "Fire truck entrance. (A \"FIRE TRUCK ENTRANCE\" supplementary plate is optional)",
+  "lic": "Public domain"
+ },
+ "Ontario Wc-25t.svg": {
+  "desc": "\"FIRE TRUCK ENTRANCE\" supplementary plate.",
+  "lic": "Public domain"
+ },
+ "Ontario Wc-26.svg": {
+  "desc": "School bus stop ahead. (A \"SCHOOL BUS STOP AHEAD\" supplementary plate is optional)",
+  "lic": "Public domain"
+ },
+ "Ontario Wc-26t.svg": {
+  "desc": "\"SCHOOL BUS STOP AHEAD\" supplementary plate.",
+  "lic": "Public domain"
+ },
+ "Ontario Wc-28.svg": {
+  "desc": "Wait for gap.",
+  "lic": "Public domain"
+ },
+ "Ontario Wc-29.svg": {
+  "desc": "Two stage pedestrian crossing.",
+  "lic": "Public domain"
+ },
+ "Ontario Wc-2A.svg": {
+  "desc": "School crossing ahead.  (A \"CROSSING AHEAD\" supplementary plate is optional)  (Authorised 2007)",
+  "lic": "Public domain"
+ },
+ "Ontario Wc-2A (old).svg": {
+  "desc": "School crossing ahead.  (A \"CROSSING AHEAD\" supplementary plate is optional)  (Annulled 2007)",
+  "lic": "Public domain"
+ },
+ "Ontario Wc-2At.svg": {
+  "desc": "\"CROSSING AHEAD\" supplementary plate. (Authorised 2007)",
+  "lic": "Public domain"
+ },
+ "Ontario Wc-2At (old).svg": {
+  "desc": "\"CROSSING AHEAD\" supplementary plate. (Annulled 2007)",
+  "lic": "Public domain"
+ },
+ "Ontario Wc-2 (old).svg": {
+  "desc": "School crossing.  (A \"SCHOOL CROSSING\" supplementary plate is optional)  (Annulled 2007)",
+  "lic": "Public domain"
+ },
+ "Ontario Wc-2t.svg": {
+  "desc": "\"SCHOOL CROSSING\" supplementary plate. (Authorised 2007)",
+  "lic": "Public domain"
+ },
+ "Ontario Wc-2t (old).svg": {
+  "desc": "\"SCHOOL CROSSING\" supplementary plate. (Annulled 2007)",
+  "lic": "Public domain"
+ },
+ "Ontario Wc-4.svg": {
+  "desc": "Railway level crossing ahead.",
+  "lic": "Public domain"
+ },
+ "Ontario Wc-4BL.svg": {
+  "desc": "Railway level crossing ahead on side road.",
+  "lic": "Public domain"
+ },
+ "Ontario Wc-4BR.svg": {
+  "desc": "Railway level crossing ahead on side road.",
+  "lic": "Public domain"
+ },
+ "Ontario Wc-5.svg": {
+  "desc": "Slippery surface when wet. (A \"SLIPPERY WHEN WET\" supplementary plate is optional)",
+  "lic": "Public domain"
+ },
+ "Ontario Wc-5t.svg": {
+  "desc": "\"SLIPPERY WHEN WET\" supplementary plate.",
+  "lic": "Public domain"
+ },
+ "Ontario Wc-6L.svg": {
+  "desc": "Danger of falling rocks. (A \"WATCH FOR FALLEN ROCK\" supplementary plate is optional)",
+  "lic": "Public domain"
+ },
+ "Ontario Wc-6R.svg": {
+  "desc": "Danger of falling rocks. (A \"WATCH FOR FALLEN ROCK\" supplementary plate is optional)",
+  "lic": "Public domain"
+ },
+ "Ontario Wc-6t.svg": {
+  "desc": "\"WATCH FOR FALLEN ROCK\" supplementary plate.",
+  "lic": "Public domain"
+ },
+ "Ontario Wc-7t.svg": {
+  "desc": "\"SENIORS\" supplementary plate.",
+  "lic": "Public domain"
+ },
+ "Ontario Wc-8L.svg": {
+  "desc": "Truck entrance. (A \"TRUCK ENTRANCE\" supplementary plate is optional)",
+  "lic": "Public domain"
+ },
+ "Ontario Wc-8R.svg": {
+  "desc": "Truck entrance. (A \"TRUCK ENTRANCE\" supplementary plate is optional)",
+  "lic": "Public domain"
+ },
+ "Ontario Wc-8t.svg": {
+  "desc": "\"TRUCK ENTRANCE\" supplementary plate.",
+  "lic": "Public domain"
+ },
+ "Ontario Wc-9.svg": {
+  "desc": "Cattle.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Ra-1 (English and Mohawk).png": {
+  "desc": "Ontario stop sign with English on the top and Mohawk on the bottom.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Ra-4 (B) + Ra-4t (B).svg": {
+  "desc": "Pedestrian crossing. (The \"STOP FOR PEDESTRIANS\" supplementary plate is mandatory)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Ra-5L + Ra-4t.svg": {
+  "desc": "Pedestrian crossing. (The \"STOP FOR PEDESTRIANS\" supplementary plate is mandatory)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Ra-5L + Ra-4t (B).svg": {
+  "desc": "Pedestrian crossing. (The \"STOP FOR PEDESTRIANS\" supplementary plate is mandatory)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Ra-5R + Ra-4t.svg": {
+  "desc": "Pedestrian crossing. (The \"STOP FOR PEDESTRIANS\" supplementary plate is mandatory)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Ra-5R + Ra-4t (B).svg": {
+  "desc": "Pedestrian crossing. (The \"STOP FOR PEDESTRIANS\" supplementary plate is mandatory)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Rb-1-100 + Rb-7t.svg": {
+  "desc": "Maximum speed limit \u2013 100 km/h. (The \"km/h\" supplementary plate is optional)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Rb-1-10 + Rb-7t.svg": {
+  "desc": "Maximum speed limit \u2013 10 km/h. (The \"km/h\" supplementary plate is optional)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Rb-1-10 + Rb-84t.svg": {
+  "desc": "New maximum speed limit begins \u2013 10 km/h.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Rb-1-110 + Rb-7t.svg": {
+  "desc": "Maximum speed limit \u2013 110 km/h. (The \"km/h\" supplementary plate is optional)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Rb-1-20 + Rb-7t.svg": {
+  "desc": "Maximum speed limit \u2013 20 km/h. (The \"km/h\" supplementary plate is optional)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Rb-1-20 + Rb-84t.svg": {
+  "desc": "New maximum speed limit begins \u2013 20 km/h.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Rb-1-30 + Rb-7t.svg": {
+  "desc": "Maximum speed limit \u2013 30 km/h. (The \"km/h\" supplementary plate is optional)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Rb-1-30 + Rb-84t.svg": {
+  "desc": "New maximum speed limit begins \u2013 30 km/h.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Rb-1-40 + Rb-7t.svg": {
+  "desc": "Maximum speed limit \u2013 40 km/h. (The \"km/h\" supplementary plate is optional)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Rb-1-40 + Rb-84t.svg": {
+  "desc": "New maximum speed limit begins \u2013 40 km/h.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Rb-1-50 + Rb-7t.svg": {
+  "desc": "Maximum speed limit \u2013 50 km/h. (The \"km/h\" supplementary plate is optional)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Rb-1-50 + Rb-84t.svg": {
+  "desc": "New maximum speed limit begins \u2013 50 km/h.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Rb-1-60 + Rb-7t.svg": {
+  "desc": "Maximum speed limit \u2013 60 km/h. (The \"km/h\" supplementary plate is optional)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Rb-1-60 + Rb-84t.svg": {
+  "desc": "New maximum speed limit begins \u2013 60 km/h.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Rb-1-70 + Rb-7t.svg": {
+  "desc": "Maximum speed limit \u2013 70 km/h. (The \"km/h\" supplementary plate is optional)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Rb-1-70 + Rb-84t.svg": {
+  "desc": "New maximum speed limit begins \u2013 70 km/h.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Rb-1-80 + Rb-7t.svg": {
+  "desc": "Maximum speed limit \u2013 80 km/h. (The \"km/h\" supplementary plate is optional)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Rb-1-80 + Rb-84t.svg": {
+  "desc": "New maximum speed limit begins \u2013 80 km/h.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Rb-1-90 + Rb-7t.svg": {
+  "desc": "Maximum speed limit \u2013 90 km/h. (The \"km/h\" supplementary plate is optional)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Rb-16 + Rb-16t.svg": {
+  "desc": "No U-turn except authorized vehicles. (The \"EXCEPT AUTHORIZED VEHICLES\" supplementary plate is optional)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Rb-16 + Rb-16t (B).svg": {
+  "desc": "No U-turn except authorized vehicles. (The \"EXCEPT AUTHORIZED VEHICLES\" supplementary plate is optional)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Rb-19 (B) \u2013 2nd Generation.svg": {
+  "desc": "Do not enter.  (2nd generation model, obsolete)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Rb-19 \u2013 2nd Generation.svg": {
+  "desc": "Do not enter.  (2nd generation model, obsolete)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Rb-35 + Rb-35t.svg": {
+  "desc": "Passing permitted \u2013 pass safely exercising care.\n(End of the no passing zone)\n\n(The \"PASS WITH CARE\" supplementary plate is optional)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Rb-35 + Rb-35t (B).svg": {
+  "desc": "Passing permitted \u2013 pass safely exercising care.\n(End of the no passing zone)\n\n(The \"PASS WITH CARE\" supplementary plate is optional)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Rb-37 (F) + Rb-37t (F).svg": {
+  "desc": "Stop for school bus when signals flashing \u2013 both directions. (The \"BOTH DIRECTIONS\" supplementary plate is mandatory)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Rb-37 + Rb-37t.svg": {
+  "desc": "Stop for school bus when signals flashing \u2013 both directions. (The \"BOTH DIRECTIONS\" supplementary plate is mandatory)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Rb-52L.svg": {
+  "desc": "No parking. (with hours of the day and days of the week when the prohibition applies)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Rb-52L (B).svg": {
+  "desc": "No parking. (with hours of the day and days of the week when the prohibition applies)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Rb-52L (F).svg": {
+  "desc": "No parking. (with hours of the day and days of the week when the prohibition applies)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Rb-52R.svg": {
+  "desc": "No parking. (with hours of the day and days of the week when the prohibition applies)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Rb-52R (B).svg": {
+  "desc": "No parking. (with hours of the day and days of the week when the prohibition applies)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Rb-52R (F).svg": {
+  "desc": "No parking. (with hours of the day and days of the week when the prohibition applies)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Rb-52 (B).svg": {
+  "desc": "No parking. (with hours of the day and days of the week when the prohibition applies)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Rb-52 (F).svg": {
+  "desc": "No parking. (with hours of the day and days of the week when the prohibition applies)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Rb-53AL.svg": {
+  "desc": "Parking permitted.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Rb-53AL (B).svg": {
+  "desc": "Parking permitted.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Rb-53AL (F).svg": {
+  "desc": "Parking permitted.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Rb-53AR.svg": {
+  "desc": "Parking permitted.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Rb-53AR (B).svg": {
+  "desc": "Parking permitted.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Rb-53AR (F).svg": {
+  "desc": "Parking permitted.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Rb-53A (B).svg": {
+  "desc": "Parking permitted.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Rb-53A (F).svg": {
+  "desc": "Parking permitted.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Rb-53L.svg": {
+  "desc": "Parking permitted.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Rb-53L (B).svg": {
+  "desc": "Parking permitted.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Rb-53L (F).svg": {
+  "desc": "Parking permitted.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Rb-53R.svg": {
+  "desc": "Parking permitted.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Rb-53R (B).svg": {
+  "desc": "Parking permitted.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Rb-53R (F).svg": {
+  "desc": "Parking permitted.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Rb-53 (B).svg": {
+  "desc": "Parking permitted.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Rb-53 (F).svg": {
+  "desc": "Parking permitted.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Rb-56L.svg": {
+  "desc": "No stopping. (with hours of the day and days of the week when the prohibition applies)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Rb-56L (B).svg": {
+  "desc": "No stopping. (with hours of the day and days of the week when the prohibition applies)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Rb-56L (F).svg": {
+  "desc": "No stopping. (with hours of the day and days of the week when the prohibition applies)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Rb-56R.svg": {
+  "desc": "No stopping. (with hours of the day and days of the week when the prohibition applies)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Rb-56R (B).svg": {
+  "desc": "No stopping. (with hours of the day and days of the week when the prohibition applies)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Rb-56R (F).svg": {
+  "desc": "No stopping. (with hours of the day and days of the week when the prohibition applies)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Rb-56 (B).svg": {
+  "desc": "No stopping. (with hours of the day and days of the week when the prohibition applies)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Rb-56 (F).svg": {
+  "desc": "No stopping. (with hours of the day and days of the week when the prohibition applies)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Rb-66 + Rb-66t.svg": {
+  "desc": "Do not pass bicycles. (The \"DO NOT PASS BICYCLES\" supplementary plate is optional)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Rb-66 + Rb-66t (F).svg": {
+  "desc": "Do not pass bicycles. (The \"DO NOT PASS BICYCLES\" supplementary plate is optional)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Rb-6A (B) (old).svg": {
+  "desc": "School zone maximum speed limit when signals flashing \u2013 40 km/h.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Rb-73.svg": {
+  "desc": "Cyclists yield to pedestrians.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Rb-73 (F).svg": {
+  "desc": "Cyclists yield to pedestrians.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Rb-76 + Rb-76tA.svg": {
+  "desc": "Load restriction \u2013 5 tonnes per axle. (The \"5 tonnes per axle\" supplementary plate is mandatory)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Rb-76 + Rb-76tA (F).svg": {
+  "desc": "Load restriction \u2013 5 tonnes per axle. (The \"5 tonnes per axle\" supplementary plate is mandatory)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Rb-80 (B).svg": {
+  "desc": "Advanced green when flashing.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Rb-82 + Rb-82t.svg": {
+  "desc": "Route for vehicles transporting dangerous goods. (The \"DANGEROUS GOODS ROUTE\" supplementary plate is optional)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Rb-82 + Rb-82t (F).svg": {
+  "desc": "Route for vehicles transporting dangerous goods. (The \"DANGEROUS GOODS ROUTE\" supplementary plate is optional)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Rb-83 + Rb-83t.svg": {
+  "desc": "No vehicles transporting dangerous goods. (The \"DANGEROUS GOODS CARRIERS PROHIBITED\" supplementary plate is optional)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Rb-83 + Rb-83t (F).svg": {
+  "desc": "No vehicles transporting dangerous goods. (The \"DANGEROUS GOODS CARRIERS PROHIBITED\" supplementary plate is optional)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Rc-13 (unofficial).svg": {
+  "desc": "Use of seat belts compulsory. (unofficial version)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Rc-13 + Rc-13t.svg": {
+  "desc": "Use of seat belts compulsory. (The \"COMPULSORY\" supplementary plate is optional)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Rc-4 + Rc-4t.svg": {
+  "desc": "No littering \u2013 maximum fine $500. (The \"MAXIMUM FINE $500\" supplementary plate is optional)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Rc-9 (F) + Rc-9tA (F).svg": {
+  "desc": "Community safety zone with increased fines begins.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Rc-9 (F) + Rc-9tB (F).svg": {
+  "desc": "Community safety zone with increased fines ends.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Rc-9 + Rb-84t.svg": {
+  "desc": "Community safety zone with increased fines begins.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Rc-9 + Rb-85t.svg": {
+  "desc": "Community safety zone with increased fines ends.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign TC-10D (F).svg": {
+  "desc": "Detour ends.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign TC-10 (F).svg": {
+  "desc": "Detour.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign TC-11 + TC-11t.svg": {
+  "desc": "Narrow lanes \u2013 trucks use centre lane. (The \"TRUCKS USE CENTRE LANE\" supplementary plate is optional)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign TC-19A.svg": {
+  "desc": "Grooved pavement. (A \"GROOVED PAVEMENT\" supplementary plate is optional)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign TC-19A + TC-19t.svg": {
+  "desc": "Grooved pavement. (The \"GROOVED PAVEMENT\" supplementary plate is optional)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign TC-19 + TC-19t.svg": {
+  "desc": "Grooved pavement. (The \"GROOVED PAVEMENT\" supplementary plate is optional)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign TC-23A + TC-23At.svg": {
+  "desc": "Automated flagger signal ahead \u2013 prepare to stop. (The \"PREPARE TO STOP\" supplementary plate is mandatory)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign TC-23A + TC-23At (B).svg": {
+  "desc": "Automated flagger signal ahead \u2013 prepare to stop. (The \"PREPARE TO STOP\" supplementary plate is mandatory)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign TC-23At (B).svg": {
+  "desc": "\"PREPARE TO STOP\" supplementary plate.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign TC-27 (F).svg": {
+  "desc": "Do not pass when flashing.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign TC-32 + TC-32t.svg": {
+  "desc": "Temporary bridge. (The \"TEMPORARY BRIDGE \u2013 ADVISORY SPEED 30 km/h\" supplementary plate is optional)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign TC-32 + TC-32t (F).svg": {
+  "desc": "Temporary bridge. (The \"TEMPORARY BRIDGE \u2013 ADVISORY SPEED 30 km/h\" supplementary plate is optional)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign TC-32t (F).svg": {
+  "desc": "\"TEMPORARY BRIDGE \u2013 ADVISORY SPEED 30 km/h\" supplementary plate.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign TC-35 (F).svg": {
+  "desc": "Ramp closed ahead.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign TC-36A.svg": {
+  "desc": "Works zone maximum speed limit ahead \u2013 50 km/h.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign TC-37 (B).svg": {
+  "desc": "Soft shoulders.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign TC-39 (B).svg": {
+  "desc": "No exit / Dead end.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign TC-3Ct.svg": {
+  "desc": "\"CENTRE LANE CLOSED\" supplementary plate.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign TC-3Ct (F).svg": {
+  "desc": "\"CENTRE LANE CLOSED\" supplementary plate.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign TC-3L + TC-3Ct.svg": {
+  "desc": "Centre lane closed \u2013 divert to the right lane.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign TC-3L + TC-3Ct (F).svg": {
+  "desc": "Centre lane closed \u2013 divert to the right lane.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign TC-3L + TC-3Lt.svg": {
+  "desc": "Left lane closed. (The \"LEFT LANE CLOSED\" supplementary plate is optional)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign TC-3L + TC-3Lt (F).svg": {
+  "desc": "Left lane closed. (The \"LEFT LANE CLOSED\" supplementary plate is optional)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign TC-3Lt (F).svg": {
+  "desc": "\"LEFT LANE CLOSED\" supplementary plate.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign TC-3R + TC-3Ct.svg": {
+  "desc": "Centre lane closed \u2013 divert to the left lane.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign TC-3R + TC-3Ct (F).svg": {
+  "desc": "Centre lane closed \u2013 divert to the left lane.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign TC-3R + TC-3Rt.svg": {
+  "desc": "Right lane closed. (The \"RIGHT LANE CLOSED\" supplementary plate is optional)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign TC-3R + TC-3Rt (F).svg": {
+  "desc": "Right lane closed. (The \"RIGHT LANE CLOSED\" supplementary plate is optional)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign TC-3Rt (F).svg": {
+  "desc": "\"RIGHT LANE CLOSED\" supplementary plate.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign TC-5A (F).svg": {
+  "desc": "Detour ahead in 1 kilometre.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign TC-5B (F).svg": {
+  "desc": "Detour ahead in 2 kilometres.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign TC-5 (F).svg": {
+  "desc": "Detour ahead.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wa-10L.svg": {
+  "desc": "180\u00b0 curve to the left.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wa-10R.svg": {
+  "desc": "180\u00b0 curve to the right.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wa-18t (B).svg": {
+  "desc": "\"HIDDEN\" supplementary plate.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wa-19 (F).svg": {
+  "desc": "Cross traffic does not stop.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wa-19 (F) + Wa-19t (F).svg": {
+  "desc": "Cross traffic does not stop after December 12th.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wa-19 + Wa-19t.svg": {
+  "desc": "Cross traffic does not stop after December 12th.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wa-19t (F).svg": {
+  "desc": "\"AFTER DECEMBER 12TH\" supplementary plate.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wa-21 + Wa-21t.svg": {
+  "desc": "Steep slope \u2013 use lower gear. (The \"USE LOWER GEAR\" supplementary plate is optional)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wa-21 + Wa-21t (B).svg": {
+  "desc": "Steep slope \u2013 use lower gear. (The \"USE LOWER GEAR\" supplementary plate is optional)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wa-21t (B).svg": {
+  "desc": "\"USE LOWER GEAR\" supplementary plate.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wa-22t (F).svg": {
+  "desc": "\"BUMP\" supplementary plate.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wa-23L + Wa-23Lt.svg": {
+  "desc": "Left lane ends. (The \"LEFT LANE ENDS\" supplementary plate is optional)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wa-23L + Wa-23Lt (F).svg": {
+  "desc": "Left lane ends. (The \"LEFT LANE ENDS\" supplementary plate is optional)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wa-23Lt (F).svg": {
+  "desc": "\"LEFT LANE ENDS\" supplementary plate.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wa-23R + Wa-23Rt.svg": {
+  "desc": "Right lane ends. (The \"RIGHT LANE ENDS\" supplementary plate is optional)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wa-23R + Wa-23Rt (F).svg": {
+  "desc": "Right lane ends. (The \"RIGHT LANE ENDS\" supplementary plate is optional)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wa-23Rt (F).svg": {
+  "desc": "\"RIGHT LANE ENDS\" supplementary plate.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wa-24A (F).svg": {
+  "desc": "One lane only when used by trucks.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wa-24 + Wa-24t.svg": {
+  "desc": "Narrow passage. (The \"ONE LANE\" supplementary plate is optional)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wa-24 + Wa-24tA.svg": {
+  "desc": "Narrow passage. (The \"SHOULDER NARROWS\" supplementary plate is optional)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wa-24 + Wa-24tA (B).svg": {
+  "desc": "Narrow passage. (The \"SHOULDER NARROWS\" supplementary plate is optional)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wa-24 + Wa-24tB.svg": {
+  "desc": "Narrow passage. (The \"NARROW BRIDGE\" supplementary plate is optional)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wa-24 + Wa-24t (B).svg": {
+  "desc": "Narrow passage. (The \"ONE LANE\" supplementary plate is optional)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wa-24tA.svg": {
+  "desc": "\"SHOULDER NARROWS\" supplementary plate.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wa-24tA (B).svg": {
+  "desc": "\"SHOULDER NARROWS\" supplementary plate.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wa-24tB.svg": {
+  "desc": "\"NARROW BRIDGE\" supplementary plate.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wa-24t (B).svg": {
+  "desc": "\"ONE LANE\" supplementary plate.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wa-25 + Wa-25t.svg": {
+  "desc": "Pavement ends. (The \"PAVEMENT ENDS\" supplementary plate is optional)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wa-25 + Wa-25t (B).svg": {
+  "desc": "Pavement ends. (The \"PAVEMENT ENDS\" supplementary plate is optional)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wa-25t (B).svg": {
+  "desc": "\"PAVEMENT ENDS\" supplementary plate.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wa-28 + Wa-28t.svg": {
+  "desc": "Road narrows. (The \"ROAD NARROWS\" supplementary plate is optional)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wa-29 (B).svg": {
+  "desc": "Soft shoulders.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wa-30A (B).svg": {
+  "desc": "Temporary bridge.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wa-30A (F).svg": {
+  "desc": "Temporary bridge.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wa-30 + Wa-30t.svg": {
+  "desc": "Opening bridge. (The \"OPENING BRIDGE\" supplementary plate is optional)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wa-30 + Wa-30t (B).svg": {
+  "desc": "Opening bridge. (The \"OPENING BRIDGE\" supplementary plate is optional)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wa-30t (B).svg": {
+  "desc": "\"OPENING BRIDGE\" supplementary plate.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wa-31 (B).svg": {
+  "desc": "No exit / Dead end.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wa-32A + Wa-32t.svg": {
+  "desc": "Advisory speed for highway ramps and exits. (The \"km/h\" supplementary plate is mandatory)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wa-32 (B).svg": {
+  "desc": "Advisory speed for highway ramps and exits. (A \"km/h\" supplementary plate is mandatory)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wa-32 (B) + Wa-32t.svg": {
+  "desc": "Advisory speed for highway ramps and exits. (The \"km/h\" supplementary plate is mandatory)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wa-34 + Wa-34t.svg": {
+  "desc": "Divided road begins. (The \"DIVIDED ROAD BEGINS\" supplementary plate is optional)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wa-35 + Wa-35t.svg": {
+  "desc": "Divided road ends. (The \"DIVIDED ROAD ENDS\" supplementary plate is optional)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wa-39.svg": {
+  "desc": "Roundabout.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wa-40.svg": {
+  "desc": "Danger of encroachment from trucks turning left or in a roundabout.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wa-56L.svg": {
+  "desc": "Left lane exits.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wa-56L (F).svg": {
+  "desc": "Left lane exits.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wa-56R (F).svg": {
+  "desc": "Right lane exits.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wa-57L.svg": {
+  "desc": "Two left lanes exit.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wa-57L (F).svg": {
+  "desc": "Two left lanes exit.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wa-57R (F).svg": {
+  "desc": "Two right lanes exit.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wa-58L.svg": {
+  "desc": "Three left lanes exit.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wa-58L (F).svg": {
+  "desc": "Three left lanes exit.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wa-58R (F).svg": {
+  "desc": "Three right lanes exit.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wa-6t (B).svg": {
+  "desc": "\"FOR ... km\" supplementary plate.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wa-73 (F).svg": {
+  "desc": "Do not block intersection.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wa-74 + Wa-74t.svg": {
+  "desc": "Speed hump. (The \"SPEED HUMP\" supplementary plate is optional)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wa-74 + Wa-74t (F).svg": {
+  "desc": "Speed hump. (The \"SPEED HUMP\" supplementary plate is optional)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wa-74t (F).svg": {
+  "desc": "\"SPEED HUMP\" supplementary plate.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wa-76 (F).svg": {
+  "desc": "Overheight. (A \"WHEN FLASHING\" supplementary plate and flashing yellow signals are mandatory)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wa-76 (F) + Wa-76t (F).svg": {
+  "desc": "Overheight when flashing",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wa-76 + Wa-76t.svg": {
+  "desc": "Overheight when flashing",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wa-76t.svg": {
+  "desc": "\"WHEN FLASHING\" supplementary plate.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wa-76t (F).svg": {
+  "desc": "\"WHEN FLASHING\" supplementary plate.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wa-77.svg": {
+  "desc": "Rumble strips. (A \"RUMBLE STRIPS\" supplementary plate is optional)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wa-77 + Wa-77t.svg": {
+  "desc": "Rumble strips. (The \"RUMBLE STRIPS\" supplementary plate is optional)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wa-77 + Wa-77t (B).svg": {
+  "desc": "Rumble strips. (The \"RUMBLE STRIPS\" supplementary plate is optional)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wa-77t.svg": {
+  "desc": "\"RUMBLE STRIPS\" supplementary plate.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wa-77t (B).svg": {
+  "desc": "\"RUMBLE STRIPS\" supplementary plate.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wb-2A + Wb-2At.svg": {
+  "desc": "Traffic signals ahead \u2013 prepare to stop when flashing.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wb-2A + Wb-2At (B).svg": {
+  "desc": "Traffic signals ahead \u2013 prepare to stop when flashing.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wb-2At (B).svg": {
+  "desc": "\"PREPARE TO STOP WHEN FLASHING\" supplementary plate.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wb-3.svg": {
+  "desc": "New.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wb-3 (F).svg": {
+  "desc": "New.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wb-3 (F) (old).svg": {
+  "desc": "New.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wb-6 (B).svg": {
+  "desc": "Keep right.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wb-7 (F).svg": {
+  "desc": "Ramp metered when flashing.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wc-11 + Wc-12t.svg": {
+  "desc": "Deer \u2013 night danger.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wc-11 + Wc-12t (B).svg": {
+  "desc": "Deer \u2013 night danger.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wc-12 + Wc-12t.svg": {
+  "desc": "Moose \u2013 night danger.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wc-12 + Wc-12t (B).svg": {
+  "desc": "Moose \u2013 night danger.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wc-12t (B).svg": {
+  "desc": "\"NIGHT DANGER\" supplementary plate.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wc-13 (B).svg": {
+  "desc": "Cemetery entrance.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wc-15.svg": {
+  "desc": "Pedestrian and bicycle crossing ahead.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wc-16.svg": {
+  "desc": "Rough road for 15 km.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wc-16 (F).svg": {
+  "desc": "Rough road for 15 km.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wc-17 (B).svg": {
+  "desc": "Centre line marking ends.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wc-18 + Wc-18t.svg": {
+  "desc": "Snowmobile crossing. (The \"SNOWMOBILE CROSSING\" supplementary plate is optional)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wc-18 + Wc-18t (F).svg": {
+  "desc": "Snowmobile crossing. (The \"SNOWMOBILE CROSSING\" supplementary plate is optional)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wc-18t (F).svg": {
+  "desc": "\"SNOWMOBILE CROSSING\" supplementary plate.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wc-21 + Wc-21t.svg": {
+  "desc": "Ford / Seasonal flooding / Flash flooding. (The \"WATER OVER ROAD\" supplementary plate is optional)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wc-21 + Wc-21t (B).svg": {
+  "desc": "Ford / Seasonal flooding / Flash flooding. (The \"WATER OVER ROAD\" supplementary plate is optional)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wc-21t (B).svg": {
+  "desc": "\"WATER OVER ROAD\" supplementary plate.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wc-25L + Wc-25t.svg": {
+  "desc": "Fire truck entrance. (The \"FIRE TRUCK ENTRANCE\" supplementary plate is optional)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wc-25L + Wc-25t (B).svg": {
+  "desc": "Fire truck entrance. (The \"FIRE TRUCK ENTRANCE\" supplementary plate is optional)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wc-25R + Wc-25t.svg": {
+  "desc": "Fire truck entrance. (The \"FIRE TRUCK ENTRANCE\" supplementary plate is optional)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wc-25R + Wc-25t (B).svg": {
+  "desc": "Fire truck entrance. (The \"FIRE TRUCK ENTRANCE\" supplementary plate is optional)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wc-25t (B).svg": {
+  "desc": "\"FIRE TRUCK ENTRANCE\" supplementary plate.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wc-26 + Wc-26t.svg": {
+  "desc": "School bus stop ahead. (The \"SCHOOL BUS STOP AHEAD\" supplementary plate is optional)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wc-27L.svg": {
+  "desc": "Pedestrian crossing ahead.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wc-27R.svg": {
+  "desc": "Pedestrian crossing ahead.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wc-27 (unofficial).svg": {
+  "desc": "Pedestrian crossing ahead. (unofficial version)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wc-28 (F).svg": {
+  "desc": "Wait for gap.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wc-2A (old) + Wc-2At (B) (old).svg": {
+  "desc": "School crossing ahead.  (The \"CROSSING AHEAD\" supplementary plate is optional)  (Annulled 2007)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wc-2A (old) + Wc-2At (old).svg": {
+  "desc": "School crossing ahead.  (The \"CROSSING AHEAD\" supplementary plate is optional)  (Annulled 2007)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wc-2A + Wc-2At.svg": {
+  "desc": "School crossing ahead.  (The \"CROSSING AHEAD\" supplementary plate is optional)  (Authorised 2007)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wc-2A + Wc-2At (B).svg": {
+  "desc": "School crossing ahead.  (The \"CROSSING AHEAD\" supplementary plate is optional)  (Authorised 2007)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wc-2At (B).svg": {
+  "desc": "\"CROSSING AHEAD\" supplementary plate. (Authorised 2007)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wc-2At (B) (old).svg": {
+  "desc": "\"CROSSING AHEAD\" supplementary plate. (Annulled 2007)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wc-2 (old) + Wc-2t (B) (old).svg": {
+  "desc": "School crossing.  (The \"SCHOOL CROSSING\" supplementary plate is optional)  (Annulled 2007)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wc-2 (old) + Wc-2t (old).svg": {
+  "desc": "School crossing.  (The \"SCHOOL CROSSING\" supplementary plate is optional)  (Annulled 2007)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wc-2 + Wc-2t.svg": {
+  "desc": "School crossing.  (The \"SCHOOL CROSSING\" supplementary plate is optional)  (Authorised 2007)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wc-2 + Wc-2t (B).svg": {
+  "desc": "School crossing.  (The \"SCHOOL CROSSING\" supplementary plate is optional)  (Authorised 2007)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wc-2t (B).svg": {
+  "desc": "\"SCHOOL CROSSING\" supplementary plate. (Authorised 2007)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wc-2t (B) (old).svg": {
+  "desc": "\"SCHOOL CROSSING\" supplementary plate. (Annulled 2007)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wc-31.svg": {
+  "desc": "Centre line rumble strip.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wc-31 (B).svg": {
+  "desc": "Centre line rumble strip.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wc-31 (F).svg": {
+  "desc": "Centre line rumble strip.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wc-32.svg": {
+  "desc": "Trail crossing.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wc-32t.svg": {
+  "desc": "\"CROSSING\" supplementary plate.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wc-32t (F).svg": {
+  "desc": "\"CROSSING\" supplementary plate.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wc-33.svg": {
+  "desc": "Elk.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wc-33 + Wc-12t.svg": {
+  "desc": "Elk \u2013 night danger.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wc-33 + Wc-12t (B).svg": {
+  "desc": "Elk \u2013 night danger.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wc-34.svg": {
+  "desc": "Caution \u2013 slow moving vehicles.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wc-34 (B).svg": {
+  "desc": "Caution \u2013 slow moving vehicles.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wc-35.svg": {
+  "desc": "Caution \u2013 buses using shoulder.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wc-35 (F).svg": {
+  "desc": "Caution \u2013 buses using shoulder.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wc-36.svg": {
+  "desc": "Pedestrians yield to traffic.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wc-36 (B).svg": {
+  "desc": "Pedestrians yield to traffic.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wc-37L.svg": {
+  "desc": "Bicycle crossing on side road.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wc-37R.svg": {
+  "desc": "Bicycle crossing on side road.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wc-38.svg": {
+  "desc": "Slow down \u2013 watch for turning vehicles.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wc-38 (F).svg": {
+  "desc": "Slow down \u2013 watch for turning vehicles.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wc-4A + Wb-2At.svg": {
+  "desc": "Railway level crossing ahead \u2013 prepare to stop when flashing.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wc-4A + Wb-2At (B).svg": {
+  "desc": "Railway level crossing ahead \u2013 prepare to stop when flashing.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wc-5 + Wc-5t.svg": {
+  "desc": "Slippery surface when wet. (The \"SLIPPERY WHEN WET\" supplementary plate is optional)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wc-6L + Wc-6t.svg": {
+  "desc": "Danger of falling rocks. (The \"WATCH FOR FALLEN ROCK\" supplementary plate is optional)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wc-6L + Wc-6t (B).svg": {
+  "desc": "Danger of falling rocks. (The \"WATCH FOR FALLEN ROCK\" supplementary plate is optional)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wc-6R + Wc-6t.svg": {
+  "desc": "Danger of falling rocks. (The \"WATCH FOR FALLEN ROCK\" supplementary plate is optional)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wc-6R + Wc-6t (B).svg": {
+  "desc": "Danger of falling rocks. (The \"WATCH FOR FALLEN ROCK\" supplementary plate is optional)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wc-6t (B).svg": {
+  "desc": "\"WATCH FOR FALLEN ROCK\" supplementary plate.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wc-7 + Wc-7t.svg": {
+  "desc": "Seniors.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wc-7 + Wc-7t2.svg": {
+  "desc": "Blind child.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wc-7 + Wc-7t2 (F).svg": {
+  "desc": "Blind child.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wc-7 + Wc-7t3.svg": {
+  "desc": "Disabled child.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wc-7 + Wc-7t3 (F).svg": {
+  "desc": "Disabled child.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wc-7t2.svg": {
+  "desc": "\"BLIND CHILD\" supplementary plate.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wc-7t2 (F).svg": {
+  "desc": "\"BLIND CHILD\" supplementary plate.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wc-7t3.svg": {
+  "desc": "\"DISABLED CHILD\" supplementary plate.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wc-7t3 (F).svg": {
+  "desc": "\"DISABLED CHILD\" supplementary plate.",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wc-8L + Wc-8t.svg": {
+  "desc": "Truck entrance. (The \"TRUCK ENTRANCE\" supplementary plate is optional)",
+  "lic": "Public domain"
+ },
+ "Ontario road sign Wc-8R + Wc-8t.svg": {
+  "desc": "Truck entrance. (The \"TRUCK ENTRANCE\" supplementary plate is optional)",
+  "lic": "Public domain"
+ }
+}

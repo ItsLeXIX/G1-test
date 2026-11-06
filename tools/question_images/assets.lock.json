@@ -1,0 +1,219 @@
+{
+ "_doc": "Pinned sources for fetch_assets.py. SHA-256 per downloaded file. Poly Haven = CC0; Sketchfab = CC BY 4.0 (credited in the app's Acknowledgements screen).",
+ "polyhaven": [
+  {
+   "id": "kloofendal_38d_partly_cloudy_puresky",
+   "res": "4k",
+   "files": [
+    {
+     "kind": "hdri",
+     "path": "kloofendal_38d_partly_cloudy_puresky_4k.hdr",
+     "sha256": "257fa01e23f33197156c4d69234a89111b143f747c8f1a356846256b747d150e"
+    }
+   ]
+  },
+  {
+   "id": "overcast_soil_puresky",
+   "res": "4k",
+   "files": [
+    {
+     "kind": "hdri",
+     "path": "overcast_soil_puresky_4k.hdr",
+     "sha256": "717958e9dfd092fcead82ff4691f3d615088803dd1888bb638ba948669021140"
+    }
+   ]
+  },
+  {
+   "id": "asphalt_02",
+   "res": "2k",
+   "files": [
+    {
+     "kind": "texture",
+     "map": "Diffuse",
+     "path": "asphalt_02/diff_2k.jpg",
+     "sha256": "28f5ba8690553f192c0e5e1a5ff40f34765b4b93f4cc7059b1a3e9c795b6c28c"
+    },
+    {
+     "kind": "texture",
+     "map": "nor_gl",
+     "path": "asphalt_02/nor_gl_2k.jpg",
+     "sha256": "ffe49db71a0fd34c1e259625df66a302a237597d6ef655307987ec4e45bc6f21"
+    },
+    {
+     "kind": "texture",
+     "map": "Rough",
+     "path": "asphalt_02/rough_2k.jpg",
+     "sha256": "b9a516b61b7040a9245ac206642d5f767ad9589a0169c4a1668221429e8a998c"
+    }
+   ]
+  },
+  {
+   "id": "leafy_grass",
+   "res": "2k",
+   "files": [
+    {
+     "kind": "texture",
+     "map": "Diffuse",
+     "path": "leafy_grass/diff_2k.jpg",
+     "sha256": "8e1c6d21365d4b89bc5a35ab664da98a78dbc3ab9ba6100474881c8619a5b113"
+    },
+    {
+     "kind": "texture",
+     "map": "nor_gl",
+     "path": "leafy_grass/nor_gl_2k.jpg",
+     "sha256": "df0cf0ce96e653f033e5b934d5b12995464bda027aa53bd12e329be889aa9f45"
+    },
+    {
+     "kind": "texture",
+     "map": "Rough",
+     "path": "leafy_grass/rough_2k.jpg",
+     "sha256": "34e1733bf4064b6950a575ff57e78c8b7ff71b63749eb48a49221bd65de6fb4f"
+    }
+   ]
+  },
+  {
+   "id": "concrete_pavement_03",
+   "res": "2k",
+   "files": [
+    {
+     "kind": "texture",
+     "map": "Diffuse",
+     "path": "concrete_pavement_03/diff_2k.jpg",
+     "sha256": "6f0ed226b4104d7065f22567addc762944365a67e764df3d0faf2ea7baf15370"
+    },
+    {
+     "kind": "texture",
+     "map": "nor_gl",
+     "path": "concrete_pavement_03/nor_gl_2k.jpg",
+     "sha256": "5d090a97b798fa0392a80af63543e162247175a384cfa7b411d7b1dae9d4b2dd"
+    },
+    {
+     "kind": "texture",
+     "map": "Rough",
+     "path": "concrete_pavement_03/rough_2k.jpg",
+     "sha256": "6703a47dda248206146828d47e5f59060e68ed40eb12ea036ea83664fe0d94e8"
+    }
+   ]
+  },
+  {
+   "id": "red_brick",
+   "res": "2k",
+   "files": [
+    {
+     "kind": "texture",
+     "map": "Diffuse",
+     "path": "red_brick/diff_2k.jpg",
+     "sha256": "a1ae5ba7e63026971ceaf68ebbcf8982d9c2dadde1c99996c49b8ac1160af995"
+    },
+    {
+     "kind": "texture",
+     "map": "nor_gl",
+     "path": "red_brick/nor_gl_2k.jpg",
+     "sha256": "dd2ce5b5c42f04f02fce555d53eae42503733a0a42e76ae9a18bfb9d0680da5b"
+    },
+    {
+     "kind": "texture",
+     "map": "Rough",
+     "path": "red_brick/rough_2k.jpg",
+     "sha256": "b8b6b882b467647162433914b3e4db16e91852a0bdf866e6bcea4a76683ea00d"
+    }
+   ]
+  },
+  {
+   "id": "exterior_wall_cladding_03",
+   "res": "2k",
+   "files": [
+    {
+     "kind": "texture",
+     "map": "Diffuse",
+     "path": "exterior_wall_cladding_03/diff_2k.jpg",
+     "sha256": "a555e5cb010924dd374c455b415b15fc15b71e1755b223bbfa8b92fc76018c6f"
+    },
+    {
+     "kind": "texture",
+     "map": "nor_gl",
+     "path": "exterior_wall_cladding_03/nor_gl_2k.jpg",
+     "sha256": "029bb52cd0d7d3e50cf916d99ece23027d1bc42375f888d21d7137aaf0c5f601"
+    },
+    {
+     "kind": "texture",
+     "map": "Rough",
+     "path": "exterior_wall_cladding_03/rough_2k.jpg",
+     "sha256": "d5f40339662ec4d21125c122e759a290721ae634144b265e4ca92599a65225a4"
+    }
+   ]
+  },
+  {
+   "id": "plastered_wall_02",
+   "res": "2k",
+   "files": [
+    {
+     "kind": "texture",
+     "map": "Diffuse",
+     "path": "plastered_wall_02/diff_2k.jpg",
+     "sha256": "caa72056d9157f08912a4c86c844296f93f323f8b30f418895625b052c837d0c"
+    },
+    {
+     "kind": "texture",
+     "map": "nor_gl",
+     "path": "plastered_wall_02/nor_gl_2k.jpg",
+     "sha256": "7667573e538a6116892a3139fbecf5acb85728bf10e715111b87080af756cd78"
+    },
+    {
+     "kind": "texture",
+     "map": "Rough",
+     "path": "plastered_wall_02/rough_2k.jpg",
+     "sha256": "01b41c22151f7b3d7d6e78720205a6df9b36ed11ae36bbe6ea35994fba0c1d82"
+    }
+   ]
+  },
+  {
+   "id": "roof_slates_02",
+   "res": "2k",
+   "files": [
+    {
+     "kind": "texture",
+     "map": "Diffuse",
+     "path": "roof_slates_02/diff_2k.jpg",
+     "sha256": "5be7e739997e9f5560b07ee42f335d7ad70213359d48cbffc9c04ad129e9a2c4"
+    },
+    {
+     "kind": "texture",
+     "map": "nor_gl",
+     "path": "roof_slates_02/nor_gl_2k.jpg",
+     "sha256": "4ff2618aa5f2eac52f728b8b4f7e715d87c410719effc66eb6f528378ef9f49e"
+    },
+    {
+     "kind": "texture",
+     "map": "Rough",
+     "path": "roof_slates_02/rough_2k.jpg",
+     "sha256": "641b51370745e7e990c93542716bf46219e7415808a4cea999bb3f0683ec01bf"
+    }
+   ]
+  }
+ ],
+ "sketchfab": [
+  {
+   "name": "car_sedan",
+   "uid": "58c33766470d46e7b2aed542650494e5",
+   "title": "Generic Sedan Car",
+   "author": "mmcworks",
+   "licence": "CC BY 4.0",
+   "size_m": 4.8,
+   "yaw_deg": 180,
+   "pivot": "centre",
+   "sha256": null
+  },
+  {
+   "name": "tree_deciduous",
+   "uid": "6bdc8e61d3c441af872d6fb3f20fd99b",
+   "title": "Deciduous Tree with Leaves (medium-Poly)",
+   "author": "Sereib",
+   "licence": "CC BY 4.0",
+   "size_m": 11.0,
+   "yaw_deg": 0,
+   "pivot": "trunk",
+   "sha256": null
+  }
+ ]
+}

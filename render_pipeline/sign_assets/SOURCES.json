@@ -1,0 +1,586 @@
+{
+ "Ra-002": {
+  "commons_file": "File:CA-ON road sign Ra-002.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:CA-ON_road_sign_Ra-002.svg",
+  "png": "Commons server rasterisation at 1600 px wide",
+  "licence": "Public domain"
+ },
+ "Rb-079-R": {
+  "commons_file": "File:CA-ON road sign Rb-079-R.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:CA-ON_road_sign_Rb-079-R.svg",
+  "png": "Commons server rasterisation at 1600 px wide",
+  "licence": "Public domain"
+ },
+ "Wc-5": {
+  "commons_file": "File:Ontario Wc-5.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Ontario_Wc-5.svg",
+  "png": "Commons server rasterisation at 1600 px wide",
+  "licence": "Public domain"
+ },
+ "TC-2B": {
+  "commons_file": "File:Ontario TC-2B.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Ontario_TC-2B.svg",
+  "png": "Commons server rasterisation at 1600 px wide",
+  "licence": "Public domain",
+  "description": "Workers."
+ },
+ "Rb-042": {
+  "commons_file": "File:CA-ON road sign Rb-042.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:CA-ON_road_sign_Rb-042.svg",
+  "png": "Commons server rasterisation at 1600 px wide",
+  "licence": "Public domain",
+  "description": "Lane movement sign."
+ },
+ "SMV": {
+  "commons_file": "File:Slow moving vehicle.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Slow_moving_vehicle.svg",
+  "png": "Commons server rasterisation at 1600 px wide",
+  "licence": "Public domain",
+  "description": "Slow moving vehicle triangle, required by United States and Canadian law to be used as a sign on the rear of a vehicle or a vehicle caravan incapable of reachin"
+ },
+ "M401": {
+  "commons_file": "File:Ontario M401.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Ontario_M401.svg",
+  "png": "Commons server rasterisation at 1600 px wide",
+  "licence": "Public domain",
+  "description": "Guide road sign in Ontario, Canada."
+ },
+ "Rb-016": {
+  "commons_file": "File:CA-ON road sign Rb-016.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:CA-ON_road_sign_Rb-016.svg",
+  "png": "Commons server rasterisation at 1600 px wide",
+  "licence": "Public domain",
+  "description": "No U-turn."
+ },
+ "M502": {
+  "commons_file": "File:Ontario M502.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Ontario_M502.svg",
+  "png": "Commons server rasterisation at 1600 px wide",
+  "licence": "Public domain",
+  "description": "Guide road sign in Ontario, Canada."
+ },
+ "Wa-1R": {
+  "commons_file": "File:Ontario Wa-1R.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Ontario_Wa-1R.svg",
+  "png": "Commons server rasterisation at 1600 px wide",
+  "licence": "Public domain",
+  "description": "90° turn to the right."
+ },
+ "Rb-010": {
+  "commons_file": "File:CA-ON road sign Rb-010.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:CA-ON_road_sign_Rb-010.svg",
+  "png": "Commons server rasterisation at 1600 px wide",
+  "licence": "Public domain",
+  "description": "No proceeding straight ahead."
+ },
+ "Wa-30": {
+  "commons_file": "File:Ontario Wa-30.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Ontario_Wa-30.svg",
+  "png": "Commons server rasterisation at 1920 px wide",
+  "licence": "Public domain",
+  "description": "Opening bridge. (A \"OPENING BRIDGE\" supplementary plate is optional)"
+ },
+ "Rb-064": {
+  "commons_file": "File:CA-ON road sign Rb-064.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:CA-ON_road_sign_Rb-064.svg",
+  "png": "Commons server rasterisation at 1920 px wide",
+  "licence": "Public domain",
+  "description": "Snowmobile trail."
+ },
+ "TC-5": {
+  "commons_file": "File:Ontario TC-5.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Ontario_TC-5.svg",
+  "png": "Commons server rasterisation at 1920 px wide",
+  "licence": "Public domain",
+  "description": "Detour ahead."
+ },
+ "Wb-2": {
+  "commons_file": "File:Ontario Wb-2.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Ontario_Wb-2.svg",
+  "png": "Commons server rasterisation at 1920 px wide",
+  "licence": "Public domain",
+  "description": "Traffic signals ahead."
+ },
+ "Wa-73": {
+  "commons_file": "File:Ontario Wa-73.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Ontario_Wa-73.svg",
+  "png": "Commons server rasterisation at 1920 px wide",
+  "licence": "Public domain",
+  "description": "Do not block intersection."
+ },
+ "Rb-031": {
+  "commons_file": "File:CA-ON road sign Rb-031.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:CA-ON_road_sign_Rb-031.svg",
+  "png": "Commons server rasterisation at 1920 px wide",
+  "licence": "Public domain",
+  "description": "Do not pass."
+ },
+ "Wa-13AR": {
+  "commons_file": "File:Ontario Wa-13AR.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Ontario_Wa-13AR.svg",
+  "png": "Commons server rasterisation at 1920 px wide",
+  "licence": "Public domain",
+  "description": "Intersection (with priority)."
+ },
+ "Wa-18t": {
+  "commons_file": "File:Ontario Wa-18t.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Ontario_Wa-18t.svg",
+  "png": "Commons server rasterisation at 1920 px wide",
+  "licence": "Public domain",
+  "description": "\"HIDDEN\" supplementary plate."
+ },
+ "Rb-067": {
+  "commons_file": "File:CA-ON road sign Rb-067.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:CA-ON_road_sign_Rb-067.svg",
+  "png": "Commons server rasterisation at 1920 px wide",
+  "licence": "Public domain",
+  "description": "No pedal cycles."
+ },
+ "Rb-53A": {
+  "commons_file": "File:Ontario Rb-53A.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Ontario_Rb-53A.svg",
+  "png": "Commons server rasterisation at 1920 px wide",
+  "licence": "Public domain",
+  "description": "Parking permitted."
+ },
+ "Wa-56R": {
+  "commons_file": "File:Ontario Wa-56R.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Ontario_Wa-56R.svg",
+  "png": "Commons server rasterisation at 1600 px wide",
+  "licence": "Public domain",
+  "description": "Right lane exits.",
+  "aspect_w_over_h": 1.0
+ },
+ "Wc-26": {
+  "commons_file": "File:Ontario Wc-26.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Ontario_Wc-26.svg",
+  "png": "Commons server rasterisation at 1600 px wide",
+  "licence": "Public domain",
+  "description": "School bus stop ahead. (A \"SCHOOL BUS STOP AHEAD\" supplementary plate is optional)",
+  "aspect_w_over_h": 1.0
+ },
+ "Rb-019": {
+  "commons_file": "File:CA-ON road sign Rb-019.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:CA-ON_road_sign_Rb-019.svg",
+  "png": "Commons server rasterisation at 1600 px wide",
+  "licence": "Public domain",
+  "description": "Do not enter. (A “DO NOT ENTER” supplementary plate is optional) (3rd generation model, current)",
+  "aspect_w_over_h": 1.0
+ },
+ "Wa-34": {
+  "commons_file": "File:Ontario Wa-34.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Ontario_Wa-34.svg",
+  "png": "Commons server rasterisation at 1600 px wide",
+  "licence": "Public domain",
+  "description": "Divided road begins. (A \"DIVIDED ROAD BEGINS\" supplementary plate is optional)",
+  "aspect_w_over_h": 1.0
+ },
+ "Rc-012": {
+  "commons_file": "File:CA-ON road sign Rc-012.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:CA-ON_road_sign_Rc-012.svg",
+  "png": "Commons server rasterisation at 1600 px wide",
+  "licence": "Public domain",
+  "description": "No pedestrians.",
+  "aspect_w_over_h": 1.0
+ },
+ "Rb-048": {
+  "commons_file": "File:CA-ON road sign Rb-048.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:CA-ON_road_sign_Rb-048.svg",
+  "png": "Commons server rasterisation at 1600 px wide",
+  "licence": "Public domain",
+  "description": "Centre Turning Lane sign in Ontario, Canada (overhead version)",
+  "aspect_w_over_h": 1.0
+ },
+ "Wa-6L": {
+  "commons_file": "File:Ontario Wa-6L.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Ontario_Wa-6L.svg",
+  "png": "Commons server rasterisation at 1600 px wide",
+  "licence": "Public domain",
+  "description": "Series of curves with the first to the left.",
+  "aspect_w_over_h": 1.0
+ },
+ "Wc-21": {
+  "commons_file": "File:Ontario Wc-21.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Ontario_Wc-21.svg",
+  "png": "Commons server rasterisation at 1600 px wide",
+  "licence": "Public domain",
+  "description": "Ford / Seasonal flooding / Flash flooding. (A \"WATER OVER ROAD\" supplementary plate is optional)",
+  "aspect_w_over_h": 1.0
+ },
+ "Wa-33L": {
+  "commons_file": "File:Ontario Wa-33L.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Ontario_Wa-33L.svg",
+  "png": "Commons server rasterisation at 1600 px wide",
+  "licence": "Public domain",
+  "description": "Warning road sign in Ontario, Canada.",
+  "aspect_w_over_h": 0.333
+ },
+ "Rb-87": {
+  "commons_file": "File:Ontario Rb-87.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Ontario_Rb-87.svg",
+  "png": "Commons server rasterisation at 1600 px wide",
+  "licence": "Public domain",
+  "description": "Reserved Lane sign in Ontario, Canada (overhead version)",
+  "aspect_w_over_h": 0.602
+ },
+ "Rb-025-R": {
+  "commons_file": "File:CA-ON road sign Rb-025-R.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:CA-ON_road_sign_Rb-025-R.svg",
+  "png": "Commons server rasterisation at 1600 px wide",
+  "licence": "Public domain",
+  "description": "Keep right.",
+  "aspect_w_over_h": 0.801
+ },
+ "Wc-002": {
+  "commons_file": "File:CA-ON road sign Wc-002.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:CA-ON_road_sign_Wc-002.svg",
+  "png": "Commons server rasterisation at 1600 px wide",
+  "licence": "Public domain",
+  "description": "School crossing. (A \"SCHOOL CROSSING\" supplementary plate is optional) (Authorised 2007)",
+  "aspect_w_over_h": 0.667
+ },
+ "Rb-005-50": {
+  "commons_file": "File:CA-ON road sign Rb-005-50.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:CA-ON_road_sign_Rb-005-50.svg",
+  "png": "Commons server rasterisation at 1600 px wide",
+  "licence": "Public domain",
+  "description": "Reduced maximum speed limit ahead – 50 km/h.",
+  "aspect_w_over_h": 0.801
+ },
+ "Rb-006A-E": {
+  "commons_file": "File:CA-ON road sign Rb-006A (E).svg",
+  "page": "https://commons.wikimedia.org/wiki/File:CA-ON_road_sign_Rb-006A_(E).svg",
+  "png": "Commons server rasterisation at 1600 px wide",
+  "licence": "Public domain",
+  "description": "School zone maximum speed limit when signals flashing – 40 km/h.",
+  "aspect_w_over_h": 0.43
+ },
+ "Rc-009-E": {
+  "commons_file": "File:CA-ON road sign Rc-009 (E).svg",
+  "page": "https://commons.wikimedia.org/wiki/File:CA-ON_road_sign_Rc-009_(E).svg",
+  "png": "Commons server rasterisation at 1600 px wide",
+  "licence": "Public domain",
+  "description": "Community safety zone with fines increased.",
+  "aspect_w_over_h": 0.669
+ },
+ "Wc-10R": {
+  "commons_file": "File:Ontario Wc-10R.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Ontario_Wc-10R.svg",
+  "png": "Commons server rasterisation at 1600 px wide",
+  "licence": "Public domain",
+  "description": "School bus entrance.",
+  "aspect_w_over_h": 1.0
+ },
+ "Wb-4": {
+  "commons_file": "File:Ontario Wb-4.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Ontario_Wb-4.svg",
+  "png": "Commons server rasterisation at 1600 px wide",
+  "licence": "Public domain",
+  "description": "Two-way traffic ahead.",
+  "aspect_w_over_h": 1.0
+ },
+ "TC-21": {
+  "commons_file": "File:Ontario TC-21.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Ontario_TC-21.svg",
+  "png": "Commons server rasterisation at 1600 px wide",
+  "licence": "Public domain",
+  "description": "Roadworks sign in Ontario, Canada.",
+  "aspect_w_over_h": 1.0
+ },
+ "Wa-25": {
+  "commons_file": "File:Ontario Wa-25.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Ontario_Wa-25.svg",
+  "png": "Commons server rasterisation at 1600 px wide",
+  "licence": "Public domain",
+  "description": "Pavement ends. (A \"PAVEMENT ENDS\" supplementary plate is optional)",
+  "aspect_w_over_h": 1.0
+ },
+ "Wa-24": {
+  "commons_file": "File:Ontario Wa-24.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Ontario_Wa-24.svg",
+  "png": "Commons server rasterisation at 1600 px wide",
+  "licence": "Public domain",
+  "description": "Narrow passage. (A \"ONE LANE\", \"SHOULDER NARROWS\", or \"NARROW BRIDGE\" supplementary plate is optional)",
+  "aspect_w_over_h": 1.0
+ },
+ "Wa-3L": {
+  "commons_file": "File:Ontario Wa-3L.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Ontario_Wa-3L.svg",
+  "png": "Commons server rasterisation at 1600 px wide",
+  "licence": "Public domain",
+  "description": "Curve to the left.",
+  "aspect_w_over_h": 1.0
+ },
+ "Wa-3R": {
+  "commons_file": "File:Ontario Wa-3R.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Ontario_Wa-3R.svg",
+  "png": "Commons server rasterisation at 1600 px wide",
+  "licence": "Public domain",
+  "description": "Curve to the right.",
+  "aspect_w_over_h": 1.0
+ },
+ "Wa-21": {
+  "commons_file": "File:Ontario Wa-21.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Ontario_Wa-21.svg",
+  "png": "Commons server rasterisation at 1600 px wide",
+  "licence": "Public domain",
+  "description": "Steep slope. (A \"USE LOWER GEAR\" supplementary plate is optional)",
+  "aspect_w_over_h": 1.0
+ },
+ "Wc-104A": {
+  "commons_file": "File:Ontario Wc-104A.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Ontario_Wc-104A.svg",
+  "png": "Commons server rasterisation at 1600 px wide",
+  "licence": "Public domain",
+  "description": "Railway level crossing ahead.",
+  "aspect_w_over_h": 1.0
+ },
+ "Wc-4": {
+  "commons_file": "File:Ontario Wc-4.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Ontario_Wc-4.svg",
+  "png": "Commons server rasterisation at 1600 px wide",
+  "licence": "Public domain",
+  "description": "Railway level crossing ahead.",
+  "aspect_w_over_h": 1.0
+ },
+ "Wc-14": {
+  "commons_file": "File:Ontario Wc-14.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Ontario_Wc-14.svg",
+  "png": "Commons server rasterisation at 1600 px wide",
+  "licence": "Public domain",
+  "description": "Bicycle crossing ahead.",
+  "aspect_w_over_h": 1.0
+ },
+ "Rb-037-E": {
+  "commons_file": "File:CA-ON road sign Rb-037 (E).svg",
+  "page": "https://commons.wikimedia.org/wiki/File:CA-ON_road_sign_Rb-037_(E).svg",
+  "png": "Commons server rasterisation at 1600 px wide",
+  "licence": "Public domain",
+  "description": "Stop for school bus when signals flashing.",
+  "aspect_w_over_h": 1.995
+ },
+ "Wa-12AR": {
+  "commons_file": "File:Ontario Wa-12AR.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Ontario_Wa-12AR.svg",
+  "png": "Commons server rasterisation at 1600 px wide",
+  "licence": "Public domain",
+  "description": "Warning road sign in Ontario, Canada.",
+  "aspect_w_over_h": 1.0
+ },
+ "Rb-012": {
+  "commons_file": "File:CA-ON road sign Rb-012.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:CA-ON_road_sign_Rb-012.svg",
+  "png": "Commons server rasterisation at 1600 px wide",
+  "licence": "Public domain",
+  "description": "No left turn.",
+  "aspect_w_over_h": 1.0
+ },
+ "Wa-16R": {
+  "commons_file": "File:Ontario Wa-16R.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Ontario_Wa-16R.svg",
+  "png": "Commons server rasterisation at 1600 px wide",
+  "licence": "Public domain",
+  "description": "Warning road sign in Ontario, Canada.",
+  "aspect_w_over_h": 1.0
+ },
+ "Wa-26": {
+  "commons_file": "File:Ontario Wa-26.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Ontario_Wa-26.svg",
+  "png": "Commons server rasterisation at 1600 px wide",
+  "licence": "Public domain",
+  "description": "Height limit ahead.",
+  "aspect_w_over_h": 1.0
+ },
+ "Wa-5R": {
+  "commons_file": "File:Ontario Wa-5R.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Ontario_Wa-5R.svg",
+  "png": "Commons server rasterisation at 1600 px wide",
+  "licence": "Public domain",
+  "description": "Reverse curve to the right.",
+  "aspect_w_over_h": 1.0
+ },
+ "Wa-7t": {
+  "commons_file": "File:Ontario Wa-7t.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Ontario_Wa-7t.svg",
+  "png": "Commons server rasterisation at 1600 px wide",
+  "licence": "Public domain",
+  "description": "Advisory speed supplementary plate.",
+  "aspect_w_over_h": 1.0
+ },
+ "Wc-6R": {
+  "commons_file": "File:Ontario Wc-6R.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Ontario_Wc-6R.svg",
+  "png": "Commons server rasterisation at 1600 px wide",
+  "licence": "Public domain",
+  "description": "Danger of falling rocks. (A \"WATCH FOR FALLEN ROCK\" supplementary plate is optional)",
+  "aspect_w_over_h": 1.0
+ },
+ "Wb-001": {
+  "commons_file": "File:CA-ON road sign Wb-001.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:CA-ON_road_sign_Wb-001.svg",
+  "png": "Commons server rasterisation at 1600 px wide",
+  "licence": "Public domain",
+  "description": "Stop ahead.",
+  "aspect_w_over_h": 1.0
+ },
+ "Rb-84": {
+  "commons_file": "File:Ontario Rb-84.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Ontario_Rb-84.svg",
+  "png": "Commons server rasterisation at 1600 px wide",
+  "licence": "Public domain",
+  "description": "Reserved Lane sign in Ontario, Canada (overhead version)",
+  "aspect_w_over_h": 1.0
+ },
+ "Wa-28": {
+  "commons_file": "File:Ontario Wa-28.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Ontario_Wa-28.svg",
+  "png": "Commons server rasterisation at 1600 px wide",
+  "licence": "Public domain",
+  "description": "Road narrows. (A \"ROAD NARROWS\" supplementary plate is optional)",
+  "aspect_w_over_h": 1.0
+ },
+ "Wa-11A": {
+  "commons_file": "File:Ontario Wa-11A.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Ontario_Wa-11A.svg",
+  "png": "Commons server rasterisation at 1600 px wide",
+  "licence": "Public domain",
+  "description": "Intersection (with priority).",
+  "aspect_w_over_h": 1.0
+ },
+ "Wa-35": {
+  "commons_file": "File:Ontario Wa-35.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Ontario_Wa-35.svg",
+  "png": "Commons server rasterisation at 1600 px wide",
+  "licence": "Public domain",
+  "description": "Divided road ends. (A \"DIVIDED ROAD ENDS\" supplementary plate is optional)",
+  "aspect_w_over_h": 1.0
+ },
+ "Wc-11": {
+  "commons_file": "File:Ontario Wc-11.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Ontario_Wc-11.svg",
+  "png": "Commons server rasterisation at 1600 px wide",
+  "licence": "Public domain",
+  "description": "Deer.",
+  "aspect_w_over_h": 1.0
+ },
+ "Wa-22A": {
+  "commons_file": "File:Ontario Wa-22A.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Ontario_Wa-22A.svg",
+  "png": "Commons server rasterisation at 1600 px wide",
+  "licence": "Public domain",
+  "description": "Warning road sign in Ontario, Canada.",
+  "aspect_w_over_h": 1.0
+ },
+ "Wc-018": {
+  "commons_file": "File:CA-ON road sign Wc-018.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:CA-ON_road_sign_Wc-018.svg",
+  "png": "Commons server rasterisation at 1600 px wide",
+  "licence": "Public domain",
+  "description": "Snowmobile crossing. (A \"SNOWMOBILE CROSSING\" supplementary plate is optional)",
+  "aspect_w_over_h": 1.0
+ },
+ "Ra-004-E": {
+  "commons_file": "File:CA-ON road sign Ra-004 (E).svg",
+  "page": "https://commons.wikimedia.org/wiki/File:CA-ON_road_sign_Ra-004_(E).svg",
+  "png": "Commons server rasterisation at 1600 px wide",
+  "licence": "Public domain",
+  "description": "Pedestrian crossing. (A “STOP FOR PEDESTRIANS” supplementary plate is obligatory; see below.)",
+  "aspect_w_over_h": 0.801
+ },
+ "Ra-004t-E": {
+  "commons_file": "File:CA-ON road sign Ra-004t (E).svg",
+  "page": "https://commons.wikimedia.org/wiki/File:CA-ON_road_sign_Ra-004t_(E).svg",
+  "png": "Commons server rasterisation at 1600 px wide",
+  "licence": "Public domain",
+  "description": "\"STOP FOR PEDESTRIANS\" supplementary plate.",
+  "aspect_w_over_h": 1.329
+ },
+ "Rb-069": {
+  "commons_file": "File:CA-ON road sign Rb-069.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:CA-ON_road_sign_Rb-069.svg",
+  "png": "Commons server rasterisation at 1600 px wide",
+  "licence": "Public domain",
+  "description": "Cycle path.",
+  "aspect_w_over_h": 1.0
+ },
+ "Wc-25R": {
+  "commons_file": "File:Ontario Wc-25R.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Ontario_Wc-25R.svg",
+  "png": "Commons server rasterisation at 1600 px wide",
+  "licence": "Public domain",
+  "description": "Fire truck entrance. (A \"FIRE TRUCK ENTRANCE\" supplementary plate is optional)",
+  "aspect_w_over_h": 1.0
+ },
+ "Rb-054-L-R-E": {
+  "commons_file": "File:CA-ON road sign Rb-054-L-R (E).svg",
+  "page": "https://commons.wikimedia.org/wiki/File:CA-ON_road_sign_Rb-054-L-R_(E).svg",
+  "png": "Commons server rasterisation at 1600 px wide",
+  "licence": "Public domain",
+  "description": "No standing.",
+  "aspect_w_over_h": 1.0
+ },
+ "Rb-034-E": {
+  "commons_file": "File:CA-ON road sign Rb-034 (E).svg",
+  "page": "https://commons.wikimedia.org/wiki/File:CA-ON_road_sign_Rb-034_(E).svg",
+  "png": "Commons server rasterisation at 1600 px wide",
+  "licence": "Public domain",
+  "description": "Slower traffic keep right.",
+  "aspect_w_over_h": 0.751
+ },
+ "Rb-089-R-E": {
+  "commons_file": "File:CA-ON road sign Rb-089-R (E).svg",
+  "page": "https://commons.wikimedia.org/wiki/File:CA-ON_road_sign_Rb-089-R_(E).svg",
+  "png": "Commons server rasterisation at 1600 px wide",
+  "licence": "Public domain",
+  "description": "School bus loading zone.",
+  "aspect_w_over_h": 0.669
+ },
+ "Wa-8R": {
+  "commons_file": "File:Ontario Wa-8R.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Ontario_Wa-8R.svg",
+  "png": "Commons server rasterisation at 1600 px wide",
+  "licence": "Public domain",
+  "description": "Chequerboard warning road sign in Ontario, Canada. These signs are only authorised to mark abrupt and dangerous discontinuities or terminations of the road, suc",
+  "aspect_w_over_h": 1.0
+ },
+ "Rb-030": {
+  "commons_file": "File:CA-ON road sign Rb-030.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:CA-ON_road_sign_Rb-030.svg",
+  "png": "Commons server rasterisation at 1600 px wide",
+  "licence": "Public domain",
+  "description": "Passing lane ahead.",
+  "aspect_w_over_h": 0.751
+ },
+ "Wa-23R": {
+  "commons_file": "File:Ontario Wa-23R.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Ontario_Wa-23R.svg",
+  "png": "Commons server rasterisation at 1600 px wide",
+  "licence": "Public domain",
+  "description": "Right lane ends. (A \"RIGHT LANE ENDS\" supplementary plate is optional)",
+  "aspect_w_over_h": 1.0
+ },
+ "Rb-001-080": {
+  "commons_file": "File:CA-ON road sign Rb-001-080.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:CA-ON_road_sign_Rb-001-080.svg",
+  "png": "Commons server rasterisation at 1600 px wide",
+  "licence": "Public domain",
+  "description": "Maximum speed limit – 80 km/h.",
+  "aspect_w_over_h": 0.801
+ },
+ "Ra-001": {
+  "commons_file": "File:CA-ON road sign Ra-001.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:CA-ON_road_sign_Ra-001.svg",
+  "png": "Commons server rasterisation at 1600 px wide",
+  "licence": "Public domain",
+  "description": "Stop. (An “ALL-WAY” supplementary plate is optional)",
+  "aspect_w_over_h": 1.0
+ },
+ "Rb-012A-E": {
+  "commons_file": "File:CA-ON road sign Rb-012A (E).svg",
+  "page": "https://commons.wikimedia.org/wiki/File:CA-ON_road_sign_Rb-012A_(E).svg",
+  "png": "Commons server rasterisation at 1600 px wide",
+  "licence": "Public domain",
+  "description": "No left turn. (with hours of the day and days of the week when the prohibition applies)",
+  "aspect_w_over_h": 0.669
+ }
+}

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1029.5959mm"
+   height="1029.5959mm"
+   viewBox="0 0 1029.5959 1029.5959"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="Ontario_Wa-1L.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.10855249"
+     inkscape:cx="3921.3406"
+     inkscape:cy="888.98747"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1057"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     showborder="true"
+     inkscape:snap-global="false" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,732.59608)">
+    <rect
+       style="opacity:1;fill:#fad214;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:11.58005238;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1383"
+       width="750"
+       height="750"
+       x="143.02351"
+       y="-164.9893"
+       rx="40"
+       ry="40"
+       transform="rotate(-45)" />
+    <rect
+       ry="27.5"
+       rx="27.5"
+       y="-152.4893"
+       x="155.52351"
+       height="725"
+       width="725"
+       id="rect1396"
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:11.19404984;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       transform="rotate(-45)" />
+    <rect
+       ry="15"
+       rx="15"
+       y="-139.9893"
+       x="168.02351"
+       height="700"
+       width="700"
+       id="rect1398"
+       style="opacity:1;fill:#fad214;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:10.80804825;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       transform="rotate(-45)" />
+    <path
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:23.04521942;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 479.7979,72.20198 v -236.00006 h -64.9996 v 23.00012 h -50.0001 v -23.00012 h -44.9998 v 23.00012 h -50.0001 v -23.00012 H 224.798 v -33.99999 h 56.0002 v -40.00014 H 224.798 v -34.00001 h 45.0003 v -22.99962 h 50.0001 v 22.99962 h 44.9998 v -22.99962 h 50.0001 v 22.99962 h 64.9996 v -235.99955 h 69.9999 v 235.99955 h 65.0002 v -22.99962 h 50 v 22.99962 h 45.0004 v -22.99962 h 50 v 22.99962 h 44.9999 v 34.00001 H 748.798 v 40.00014 h 56.0003 v 33.99999 h -44.9999 v 23.00025 h -50 v -23.00023 H 664.798 v 23.00023 h -50 v -23.00023 H 549.7978 V 72.20198 Z M 308.798,-197.79807 h 67.0001 v -40.00014 H 308.798 Z m 95.0004,0 h 75.9995 v -40.00014 h -75.9995 z m 145.9994,0 h 76 v -40.00014 h -76 z m 104.0004,0 h 67 v -40.00014 h -67 z"
+       id="rect1695"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc" />
+  </g>
+</svg>

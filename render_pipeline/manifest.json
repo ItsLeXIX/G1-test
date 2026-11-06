@@ -1,0 +1,2134 @@
+{
+  "version": 1,
+  "resolution": [
+    2400,
+    1000
+  ],
+  "skipped": [
+    "22",
+    "24"
+  ],
+  "images": [
+    {
+      "imageName": "1",
+      "questionIds": [
+        "en-101"
+      ],
+      "question": "What does this construction sign mean?",
+      "correctAnswer": "Road work ahead.",
+      "signs": [
+        "Road work ahead (orange diamond, worker symbol)"
+      ],
+      "scene": "roadside",
+      "weather": "clear",
+      "camera": {
+        "lens_mm": 35,
+        "height_m": 1.2,
+        "note": "driver eye height, looking down the road; sign right-of-centre, ~12 m ahead, square to camera",
+        "preset": "roadside"
+      },
+      "sceneNotes": "add cones/barrels far ahead",
+      "change": null
+    },
+    {
+      "imageName": "2",
+      "questionIds": [
+        "en-102"
+      ],
+      "question": "What does this road sign mean?",
+      "correctAnswer": "You must turn right.",
+      "signs": [
+        "Right turn only (white rectangle, curved right arrow, ONLY)"
+      ],
+      "scene": "roadside",
+      "weather": "clear",
+      "camera": {
+        "lens_mm": 35,
+        "height_m": 1.2,
+        "note": "driver eye height, looking down the road; sign right-of-centre, ~12 m ahead, square to camera",
+        "preset": "roadside"
+      },
+      "sceneNotes": "",
+      "change": null
+    },
+    {
+      "imageName": "3",
+      "questionIds": [
+        "en-103"
+      ],
+      "question": "What does this sign on the back of a vehicle mean?",
+      "correctAnswer": "Slow-moving vehicle",
+      "signs": [
+        "Slow-moving vehicle (orange triangle, red reflective border)"
+      ],
+      "scene": "vehicle_rear",
+      "weather": "clear",
+      "camera": {
+        "lens_mm": 35,
+        "height_m": 1.2,
+        "note": "behind a generic unbranded car, ~6 m back",
+        "preset": "vehicle"
+      },
+      "sceneNotes": "sign mounted on rear of a farm-type or utility vehicle; current image puts it on an SUV — use a tractor/utility vehicle so the meaning is realistic",
+      "change": "scene: SUV -> slow farm/utility vehicle"
+    },
+    {
+      "imageName": "4",
+      "questionIds": [
+        "en-104"
+      ],
+      "question": "What does this road sign mean?",
+      "correctAnswer": "Hospital",
+      "signs": [
+        "Hospital (blue square, white H)"
+      ],
+      "scene": "roadside",
+      "weather": "clear",
+      "camera": {
+        "lens_mm": 35,
+        "height_m": 1.2,
+        "note": "driver eye height, looking down the road; sign right-of-centre, ~12 m ahead, square to camera",
+        "preset": "roadside"
+      },
+      "sceneNotes": "",
+      "change": null
+    },
+    {
+      "imageName": "5",
+      "questionIds": [
+        "en-105"
+      ],
+      "question": "What does this road sign mean?",
+      "correctAnswer": "No U-turn",
+      "signs": [
+        "No U-turn (white square, red circle/slash)"
+      ],
+      "scene": "roadside",
+      "weather": "clear",
+      "camera": {
+        "lens_mm": 35,
+        "height_m": 1.2,
+        "note": "driver eye height, looking down the road; sign right-of-centre, ~12 m ahead, square to camera",
+        "preset": "roadside"
+      },
+      "sceneNotes": "",
+      "change": null
+    },
+    {
+      "imageName": "6",
+      "questionIds": [
+        "en-106"
+      ],
+      "question": "What does this road sign mean?",
+      "correctAnswer": "Route to an airport.",
+      "signs": [
+        "Airport (green square, white airplane)"
+      ],
+      "scene": "roadside",
+      "weather": "clear",
+      "camera": {
+        "lens_mm": 35,
+        "height_m": 1.2,
+        "note": "driver eye height, looking down the road; sign right-of-centre, ~12 m ahead, square to camera",
+        "preset": "roadside"
+      },
+      "sceneNotes": "",
+      "change": null
+    },
+    {
+      "imageName": "7",
+      "questionIds": [
+        "en-107"
+      ],
+      "question": "What does this road sign mean?",
+      "correctAnswer": "The road ahead turns sharply to the right.",
+      "signs": [
+        "Sharp right turn (yellow diamond, 90-degree right arrow)"
+      ],
+      "scene": "roadside",
+      "weather": "clear",
+      "camera": {
+        "lens_mm": 35,
+        "height_m": 1.2,
+        "note": "driver eye height, looking down the road; sign right-of-centre, ~12 m ahead, square to camera",
+        "preset": "roadside"
+      },
+      "sceneNotes": "road visibly bends right ahead",
+      "change": null
+    },
+    {
+      "imageName": "8",
+      "questionIds": [
+        "en-108"
+      ],
+      "question": "What does this road sign mean?",
+      "correctAnswer": "Going straight is not permitted.",
+      "signs": [
+        "No straight through (white square, red circle/slash over up arrow)"
+      ],
+      "scene": "roadside",
+      "weather": "clear",
+      "camera": {
+        "lens_mm": 35,
+        "height_m": 1.2,
+        "note": "driver eye height, looking down the road; sign right-of-centre, ~12 m ahead, square to camera",
+        "preset": "roadside"
+      },
+      "sceneNotes": "intersection ahead",
+      "change": null
+    },
+    {
+      "imageName": "9",
+      "questionIds": [
+        "en-109"
+      ],
+      "question": "What does this road sign mean?",
+      "correctAnswer": "The bridge ahead lifts to let boats pass",
+      "signs": [
+        "Lift/swing bridge ahead (yellow diamond)"
+      ],
+      "scene": "roadside",
+      "weather": "clear",
+      "camera": {
+        "lens_mm": 35,
+        "height_m": 1.2,
+        "note": "driver eye height, looking down the road; sign right-of-centre, ~12 m ahead, square to camera",
+        "preset": "roadside"
+      },
+      "sceneNotes": "bridge and water visible ahead",
+      "change": null
+    },
+    {
+      "imageName": "10",
+      "questionIds": [
+        "en-110"
+      ],
+      "question": "What does this road sign mean?",
+      "correctAnswer": "You must yield the right-of-way.",
+      "signs": [
+        "Yield (red/white inverted triangle)"
+      ],
+      "scene": "roadside",
+      "weather": "clear",
+      "camera": {
+        "lens_mm": 35,
+        "height_m": 1.2,
+        "note": "driver eye height, looking down the road; sign right-of-centre, ~12 m ahead, square to camera",
+        "preset": "roadside"
+      },
+      "sceneNotes": "intersection ahead",
+      "change": null
+    },
+    {
+      "imageName": "11",
+      "questionIds": [
+        "en-111"
+      ],
+      "question": "This sign indicates",
+      "correctAnswer": "A prohibition",
+      "signs": [
+        "Generic prohibition symbol: red circle with slash on white square"
+      ],
+      "scene": "roadside",
+      "weather": "clear",
+      "camera": {
+        "lens_mm": 35,
+        "height_m": 1.2,
+        "note": "driver eye height, looking down the road; sign right-of-centre, ~12 m ahead, square to camera",
+        "preset": "roadside"
+      },
+      "sceneNotes": "",
+      "change": "sign: current is a European round red-ring disc -> Canadian red circle/slash on white square"
+    },
+    {
+      "imageName": "12",
+      "questionIds": [
+        "en-112"
+      ],
+      "question": "What does this road sign mean?",
+      "correctAnswer": "Snowmobiles may use this road",
+      "signs": [
+        "Snowmobiles permitted (white square, green circle, snowmobile)"
+      ],
+      "scene": "roadside",
+      "weather": "snow",
+      "camera": {
+        "lens_mm": 35,
+        "height_m": 1.2,
+        "note": "driver eye height, looking down the road; sign right-of-centre, ~12 m ahead, square to camera",
+        "preset": "roadside"
+      },
+      "sceneNotes": "rural road with snow banks",
+      "change": "weather: clear -> snow (fits the sign)"
+    },
+    {
+      "imageName": "13",
+      "questionIds": [
+        "en-113"
+      ],
+      "question": "What does this sign mean?",
+      "correctAnswer": "Follow the detour signs to return to the main route",
+      "signs": [
+        "Detour (orange diamond, DETOUR + right arrow)"
+      ],
+      "scene": "roadside",
+      "weather": "clear",
+      "camera": {
+        "lens_mm": 35,
+        "height_m": 1.2,
+        "note": "driver eye height, looking down the road; sign right-of-centre, ~12 m ahead, square to camera",
+        "preset": "roadside"
+      },
+      "sceneNotes": "construction barrels near the detour",
+      "change": null
+    },
+    {
+      "imageName": "14",
+      "questionIds": [
+        "en-114"
+      ],
+      "question": "What does this road sign mean?",
+      "correctAnswer": "Traffic lights ahead.",
+      "signs": [
+        "Traffic signal ahead (yellow diamond, signal symbol)"
+      ],
+      "scene": "roadside",
+      "weather": "clear",
+      "camera": {
+        "lens_mm": 35,
+        "height_m": 1.2,
+        "note": "driver eye height, looking down the road; sign right-of-centre, ~12 m ahead, square to camera",
+        "preset": "roadside"
+      },
+      "sceneNotes": "traffic lights visible far ahead",
+      "change": null
+    },
+    {
+      "imageName": "15",
+      "questionIds": [
+        "en-115"
+      ],
+      "question": "What does this road sign mean?",
+      "correctAnswer": "Idling a vehicle's engine for more than 3 minutes is prohibited.",
+      "signs": [
+        "No idling (Ontario municipal, white rectangle)"
+      ],
+      "scene": "parking_lot",
+      "weather": "clear",
+      "camera": {
+        "lens_mm": 35,
+        "height_m": 1.2,
+        "note": "facing a parking lot edge with building behind, sign ~5 m away",
+        "preset": "parking"
+      },
+      "sceneNotes": "",
+      "change": "check: idling signs are municipal by-law signs, not MTO handbook; use Toronto/Ontario municipal artwork"
+    },
+    {
+      "imageName": "16",
+      "questionIds": [
+        "en-116"
+      ],
+      "question": "What does this road sign mean?",
+      "correctAnswer": "Do not block the intersection.",
+      "signs": [
+        "Do not block intersection (overhead text sign)"
+      ],
+      "scene": "overhead",
+      "weather": "clear",
+      "camera": {
+        "lens_mm": 35,
+        "height_m": 1.2,
+        "note": "looking up ~12 deg at an overhead span-wire / truss sign, sky behind",
+        "preset": "overhead"
+      },
+      "sceneNotes": "",
+      "change": "check: confirm Ontario colour (current image is yellow)"
+    },
+    {
+      "imageName": "17",
+      "questionIds": [
+        "en-117"
+      ],
+      "question": "What does this road sign mean?",
+      "correctAnswer": "No passing",
+      "signs": [
+        "No passing (white square, red circle/slash over two cars)"
+      ],
+      "scene": "roadside",
+      "weather": "clear",
+      "camera": {
+        "lens_mm": 35,
+        "height_m": 1.2,
+        "note": "driver eye height, looking down the road; sign right-of-centre, ~12 m ahead, square to camera",
+        "preset": "roadside"
+      },
+      "sceneNotes": "two-lane rural road",
+      "change": null
+    },
+    {
+      "imageName": "18",
+      "questionIds": [
+        "en-118"
+      ],
+      "question": "What does this road sign mean?",
+      "correctAnswer": "There is a hidden side road ahead.",
+      "signs": [
+        "Hidden side road right (yellow diamond) + HIDDEN tab"
+      ],
+      "scene": "roadside",
+      "weather": "clear",
+      "camera": {
+        "lens_mm": 35,
+        "height_m": 1.2,
+        "note": "driver eye height, looking down the road; sign right-of-centre, ~12 m ahead, square to camera",
+        "preset": "roadside"
+      },
+      "sceneNotes": "side road hidden behind trees/hill",
+      "change": null
+    },
+    {
+      "imageName": "19",
+      "questionIds": [
+        "en-119"
+      ],
+      "question": "What does this road sign mean?",
+      "correctAnswer": "Bicycles are not allowed on this road.",
+      "signs": [
+        "No bicycles (white square, red circle/slash over bicycle)"
+      ],
+      "scene": "city_street",
+      "weather": "clear",
+      "camera": {
+        "lens_mm": 35,
+        "height_m": 1.2,
+        "note": "sidewalk view, buildings behind, sign ~6 m away",
+        "preset": "city"
+      },
+      "sceneNotes": "",
+      "change": "sign: current is a European round disc -> Ontario square no-bicycles sign"
+    },
+    {
+      "imageName": "20",
+      "questionIds": [
+        "en-120"
+      ],
+      "question": "What does this road sign mean?",
+      "correctAnswer": "You can park in the marked area during the times shown.",
+      "signs": [
+        "Permissive parking with time limit (green P, 30 MIN 9AM-6PM MON-FRI, arrows)"
+      ],
+      "scene": "parking_lot",
+      "weather": "clear",
+      "camera": {
+        "lens_mm": 35,
+        "height_m": 1.2,
+        "note": "facing a parking lot edge with building behind, sign ~5 m away",
+        "preset": "parking"
+      },
+      "sceneNotes": "street parking bays",
+      "change": null
+    },
+    {
+      "imageName": "41",
+      "questionIds": [
+        "en-141"
+      ],
+      "question": "What does this sign mean?",
+      "correctAnswer": "If you stay in the right lane, you must exit.",
+      "signs": [
+        "RIGHT LANE MUST EXIT (overhead, black/white)"
+      ],
+      "scene": "overhead",
+      "weather": "clear",
+      "camera": {
+        "lens_mm": 35,
+        "height_m": 1.2,
+        "note": "looking up ~12 deg at an overhead span-wire / truss sign, sky behind",
+        "preset": "overhead"
+      },
+      "sceneNotes": "",
+      "change": null
+    },
+    {
+      "imageName": "42",
+      "questionIds": [
+        "en-142"
+      ],
+      "question": "What does this road sign mean?",
+      "correctAnswer": "Hidden school bus stop ahead",
+      "signs": [
+        "Hidden school bus stop ahead (yellow diamond)"
+      ],
+      "scene": "roadside",
+      "weather": "clear",
+      "camera": {
+        "lens_mm": 35,
+        "height_m": 1.2,
+        "note": "driver eye height, looking down the road; sign right-of-centre, ~12 m ahead, square to camera",
+        "preset": "roadside"
+      },
+      "sceneNotes": "crest or curve hides what's ahead",
+      "change": null
+    },
+    {
+      "imageName": "43",
+      "questionIds": [
+        "en-143"
+      ],
+      "question": "You are approaching a yield sign. What should you do?",
+      "correctAnswer": "Slow down, stop if necessary, and yield the right-of-way.",
+      "signs": [
+        "Yield (red/white inverted triangle)"
+      ],
+      "scene": "roadside",
+      "weather": "clear",
+      "camera": {
+        "lens_mm": 35,
+        "height_m": 1.2,
+        "note": "driver eye height, looking down the road; sign right-of-centre, ~12 m ahead, square to camera",
+        "preset": "roadside"
+      },
+      "sceneNotes": "same sign as #10, different viewpoint — merging road",
+      "change": null
+    },
+    {
+      "imageName": "44",
+      "questionIds": [
+        "en-144"
+      ],
+      "question": "What does this sign mean?",
+      "correctAnswer": "Railway crossing",
+      "signs": [
+        "Railway crossing signal: crossbuck + flashing red lights"
+      ],
+      "scene": "railway_crossing",
+      "weather": "clear",
+      "camera": {
+        "lens_mm": 35,
+        "height_m": 1.2,
+        "note": "driver eye height, looking down the road; sign right-of-centre, ~12 m ahead, square to camera",
+        "preset": "roadside"
+      },
+      "sceneNotes": "tracks crossing the road, signal mast on right",
+      "change": null
+    },
+    {
+      "imageName": "45",
+      "questionIds": [
+        "en-145"
+      ],
+      "question": "What does this road sign mean?",
+      "correctAnswer": "Do not enter.",
+      "signs": [
+        "Do not enter (white square, red circle, white bar)"
+      ],
+      "scene": "city_street",
+      "weather": "clear",
+      "camera": {
+        "lens_mm": 35,
+        "height_m": 1.2,
+        "note": "sidewalk view, buildings behind, sign ~6 m away",
+        "preset": "city"
+      },
+      "sceneNotes": "one-way street entrance",
+      "change": "sign: current is a European round disc -> Canadian Do Not Enter"
+    },
+    {
+      "imageName": "46",
+      "questionIds": [
+        "en-146"
+      ],
+      "question": "What does this sign mean?",
+      "correctAnswer": "Divided highway begins.",
+      "signs": [
+        "Divided highway begins (yellow diamond)"
+      ],
+      "scene": "highway",
+      "weather": "clear",
+      "camera": {
+        "lens_mm": 35,
+        "height_m": 1.2,
+        "note": "multi-lane divided road, sign on median or shoulder",
+        "preset": "highway"
+      },
+      "sceneNotes": "median starts ahead",
+      "change": null
+    },
+    {
+      "imageName": "47",
+      "questionIds": [
+        "en-147"
+      ],
+      "question": "What does this road sign mean?",
+      "correctAnswer": "No pedestrians allowed",
+      "signs": [
+        "No pedestrians (white square, red circle/slash over walker)"
+      ],
+      "scene": "roadside",
+      "weather": "clear",
+      "camera": {
+        "lens_mm": 35,
+        "height_m": 1.2,
+        "note": "driver eye height, looking down the road; sign right-of-centre, ~12 m ahead, square to camera",
+        "preset": "roadside"
+      },
+      "sceneNotes": "",
+      "change": "sign: current is a European round disc -> Canadian square version"
+    },
+    {
+      "imageName": "48",
+      "questionIds": [
+        "en-148"
+      ],
+      "question": "What does this sign mean?",
+      "correctAnswer": "This is a two-way left-turn lane.",
+      "signs": [
+        "Two-way left-turn lane (overhead black/white) + matching pavement arrows"
+      ],
+      "scene": "overhead",
+      "weather": "clear",
+      "camera": {
+        "lens_mm": 35,
+        "height_m": 1.2,
+        "note": "multi-lane divided road, sign on median or shoulder",
+        "preset": "highway"
+      },
+      "sceneNotes": "centre lane with yellow solid/broken lines and opposing arrows",
+      "change": null
+    },
+    {
+      "imageName": "49",
+      "questionIds": [
+        "en-149"
+      ],
+      "question": "What does this sign mean?",
+      "correctAnswer": "Parking for persons with disabilities",
+      "signs": [
+        "Accessible parking (blue square, wheelchair)"
+      ],
+      "scene": "parking_lot",
+      "weather": "clear",
+      "camera": {
+        "lens_mm": 35,
+        "height_m": 1.2,
+        "note": "facing a parking lot edge with building behind, sign ~5 m away",
+        "preset": "parking"
+      },
+      "sceneNotes": "accessible bay with painted symbol",
+      "change": "scene: road -> parking lot (fits the sign)"
+    },
+    {
+      "imageName": "50",
+      "questionIds": [
+        "en-150"
+      ],
+      "question": "What does this road sign mean?",
+      "correctAnswer": "Winding road",
+      "signs": [
+        "Winding road (yellow diamond)"
+      ],
+      "scene": "roadside",
+      "weather": "clear",
+      "camera": {
+        "lens_mm": 35,
+        "height_m": 1.2,
+        "note": "driver eye height, looking down the road; sign right-of-centre, ~12 m ahead, square to camera",
+        "preset": "roadside"
+      },
+      "sceneNotes": "road winding ahead",
+      "change": null
+    },
+    {
+      "imageName": "51",
+      "questionIds": [
+        "en-151"
+      ],
+      "question": "What does this road sign mean?",
+      "correctAnswer": "Water may flow over the road",
+      "signs": [
+        "Water may flow over road (yellow diamond)"
+      ],
+      "scene": "roadside",
+      "weather": "rain",
+      "camera": {
+        "lens_mm": 35,
+        "height_m": 1.2,
+        "note": "driver eye height, looking down the road; sign right-of-centre, ~12 m ahead, square to camera",
+        "preset": "roadside"
+      },
+      "sceneNotes": "low dip, wet pavement",
+      "change": "weather: clear -> rain/wet"
+    },
+    {
+      "imageName": "52",
+      "questionIds": [
+        "en-152"
+      ],
+      "question": "What does this road sign mean?",
+      "correctAnswer": "Permissive sign.",
+      "signs": [
+        "Generic permissive symbol: green circle on white square"
+      ],
+      "scene": "roadside",
+      "weather": "clear",
+      "camera": {
+        "lens_mm": 35,
+        "height_m": 1.2,
+        "note": "driver eye height, looking down the road; sign right-of-centre, ~12 m ahead, square to camera",
+        "preset": "roadside"
+      },
+      "sceneNotes": "",
+      "change": null
+    },
+    {
+      "imageName": "53",
+      "questionIds": [
+        "en-153"
+      ],
+      "question": "What does this road sign mean?",
+      "correctAnswer": "You must not turn right on a red light.",
+      "signs": [
+        "No right turn on red (white rectangle)"
+      ],
+      "scene": "overhead",
+      "weather": "clear",
+      "camera": {
+        "lens_mm": 35,
+        "height_m": 1.2,
+        "note": "looking up ~12 deg at an overhead span-wire / truss sign, sky behind",
+        "preset": "overhead"
+      },
+      "sceneNotes": "traffic signal beside it",
+      "change": null
+    },
+    {
+      "imageName": "54",
+      "questionIds": [
+        "en-154"
+      ],
+      "question": "What does this sign mean?",
+      "correctAnswer": "There is an obstruction ahead, and the sloping lines show which side to pass on",
+      "signs": [
+        "Object/hazard marker (black/yellow diagonal stripes)"
+      ],
+      "scene": "highway",
+      "weather": "clear",
+      "camera": {
+        "lens_mm": 35,
+        "height_m": 1.2,
+        "note": "multi-lane divided road, sign on median or shoulder",
+        "preset": "highway"
+      },
+      "sceneNotes": "marker on median nose; stripe direction must point to pass side",
+      "change": null
+    },
+    {
+      "imageName": "55",
+      "questionIds": [
+        "en-155"
+      ],
+      "question": "What does this sign mean?",
+      "correctAnswer": "Only certain types of vehicles are allowed in this lane during the times and days shown.",
+      "signs": [
+        "Reserved lane: buses/taxis/cyclists, times shown (overhead diamond sign)"
+      ],
+      "scene": "overhead",
+      "weather": "clear",
+      "camera": {
+        "lens_mm": 35,
+        "height_m": 1.2,
+        "note": "looking up ~12 deg at an overhead span-wire / truss sign, sky behind",
+        "preset": "overhead"
+      },
+      "sceneNotes": "",
+      "change": "check: confirm exact vehicle list on Ontario artwork"
+    },
+    {
+      "imageName": "56",
+      "questionIds": [
+        "en-156"
+      ],
+      "question": "What does this sign mean?",
+      "correctAnswer": "You must pass to the right of the obstruction ahead.",
+      "signs": [
+        "Keep right of obstruction (white rectangle)"
+      ],
+      "scene": "highway",
+      "weather": "clear",
+      "camera": {
+        "lens_mm": 35,
+        "height_m": 1.2,
+        "note": "multi-lane divided road, sign on median or shoulder",
+        "preset": "highway"
+      },
+      "sceneNotes": "median island ahead",
+      "change": null
+    },
+    {
+      "imageName": "57",
+      "questionIds": [
+        "en-157"
+      ],
+      "question": "What does this road sign mean?",
+      "correctAnswer": "School crossing ahead",
+      "signs": [
+        "School crossing (yellow pentagon) + AHEAD tab"
+      ],
+      "scene": "city_street",
+      "weather": "clear",
+      "camera": {
+        "lens_mm": 35,
+        "height_m": 1.2,
+        "note": "sidewalk view, buildings behind, sign ~6 m away",
+        "preset": "city"
+      },
+      "sceneNotes": "school building nearby",
+      "change": null
+    },
+    {
+      "imageName": "58",
+      "questionIds": [
+        "en-158"
+      ],
+      "question": "This driver is using a hand signal. The driver intends to…",
+      "correctAnswer": "Go left, turn left.",
+      "signs": [
+        "Hand signal: left turn (arm straight out)"
+      ],
+      "scene": "hand_signal",
+      "weather": "clear",
+      "camera": {
+        "lens_mm": 35,
+        "height_m": 1.2,
+        "note": "rear-left 3/4 of an unbranded car; driver's arm out the left window",
+        "preset": "hand"
+      },
+      "sceneNotes": "arm straight out horizontally",
+      "change": "scene: remove car brand lettering"
+    },
+    {
+      "imageName": "59",
+      "questionIds": [
+        "en-159"
+      ],
+      "question": "What does this sign mean?",
+      "correctAnswer": "It shows the distance to cities or towns",
+      "signs": [
+        "Distance sign (green, white text, Ontario place names)"
+      ],
+      "scene": "highway",
+      "weather": "clear",
+      "camera": {
+        "lens_mm": 35,
+        "height_m": 1.2,
+        "note": "multi-lane divided road, sign on median or shoulder",
+        "preset": "highway"
+      },
+      "sceneNotes": "",
+      "change": "sign: current is a US (Nevada) sign -> Ontario distance sign"
+    },
+    {
+      "imageName": "60",
+      "questionIds": [
+        "en-160"
+      ],
+      "question": "What does this road sign mean?",
+      "correctAnswer": "The speed limit changes to 50 km/h ahead",
+      "signs": [
+        "Speed limit 50 ahead (white rectangle, arrow, 50)"
+      ],
+      "scene": "roadside",
+      "weather": "clear",
+      "camera": {
+        "lens_mm": 35,
+        "height_m": 1.2,
+        "note": "driver eye height, looking down the road; sign right-of-centre, ~12 m ahead, square to camera",
+        "preset": "roadside"
+      },
+      "sceneNotes": "",
+      "change": null
+    },
+    {
+      "imageName": "81",
+      "questionIds": [
+        "en-181"
+      ],
+      "question": "What does this road sign mean?",
+      "correctAnswer": "During school hours, when the yellow lights are flashing, the speed limit is 40 km/h.",
+      "signs": [
+        "School zone 40 km/h when flashing (pentagon + MAXIMUM 40 km/h WHEN FLASHING tabs, two yellow beacons)"
+      ],
+      "scene": "city_street",
+      "weather": "clear",
+      "camera": {
+        "lens_mm": 35,
+        "height_m": 1.2,
+        "note": "sidewalk view, buildings behind, sign ~6 m away",
+        "preset": "city"
+      },
+      "sceneNotes": "",
+      "change": "scene: current is a flat diagram on white -> real school-zone street"
+    },
+    {
+      "imageName": "82",
+      "questionIds": [
+        "en-182"
+      ],
+      "question": "What does this road sign mean?",
+      "correctAnswer": "In this area, pay extra attention to pedestrians and your speed",
+      "signs": [
+        "Community safety zone, fines increased (white rectangle)"
+      ],
+      "scene": "city_street",
+      "weather": "clear",
+      "camera": {
+        "lens_mm": 35,
+        "height_m": 1.2,
+        "note": "sidewalk view, buildings behind, sign ~6 m away",
+        "preset": "city"
+      },
+      "sceneNotes": "",
+      "change": null
+    },
+    {
+      "imageName": "83",
+      "questionIds": [
+        "en-183"
+      ],
+      "question": "What does this road sign mean?",
+      "correctAnswer": "Bus entrance ahead on the right",
+      "signs": [
+        "Bus entrance on right (yellow diamond)"
+      ],
+      "scene": "roadside",
+      "weather": "clear",
+      "camera": {
+        "lens_mm": 35,
+        "height_m": 1.2,
+        "note": "driver eye height, looking down the road; sign right-of-centre, ~12 m ahead, square to camera",
+        "preset": "roadside"
+      },
+      "sceneNotes": "bus driveway visible on right",
+      "change": null
+    },
+    {
+      "imageName": "84",
+      "questionIds": [
+        "en-184"
+      ],
+      "question": "What does this road sign mean?",
+      "correctAnswer": "Two-way road.",
+      "signs": [
+        "Two-way traffic (yellow diamond)"
+      ],
+      "scene": "roadside",
+      "weather": "clear",
+      "camera": {
+        "lens_mm": 35,
+        "height_m": 1.2,
+        "note": "driver eye height, looking down the road; sign right-of-centre, ~12 m ahead, square to camera",
+        "preset": "roadside"
+      },
+      "sceneNotes": "divided road ends into two-way",
+      "change": null
+    },
+    {
+      "imageName": "85",
+      "questionIds": [
+        "en-185"
+      ],
+      "question": "This driver is using a hand signal. The driver intends to",
+      "correctAnswer": "Go right or turn right",
+      "signs": [
+        "Hand signal: right turn (arm bent up)"
+      ],
+      "scene": "hand_signal",
+      "weather": "clear",
+      "camera": {
+        "lens_mm": 35,
+        "height_m": 1.2,
+        "note": "rear-left 3/4 of an unbranded car; driver's arm out the left window",
+        "preset": "hand"
+      },
+      "sceneNotes": "forearm pointing up",
+      "change": "scene: remove car brand lettering"
+    },
+    {
+      "imageName": "86",
+      "questionIds": [
+        "en-186"
+      ],
+      "question": "What does this road sign mean?",
+      "correctAnswer": "Traffic control person ahead",
+      "signs": [
+        "Traffic control person ahead (orange diamond)"
+      ],
+      "scene": "roadside",
+      "weather": "clear",
+      "camera": {
+        "lens_mm": 35,
+        "height_m": 1.2,
+        "note": "driver eye height, looking down the road; sign right-of-centre, ~12 m ahead, square to camera",
+        "preset": "roadside"
+      },
+      "sceneNotes": "work zone ahead",
+      "change": null
+    },
+    {
+      "imageName": "87",
+      "questionIds": [
+        "en-187"
+      ],
+      "question": "What does this road sign mean?",
+      "correctAnswer": "Pavement ends ahead",
+      "signs": [
+        "Pavement ends (yellow diamond)"
+      ],
+      "scene": "roadside",
+      "weather": "clear",
+      "camera": {
+        "lens_mm": 35,
+        "height_m": 1.2,
+        "note": "driver eye height, looking down the road; sign right-of-centre, ~12 m ahead, square to camera",
+        "preset": "roadside"
+      },
+      "sceneNotes": "asphalt turns to gravel ahead",
+      "change": null
+    },
+    {
+      "imageName": "88",
+      "questionIds": [
+        "en-188"
+      ],
+      "question": "This traffic sign indicates:",
+      "correctAnswer": "The direction of travel for each lane",
+      "signs": [
+        "Lane designation sign (overhead, arrows per lane)"
+      ],
+      "scene": "city_street",
+      "weather": "clear",
+      "camera": {
+        "lens_mm": 35,
+        "height_m": 1.2,
+        "note": "sidewalk view, buildings behind, sign ~6 m away",
+        "preset": "city"
+      },
+      "sceneNotes": "matching pavement arrows in each lane",
+      "change": "check: current sign is dark brown/black; Ontario lane-designation signs are black on white"
+    },
+    {
+      "imageName": "89",
+      "questionIds": [
+        "en-189"
+      ],
+      "question": "What does this road sign mean?",
+      "correctAnswer": "Narrow bridge ahead",
+      "signs": [
+        "Narrow bridge (yellow diamond)"
+      ],
+      "scene": "roadside",
+      "weather": "clear",
+      "camera": {
+        "lens_mm": 35,
+        "height_m": 1.2,
+        "note": "driver eye height, looking down the road; sign right-of-centre, ~12 m ahead, square to camera",
+        "preset": "roadside"
+      },
+      "sceneNotes": "narrow bridge ahead",
+      "change": null
+    },
+    {
+      "imageName": "90",
+      "questionIds": [
+        "en-190"
+      ],
+      "question": "What does this road sign mean?",
+      "correctAnswer": "There is a slight bend or curve in the road ahead",
+      "signs": [
+        "Curve left (yellow diamond)"
+      ],
+      "scene": "roadside",
+      "weather": "clear",
+      "camera": {
+        "lens_mm": 35,
+        "height_m": 1.2,
+        "note": "driver eye height, looking down the road; sign right-of-centre, ~12 m ahead, square to camera",
+        "preset": "roadside"
+      },
+      "sceneNotes": "road gently curves left",
+      "change": null
+    },
+    {
+      "imageName": "91",
+      "questionIds": [
+        "en-191"
+      ],
+      "question": "What does this road sign mean?",
+      "correctAnswer": "Steep hill ahead",
+      "signs": [
+        "Steep hill (yellow diamond) with % tab"
+      ],
+      "scene": "roadside",
+      "weather": "clear",
+      "camera": {
+        "lens_mm": 35,
+        "height_m": 1.2,
+        "note": "driver eye height, looking down the road; sign right-of-centre, ~12 m ahead, square to camera",
+        "preset": "roadside"
+      },
+      "sceneNotes": "road drops downhill ahead",
+      "change": null
+    },
+    {
+      "imageName": "92",
+      "questionIds": [
+        "en-192"
+      ],
+      "question": "What does this road sign mean?",
+      "correctAnswer": "Railway crossing ahead",
+      "signs": [
+        "Railway crossing ahead, angled (yellow diamond)"
+      ],
+      "scene": "roadside",
+      "weather": "clear",
+      "camera": {
+        "lens_mm": 35,
+        "height_m": 1.2,
+        "note": "driver eye height, looking down the road; sign right-of-centre, ~12 m ahead, square to camera",
+        "preset": "roadside"
+      },
+      "sceneNotes": "tracks visible ahead",
+      "change": null
+    },
+    {
+      "imageName": "93",
+      "questionIds": [
+        "en-193"
+      ],
+      "question": "What does this road sign mean?",
+      "correctAnswer": "Direction sign for different destinations",
+      "signs": [
+        "Destination direction sign (green, three lines)"
+      ],
+      "scene": "roadside",
+      "weather": "clear",
+      "camera": {
+        "lens_mm": 35,
+        "height_m": 1.2,
+        "note": "driver eye height, looking down the road; sign right-of-centre, ~12 m ahead, square to camera",
+        "preset": "roadside"
+      },
+      "sceneNotes": "",
+      "change": "scene: current is a flat crop -> roadside scene"
+    },
+    {
+      "imageName": "94",
+      "questionIds": [
+        "en-194"
+      ],
+      "question": "What does this road sign mean?",
+      "correctAnswer": "Bicycle crossing ahead",
+      "signs": [
+        "Bicycle crossing (yellow diamond)"
+      ],
+      "scene": "roadside",
+      "weather": "clear",
+      "camera": {
+        "lens_mm": 35,
+        "height_m": 1.2,
+        "note": "driver eye height, looking down the road; sign right-of-centre, ~12 m ahead, square to camera",
+        "preset": "roadside"
+      },
+      "sceneNotes": "bike path crossing ahead",
+      "change": null
+    },
+    {
+      "imageName": "95",
+      "questionIds": [
+        "en-195"
+      ],
+      "question": "What does this road sign mean?",
+      "correctAnswer": "If a school bus has its lights flashing, you must stop for the school bus.",
+      "signs": [
+        "STOP FOR SCHOOL BUS WHEN SIGNALS FLASHING (white rectangle)"
+      ],
+      "scene": "roadside",
+      "weather": "clear",
+      "camera": {
+        "lens_mm": 35,
+        "height_m": 1.2,
+        "note": "driver eye height, looking down the road; sign right-of-centre, ~12 m ahead, square to camera",
+        "preset": "roadside"
+      },
+      "sceneNotes": "",
+      "change": "scene: overhead -> roadside (this sign is post-mounted at province borders)"
+    },
+    {
+      "imageName": "96",
+      "questionIds": [
+        "en-196"
+      ],
+      "question": "What does this road sign mean?",
+      "correctAnswer": "The road ahead splits in two",
+      "signs": [
+        "Road splits / divided highway begins? (yellow diamond)"
+      ],
+      "scene": "roadside",
+      "weather": "clear",
+      "camera": {
+        "lens_mm": 35,
+        "height_m": 1.2,
+        "note": "driver eye height, looking down the road; sign right-of-centre, ~12 m ahead, square to camera",
+        "preset": "roadside"
+      },
+      "sceneNotes": "",
+      "change": "UNSURE: current image looks like a lane-addition sign, not 'road splits' — need to confirm which sign the answer means"
+    },
+    {
+      "imageName": "97",
+      "questionIds": [
+        "en-197"
+      ],
+      "question": "What does this road sign mean?",
+      "correctAnswer": "To use this lane, there must be two or more people in the vehicle.",
+      "signs": [
+        "HOV lane 2+ (overhead diamond sign)"
+      ],
+      "scene": "overhead",
+      "weather": "clear",
+      "camera": {
+        "lens_mm": 35,
+        "height_m": 1.2,
+        "note": "looking up ~12 deg at an overhead span-wire / truss sign, sky behind",
+        "preset": "overhead"
+      },
+      "sceneNotes": "",
+      "change": null
+    },
+    {
+      "imageName": "98",
+      "questionIds": [
+        "en-198"
+      ],
+      "question": "What does this road sign mean?",
+      "correctAnswer": "You must not turn left.",
+      "signs": [
+        "No left turn (white square, red circle/slash)"
+      ],
+      "scene": "roadside",
+      "weather": "clear",
+      "camera": {
+        "lens_mm": 35,
+        "height_m": 1.2,
+        "note": "driver eye height, looking down the road; sign right-of-centre, ~12 m ahead, square to camera",
+        "preset": "roadside"
+      },
+      "sceneNotes": "intersection ahead",
+      "change": null
+    },
+    {
+      "imageName": "99",
+      "questionIds": [
+        "en-199"
+      ],
+      "question": "What does this road sign mean?",
+      "correctAnswer": "Traffic merging ahead",
+      "signs": [
+        "Merge (yellow diamond)"
+      ],
+      "scene": "highway",
+      "weather": "clear",
+      "camera": {
+        "lens_mm": 35,
+        "height_m": 1.2,
+        "note": "multi-lane divided road, sign on median or shoulder",
+        "preset": "highway"
+      },
+      "sceneNotes": "on-ramp merging from right",
+      "change": null
+    },
+    {
+      "imageName": "100",
+      "questionIds": [
+        "en-200"
+      ],
+      "question": "What does this road sign mean?",
+      "correctAnswer": "Underpass ahead",
+      "signs": [
+        "Low clearance 3.8 m (yellow diamond)"
+      ],
+      "scene": "roadside",
+      "weather": "clear",
+      "camera": {
+        "lens_mm": 35,
+        "height_m": 1.2,
+        "note": "driver eye height, looking down the road; sign right-of-centre, ~12 m ahead, square to camera",
+        "preset": "roadside"
+      },
+      "sceneNotes": "underpass ahead",
+      "change": null
+    },
+    {
+      "imageName": "101",
+      "questionIds": [
+        "en-221"
+      ],
+      "question": "What does this road sign mean?",
+      "correctAnswer": "The road ahead curves right and then left.",
+      "signs": [
+        "Reverse curve right-left (yellow diamond)"
+      ],
+      "scene": "roadside",
+      "weather": "clear",
+      "camera": {
+        "lens_mm": 35,
+        "height_m": 1.2,
+        "note": "driver eye height, looking down the road; sign right-of-centre, ~12 m ahead, square to camera",
+        "preset": "roadside"
+      },
+      "sceneNotes": "S-curve ahead",
+      "change": null
+    },
+    {
+      "imageName": "102",
+      "questionIds": [
+        "en-222"
+      ],
+      "question": "What does this road sign mean?",
+      "correctAnswer": "Mounted under a curve warning sign, this sign shows the maximum safe speed for the curve.",
+      "signs": [
+        "Curve warning (yellow diamond) + advisory speed tab (yellow, number km/h)"
+      ],
+      "scene": "roadside",
+      "weather": "clear",
+      "camera": {
+        "lens_mm": 35,
+        "height_m": 1.2,
+        "note": "driver eye height, looking down the road; sign right-of-centre, ~12 m ahead, square to camera",
+        "preset": "roadside"
+      },
+      "sceneNotes": "rural curve",
+      "change": "sign: current tab says 'XX km/h' -> real number (proposed 40)"
+    },
+    {
+      "imageName": "103",
+      "questionIds": [
+        "en-223"
+      ],
+      "question": "What does this road sign mean?",
+      "correctAnswer": "Falling rock possible ahead",
+      "signs": [
+        "Falling rock (yellow diamond)"
+      ],
+      "scene": "roadside",
+      "weather": "clear",
+      "camera": {
+        "lens_mm": 35,
+        "height_m": 1.2,
+        "note": "driver eye height, looking down the road; sign right-of-centre, ~12 m ahead, square to camera",
+        "preset": "roadside"
+      },
+      "sceneNotes": "rock cut beside road",
+      "change": null
+    },
+    {
+      "imageName": "104",
+      "questionIds": [
+        "en-224"
+      ],
+      "question": "This sign means parking is allowed for which vehicles?",
+      "correctAnswer": "Only for vehicles that have a valid permit to park in this location.",
+      "signs": [
+        "Permit parking only: no-parking symbol + accessible symbol + BY PERMIT ONLY"
+      ],
+      "scene": "parking_lot",
+      "weather": "clear",
+      "camera": {
+        "lens_mm": 35,
+        "height_m": 1.2,
+        "note": "facing a parking lot edge with building behind, sign ~5 m away",
+        "preset": "parking"
+      },
+      "sceneNotes": "",
+      "change": null
+    },
+    {
+      "imageName": "105",
+      "questionIds": [
+        "en-225"
+      ],
+      "question": "What does this road sign mean?",
+      "correctAnswer": "Stop sign ahead.",
+      "signs": [
+        "Stop ahead (yellow diamond, stop symbol + arrow)"
+      ],
+      "scene": "roadside",
+      "weather": "clear",
+      "camera": {
+        "lens_mm": 35,
+        "height_m": 1.2,
+        "note": "driver eye height, looking down the road; sign right-of-centre, ~12 m ahead, square to camera",
+        "preset": "roadside"
+      },
+      "sceneNotes": "",
+      "change": null
+    },
+    {
+      "imageName": "106",
+      "questionIds": [
+        "en-226"
+      ],
+      "question": "What does this road sign mean?",
+      "correctAnswer": "This lane is for bicycles only.",
+      "signs": [
+        "Reserved bicycle lane (white, diamond + bicycle + down arrow)"
+      ],
+      "scene": "city_street",
+      "weather": "clear",
+      "camera": {
+        "lens_mm": 35,
+        "height_m": 1.2,
+        "note": "sidewalk view, buildings behind, sign ~6 m away",
+        "preset": "city"
+      },
+      "sceneNotes": "painted bike lane",
+      "change": null
+    },
+    {
+      "imageName": "107",
+      "questionIds": [
+        "en-227"
+      ],
+      "question": "What does this road sign mean?",
+      "correctAnswer": "Narrow road ahead.",
+      "signs": [
+        "Narrow road (yellow diamond)"
+      ],
+      "scene": "roadside",
+      "weather": "clear",
+      "camera": {
+        "lens_mm": 35,
+        "height_m": 1.2,
+        "note": "driver eye height, looking down the road; sign right-of-centre, ~12 m ahead, square to camera",
+        "preset": "roadside"
+      },
+      "sceneNotes": "road narrows ahead",
+      "change": null
+    },
+    {
+      "imageName": "108",
+      "questionIds": [
+        "en-228"
+      ],
+      "question": "What does this road sign mean?",
+      "correctAnswer": "Intersection ahead",
+      "signs": [
+        "Intersection ahead (yellow diamond, cross)"
+      ],
+      "scene": "roadside",
+      "weather": "clear",
+      "camera": {
+        "lens_mm": 35,
+        "height_m": 1.2,
+        "note": "driver eye height, looking down the road; sign right-of-centre, ~12 m ahead, square to camera",
+        "preset": "roadside"
+      },
+      "sceneNotes": "crossroad ahead",
+      "change": null
+    },
+    {
+      "imageName": "109",
+      "questionIds": [
+        "en-229"
+      ],
+      "question": "What does this road sign mean?",
+      "correctAnswer": "Divided highway ends.",
+      "signs": [
+        "Divided highway ends (yellow diamond)"
+      ],
+      "scene": "highway",
+      "weather": "clear",
+      "camera": {
+        "lens_mm": 35,
+        "height_m": 1.2,
+        "note": "multi-lane divided road, sign on median or shoulder",
+        "preset": "highway"
+      },
+      "sceneNotes": "median ends ahead",
+      "change": null
+    },
+    {
+      "imageName": "110",
+      "questionIds": [
+        "en-230"
+      ],
+      "question": "What does this road sign mean?",
+      "correctAnswer": "Deer may frequently cross the road in this section.",
+      "signs": [
+        "Deer crossing (yellow diamond) on large panel with 'Next 15 km' tab"
+      ],
+      "scene": "roadside",
+      "weather": "dusk",
+      "camera": {
+        "lens_mm": 35,
+        "height_m": 1.2,
+        "note": "driver eye height, looking down the road; sign right-of-centre, ~12 m ahead, square to camera",
+        "preset": "roadside"
+      },
+      "sceneNotes": "rural, forest edge",
+      "change": "scene: current is a flat crop -> rural road at dusk"
+    },
+    {
+      "imageName": "111",
+      "questionIds": [
+        "en-231"
+      ],
+      "question": "What does this road sign mean?",
+      "correctAnswer": "Railway crossing ahead",
+      "signs": [
+        "Railway crossing ahead (yellow diamond, tracks cross)"
+      ],
+      "scene": "roadside",
+      "weather": "clear",
+      "camera": {
+        "lens_mm": 35,
+        "height_m": 1.2,
+        "note": "driver eye height, looking down the road; sign right-of-centre, ~12 m ahead, square to camera",
+        "preset": "roadside"
+      },
+      "sceneNotes": "tracks ahead",
+      "change": null
+    },
+    {
+      "imageName": "112",
+      "questionIds": [
+        "en-232"
+      ],
+      "question": "What does this road sign mean?",
+      "correctAnswer": "Bumpy or uneven pavement ahead",
+      "signs": [
+        "Bump/uneven pavement (yellow diamond)"
+      ],
+      "scene": "roadside",
+      "weather": "clear",
+      "camera": {
+        "lens_mm": 35,
+        "height_m": 1.2,
+        "note": "driver eye height, looking down the road; sign right-of-centre, ~12 m ahead, square to camera",
+        "preset": "roadside"
+      },
+      "sceneNotes": "",
+      "change": null
+    },
+    {
+      "imageName": "113",
+      "questionIds": [
+        "en-233"
+      ],
+      "question": "What does this road sign mean?",
+      "correctAnswer": "Snowmobiles cross this road ahead.",
+      "signs": [
+        "Snowmobile crossing (yellow diamond)"
+      ],
+      "scene": "roadside",
+      "weather": "snow",
+      "camera": {
+        "lens_mm": 35,
+        "height_m": 1.2,
+        "note": "driver eye height, looking down the road; sign right-of-centre, ~12 m ahead, square to camera",
+        "preset": "roadside"
+      },
+      "sceneNotes": "trail crossing in snow",
+      "change": "weather: clear -> snow"
+    },
+    {
+      "imageName": "114",
+      "questionIds": [
+        "en-234"
+      ],
+      "question": "What does this road sign mean?",
+      "correctAnswer": "This is a pedestrian crossover.",
+      "signs": [
+        "Pedestrian crossover (white, PEDESTRIAN + X)"
+      ],
+      "scene": "city_street",
+      "weather": "clear",
+      "camera": {
+        "lens_mm": 35,
+        "height_m": 1.2,
+        "note": "sidewalk view, buildings behind, sign ~6 m away",
+        "preset": "city"
+      },
+      "sceneNotes": "crossover markings (ladder/X) on road",
+      "change": null
+    },
+    {
+      "imageName": "115",
+      "questionIds": [
+        "en-235"
+      ],
+      "question": "What does this road sign mean?",
+      "correctAnswer": "This road is an official bicycle route.",
+      "signs": [
+        "Bicycle route (white square, green circle, bicycle)"
+      ],
+      "scene": "roadside",
+      "weather": "clear",
+      "camera": {
+        "lens_mm": 35,
+        "height_m": 1.2,
+        "note": "driver eye height, looking down the road; sign right-of-centre, ~12 m ahead, square to camera",
+        "preset": "roadside"
+      },
+      "sceneNotes": "",
+      "change": null
+    },
+    {
+      "imageName": "116",
+      "questionIds": [
+        "en-236"
+      ],
+      "question": "What does this road sign mean?",
+      "correctAnswer": "Fire truck entrance ahead on the right",
+      "signs": [
+        "Fire truck entrance on right (yellow diamond)"
+      ],
+      "scene": "roadside",
+      "weather": "clear",
+      "camera": {
+        "lens_mm": 35,
+        "height_m": 1.2,
+        "note": "driver eye height, looking down the road; sign right-of-centre, ~12 m ahead, square to camera",
+        "preset": "roadside"
+      },
+      "sceneNotes": "fire hall driveway on right",
+      "change": null
+    },
+    {
+      "imageName": "117",
+      "questionIds": [
+        "en-237"
+      ],
+      "question": "What does this road sign mean?",
+      "correctAnswer": "Vehicles that do not stop at this red light will be photographed.",
+      "signs": [
+        "RED LIGHT PHOTO ENFORCED (white rectangle with signal)"
+      ],
+      "scene": "overhead",
+      "weather": "night",
+      "camera": {
+        "lens_mm": 35,
+        "height_m": 1.2,
+        "note": "looking up ~12 deg at an overhead span-wire / truss sign, sky behind",
+        "preset": "overhead"
+      },
+      "sceneNotes": "signalised intersection",
+      "change": "weather: clear -> night"
+    },
+    {
+      "imageName": "118",
+      "questionIds": [
+        "en-238"
+      ],
+      "question": "What does this road sign mean?",
+      "correctAnswer": "You may stop temporarily to pick up or drop off passengers, but not to load or unload goods.",
+      "signs": [
+        "No standing anytime (red on white, arrows)"
+      ],
+      "scene": "parking_lot",
+      "weather": "clear",
+      "camera": {
+        "lens_mm": 35,
+        "height_m": 1.2,
+        "note": "facing a parking lot edge with building behind, sign ~5 m away",
+        "preset": "parking"
+      },
+      "sceneNotes": "",
+      "change": null
+    },
+    {
+      "imageName": "119",
+      "questionIds": [
+        "en-239"
+      ],
+      "question": "What does this road sign mean?",
+      "correctAnswer": "Slow vehicles must keep to the right.",
+      "signs": [
+        "SLOWER TRAFFIC KEEP RIGHT (white rectangle)"
+      ],
+      "scene": "highway",
+      "weather": "clear",
+      "camera": {
+        "lens_mm": 35,
+        "height_m": 1.2,
+        "note": "multi-lane divided road, sign on median or shoulder",
+        "preset": "highway"
+      },
+      "sceneNotes": "",
+      "change": null
+    },
+    {
+      "imageName": "120",
+      "questionIds": [
+        "en-240"
+      ],
+      "question": "What does this sign mean?",
+      "correctAnswer": "The road surface is slippery when wet.",
+      "signs": [
+        "Slippery when wet (yellow diamond)"
+      ],
+      "scene": "roadside",
+      "weather": "rain",
+      "camera": {
+        "lens_mm": 35,
+        "height_m": 1.2,
+        "note": "driver eye height, looking down the road; sign right-of-centre, ~12 m ahead, square to camera",
+        "preset": "roadside"
+      },
+      "sceneNotes": "wet pavement",
+      "change": "weather: clear -> rain"
+    },
+    {
+      "imageName": "141",
+      "questionIds": [
+        "en-261"
+      ],
+      "question": "What does this sign mean?",
+      "correctAnswer": "A survey crew is working on the road ahead.",
+      "signs": [
+        "Survey crew (orange diamond)"
+      ],
+      "scene": "roadside",
+      "weather": "clear",
+      "camera": {
+        "lens_mm": 35,
+        "height_m": 1.2,
+        "note": "driver eye height, looking down the road; sign right-of-centre, ~12 m ahead, square to camera",
+        "preset": "roadside"
+      },
+      "sceneNotes": "",
+      "change": "check: current sign is square-ish; Ontario survey crew sign is a diamond"
+    },
+    {
+      "imageName": "142",
+      "questionIds": [
+        "en-262"
+      ],
+      "question": "What does this road sign mean?",
+      "correctAnswer": "School buses pick up or drop off in this area without using flashing red lights or a stop arm.",
+      "signs": [
+        "SCHOOL BUS LOADING ZONE + arrow (white rectangle)"
+      ],
+      "scene": "city_street",
+      "weather": "clear",
+      "camera": {
+        "lens_mm": 35,
+        "height_m": 1.2,
+        "note": "sidewalk view, buildings behind, sign ~6 m away",
+        "preset": "city"
+      },
+      "sceneNotes": "",
+      "change": null
+    },
+    {
+      "imageName": "143",
+      "questionIds": [
+        "en-263"
+      ],
+      "question": "This driver is using a hand signal. The driver intends to",
+      "correctAnswer": "Slow down or stop.",
+      "signs": [
+        "Hand signal: slow/stop (arm bent down)"
+      ],
+      "scene": "hand_signal",
+      "weather": "clear",
+      "camera": {
+        "lens_mm": 35,
+        "height_m": 1.2,
+        "note": "rear-left 3/4 of an unbranded car; driver's arm out the left window",
+        "preset": "hand"
+      },
+      "sceneNotes": "forearm pointing down",
+      "change": "scene: remove car brand lettering"
+    },
+    {
+      "imageName": "144",
+      "questionIds": [
+        "en-264"
+      ],
+      "question": "What does this road sign mean?",
+      "correctAnswer": "Danger! Sharp turn ahead.",
+      "signs": [
+        "Checkerboard + arrow (yellow/black), sharp turn"
+      ],
+      "scene": "roadside",
+      "weather": "clear",
+      "camera": {
+        "lens_mm": 35,
+        "height_m": 1.2,
+        "note": "driver eye height, looking down the road; sign right-of-centre, ~12 m ahead, square to camera",
+        "preset": "roadside"
+      },
+      "sceneNotes": "T-intersection or sharp bend",
+      "change": null
+    },
+    {
+      "imageName": "145",
+      "questionIds": [
+        "en-265"
+      ],
+      "question": "What does this sign mean?",
+      "correctAnswer": "There is a passing lane ahead.",
+      "signs": [
+        "Passing lane ahead (white/black)"
+      ],
+      "scene": "highway",
+      "weather": "clear",
+      "camera": {
+        "lens_mm": 35,
+        "height_m": 1.2,
+        "note": "multi-lane divided road, sign on median or shoulder",
+        "preset": "highway"
+      },
+      "sceneNotes": "",
+      "change": null
+    },
+    {
+      "imageName": "146",
+      "questionIds": [
+        "en-266"
+      ],
+      "question": "What does this road sign mean?",
+      "correctAnswer": "The right lane ends ahead",
+      "signs": [
+        "Right lane ends (yellow diamond)"
+      ],
+      "scene": "highway",
+      "weather": "clear",
+      "camera": {
+        "lens_mm": 35,
+        "height_m": 1.2,
+        "note": "multi-lane divided road, sign on median or shoulder",
+        "preset": "highway"
+      },
+      "sceneNotes": "",
+      "change": null
+    },
+    {
+      "imageName": "147",
+      "questionIds": [
+        "en-267"
+      ],
+      "question": "What does this sign mean?",
+      "correctAnswer": "In this area, vehicles are not allowed to enter or exit the HOV lane.",
+      "signs": [
+        "HOV do not cross (overhead white)"
+      ],
+      "scene": "overhead",
+      "weather": "clear",
+      "camera": {
+        "lens_mm": 35,
+        "height_m": 1.2,
+        "note": "looking up ~12 deg at an overhead span-wire / truss sign, sky behind",
+        "preset": "overhead"
+      },
+      "sceneNotes": "",
+      "change": null
+    },
+    {
+      "imageName": "148",
+      "questionIds": [
+        "en-268"
+      ],
+      "question": "What does this road sign mean?",
+      "correctAnswer": "Maximum speed limit on the highway",
+      "signs": [
+        "MAXIMUM 80 km/h (white rectangle)"
+      ],
+      "scene": "highway",
+      "weather": "clear",
+      "camera": {
+        "lens_mm": 35,
+        "height_m": 1.2,
+        "note": "multi-lane divided road, sign on median or shoulder",
+        "preset": "highway"
+      },
+      "sceneNotes": "",
+      "change": null
+    },
+    {
+      "imageName": "149",
+      "questionIds": [
+        "en-269"
+      ],
+      "question": "What does this sign mean?",
+      "correctAnswer": "Stop and yield to approaching vehicles.",
+      "signs": [
+        "Stop (red octagon)"
+      ],
+      "scene": "roadside",
+      "weather": "clear",
+      "camera": {
+        "lens_mm": 35,
+        "height_m": 1.2,
+        "note": "driver eye height, looking down the road; sign right-of-centre, ~12 m ahead, square to camera",
+        "preset": "roadside"
+      },
+      "sceneNotes": "car stopped at a stop line",
+      "change": null
+    },
+    {
+      "imageName": "150",
+      "questionIds": [
+        "en-270"
+      ],
+      "question": "What does this sign mean?",
+      "correctAnswer": "Do not turn left during the times shown",
+      "signs": [
+        "No left turn during times shown (white rectangle)"
+      ],
+      "scene": "overhead",
+      "weather": "clear",
+      "camera": {
+        "lens_mm": 35,
+        "height_m": 1.2,
+        "note": "looking up ~12 deg at an overhead span-wire / truss sign, sky behind",
+        "preset": "overhead"
+      },
+      "sceneNotes": "",
+      "change": null
+    },
+    {
+      "imageName": "151",
+      "questionIds": [
+        "en-271"
+      ],
+      "question": "What does this sign mean?",
+      "correctAnswer": "Traffic must move in one direction only.",
+      "signs": [
+        "One way (black/white arrow)"
+      ],
+      "scene": "city_street",
+      "weather": "clear",
+      "camera": {
+        "lens_mm": 35,
+        "height_m": 1.2,
+        "note": "sidewalk view, buildings behind, sign ~6 m away",
+        "preset": "city"
+      },
+      "sceneNotes": "",
+      "change": null
+    },
+    {
+      "imageName": "152",
+      "questionIds": [
+        "en-272"
+      ],
+      "question": "What does this road sign mean?",
+      "correctAnswer": "Paved or grooved surface ahead",
+      "signs": [
+        "Paved/grooved surface (orange diamond)"
+      ],
+      "scene": "roadside",
+      "weather": "clear",
+      "camera": {
+        "lens_mm": 35,
+        "height_m": 1.2,
+        "note": "driver eye height, looking down the road; sign right-of-centre, ~12 m ahead, square to camera",
+        "preset": "roadside"
+      },
+      "sceneNotes": "grooved pavement ahead",
+      "change": null
+    },
+    {
+      "imageName": "153",
+      "questionIds": [
+        "en-273"
+      ],
+      "question": "What does a pair of these signs mean?",
+      "correctAnswer": "Do not stop in the area between the signs.",
+      "signs": [
+        "No stopping (white, red circle/slash over stop hand, double arrow)"
+      ],
+      "scene": "city_street",
+      "weather": "clear",
+      "camera": {
+        "lens_mm": 35,
+        "height_m": 1.2,
+        "note": "sidewalk view, buildings behind, sign ~6 m away",
+        "preset": "city"
+      },
+      "sceneNotes": "",
+      "change": "check: confirm Ontario symbol artwork"
+    },
+    {
+      "imageName": "154",
+      "questionIds": [
+        "en-274"
+      ],
+      "question": "What does this road sign mean?",
+      "correctAnswer": "A roundabout is 300 metres ahead.",
+      "signs": [
+        "Roundabout ahead (yellow diamond) + 300 m tab"
+      ],
+      "scene": "roadside",
+      "weather": "clear",
+      "camera": {
+        "lens_mm": 35,
+        "height_m": 1.2,
+        "note": "driver eye height, looking down the road; sign right-of-centre, ~12 m ahead, square to camera",
+        "preset": "roadside"
+      },
+      "sceneNotes": "",
+      "change": null
+    },
+    {
+      "imageName": "155",
+      "questionIds": [
+        "en-275"
+      ],
+      "question": "What does this road sign mean?",
+      "correctAnswer": "There is a sharp curve to the left.",
+      "signs": [
+        "Chevron alignment (yellow/black, pointing left)"
+      ],
+      "scene": "roadside",
+      "weather": "clear",
+      "camera": {
+        "lens_mm": 35,
+        "height_m": 1.2,
+        "note": "driver eye height, looking down the road; sign right-of-centre, ~12 m ahead, square to camera",
+        "preset": "roadside"
+      },
+      "sceneNotes": "sharp left curve",
+      "change": null
+    },
+    {
+      "imageName": "156",
+      "questionIds": [
+        "en-276"
+      ],
+      "question": "What does this sign mean?",
+      "correctAnswer": "Pedestrian crossing",
+      "signs": [
+        "Pedestrian crossing ahead (yellow diamond)"
+      ],
+      "scene": "roadside",
+      "weather": "clear",
+      "camera": {
+        "lens_mm": 35,
+        "height_m": 1.2,
+        "note": "driver eye height, looking down the road; sign right-of-centre, ~12 m ahead, square to camera",
+        "preset": "roadside"
+      },
+      "sceneNotes": "",
+      "change": null
+    },
+    {
+      "imageName": "157",
+      "questionIds": [
+        "en-277"
+      ],
+      "question": "What does this sign mean?",
+      "correctAnswer": "This lane is closed ahead",
+      "signs": [
+        "Lane closed / shift (orange diamond, diagonal arrow)"
+      ],
+      "scene": "roadside",
+      "weather": "clear",
+      "camera": {
+        "lens_mm": 35,
+        "height_m": 1.2,
+        "note": "driver eye height, looking down the road; sign right-of-centre, ~12 m ahead, square to camera",
+        "preset": "roadside"
+      },
+      "sceneNotes": "construction barrels closing a lane",
+      "change": null
+    },
+    {
+      "imageName": "158",
+      "questionIds": [
+        "en-278"
+      ],
+      "question": "What does this sign mean?",
+      "correctAnswer": "Construction work one kilometre ahead",
+      "signs": [
+        "CONSTRUCTION 1 km (orange diamond, arrow)"
+      ],
+      "scene": "roadside",
+      "weather": "clear",
+      "camera": {
+        "lens_mm": 35,
+        "height_m": 1.2,
+        "note": "driver eye height, looking down the road; sign right-of-centre, ~12 m ahead, square to camera",
+        "preset": "roadside"
+      },
+      "sceneNotes": "",
+      "change": null
+    },
+    {
+      "imageName": "159",
+      "questionIds": [
+        "en-279"
+      ],
+      "question": "What type of sign is this?",
+      "correctAnswer": "A regulatory sign for vehicles",
+      "signs": [
+        "KEEP RIGHT EXCEPT TO PASS (white rectangle)"
+      ],
+      "scene": "highway",
+      "weather": "clear",
+      "camera": {
+        "lens_mm": 35,
+        "height_m": 1.2,
+        "note": "multi-lane divided road, sign on median or shoulder",
+        "preset": "highway"
+      },
+      "sceneNotes": "",
+      "change": "scene: overhead -> highway shoulder"
+    },
+    {
+      "imageName": "160",
+      "questionIds": [
+        "en-280"
+      ],
+      "question": "What does this pavement marking mean?",
+      "correctAnswer": "Shared lane! Vehicles and bicycles both travel in this lane.",
+      "signs": [
+        "Sharrow pavement marking (bicycle + chevrons)"
+      ],
+      "scene": "pavement_marking",
+      "weather": "clear",
+      "camera": {
+        "lens_mm": 35,
+        "height_m": 12.0,
+        "note": "near top-down view of lane markings",
+        "preset": "topdown"
+      },
+      "sceneNotes": "",
+      "change": null
+    },
+    {
+      "imageName": "161",
+      "questionIds": [
+        "en-282"
+      ],
+      "question": "Two vehicles approach an uncontrolled intersection from opposite directions at the same time. One plans to go straight. The other intends to turn left. Which vehicle has the right-of-way?",
+      "correctAnswer": "The one going straight has the right-of-way.",
+      "signs": [
+        "No sign: uncontrolled intersection, two cars with path arrows"
+      ],
+      "scene": "aerial_intersection",
+      "weather": "clear",
+      "camera": {
+        "lens_mm": 35,
+        "height_m": 18.0,
+        "note": "elevated 3/4 view of an intersection",
+        "preset": "aerial"
+      },
+      "sceneNotes": "blue car straight, red car turning left; arrows as 3D ribbons",
+      "change": null
+    }
+  ]
+}

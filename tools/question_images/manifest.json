@@ -1,0 +1,1022 @@
+{
+ "_doc": "One entry per question image (asset name). 'sign' = [[artwork.png, width_m], ...] top to bottom, artwork in signs/. 'need' says which official sign to source; 'note' records any change from the old picture.",
+ "images": {
+  "1": {
+   "template": "roadside",
+   "setting": "construction",
+   "features": [
+    {
+     "type": "cones",
+     "from": 30,
+     "to": 90,
+     "offset": 3.0
+    }
+   ],
+   "need": "Road work ahead (orange diamond, worker with shovel)",
+   "sign": null
+  },
+  "2": {
+   "template": "roadside",
+   "setting": "suburban",
+   "features": [
+    {
+     "type": "side_road",
+     "at": 30,
+     "side": "right"
+    }
+   ],
+   "need": "Right turn only (Ontario regulatory)",
+   "note": "Current image shows the US 'ONLY' style; use the Ontario sign.",
+   "sign": null
+  },
+  "3": {
+   "template": "vehicle_rear",
+   "vehicle": "smv_wagon",
+   "setting": "rural",
+   "need": "Slow-moving vehicle emblem",
+   "note": "Scene changed from a car to a farm wagon: the SMV emblem is used on farm and other slow vehicles, a car would be misleading.",
+   "sign": null
+  },
+  "4": {
+   "template": "roadside",
+   "setting": "suburban",
+   "need": "Hospital (blue, white H)",
+   "sign": null
+  },
+  "5": {
+   "template": "roadside",
+   "setting": "suburban",
+   "features": [
+    {
+     "type": "side_road",
+     "at": 30,
+     "side": "both"
+    }
+   ],
+   "need": "No U-turn",
+   "sign": null
+  },
+  "6": {
+   "template": "roadside",
+   "setting": "suburban",
+   "need": "Airport route",
+   "sign": null
+  },
+  "7": {
+   "template": "roadside",
+   "setting": "rural",
+   "curves": [
+    {
+     "start": 45,
+     "angle": -90,
+     "radius": 25
+    }
+   ],
+   "need": "Sharp turn right",
+   "note": "Road ahead now actually turns sharply right.",
+   "sign": null
+  },
+  "8": {
+   "template": "roadside",
+   "setting": "suburban",
+   "features": [
+    {
+     "type": "side_road",
+     "at": 30,
+     "side": "both"
+    }
+   ],
+   "need": "No straight through",
+   "sign": null
+  },
+  "9": {
+   "template": "roadside",
+   "setting": "rural",
+   "features": [
+    {
+     "type": "bridge",
+     "at": 45,
+     "length": 40,
+     "width": 7.4,
+     "lift": true
+    }
+   ],
+   "need": "Lift bridge ahead",
+   "note": "Lift bridge added ahead.",
+   "sign": null
+  },
+  "10": {
+   "template": "roadside",
+   "setting": "suburban",
+   "features": [
+    {
+     "type": "side_road",
+     "at": 30,
+     "side": "both"
+    }
+   ],
+   "need": "Yield",
+   "sign": null
+  },
+  "11": {
+   "template": "roadside",
+   "setting": "suburban",
+   "need": "Prohibition symbol (red circle with slash)",
+   "sign": null
+  },
+  "12": {
+   "template": "roadside",
+   "setting": "rural",
+   "weather": "snow",
+   "trees": "conifer",
+   "need": "Snowmobiles permitted (green circle)",
+   "note": "Winter scene: snowmobile route.",
+   "sign": null
+  },
+  "13": {
+   "template": "roadside",
+   "setting": "construction",
+   "features": [
+    {
+     "type": "cones",
+     "from": 30,
+     "to": 90,
+     "offset": 3.0
+    }
+   ],
+   "need": "Detour (orange, with arrow)",
+   "sign": null
+  },
+  "14": {
+   "template": "roadside",
+   "setting": "suburban",
+   "features": [
+    {
+     "type": "signals",
+     "at": 42
+    }
+   ],
+   "need": "Traffic signal ahead",
+   "note": "Signalised intersection added ahead.",
+   "sign": null
+  },
+  "15": {
+   "template": "parking_lot",
+   "need": "No idling (municipal) \u2014 confirm an official Ontario municipal design",
+   "sign": null
+  },
+  "16": {
+   "template": "overhead",
+   "setting": "city",
+   "need": "Do not block intersection",
+   "sign": null
+  },
+  "17": {
+   "template": "roadside",
+   "setting": "rural",
+   "road": {
+    "centre": "solid_yellow"
+   },
+   "need": "Do not pass",
+   "sign": null
+  },
+  "18": {
+   "template": "roadside",
+   "setting": "rural",
+   "features": [
+    {
+     "type": "side_road",
+     "at": 55,
+     "side": "right",
+     "hidden": true
+    }
+   ],
+   "need": "Hidden side road (with HIDDEN tab if official)",
+   "note": "Side road ahead, partly hidden by trees.",
+   "sign": null
+  },
+  "19": {
+   "template": "city_street",
+   "need": "No bicycles",
+   "sign": null
+  },
+  "20": {
+   "template": "parking_lot",
+   "need": "Parking permitted, times shown (green P)",
+   "sign": null
+  },
+  "41": {
+   "template": "overhead",
+   "setting": "highway",
+   "need": "Right lane must exit",
+   "sign": null
+  },
+  "42": {
+   "template": "roadside",
+   "setting": "rural",
+   "hills": [
+    {
+     "start": 20,
+     "length": 60,
+     "grade": 6
+    }
+   ],
+   "need": "Hidden school bus stop ahead",
+   "note": "Hill crest ahead hides the stop.",
+   "sign": null
+  },
+  "43": {
+   "template": "roadside",
+   "setting": "suburban",
+   "features": [
+    {
+     "type": "side_road",
+     "at": 30,
+     "side": "both"
+    }
+   ],
+   "need": "Yield",
+   "sign": null
+  },
+  "44": {
+   "template": "railway_crossing",
+   "need": "Railway crossbuck (Canadian, white with red border)",
+   "sign": null
+  },
+  "45": {
+   "template": "city_street",
+   "need": "Do not enter",
+   "sign": null
+  },
+  "46": {
+   "template": "roadside",
+   "setting": "rural",
+   "features": [
+    {
+     "type": "island",
+     "from": 40,
+     "to": 300,
+     "width": 4.0
+    }
+   ],
+   "need": "Divided highway begins",
+   "note": "Median now begins ahead.",
+   "sign": null,
+   "screen": [
+    0.72,
+    0.6
+   ]
+  },
+  "47": {
+   "template": "roadside",
+   "setting": "suburban",
+   "need": "No pedestrians",
+   "sign": null
+  },
+  "48": {
+   "template": "overhead",
+   "setting": "city",
+   "twltl": true,
+   "signals": false,
+   "camera": [
+    1.75,
+    -6,
+    6.5
+   ],
+   "need": "Two-way left-turn lane",
+   "sign": null
+  },
+  "49": {
+   "template": "parking_lot",
+   "accessible": true,
+   "need": "Accessible parking",
+   "note": "Scene changed from a road to a parking lot: the sign marks parking stalls.",
+   "sign": null
+  },
+  "50": {
+   "template": "roadside",
+   "setting": "rural",
+   "curves": [
+    {
+     "start": 35,
+     "angle": 40,
+     "radius": 60
+    },
+    {
+     "start": 77,
+     "angle": -80,
+     "radius": 60
+    },
+    {
+     "start": 161,
+     "angle": 80,
+     "radius": 60
+    }
+   ],
+   "need": "Winding road",
+   "note": "Road ahead now winds.",
+   "sign": null
+  },
+  "51": {
+   "template": "roadside",
+   "setting": "rural",
+   "features": [
+    {
+     "type": "bridge",
+     "at": 50,
+     "length": 12,
+     "width": 7.4
+    }
+   ],
+   "need": "Water may flow over road",
+   "note": "Low creek crossing ahead (no bridge railings would be closer; review).",
+   "sign": null
+  },
+  "52": {
+   "template": "roadside",
+   "setting": "suburban",
+   "need": "Permissive sign (green circle, blank)",
+   "sign": null
+  },
+  "53": {
+   "template": "overhead",
+   "setting": "city",
+   "need": "No right turn on red",
+   "sign": null
+  },
+  "54": {
+   "template": "roadside",
+   "setting": "suburban",
+   "sign_side": "island",
+   "road": {
+    "lanes_right": 2,
+    "lanes_left": 2
+   },
+   "features": [
+    {
+     "type": "island",
+     "from": 16,
+     "to": 120,
+     "width": 2.0
+    }
+   ],
+   "need": "Hazard/object marker (obstruction, pass on side shown)",
+   "sign": null
+  },
+  "55": {
+   "template": "overhead",
+   "setting": "city",
+   "need": "Reserved lane (diamond, vehicle types, times)",
+   "sign": null
+  },
+  "56": {
+   "template": "roadside",
+   "setting": "suburban",
+   "sign_side": "island",
+   "road": {
+    "lanes_right": 2,
+    "lanes_left": 2
+   },
+   "features": [
+    {
+     "type": "island",
+     "from": 16,
+     "to": 120,
+     "width": 2.0
+    }
+   ],
+   "need": "Keep right of obstruction",
+   "sign": null
+  },
+  "57": {
+   "template": "city_street",
+   "school": true,
+   "need": "School crossing ahead (with AHEAD tab)",
+   "sign": null
+  },
+  "58": {
+   "template": "hand_signal",
+   "pose": "left",
+   "sign": null
+  },
+  "59": {
+   "template": "guide_sign",
+   "need": "Distance guide sign with Ontario towns",
+   "note": "Current sign is American (Red Rock Canyon / Las Vegas); replace with an Ontario distance sign.",
+   "sign": null
+  },
+  "60": {
+   "template": "roadside",
+   "setting": "suburban",
+   "need": "Speed limit changes ahead (50)",
+   "sign": null
+  },
+  "81": {
+   "template": "roadside",
+   "setting": "suburban",
+   "features": [
+    {
+     "type": "crosswalk",
+     "at": 40
+    }
+   ],
+   "need": "School zone 40 km/h when flashing (with beacons)",
+   "sign": null
+  },
+  "82": {
+   "template": "city_street",
+   "need": "Community safety zone, fines increased",
+   "sign": null
+  },
+  "83": {
+   "template": "roadside",
+   "setting": "suburban",
+   "features": [
+    {
+     "type": "side_road",
+     "at": 40,
+     "side": "right"
+    }
+   ],
+   "need": "Bus entrance ahead",
+   "sign": null
+  },
+  "84": {
+   "template": "roadside",
+   "setting": "rural",
+   "need": "Two-way traffic",
+   "sign": null
+  },
+  "85": {
+   "template": "hand_signal",
+   "pose": "right",
+   "sign": null
+  },
+  "86": {
+   "template": "roadside",
+   "setting": "construction",
+   "features": [
+    {
+     "type": "cones",
+     "from": 30,
+     "to": 90,
+     "offset": 3.0
+    }
+   ],
+   "need": "Traffic control person ahead",
+   "sign": null
+  },
+  "87": {
+   "template": "roadside",
+   "setting": "rural",
+   "features": [
+    {
+     "type": "gravel",
+     "at": 45
+    }
+   ],
+   "need": "Pavement ends",
+   "note": "Road now turns to gravel ahead.",
+   "sign": null
+  },
+  "88": {
+   "template": "overhead",
+   "setting": "city",
+   "need": "Lane designation (turn arrows per lane)",
+   "sign": null
+  },
+  "89": {
+   "template": "roadside",
+   "setting": "rural",
+   "features": [
+    {
+     "type": "bridge",
+     "at": 45,
+     "length": 30,
+     "width": 6.0
+    }
+   ],
+   "need": "Narrow bridge",
+   "note": "Narrow bridge added ahead.",
+   "sign": null
+  },
+  "90": {
+   "template": "roadside",
+   "setting": "rural",
+   "curves": [
+    {
+     "start": 45,
+     "angle": 25,
+     "radius": 180
+    }
+   ],
+   "need": "Curve ahead (match artwork direction)",
+   "note": "Road ahead now curves gently.",
+   "sign": null
+  },
+  "91": {
+   "template": "roadside",
+   "setting": "rural",
+   "hills": [
+    {
+     "start": 40,
+     "length": 200,
+     "grade": -8
+    }
+   ],
+   "need": "Steep hill (8%)",
+   "note": "Road ahead now drops downhill.",
+   "sign": null
+  },
+  "92": {
+   "template": "roadside",
+   "setting": "rural",
+   "features": [
+    {
+     "type": "rail",
+     "at": 60
+    }
+   ],
+   "need": "Railway crossing ahead",
+   "note": "Tracks added ahead.",
+   "sign": null
+  },
+  "93": {
+   "template": "guide_sign",
+   "need": "Destination guide sign (Hornby / Orchards / Caledon East)",
+   "sign": null
+  },
+  "94": {
+   "template": "roadside",
+   "setting": "suburban",
+   "features": [
+    {
+     "type": "crosswalk",
+     "at": 45
+    }
+   ],
+   "need": "Bicycle crossing ahead",
+   "sign": null
+  },
+  "95": {
+   "template": "overhead",
+   "setting": "highway",
+   "need": "Stop for school bus when signals flashing",
+   "sign": null
+  },
+  "96": {
+   "template": "roadside",
+   "setting": "rural",
+   "features": [
+    {
+     "type": "side_road",
+     "at": 55,
+     "side": "right"
+    }
+   ],
+   "need": "Road splits / side road (match artwork)",
+   "sign": null
+  },
+  "97": {
+   "template": "overhead",
+   "setting": "highway",
+   "need": "HOV 2+ lane",
+   "sign": null
+  },
+  "98": {
+   "template": "roadside",
+   "setting": "suburban",
+   "features": [
+    {
+     "type": "side_road",
+     "at": 30,
+     "side": "both"
+    }
+   ],
+   "need": "No left turn",
+   "sign": null
+  },
+  "99": {
+   "template": "roadside",
+   "setting": "suburban",
+   "road": {
+    "lanes_right": 2
+   },
+   "features": [
+    {
+     "type": "lane_drop",
+     "at": 70
+    }
+   ],
+   "need": "Merging traffic",
+   "sign": null
+  },
+  "100": {
+   "template": "roadside",
+   "setting": "rural",
+   "features": [
+    {
+     "type": "overpass",
+     "at": 55,
+     "clearance": 3.8
+    }
+   ],
+   "need": "Overhead clearance 3.8 m",
+   "note": "Underpass ahead added.",
+   "sign": null
+  },
+  "101": {
+   "template": "roadside",
+   "setting": "rural",
+   "curves": [
+    {
+     "start": 40,
+     "angle": -45,
+     "radius": 70
+    },
+    {
+     "start": 96,
+     "angle": 45,
+     "radius": 70
+    }
+   ],
+   "need": "Reverse curve (right then left)",
+   "note": "Road ahead now curves right then left.",
+   "sign": null
+  },
+  "102": {
+   "template": "roadside",
+   "setting": "rural",
+   "curves": [
+    {
+     "start": 45,
+     "angle": -70,
+     "radius": 90
+    }
+   ],
+   "need": "Curve sign + advisory speed tab",
+   "note": "Current tab reads 'XX km/h'; use a real advisory speed (e.g. 50).",
+   "sign": null
+  },
+  "103": {
+   "template": "roadside",
+   "setting": "rural",
+   "features": [
+    {
+     "type": "rock_cut",
+     "from": 30,
+     "to": 200,
+     "side": "right"
+    }
+   ],
+   "trees": "conifer",
+   "need": "Falling rock",
+   "note": "Rock cut added beside the road.",
+   "sign": null
+  },
+  "104": {
+   "template": "parking_lot",
+   "accessible": true,
+   "need": "Permit parking only (accessible permit)",
+   "sign": null
+  },
+  "105": {
+   "template": "roadside",
+   "setting": "rural",
+   "features": [
+    {
+     "type": "side_road",
+     "at": 70,
+     "side": "both"
+    }
+   ],
+   "need": "Stop sign ahead",
+   "sign": null
+  },
+  "106": {
+   "template": "city_street",
+   "bike_lane": true,
+   "need": "Reserved bicycle lane",
+   "sign": null
+  },
+  "107": {
+   "template": "roadside",
+   "setting": "rural",
+   "need": "Narrow road ahead",
+   "sign": null
+  },
+  "108": {
+   "template": "roadside",
+   "setting": "rural",
+   "features": [
+    {
+     "type": "side_road",
+     "at": 60,
+     "side": "both"
+    }
+   ],
+   "need": "Intersection ahead",
+   "note": "Crossroad added ahead.",
+   "sign": null
+  },
+  "109": {
+   "template": "roadside",
+   "setting": "rural",
+   "features": [
+    {
+     "type": "island",
+     "from": -30,
+     "to": 45,
+     "width": 4.0
+    }
+   ],
+   "need": "Divided highway ends",
+   "note": "Median now ends ahead.",
+   "sign": null,
+   "screen": [
+    0.72,
+    0.6
+   ]
+  },
+  "110": {
+   "template": "roadside",
+   "setting": "rural",
+   "trees": "mixed",
+   "need": "Deer crossing + 'Next 15 km' tab",
+   "sign": null
+  },
+  "111": {
+   "template": "roadside",
+   "setting": "rural",
+   "features": [
+    {
+     "type": "rail",
+     "at": 60,
+     "angle": 25
+    }
+   ],
+   "need": "Railway crossing ahead (angled)",
+   "sign": null
+  },
+  "112": {
+   "template": "roadside",
+   "setting": "suburban",
+   "need": "Bump / uneven pavement",
+   "sign": null
+  },
+  "113": {
+   "template": "roadside",
+   "setting": "rural",
+   "weather": "snow",
+   "trees": "conifer",
+   "need": "Snowmobile crossing",
+   "sign": null
+  },
+  "114": {
+   "template": "city_street",
+   "crossover": true,
+   "need": "Pedestrian crossover (Ra-4)",
+   "sign": null
+  },
+  "115": {
+   "template": "roadside",
+   "setting": "suburban",
+   "need": "Bicycle route",
+   "sign": null
+  },
+  "116": {
+   "template": "roadside",
+   "setting": "suburban",
+   "features": [
+    {
+     "type": "side_road",
+     "at": 40,
+     "side": "right"
+    }
+   ],
+   "need": "Fire truck entrance ahead",
+   "sign": null
+  },
+  "117": {
+   "template": "overhead",
+   "setting": "city",
+   "need": "Red light camera",
+   "sign": null
+  },
+  "118": {
+   "template": "city_street",
+   "need": "No standing",
+   "sign": null
+  },
+  "119": {
+   "template": "highway",
+   "need": "Slower traffic keep right",
+   "sign": null
+  },
+  "120": {
+   "template": "roadside",
+   "setting": "suburban",
+   "weather": "rain",
+   "need": "Slippery when wet",
+   "note": "Rainy scene with wet pavement.",
+   "sign": null
+  },
+  "141": {
+   "template": "roadside",
+   "setting": "construction",
+   "features": [
+    {
+     "type": "cones",
+     "from": 30,
+     "to": 90,
+     "offset": 3.0
+    }
+   ],
+   "need": "Survey crew",
+   "sign": null
+  },
+  "142": {
+   "template": "city_street",
+   "school": true,
+   "need": "School bus loading zone",
+   "sign": null
+  },
+  "143": {
+   "template": "hand_signal",
+   "pose": "stop",
+   "sign": null
+  },
+  "144": {
+   "template": "roadside",
+   "setting": "rural",
+   "curves": [
+    {
+     "start": 40,
+     "angle": -90,
+     "radius": 22
+    }
+   ],
+   "need": "Checkerboard sharp turn (danger)",
+   "note": "Road ahead now turns sharply.",
+   "sign": null
+  },
+  "145": {
+   "template": "roadside",
+   "setting": "rural",
+   "need": "Passing lane ahead",
+   "sign": null
+  },
+  "146": {
+   "template": "roadside",
+   "setting": "suburban",
+   "road": {
+    "lanes_right": 2
+   },
+   "features": [
+    {
+     "type": "lane_drop",
+     "at": 70
+    }
+   ],
+   "need": "Right lane ends",
+   "sign": null
+  },
+  "147": {
+   "template": "overhead",
+   "setting": "highway",
+   "need": "HOV lane \u2014 do not cross",
+   "sign": null
+  },
+  "148": {
+   "template": "highway",
+   "lanes": 2,
+   "need": "Maximum speed 80",
+   "sign": null
+  },
+  "149": {
+   "template": "vehicle_rear",
+   "vehicle": "car",
+   "setting": "suburban",
+   "colour": "white",
+   "brake": true,
+   "side_road": {
+    "at": 24
+   },
+   "sign_dist": 17,
+   "need": "Stop",
+   "sign": null
+  },
+  "150": {
+   "template": "overhead",
+   "setting": "city",
+   "need": "No left turn during times shown",
+   "sign": null
+  },
+  "151": {
+   "template": "city_street",
+   "one_way": true,
+   "lanes": 2,
+   "car_ahead": "blue",
+   "need": "One way",
+   "sign": null
+  },
+  "152": {
+   "template": "roadside",
+   "setting": "construction",
+   "features": [
+    {
+     "type": "cones",
+     "from": 30,
+     "to": 90,
+     "offset": 3.0
+    }
+   ],
+   "need": "Grooved / paved surface (construction)",
+   "sign": null
+  },
+  "153": {
+   "template": "city_street",
+   "need": "No stopping (pair of signs)",
+   "sign": null
+  },
+  "154": {
+   "template": "roadside",
+   "setting": "rural",
+   "need": "Roundabout ahead, 300 m",
+   "sign": null
+  },
+  "155": {
+   "template": "roadside",
+   "setting": "rural",
+   "curves": [
+    {
+     "start": 30,
+     "angle": 80,
+     "radius": 45
+    }
+   ],
+   "sign_dist": 24,
+   "need": "Chevron (sharp curve left)",
+   "note": "Chevron placed on the outside of a left curve.",
+   "sign": null
+  },
+  "156": {
+   "template": "roadside",
+   "setting": "suburban",
+   "features": [
+    {
+     "type": "crosswalk",
+     "at": 40
+    }
+   ],
+   "need": "Pedestrian crossing ahead",
+   "sign": null
+  },
+  "157": {
+   "template": "roadside",
+   "setting": "construction",
+   "features": [
+    {
+     "type": "cones",
+     "from": 30,
+     "to": 90,
+     "offset": 3.0
+    }
+   ],
+   "road": {
+    "lanes_right": 2
+   },
+   "need": "Lane closed ahead",
+   "sign": null
+  },
+  "158": {
+   "template": "roadside",
+   "setting": "construction",
+   "features": [
+    {
+     "type": "cones",
+     "from": 30,
+     "to": 90,
+     "offset": 3.0
+    }
+   ],
+   "need": "Construction 1 km ahead",
+   "sign": null
+  },
+  "159": {
+   "template": "overhead",
+   "setting": "highway",
+   "need": "Keep right except to pass",
+   "sign": null
+  },
+  "160": {
+   "template": "marking_aerial",
+   "need": "Sharrow pavement marking",
+   "sign": null
+  },
+  "161": {
+   "template": "intersection_aerial",
+   "sign": null
+  }
+ }
+}

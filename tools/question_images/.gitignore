@@ -1,0 +1,7 @@
+previews/
+*.blend
+*.blend1
+__pycache__/
+# third-party render assets: re-create with fetch_assets.py (pinned in assets.lock.json)
+assets/polyhaven/
+assets/sketchfab/

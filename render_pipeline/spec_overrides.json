@@ -1,0 +1,66 @@
+{
+ "_doc": "Per-image spec overrides applied on top of tools/question_images/manifest.json by render.py (round 2026-11-06). Keys = imageName.",
+ "20": {
+  "template": "city_street",
+  "parking": true,
+  "square_to_camera": true,
+  "sign_dist": 15.0,
+  "sign": [
+   [
+    "Rb-53A.png",
+    0.3
+   ]
+  ],
+  "_why": "user: sign at a curb with parked cars and a street behind it, square to the camera. Camera on the sidewalk looking back across the street (the only way the street, not a building wall, is behind a 0.3 m sign at the 15 % rule distance); sign at eye level; two cars parked at the curb behind it",
+  "sign_bottom": 1.45,
+  "view_from": "sidewalk",
+  "view_angle": 55.0,
+  "extras": [
+   {
+    "type": "car",
+    "from_right_edge": 1.2,
+    "y": 13.4,
+    "heading": 0.0,
+    "colour": "red"
+   },
+   {
+    "type": "car",
+    "from_right_edge": 1.2,
+    "y": 19.2,
+    "heading": 0.0,
+    "colour": "grey"
+   }
+  ]
+ },
+ "149": {
+  "template": "roadside",
+  "setting": "suburban",
+  "sign_dist": 18.0,
+  "features": [
+   {
+    "type": "side_road",
+    "at": 24,
+    "side": "both"
+   }
+  ],
+  "extras": [
+   {
+    "type": "car",
+    "from_right_edge": 2.2,
+    "y": 14.6,
+    "heading": 0.0,
+    "colour": "white",
+    "brake": true
+   }
+  ],
+  "_why": "vehicle_rear template can't meet the 15 % rule without the car hiding the sign; car stopped at the stop line instead"
+ },
+ "54": {
+  "lat": -1.6,
+  "_why": "island-mounted marker: camera in the inner lane right of the island (size limited by headroom: 0.3 x 0.9 m)"
+ },
+ "56": {
+  "lat": -1.6,
+  "_why": "island-mounted sign: camera in the inner lane right of the island"
+ }
+}

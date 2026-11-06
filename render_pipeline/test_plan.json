@@ -1,0 +1,250 @@
+{
+ "_doc": "Per-image render plan for render_cached.py: which cached base scene, weather, sign artwork (files in sign_assets/, [file, panel width m], top to bottom) and extras. Widths: OTM sizes - 750 mm regulatory/guide squares (0.75, the OTM oversize option; at 600 mm the 15 % rule pulls the camera so close the road leaves the frame), 750 mm warning diamonds (1.06 corner to corner), 900 mm construction diamonds (1.27).",
+ "images": [
+  {
+   "image": "1",
+   "base": "roadside",
+   "weather": "clear",
+   "sign": [
+    [
+     "TC-2B.png",
+     1.27
+    ]
+   ]
+  },
+  {
+   "image": "2",
+   "base": "roadside",
+   "weather": "clear",
+   "sign": [
+    [
+     "Rb-042.png",
+     0.75
+    ]
+   ]
+  },
+  {
+   "image": "3",
+   "base": "vehicle_rear",
+   "weather": "clear",
+   "sign": [
+    [
+     "SMV.png",
+     0.36
+    ]
+   ]
+  },
+  {
+   "image": "4",
+   "base": "roadside",
+   "weather": "clear",
+   "sign": [
+    [
+     "M401.png",
+     0.75
+    ]
+   ]
+  },
+  {
+   "image": "5",
+   "base": "roadside",
+   "weather": "clear",
+   "sign": [
+    [
+     "Rb-016.png",
+     0.75
+    ]
+   ]
+  },
+  {
+   "image": "6",
+   "base": "roadside",
+   "weather": "clear",
+   "sign": [
+    [
+     "M502.png",
+     0.75
+    ]
+   ]
+  },
+  {
+   "image": "7",
+   "base": "roadside",
+   "weather": "clear",
+   "sign": [
+    [
+     "Wa-1R.png",
+     1.06
+    ]
+   ]
+  },
+  {
+   "image": "8",
+   "base": "roadside",
+   "weather": "clear",
+   "sign": [
+    [
+     "Rb-010.png",
+     0.75
+    ]
+   ]
+  },
+  {
+   "image": "9",
+   "base": "roadside",
+   "weather": "clear",
+   "sign": [
+    [
+     "Wa-30.png",
+     1.06
+    ]
+   ]
+  },
+  {
+   "image": "10",
+   "base": "roadside",
+   "weather": "clear",
+   "sign": [
+    [
+     "Ra-002.png",
+     0.75
+    ]
+   ],
+   "extras": [
+    {
+     "type": "car",
+     "x": 9.0,
+     "y": 28.75,
+     "heading": 90.0,
+     "colour": "silver"
+    }
+   ]
+  },
+  {
+   "image": "11",
+   "base": "roadside",
+   "weather": "clear",
+   "sign": [
+    [
+     "Rb-012.png",
+     0.75
+    ]
+   ],
+   "_why": "user: real Ontario prohibition sign (No left turn); not named in #11's answer options"
+  },
+  {
+   "image": "12",
+   "base": "roadside",
+   "weather": "snow",
+   "sign": [
+    [
+     "Rb-064.png",
+     0.75
+    ]
+   ]
+  },
+  {
+   "image": "13",
+   "base": "roadside",
+   "weather": "clear",
+   "sign": [
+    [
+     "TC-5.png",
+     1.27
+    ]
+   ]
+  },
+  {
+   "image": "14",
+   "base": "roadside",
+   "weather": "clear",
+   "sign": [
+    [
+     "Wb-2.png",
+     1.06
+    ]
+   ]
+  },
+  {
+   "image": "15",
+   "skip": "no-idling signs are municipal by-law signs; no official Ontario/municipal artwork available"
+  },
+  {
+   "image": "16",
+   "base": "overhead",
+   "weather": "clear",
+   "sign": [
+    [
+     "Wa-73.png",
+     0.9
+    ]
+   ],
+   "signal_state": "green"
+  },
+  {
+   "image": "17",
+   "base": "roadside",
+   "weather": "clear",
+   "sign": [
+    [
+     "Rb-031.png",
+     0.75
+    ]
+   ]
+  },
+  {
+   "image": "18",
+   "base": "roadside",
+   "weather": "clear",
+   "sign": [
+    [
+     "Wa-13AR.png",
+     1.06
+    ],
+    [
+     "Wa-18t.png",
+     0.75
+    ]
+   ]
+  },
+  {
+   "image": "19",
+   "base": "city_street",
+   "weather": "clear",
+   "sign": [
+    [
+     "Rb-067.png",
+     0.75
+    ]
+   ]
+  },
+  {
+   "image": "20",
+   "path": "full",
+   "_why": "rebuilt on the city_street template (spec_overrides.json)"
+  },
+  {
+   "image": "53",
+   "base": "overhead",
+   "weather": "clear",
+   "sign": [
+    [
+     "Rb-079-R.png",
+     0.75
+    ]
+   ],
+   "signal_state": "red"
+  },
+  {
+   "image": "120",
+   "base": "roadside",
+   "weather": "rain",
+   "sign": [
+    [
+     "Wc-5.png",
+     1.06
+    ]
+   ]
+  }
+ ]
+}
