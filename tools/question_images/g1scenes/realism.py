@@ -89,7 +89,7 @@ def _img(folder, kind, colour=True):
 
 
 def pbr(name, folder, size_m, tint=None, darken=1.0, rough_scale=1.0, wet=0.0, puddles=False,
-        normal=1.0, along=None):
+        normal=1.0, along=None, saturation=None):
     """PBR material from a Poly Haven texture set, box-projected in object
     space at its real-world size (objects here are built in world space)."""
     key = f"{name}_w{wet:.2f}"
@@ -115,6 +115,11 @@ def pbr(name, folder, size_m, tint=None, darken=1.0, rough_scale=1.0, wet=0.0, p
         return t.outputs["Color"]
 
     col = tex("diff")
+    if saturation is not None:                 # e.g. grey granite from a warm rock scan
+        hs = nt.nodes.new("ShaderNodeHueSaturation")
+        hs.inputs["Saturation"].default_value = saturation
+        nt.links.new(col, hs.inputs["Color"])
+        col = hs.outputs["Color"]
     if tint is not None or darken != 1.0:
         mul = nt.nodes.new("ShaderNodeMix")
         mul.data_type = "RGBA"
@@ -336,8 +341,47 @@ def has(name):
     return os.path.exists(os.path.join(ASSETS, name + ".blend"))
 
 
-def instance(name, loc, yaw_deg=0.0, scale=1.0, coll=None):
-    c = _collection(name)
+def colour_variant(name, rgb):
+    """Copy of a model's collection (meshes shared) whose car-paint slots use a
+    solid paint of colour rgb. Cached per colour."""
+    key = f"{name}__paint_{'_'.join(f'{v:.2f}' for v in rgb)}"
+    c = _collections.get(key)
+    try:
+        if c is not None and c.name in bpy.data.collections:
+            return c
+    except ReferenceError:
+        pass
+    src = _collection(name)
+    if src is None:
+        return None
+    paint = bpy.data.materials.new(key + "_mat")
+    paint.use_nodes = True
+    b = next(n for n in paint.node_tree.nodes if n.type == "BSDF_PRINCIPLED")
+    b.inputs["Base Color"].default_value = (*rgb, 1.0)
+    b.inputs["Metallic"].default_value = 0.5
+    b.inputs["Roughness"].default_value = 0.3
+    for k, v in (("Coat Weight", 1.0), ("Coat Roughness", 0.05)):
+        if k in b.inputs:
+            b.inputs[k].default_value = v
+    new = bpy.data.collections.new(key)
+    new.instance_offset = src.instance_offset
+    copies = {}
+    for o in src.all_objects:
+        copies[o] = o.copy()
+        new.objects.link(copies[o])
+    for o, cp in copies.items():
+        if o.parent in copies:
+            cp.parent = copies[o.parent]
+        for slot in cp.material_slots:
+            if slot.material and slot.material.name.startswith("Car_Paint"):
+                slot.link = "OBJECT"
+                slot.material = paint
+    _collections[key] = new
+    return new
+
+
+def instance(name, loc, yaw_deg=0.0, scale=1.0, coll=None, paint=None):
+    c = colour_variant(name, paint) if paint else _collection(name)
     if c is None:
         return None
     ob = bpy.data.objects.new(name, None)

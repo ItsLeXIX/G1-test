@@ -28,6 +28,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 REPO = os.path.dirname(HERE)
 SCENES = os.path.join(REPO, "tools", "question_images")
 sys.path.insert(0, SCENES)
+sys.path.insert(0, HERE)
 
 import bpy  # noqa: E402
 from mathutils import Vector  # noqa: E402
@@ -35,11 +36,12 @@ from mathutils import Vector  # noqa: E402
 from g1scenes import env as E  # noqa: E402
 from g1scenes import realism  # noqa: E402
 from g1scenes import templates  # noqa: E402
+import checks  # noqa: E402
 
 IMAGESETS = os.path.join(REPO, "G1 test", "Assets.xcassets", "QuestionsImages")
 BACKUP = os.path.join(HERE, "backup_QuestionsImages_2026-11-05")
 ASSETS = os.path.join(HERE, "sign_assets")
-OUT = os.path.join(HERE, "out")
+OUT = os.environ.get("G1_OUT") or os.path.join(HERE, "out")   # G1_OUT: scratch folder for previews
 SCALES = {"1x": 800, "2x": 1600, "3x": 2400}
 NO_SIGN_TEMPLATES = ("intersection_aerial", "hand_signal")
 
@@ -55,12 +57,25 @@ def load(path):
         return json.load(f)
 
 
+def check_artwork_provenance(name):
+    """Fail if a sign file is a crop of the old app images (names starting with OLD-),
+    lives outside sign_assets/ or in the quarantine / app asset catalogue."""
+    base = os.path.basename(name)
+    low = name.replace("\\", "/").lower()
+    if base.upper().startswith("OLD-") or "_quarantine" in low or "xcassets" in low or "/out/" in low or ".." in low:
+        raise SystemExit(f"artwork provenance: {name!r} is not allowed (old app image crop or outside sign_assets/)")
+    if not os.path.exists(os.path.join(ASSETS, name)):
+        raise SystemExit(f"artwork provenance: {name!r} not found in sign_assets/")
+
+
 def build_spec(entry, scene_specs, sign_map):
     n = entry["imageName"]
     spec = dict(scene_specs.get(n, {}))
     spec.setdefault("template", SCENE_TO_TEMPLATE[entry["scene"]])
     spec["weather"] = entry.get("weather", spec.get("weather", "clear"))
     if n in sign_map:
+        for f, _w in sign_map[n]:
+            check_artwork_provenance(f)
         spec["sign"] = [[os.path.join(ASSETS, f), w] for f, w in sign_map[n]]
     # per-image overrides decided in this render round (render_pipeline/spec_overrides.json);
     # applied before the template-specific defaults below so they follow a changed template
@@ -179,7 +194,11 @@ def place_camera(spec):
         edge = road_right_edge()
         cam_x = (edge - 0.3) if c.x > 0 else -(abs(edge) - 0.3)
     lat = c.x - cam_x
-    dz = c.z - EYE
+    eye = spec.get("cam_height", EYE)        # e.g. parking lots: raised so the lot ground shows
+    if spec.get("hills"):                    # camera stands on the terrain, not at z = 0
+        gz = checks.ground_z(cam_x, c.y - d)
+        eye += gz if gz is not None else 0.0
+    dz = c.z - eye
     # the sign faces straight down the road, so seen from the lane it is
     # foreshortened by cos(bearing): move closer until its projected width
     # still meets SIGN_FRACTION
@@ -199,7 +218,7 @@ def place_camera(spec):
         horiz = math.sqrt(max(d * d - dz * dz, 1.0))
         fwd = math.sqrt(max(horiz * horiz - lat * lat, 1.0))
         spec["_size_limited"] = True
-    cam.location = (cam_x, c.y - fwd, EYE)
+    cam.location = (cam_x, c.y - fwd, eye)
     # turn toward the sign so its centre sits at SIGN_CENTRE_X (55-65 % band)
     # with the road visible on the left; top of the sign ~8 % under the top
     # edge (>= 5 % headroom) so as much road as possible shows below.
@@ -215,7 +234,9 @@ def place_camera(spec):
         sy = 0.07 + db
     if sy + dy > 0.93:                 # still doesn't fit: centre it vertically
         sy = 0.5 + (db - dy) / 2
-    screen = (SIGN_CENTRE_X, sy)
+    if "sign_sy" in spec:                  # e.g. hills: sign mid-frame so the road below it stays in view
+        sy = spec["sign_sy"]
+    screen = (spec.get("sign_centre_x", SIGN_CENTRE_X), sy)
     E.frame(cam, c, screen, fstop=spec.get("fstop", 4.0))
     return found
 
@@ -250,7 +271,7 @@ def square_to_camera():
     return round(math.degrees(rig.rotation_euler[2]), 1)
 
 
-def check_framing(found):
+def check_framing(found, centre_range=CENTRE_RANGE):
     """Main sign centre in CENTRE_RANGE of the width; the whole sign stack
     (main sign + tabs) at least EDGE_MARGIN from every frame edge."""
     from bpy_extras.object_utils import world_to_camera_view
@@ -264,8 +285,8 @@ def check_framing(found):
     m = {"centre_x": round(cx, 3), "margin_left": round(x0, 3), "margin_right": round(1 - x1, 3),
          "margin_bottom": round(y0, 3), "margin_top": round(1 - y1, 3)}
     errs = []
-    if not (CENTRE_RANGE[0] <= cx <= CENTRE_RANGE[1]):
-        errs.append(f"sign centre at {cx:.1%} of width (needs {CENTRE_RANGE[0]:.0%}-{CENTRE_RANGE[1]:.0%})")
+    if not (centre_range[0] <= cx <= centre_range[1]):
+        errs.append(f"sign centre at {cx:.1%} of width (needs {centre_range[0]:.0%}-{centre_range[1]:.0%})")
     for k in ("margin_left", "margin_right", "margin_bottom", "margin_top"):
         if m[k] < EDGE_MARGIN:
             errs.append(f"{k.split('_')[1]} margin {m[k]:.1%} (< {EDGE_MARGIN:.0%})")
@@ -318,7 +339,7 @@ def sign_width_fraction(found):
 def road_right_edge():
     """Right edge of the main carriageway near the camera (max x of the Road strip)."""
     xs = [v.co.x for o in bpy.data.objects if o.type == "MESH" and o.name in ("Road", "RoadR")
-          for v in o.data.vertices if -5 < v.co.y < 40]
+          for v in o.data.vertices if -5 < v.co.y < 40 and abs(v.co.x) < 40]
     return max(xs) if xs else 3.5
 
 
@@ -532,6 +553,7 @@ def main(argv=None):
     ap.add_argument("--install", action="store_true")
     ap.add_argument("--save-blend", action="store_true")
     ap.add_argument("--no-render", action="store_true", help="build, frame and check only")
+    ap.add_argument("--dump", action="store_true", help="print the object-name groups of the built scene")
     args = ap.parse_args(argv)
 
     manifest = load(os.path.join(HERE, "manifest.json"))
@@ -568,14 +590,23 @@ def main(argv=None):
         posts = check_bare_poles(allow_two=spec.get("posts", 1) == 2)
         check_overhead_mounts()
         dropped = drop_clipped_trees()
+        if args.dump:
+            import collections
+            cnt = collections.Counter(o.name.split(".")[0] for o in bpy.data.objects)
+            print("DUMP", dict(cnt))
+        snapped = checks.snap_to_ground()
+        checks.check_placement()
+        checks.check_grounded()
         frac, framing = None, {}
         if not found and spec["template"] in SIGN_TEMPLATES:
             raise SystemExit(f"image {n}: no sign panel in the scene (artwork missing?)")
         if found:
+            if os.environ.get('G1_DEBUG'):
+                print('DEBUG cam', tuple(bpy.context.scene.camera.location), tuple(bpy.context.scene.camera.rotation_euler), 'sign', tuple(found[1]), found[2])
             frac = sign_width_fraction(found)
             if frac < spec.get("min_sign_fraction", 0.0 if spec.get("_size_limited") else 0.15):
                 raise SystemExit(f"image {n}: sign is only {frac:.1%} of the image width (< 15 %)")
-            framing = check_framing(found)
+            framing = check_framing(found, tuple(spec.get("centre_range", CENTRE_RANGE)))
             print(f"sign {found[0].name}: {found[2]:.2f} m wide = {frac:.1%} of width, framing {framing}, "
                   f"camera {tuple(round(v, 2) for v in bpy.context.scene.camera.location)}, dropped {dropped} clipped trees")
         if spec["weather"] == "rain" and found:
@@ -585,6 +616,7 @@ def main(argv=None):
             for o in [o for o in bpy.data.objects if o.name.startswith("Headlight")]:
                 bpy.data.objects.remove(o)
             E.headlights(bpy.context.scene.camera, found[1])
+        checks.check_road_ends()
         if args.no_render:
             continue
         engine = pick_engine(args.engine)

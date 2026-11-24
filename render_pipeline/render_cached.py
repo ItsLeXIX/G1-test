@@ -212,6 +212,10 @@ def main():
         raise SystemExit(f"image {args.image}: sign only {frac:.1%} of width")
     framing = R.check_framing(found)
     dropped = R.drop_clipped_trees()
+    R.checks.snap_to_ground()
+    R.checks.check_placement()
+    R.checks.check_grounded()
+    R.checks.check_road_ends()
     if weather == "rain":
         realism.rain_streaks(bpy.context.scene.camera, R.sign_screen_rect(found))
     if weather == "night":

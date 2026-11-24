@@ -17,7 +17,8 @@ class Path:
     {"start": m, "length": m, "grade": % (+ = up)}.
     """
 
-    def __init__(self, length=320.0, step=1.0, curves=(), hills=(), start=-30.0):
+    def __init__(self, length=3900.0, step=1.0, curves=(), hills=(), start=-30.0):
+        self.min_radius = min([c["radius"] for c in curves] or [1e9])     # strips wider than this fold on a bend
         self.pts = []
         x, y, z, h = 0.0, start, 0.0, 0.0
         s = start
@@ -135,8 +136,12 @@ def standard_road(path, cfg, coll=None):
     change = cfg.get("surface_change")
     i_change = path.index_at(change["at"]) if change else None
 
+    cgaps = cfg.get("carriage_gaps", [])      # stretches with no through carriageway (a roundabout sits there)
+
     def paved(name, o0, o1):
-        objs[name] = ribbon(path, name, o0, o1, 0.0, a_mat, i1=i_change, wall_to=-0.25, coll=coll)
+        for a, b in _spans(path, cgaps):
+            objs[name] = ribbon(path, name, o0, o1, 0.0, a_mat, i0=a, i1=b if i_change is None else min(b, i_change),
+                                wall_to=-0.25, coll=coll)
         if change:
             ribbon(path, name + "_gravel", o0 - 0.4, o1 + 0.4, -0.02, C.gravel(), i0=i_change, coll=coll)
 
@@ -151,22 +156,26 @@ def standard_road(path, cfg, coll=None):
 
     w, y = C.paint("white"), C.paint("yellow")
     i1 = i_change
+    def L(name, off, width, mat, dash=None, gap=None):
+        for a, b in _spans(path, cgaps):
+            line(path, name, off, width, mat, dash, gap, i0=a, i1=b if i1 is None else min(b, i1), coll=coll)
+
     if centre == "broken_yellow":
-        line(path, "Centre", 0, 0.1, y, 3, 6, i1=i1, coll=coll)
+        L("Centre", 0, 0.1, y, 3, 6)
     elif centre == "solid_yellow":
-        line(path, "Centre", 0, 0.1, y, i1=i1, coll=coll)
+        L("Centre", 0, 0.1, y)
     elif centre == "double_yellow":
-        line(path, "CentreA", -0.1, 0.1, y, i1=i1, coll=coll)
-        line(path, "CentreB", 0.1, 0.1, y, i1=i1, coll=coll)
+        L("CentreA", -0.1, 0.1, y)
+        L("CentreB", 0.1, 0.1, y)
     elif centre == "barrier":
         ribbon(path, "Barrier", -0.3, 0.3, 0.81, C.concrete("Barrier", 6.0, (0.6, 0.59, 0.56)), wall_to=0.0, coll=coll)
     elif med:
-        line(path, "MedEdgeR", med / 2 + 0.15, 0.1, y, i1=i1, coll=coll)
-        line(path, "MedEdgeL", -med / 2 - 0.15, 0.1, y, i1=i1, coll=coll)
+        L("MedEdgeR", med / 2 + 0.15, 0.1, y)
+        L("MedEdgeL", -med / 2 - 0.15, 0.1, y)
     for k in range(1, nr):
-        line(path, f"LaneR{k}", med / 2 + k * lane_w, 0.1, w, 3, 6, i1=i1, coll=coll)
+        L(f"LaneR{k}", med / 2 + k * lane_w, 0.1, w, 3, 6)
     for k in range(1, nl):
-        line(path, f"LaneL{k}", -med / 2 - k * lane_w, 0.1, w, 3, 6, i1=i1, coll=coll)
+        L(f"LaneL{k}", -med / 2 - k * lane_w, 0.1, w, 3, 6)
 
     edge = cfg.get("edge", "curb")
     side_objs = []
@@ -196,10 +205,15 @@ def standard_road(path, cfg, coll=None):
         sh = cfg.get("shoulder", 1.8)
         for sgn, e in ((1, right_edge), (-1, left_edge)):
             o = lambda d: e + sgn * d  # noqa: E731
-            line(path, "EdgeLine", o(-0.15), 0.12, w, i1=i1, coll=coll)
+            gl = (cfg.get("edge_gaps_right", []) if sgn > 0 else []) + cgaps      # e.g. an acceleration lane replaces the edge line
+            for a, b in _spans(path, gl):
+                line(path, "EdgeLine", o(-0.15), 0.12, w, i0=a, i1=i1 if i1 is not None and i1 < b else b, coll=coll)
             side(sgn, "Shoulder", o(0), o(sh), -0.03, C.gravel())
             side(sgn, "Verge", o(sh), o(sh + 2.5), -0.03, C.grass(snow))
-            side(sgn, "Field", o(sh + 2.5), o(90), -0.05, C.grass(snow))
+            # on a tight bend a wide strip folds over itself on the inside: stop it short of the
+            # centre of curvature (the flush ground plane carries on from there)
+            reach = min(90.0, max(sh + 4.0, 0.8 * path.min_radius - abs(e)))
+            side(sgn, "Field", o(sh + 2.5), o(reach), -0.05, C.grass(snow))
         cfg["_roadside_right"] = right_edge + sh + 0.8
     if snow > 0:
         # plough banks just beyond the pavement edge
@@ -224,31 +238,86 @@ def _spans(path, gaps):
     return spans
 
 
-def ground(snow=0.0, z=-0.3, coll=None):
-    """Huge plane under everything so the horizon never shows a void."""
-    return C.box("Ground", -2000, 2000, -200, 4000, z - 0.1, z, C.grass(snow), coll)
+def ground(snow=0.0, z=-0.06, coll=None):
+    """Huge plane under everything so the horizon never shows a void. It runs
+    past the end of the road path (3.9 km), so a road never stops in the frame.
+    Its top is flush with the field strips (-0.05), so there is no step where they end."""
+    return C.box("Ground", -4000, 4000, -400, 4400, z - 0.1, z, C.grass(snow), coll)
 
 
-def rail_crossing(path, dist, width=40.0, coll=None, angle=0.0):
-    """Two rails + ties + ballast crossing the road `dist` metres ahead."""
+def terrain(path, snow=0.0, drop=0.3, coll=None):
+    """Ground that follows the road's height (hills): one wide strip along the
+    path, `drop` under the road surface. Replaces the flat ground plane so a
+    road that climbs or falls never leaves the terrain behind."""
+    zs = [p[2] for p in path.pts]
+    ground(snow, z=min(zs) - 5.0, coll=coll)       # safety floor far below
+    return ribbon(path, "Terrain", -3000, 3000, -drop, C.grass(snow), coll=coll)
+
+
+def _extrude_x(name, x0, x1, profile, mat, coll=None):
+    """Prism along X from a closed (y, z) profile."""
+    n = len(profile)
+    verts = [(x0, y, z) for y, z in profile] + [(x1, y, z) for y, z in profile]
+    faces = [(k, (k + 1) % n, n + (k + 1) % n, n + k) for k in range(n)]
+    faces.append(tuple(range(n))[::-1])
+    faces.append(tuple(range(n, 2 * n)))
+    return C.mesh_object(name, verts, faces, [mat], coll)
+
+
+def rail_crossing(path, dist, width=2500.0, coll=None, angle=0.0, span=(-6.0, 6.0), z_off=0.0):
+    """Single railway track across the road `dist` metres ahead, built from real
+    parts: gravel ballast bed, timber ties (sleepers), two steel rails and a
+    flush rubber crossing surface in the road with short asphalt ramps. The
+    track runs `width` metres along its axis, past any frame edge.
+    span = (x0, x1): road width incl. shoulders, so the crossing surface covers
+    exactly the pavement. The crossing is the origin of the track's own frame
+    (X along the rails, Y along the road) and is rotated by `angle` degrees."""
     x, y, z, h = path.at(path.index_at(dist))
-    steel = C.mat("RailSteel", (0.25, 0.22, 0.2), 0.4, 0.8)
-    tie = C.mat("Tie", (0.18, 0.13, 0.09), 0.9)
+    z += z_off
+    steel = C.mat("RailSteel", (0.22, 0.2, 0.19), 0.45, 0.85)
+    tie_m = C.mat("Tie", (0.16, 0.12, 0.09), 0.9)
+    rubber = C.mat("CrossingSurface", (0.07, 0.07, 0.075), 0.85)
     ballast = C.gravel()
-    objs = [C.box("Ballast", x - width / 2, x + width / 2, y - 1.8, y + 1.8, z - 0.25, z - 0.02, ballast, coll)]
-    for k in range(int(width / 0.6)):
-        tx = x - width / 2 + k * 0.6
-        objs.append(C.box("Tie", tx, tx + 0.22, y - 1.3, y + 1.3, z - 0.05, z + 0.02, tie, coll))
-    for ry in (-0.72, 0.72):
-        objs.append(C.box("Rail", x - width / 2, x + width / 2, y + ry - 0.04, y + ry + 0.04, z, z + 0.06, steel, coll))
-    # rubber crossing panels flush with the road
-    C.box("CrossingPanel", x - 4, x + 4, y - 1.2, y + 1.2, z - 0.02, z + 0.06, C.mat("Rubber", (0.05, 0.05, 0.05), 0.8), coll)
-    rail = C.to_bmesh_join(objs, "Railway")
+    half = width / 2
+    parts = []
+    # ballast bed: trapezoid, ~4 m wide at the top
+    parts.append(_extrude_x("Ballast", -half, half,
+                            [(-3.2, -0.5), (3.2, -0.5), (2.0, 0.06), (-2.0, 0.06)], ballast, coll))
+    # ties every 0.6 m for 300 m either side (beyond that they are sub-pixel), one mesh
+    verts, faces = [], []
+    tx = -300.0
+    while tx < 300.0:
+        b = len(verts)
+        for xx in (tx, tx + 0.26):
+            for yy in (-1.3, 1.3):
+                for zz in (-0.03, 0.10):
+                    verts.append((xx, yy, zz))
+        for q in ((0, 1, 3, 2), (4, 6, 7, 5), (0, 4, 5, 1), (2, 3, 7, 6), (0, 2, 6, 4), (1, 5, 7, 3)):
+            faces.append(tuple(b + i for i in q))
+        tx += 0.6
+    parts.append(C.mesh_object("Tie", verts, faces, [tie_m], coll))
+    # rails: foot, web and head (gauge 1.435 m)
+    prof = [(-0.075, 0.12), (0.075, 0.12), (0.075, 0.14), (0.02, 0.155), (0.02, 0.25), (0.04, 0.265), (0.04, 0.29),
+            (-0.04, 0.29), (-0.04, 0.265), (-0.02, 0.25), (-0.02, 0.155), (-0.075, 0.14)]
+    for ry in (-0.7175, 0.7175):
+        parts.append(_extrude_x("Rail", -half, half, [(yy + ry, zz) for yy, zz in prof], steel, coll))
+    x0, x1 = span
+    # flush crossing surface between and outside the rails, across the pavement
+    cs = C.box("CrossingPanel", x0, x1, -1.45, 1.45, 0.0, 0.28, rubber, coll)
+    parts.append(cs)
+    # asphalt ramps up to the crossing surface so the road rises smoothly
+    asph = C.asphalt()
+    for sgn in (-1, 1):
+        ya, yb = 1.45 * sgn, 3.4 * sgn
+        v = [(x0, ya, 0.28), (x1, ya, 0.28), (x1, yb, 0.0), (x0, yb, 0.0)]
+        parts.append(C.mesh_object("CrossingRamp", v, [(0, 1, 2, 3) if sgn > 0 else (3, 2, 1, 0)], [asph], coll))
+    rail = C.to_bmesh_join(parts, "Railway")
+    rail.location = (x, y, z)
     rail.rotation_euler[2] = math.radians(angle)
     return rail
 
 
-def cross_road(path, dist, side="both", width=7.0, length=80.0, coll=None, snow=0.0, wet=0.0):
+def cross_road(path, dist, side="both", width=7.0, length=2500.0, coll=None, snow=0.0, wet=0.0):
     """Side road meeting the main road `dist` metres ahead (T or cross)."""
     x, y, z, h = path.at(path.index_at(dist))
     a = C.asphalt(wet, snow)
@@ -258,3 +327,105 @@ def cross_road(path, dist, side="both", width=7.0, length=80.0, coll=None, snow=
         C.box("SideRoadL", x - length, x, y - width / 2, y + width / 2, z - 0.25, z - 0.002, a, coll)
     # stop bar on the near side of the main road is not needed (main road has priority)
     return y
+
+
+# ------------------------------------------------------------------ roundabout
+
+def _annulus(name, r0, r1, zf, mat, cx, cy, a0=0.0, a1=360.0, wall_to=None, n_per_360=96, coll=None):
+    """Ring sector between radii r0..r1 around (cx, cy), height zf (number or f(r)),
+    with vertical faces down to wall_to on both edges (and end caps for arcs)."""
+    f = zf if callable(zf) else (lambda r: zf)
+    full = abs((a1 - a0) - 360.0) < 1e-6
+    n = max(2, int(abs(a1 - a0) / 360.0 * n_per_360))
+    cols = n if full else n + 1                     # a full ring shares its seam
+    angs = [math.radians(a0 + (a1 - a0) * k / n) for k in range(cols)]
+    verts, faces = [], []
+    for a in angs:
+        verts.append((cx + r0 * math.cos(a), cy + r0 * math.sin(a), f(r0)))
+        verts.append((cx + r1 * math.cos(a), cy + r1 * math.sin(a), f(r1)))
+    nq = n if full else n
+    for k in range(nq):
+        i, j = 2 * k, 2 * ((k + 1) % cols)
+        faces.append((i, i + 1, j + 1, j))
+    if wall_to is not None:
+        base = len(verts)
+        for a in angs:
+            verts.append((cx + r0 * math.cos(a), cy + r0 * math.sin(a), wall_to))
+            verts.append((cx + r1 * math.cos(a), cy + r1 * math.sin(a), wall_to))
+        for k in range(nq):
+            i, j = 2 * k, 2 * ((k + 1) % cols)
+            faces.append((i, j, base + j, base + i))                 # inner wall
+            faces.append((i + 1, base + i + 1, base + j + 1, j + 1))  # outer wall
+        if not full:
+            last = 2 * (cols - 1)
+            faces.append((0, base, base + 1, 1))
+            faces.append((last, last + 1, base + last + 1, base + last))
+    return C.mesh_object(name, verts, faces, [mat], coll)
+
+
+def _poly_prism(name, pts, z_top, z_bot, mat, coll=None):
+    """Convex polygon (CCW, XY) extruded between z_bot and z_top."""
+    n = len(pts)
+    verts = [(x, y, z_top) for x, y in pts] + [(x, y, z_bot) for x, y in pts]
+    faces = [tuple(range(n))]
+    for k in range(n):
+        faces.append((k, n + k, n + (k + 1) % n, (k + 1) % n))
+    return C.mesh_object(name, verts, faces, [mat], coll)
+
+
+def roundabout(at, radius=18.0, half_road=3.5, wet=0.0, snow=0.0, coll=None):
+    """Single-lane roundabout straddling a straight road along +Y (x = 0): the
+    road enters at y = `at` and leaves at y = at + 2 * radius. Circulating
+    lane, truck apron, raised grass central island with curb, curbed outer edge
+    with openings at entry and exit, raised splitter islands on both approaches
+    and yield lines ('shark teeth') across the entry lanes. Returns the centre
+    (cx, cy). The caller removes the through-carriageway between at+ and
+    at + 2R- (standard_road carriage_gaps) and keeps trees out of the circle."""
+    R = radius
+    cx, cy = 0.0, at + R
+    r_isl, r_apron, r_in = 0.5 * R, 0.6 * R, 0.6 * R
+    asph = C.asphalt(wet, snow)
+    conc = C.concrete("RoundaboutConcrete", 2.0, (0.6, 0.59, 0.56))
+    curb = C.concrete("Curb", 3.0, (0.62, 0.61, 0.58))
+    grass = C.grass(snow)
+    white = C.paint("white")
+    # circulating lane
+    _annulus("RoadRound", r_in, R, 0.0, asph, cx, cy, wall_to=-0.25, coll=coll)
+    # truck apron (low, concrete) and the raised, domed grass island with its curb
+    _annulus("RoundaboutApron", r_isl + 0.25, r_apron, 0.06, conc, cx, cy, wall_to=0.0, coll=coll)
+    _annulus("RoundaboutCurb", r_isl, r_isl + 0.25, 0.16, curb, cx, cy, wall_to=0.0, coll=coll)
+    rs = [0.05, 1.5, 3.0, 4.5, 6.0, 7.5, r_isl]
+    verts, faces = [], []
+    na = 64
+    for r in rs:
+        for k in range(na):
+            a = 2 * math.pi * k / na
+            verts.append((cx + r * math.cos(a), cy + r * math.sin(a), 0.16 + 0.85 * (1 - (r / r_isl) ** 2)))
+    for j in range(len(rs) - 1):
+        for k in range(na):
+            a, b = j * na + k, j * na + (k + 1) % na
+            faces.append((a, a + na, b + na, b))
+    C.mesh_object("RoundaboutIsland", verts, faces, [grass], coll, smooth=True)
+    # curbed outer edge, open where the road enters and leaves
+    gap = math.degrees(math.asin((half_road + 0.7) / R))
+    for a0, a1 in ((-90 + gap, 90 - gap), (90 + gap, 270 - gap)):
+        _annulus("RoundaboutCurb", R, R + 0.3, 0.14, curb, cx, cy, a0, a1, wall_to=0.0, coll=coll)
+    # splitter islands: tapered raised islands that split each approach
+    for sgn, y_ring in ((-1, at), (1, at + 2 * R)):
+        y_nose = y_ring + sgn * -16.0 if sgn < 0 else y_ring + 16.0
+        if sgn < 0:
+            pts = [(-0.25, at - 16.0), (0.25, at - 16.0), (1.25, at - 3.0), (1.25, at + 0.25), (-1.25, at + 0.25), (-1.25, at - 3.0)]
+        else:
+            ye = at + 2 * R
+            pts = [(1.25, ye - 0.25), (1.25, ye + 3.0), (0.25, ye + 16.0), (-0.25, ye + 16.0), (-1.25, ye + 3.0), (-1.25, ye - 0.25)]
+        _poly_prism("Splitter", pts, 0.16, -0.05, conc, coll)
+    # yield line (shark teeth) across the right-hand entry lane
+    v, f = [], []
+    x = 1.5
+    while x + 0.6 <= half_road - 0.1:
+        b = len(v)
+        v += [(x, at - 0.15, 0.006), (x + 0.6, at - 0.15, 0.006), (x + 0.3, at - 0.95, 0.006)]
+        f.append((b, b + 2, b + 1))
+        x += 0.8
+    C.mesh_object("YieldLine", v, f, [white], coll)
+    return cx, cy

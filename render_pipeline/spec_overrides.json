@@ -46,8 +46,8 @@
   "extras": [
    {
     "type": "car",
-    "from_right_edge": 2.2,
-    "y": 14.6,
+    "from_right_edge": 1.8,
+    "y": 16.5,
     "heading": 0.0,
     "colour": "white",
     "brake": true
@@ -56,11 +56,211 @@
   "_why": "vehicle_rear template can't meet the 15 % rule without the car hiding the sign; car stopped at the stop line instead"
  },
  "54": {
-  "lat": -1.6,
-  "_why": "island-mounted marker: camera in the inner lane right of the island (size limited by headroom: 0.3 x 0.9 m)"
+  "lat": -2.0,
+  "_why": "island-mounted marker: camera in the inner lane right of the island (size limited by headroom: 0.3 x 0.9 m); raised concrete median island with a rounded curb nose; marker on the nose (Wa-33L stripes slope down to the right = pass on the right); median-mounted: the 55-65 % rule is mirrored (sign at 40 %) so the travel lanes, which are to the RIGHT of a median sign, stay in view",
+  "features": [
+   {
+    "type": "island",
+    "from": 16,
+    "to": 120,
+    "width": 2.0,
+    "surface": "concrete",
+    "nose": true
+   }
+  ],
+  "sign_bottom": 0.35,
+  "sign_fraction": 0.06,
+  "min_sign_fraction": 0.05,
+  "sign_centre_x": 0.4,
+  "centre_range": [
+   0.35,
+   0.45
+  ],
+  "island_sign_setback": 0.0
  },
  "56": {
   "lat": -1.6,
   "_why": "island-mounted sign: camera in the inner lane right of the island"
+ },
+ "119": {
+  "lat": 1.2,
+  "_why": "highway: camera on the right shoulder 1.2 m left of the sign so the sign isn't seen edge-on"
+ },
+ "148": {
+  "lat": 1.2,
+  "_why": "highway: camera on the right shoulder 1.2 m left of the sign so the sign isn't seen edge-on"
+ },
+ "44": {
+  "sign_fraction": 0.08,
+  "min_sign_fraction": 0.07,
+  "_why": "user: road crossing the tracks, crossbuck + flasher mast on the right shoulder, camera at eye height looking along the road. The crossbuck sits ~4 m up, so at the 15 % distance the camera would look at the sky; at ~8 % it stays level"
+ },
+ "100": {
+  "features": [
+   {
+    "type": "overpass",
+    "at": 55,
+    "clearance": 3.9,
+    "abut": 6.0
+   }
+  ],
+  "_why": "road clearly passes under the bridge (abutments just outside the shoulders). Clearance built to 3.9 m to match the official Wa-26 artwork (current image says 3.8 m; artwork can't be changed)"
+ },
+ "81": {
+  "beacons": {
+   "arm_at": 0.68,
+   "head_at": 0.57
+  },
+  "sign_fraction": 0.09,
+  "min_sign_fraction": 0.08,
+  "screen": [
+   0.6,
+   0.64
+  ],
+  "_why": "user: add the two yellow beacons (current image: arms out from the post at the base of the pentagon, beacons beside MAXIMUM 40) and lower the camera so the road shows; sign 9 % of width so the camera stands back and looks level"
+ },
+ "114": {
+  "crossover_at": 15.0,
+  "sign_fraction": 0.075,
+  "min_sign_fraction": 0.07,
+  "_why": "user: show the road with the crossover markings and lower the camera. Ra-4 stands at the crossover (ladder starts at the sign). Sign 7.5 % of width: the only way the 3.3 m-high sign and the markings both fit the 2.4:1 frame"
+ },
+ "99": {
+  "setting": "rural",
+  "road": {
+   "lanes_right": 1
+  },
+  "features": [
+   {
+    "type": "on_ramp",
+    "at": 100,
+    "taper": 45,
+    "parallel": 25
+   }
+  ],
+  "_why": "user: add an on-ramp merging from the right. Rural shoulder road (a ramp doesn't fit a curbed residential street); ramp swings in from the right, acceleration lane, taper ends at 150 m | review3: sign moved to the left so the ramp is close and large: full-width 3.75 m lane on a smooth curve, level with the highway, 45 m taper, gore wedge, edge lines, shoulder"
+ },
+ "46": {
+  "features": [
+   {
+    "type": "island",
+    "from": 80,
+    "to": 300,
+    "width": 4.0,
+    "nose": true
+   }
+  ],
+  "_why": "user: show the median beginning - island starts 80 m ahead with a rounded curbed nose, in view beyond the sign"
+ },
+ "48": {
+  "sign_x": 0.0,
+  "_why": "user: add the two-way left-turn lane pavement arrows (opposing pairs of bent arrows in the centre lane, placed where the camera sees the road); sign centred over the centre (TWLTL) lane"
+ },
+ "91": {
+  "hills": [
+   {
+    "start": 2,
+    "length": 110,
+    "grade": -18
+   },
+   {
+    "start": 230,
+    "length": 420,
+    "grade": 3.5
+   }
+  ],
+  "sign_dist": 24,
+  "sign_sy": 0.34,
+  "_why": "review3: camera at the top of the grade looking DOWN an 18% descent; the road drops ~20 m over 110 m into a valley and continues flat to the horizon (no crest edge); terrain follows the road, trees snapped to it"
+ },
+ "111": {
+  "features": [
+   {
+    "type": "rail",
+    "at": 30,
+    "angle": 0,
+    "no_signal": true
+   }
+  ],
+  "_why": "user: full railway track across the road ahead (rails, ties, ballast, crossing surface), continuing into the fields past both frame edges | review3: track closer (30 m), raised ballast, ties on ballast, rails, crossing panel across the full road+shoulders; crossing mast dropped (its crossbuck was cut by the frame top)"
+ },
+ "154": {
+  "features": [
+   {
+    "type": "roundabout",
+    "at": 58,
+    "radius": 16
+   }
+  ],
+  "_why": "user: roundabout visible ahead (central island, circular lane, yield lines, entry splitter island) that the road leads into. No '300 m' tab: no official artwork exists (see REVIEW2_CHANGES deviation 3)"
+ },
+ "103": {
+  "features": [
+   {
+    "type": "rock_cut",
+    "from": -20,
+    "to": 700,
+    "side": "right",
+    "offset": 4.4,
+    "height": 15
+   }
+  ],
+  "_why": "user: realistic, much taller rock cliff/rock cut rising beside the shoulder; stepped face (no overhang), foot buried (no gap), fallen rocks on the shoulder"
+ },
+ "155": {
+  "curves": [
+   {
+    "start": 8,
+    "angle": 80,
+    "radius": 24
+   }
+  ],
+  "sign_dist": 22,
+  "sign": [
+   [
+    "Wa-9L.png",
+    1.2
+   ]
+  ],
+  "_why": "chevron: the sharp left bend must be visible. Large-format chevron (1.2 m) so the 15 % rule puts the camera ~11 m back, where the bend (starting 8 m ahead of the camera) is in frame left of the sign"
+ },
+ "59": {
+  "posts": 2
+ },
+ "93": {
+  "posts": 2
+ },
+ "92": {
+  "features": [
+   {
+    "type": "rail",
+    "at": 32,
+    "angle": 30,
+    "no_signal": true
+   }
+  ],
+  "_why": "review3: tracks closer (28 m) and skewed 30 deg (the sign is the angled-crossing warning) so rails, ties, raised ballast and crossing panels are readable across the full frame width"
+ },
+ "89": {
+  "features": [
+   {
+    "type": "bridge",
+    "at": 22,
+    "length": 46,
+    "width": 6.0
+   }
+  ],
+  "_why": "review3: bridge closer so both parapets read; sloped earth banks into a real water channel under the deck; matching parapet + handrail on both sides"
+ },
+ "117": {
+  "signal_xs": [
+   4.1
+  ],
+  "signal_state": "red",
+  "_why": "review3: one signal head moved next to the sign so the whole head stays inside the frame with >=5% margin; only the red lamp is lit"
+ },
+ "104": {
+  "cam_height": 3.7,
+  "_why": "review3: tall sign - camera raised so the lot ground (stalls) shows behind it"
  }
 }

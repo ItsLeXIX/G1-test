@@ -193,10 +193,10 @@ def house(x, y, side, seed, coll=None, snow=0.0, curb_x=None):
     return ob
 
 
-def house_rows(cfg, d0=8, d1=260, seed=5, coll=None, snow=0.0, skip_right=()):
+def house_rows(cfg, d0=8, d1=260, seed=5, coll=None, snow=0.0, skip_right=(), skip_left=()):
     """Detailed houses (see houses.py)."""
     from . import houses
-    return houses.house_rows(cfg, d0, d1, seed, coll, snow, skip_right)
+    return houses.house_rows(cfg, d0, d1, seed, coll, snow, skip_right, skip_left)
 
 
 def city_block(x_face, y0, y1, side, seed, coll=None, height=(10, 24)):
@@ -240,15 +240,17 @@ def city_block(x_face, y0, y1, side, seed, coll=None, height=(10, 24)):
 
 CAR_COLOURS = {
     "white": (0.75, 0.76, 0.77), "silver": (0.45, 0.46, 0.48), "red": (0.45, 0.03, 0.03),
-    "blue": (0.03, 0.08, 0.3), "black": (0.02, 0.02, 0.02), "grey": (0.15, 0.16, 0.17),
+    "blue": (0.03, 0.08, 0.3), "vivid_blue": (0.01, 0.09, 0.62), "vivid_red": (0.62, 0.015, 0.012), "black": (0.02, 0.02, 0.02), "grey": (0.15, 0.16, 0.17),
 }
 
 
-def car(x, y, heading=0.0, colour="silver", kind="sedan", coll=None, brake=False):
+def car(x, y, heading=0.0, colour="silver", kind="sedan", coll=None, brake=False, recolour=False):
     """Generic, unbranded car (no logos). Origin at ground centre; front
-    toward +Y at heading 0. kind: sedan | suv."""
+    toward +Y at heading 0. kind: sedan | suv. recolour=True paints the real
+    model in `colour` (otherwise the model keeps its own paint)."""
     if realism.has(f"car_{kind}"):
-        return realism.instance(f"car_{kind}", (x, y, 0), heading, 1.0, coll)
+        rgb = CAR_COLOURS.get(colour, colour if isinstance(colour, tuple) else None) if recolour else None
+        return realism.instance(f"car_{kind}", (x, y, 0), heading, 1.0, coll, paint=rgb)
     root = import_asset(f"car_{kind}", coll)
     if root:
         root.location, root.rotation_euler[2] = (x, y, 0), math.radians(heading)
@@ -335,40 +337,163 @@ def hay_wagon(x, y, coll=None):
     return root, Vector((x, y - 2.51, 1.0))
 
 
+def _skin_object(name, chains, mat, smooth_levels=2):
+    """Organic limb from skeleton polylines with the Skin modifier + subdivision.
+    chains: [[(point Vector, (rx, ry)), ...], ...] each chain a connected limb."""
+    verts, edges, radii, roots = [], [], [], []
+    for ch in chains:
+        base = len(verts)
+        roots.append(base)
+        for k, (p, r) in enumerate(ch):
+            verts.append(tuple(p))
+            radii.append(r)
+            if k:
+                edges.append((base + k - 1, base + k))
+    me = bpy.data.meshes.new(name)
+    me.from_pydata(verts, edges, [])
+    me.update()
+    ob = bpy.data.objects.new(name, me)
+    C.link(ob)
+    bpy.context.view_layer.objects.active = ob
+    ob.select_set(True)
+    bpy.ops.mesh.customdata_skin_add()
+    for i, r in enumerate(radii):
+        sv = me.skin_vertices[0].data[i]
+        sv.radius = r
+        sv.use_root = i in roots
+    sk = ob.modifiers.new("Skin", "SKIN")
+    sk.use_smooth_shade = True
+    sk.branch_smoothing = 0.6
+    ss = ob.modifiers.new("Subsurf", "SUBSURF")
+    ss.levels, ss.render_levels = smooth_levels, smooth_levels + 1
+    me.materials.append(mat)
+    ob.select_set(False)
+    return ob
+
+
+def skin_material():
+    """Human skin: sRGB ~ (196, 140, 108), subsurface scattering, soft sheen."""
+    m = bpy.data.materials.get("Skin")
+    if m:
+        return m
+    m = C.mat("Skin", (0.55, 0.27, 0.17), 0.5, Subsurface_Weight=0.35, Specular_IOR_Level=0.35)
+    b = next(n for n in m.node_tree.nodes if n.type == "BSDF_PRINCIPLED")
+    C.set_input(b, "Subsurface Radius", (1.0, 0.35, 0.2))
+    C.set_input(b, "Subsurface Scale", 0.025)
+    C.set_input(b, "Coat Weight", 0.0)
+    return m
+
+
 def driver_arm(car_root, pose="left", coll=None):
-    """Driver's left arm out of the window (Canada: driver sits on the left).
-    MTO hand signals: left = arm straight out; right = forearm up;
-    slow/stop = forearm down."""
-    skin = C.mat("Skin", (0.55, 0.38, 0.28), 0.5, Subsurface_Weight=0.2)
-    sleeve = C.mat("Sleeve", (0.08, 0.12, 0.22), 0.8)
-    # shoulder at the driver's window (car local space)
-    sh = Vector((-0.72, 0.35, 1.22))
-    up_len, fore_len = 0.36, 0.33
-    elbow = sh + Vector((-up_len, 0, 0))
-    if pose == "left":
-        wrist = elbow + Vector((-fore_len, 0, 0))
-    elif pose == "right":
-        wrist = elbow + Vector((0, 0, fore_len))
-    else:
-        wrist = elbow + Vector((0, 0, -fore_len))
-    parts = [_limb(sh, elbow, 0.07, sleeve), _limb(elbow, wrist, 0.055, sleeve)]
-    hand_dir = (wrist - elbow).normalized()
-    parts.append(_limb(wrist, wrist + hand_dir * 0.2, 0.05, skin, flat=True))
-    bpy.ops.mesh.primitive_uv_sphere_add(radius=0.075, location=elbow, segments=16, ring_count=8)
-    parts.append(bpy.context.object)
-    parts[-1].data.materials.append(sleeve)
-    for p in parts:
-        p.parent = car_root
+    """Driver's LEFT arm out of the fully lowered driver's window (Canada: driver
+    sits on the left, -X in car space; front +Y). MTO hand signals: left = arm
+    straight out; right = forearm up; slow/stop = forearm down.
+
+    Built from a skeleton with the Skin modifier (smooth organic limbs, not
+    cylinders): short sleeve over the upper arm and shoulder, bare forearm,
+    wrist, a flattened palm and four fingers + thumb with three joints each.
+    The driver's torso, neck and head sit in the seat behind the arm."""
+    skin = skin_material()
+    cloth = C.mat("ShirtSleeve", (0.07, 0.14, 0.30), 0.85)
+    V = Vector
+    S = V((-0.58, 0.18, 1.06))                      # left shoulder joint, at the window frame
+    out = V((-1.0, 0.0, 0.0))
+    up_len, fore_len = 0.30, 0.26
+    elbow = S + out * up_len + V((0, 0, -0.02))
+    if pose == "left":                              # arm straight out, palm down
+        fdir, pn = out.copy(), V((0, 0, -1))
+    elif pose == "right":                           # forearm up, palm forward
+        fdir, pn = V((-0.12, 0, 1.0)).normalized(), V((0, 1, 0))
+    else:                                           # forearm down along the door, palm back toward traffic behind
+        fdir, pn = V((-0.12, 0, -1.0)).normalized(), V((0, -1, 0))
+    wrist = elbow + fdir * fore_len
+    parts = []
+    # arm: shoulder -> elbow -> wrist, tapering like a real arm
+    mid_u = S + (elbow - S) * 0.5
+    mid_f = elbow + (wrist - elbow) * 0.5
+    arm = [(S, (0.046, 0.046)), (S + (elbow - S) * 0.25, (0.046, 0.046)), (mid_u, (0.044, 0.044)),
+           (elbow, (0.039, 0.039)), (elbow + (wrist - elbow) * 0.22, (0.040, 0.040)), (mid_f, (0.034, 0.034)),
+           (wrist - fdir * 0.05, (0.028, 0.028)), (wrist, (0.025, 0.021))]
+    parts.append(_skin_object("DriverArm", [arm], skin))
+    # short sleeve over the shoulder and the upper arm (shirt cloth)
+    sl = [(S - out * 0.03, (0.066, 0.066)), (S + out * 0.06, (0.062, 0.062)), (S + out * 0.17, (0.058, 0.058)),
+          (S + out * 0.215, (0.060, 0.060))]
+    parts.append(_skin_object("DriverSleeve", [sl], cloth))
+    # hand: flattened palm + fingers (index on the thumb side) + thumb
+    t = -(fdir.cross(pn)).normalized()              # thumb side of a LEFT hand
+    pn = t.cross(fdir).normalized() * -1 if False else pn
+    palm_c = wrist + fdir * 0.050
+    palm = bpy.data.objects.new("DriverPalm", bpy.data.meshes.new("DriverPalm"))
+    import bmesh
+    bm = bmesh.new()
+    bmesh.ops.create_uvsphere(bm, u_segments=24, v_segments=14, radius=1.0)
+    bm.to_mesh(palm.data)
+    bm.free()
+    for p_ in palm.data.polygons:
+        p_.use_smooth = True
+    from mathutils import Matrix
+    basis = Matrix((t, fdir, pn)).transposed()      # local x=across the palm, y=fingers, z=palm normal
+    palm.matrix_world = Matrix.Translation(palm_c) @ basis.to_4x4() @ Matrix.Diagonal((0.0425, 0.052, 0.0135, 1.0))
+    palm.data.materials.append(skin)
+    C.link(palm)
+    parts.append(palm)
+    knuckle = wrist + fdir * 0.092
+    curl = pn * -1.0                                # fingers curl a little toward the palm side
+    chains = []
+    spec = (("index", 0.032, 0.078, 0.0105), ("middle", 0.011, 0.086, 0.0108), ("ring", -0.011, 0.080, 0.0102),
+            ("little", -0.032, 0.063, 0.0092))
+    for nm, off, ln, r in spec:
+        p0 = knuckle + t * off
+        d = (fdir + t * (off * 1.4)).normalized()   # slight natural spread
+        pts = [(p0 - fdir * 0.008, (r, r))]
+        cur = p0
+        for seg, frac, rr in ((0, 0.50, r), (1, 0.30, r * 0.92), (2, 0.20, r * 0.78)):
+            bend = (seg * 0.16)
+            dd = (d + curl * bend).normalized()
+            cur = cur + dd * ln * frac
+            pts.append((cur, (rr, rr)))
+        chains.append(pts)
+    # thumb: leaves the side of the palm, splayed away from the fingers
+    p0 = wrist + fdir * 0.026 + t * 0.034
+    d = (fdir * 0.55 + t * 0.85).normalized()
+    th = [(p0, (0.0125, 0.0125))]
+    cur = p0
+    for frac, rr in ((0.032, 0.0122), (0.028, 0.0108), (0.024, 0.0092)):
+        cur = cur + (d + curl * 0.08).normalized() * frac
+        th.append((cur, (rr, rr)))
+    chains.append(th)
+    parts.append(_skin_object("DriverFingers", chains, skin))
+    # the driver: torso in the seat, neck and head (seen through the tinted rear glass)
+    shirt = C.mat("DriverShirt", (0.07, 0.14, 0.30), 0.85)
+    torso = [(V((-0.38, 0.12, 0.55)), (0.17, 0.11)), (V((-0.38, 0.14, 0.78)), (0.20, 0.11)), (V((-0.38, 0.16, 0.97)), (0.21, 0.10))]
+    parts.append(_skin_object("DriverTorso", [torso], shirt, 2))
+    # head and neck: a skin ellipsoid with a dark hair cap over the top and back (seen from behind)
+    parts.append(_skin_object("DriverNeck", [[(V((-0.54, 0.34, 0.98)), (0.045, 0.045)), (V((-0.54, 0.34, 1.06)), (0.042, 0.042))]], skin))
+    hair = C.mat("DriverHair", (0.03, 0.022, 0.016), 0.7)
+    parts.append(_ellipsoid("DriverHead", (-0.56, 0.36, 1.17), (0.088, 0.105, 0.118), skin))
+    parts.append(_ellipsoid("DriverHair", (-0.56, 0.345, 1.185), (0.094, 0.108, 0.118), hair))
+    # the arm and hand must not be mirrored in the tinted rear side glass (that read as a second hand)
+    for p_ in parts:
+        if p_.name.startswith(("DriverArm", "DriverSleeve", "DriverPalm", "DriverFingers")):
+            p_.visible_glossy = False
+    for p_ in parts:
+        p_.parent = car_root
     return parts
 
 
-def _limb(a, b, r, m, flat=False):
-    d = b - a
-    ob = C.cylinder("Limb", r, 0, d.length, mat=m, seg=12, r_top=r * 0.9)
-    ob.rotation_euler = d.to_track_quat("Z", "Y").to_euler()
-    ob.location = a
-    if flat:
-        ob.scale = (1.0, 0.45, 1.0)
+def _ellipsoid(name, centre, radii, mat):
+    import bmesh
+    from mathutils import Matrix
+    ob = bpy.data.objects.new(name, bpy.data.meshes.new(name))
+    bm = bmesh.new()
+    bmesh.ops.create_uvsphere(bm, u_segments=28, v_segments=16, radius=1.0)
+    bm.to_mesh(ob.data)
+    bm.free()
+    for p_ in ob.data.polygons:
+        p_.use_smooth = True
+    ob.matrix_world = Matrix.Translation(Vector(centre)) @ Matrix.Diagonal((*radii, 1.0))
+    ob.data.materials.append(mat)
+    C.link(ob)
     return ob
 
 
@@ -387,8 +512,12 @@ def lens_material(colr, on):
         # always re-apply the current colour
         C.set_input(C._bsdf(m), "Emission Color", (*SIGNAL_LIT[colr], 1))
         return m
-    m = C.mat(f"LensOff_{colr}", tuple(c * 0.15 for c in SIGNAL_LIT[colr]), 0.1)
-    C.set_input(C._bsdf(m), "Base Color", (*[c * 0.15 for c in SIGNAL_LIT[colr]], 1))
+    # unlit lens: near-black glass with a faint tint, no emission, no specular
+    # (reads as a dark, switched-off lens even in a night scene)
+    dark = tuple(c * 0.006 + 0.003 for c in SIGNAL_LIT[colr])
+    m = C.mat(f"LensOff_{colr}", dark, 0.55, Specular_IOR_Level=0.0)
+    C.set_input(C._bsdf(m), "Base Color", (*dark, 1))
+    C.set_input(C._bsdf(m), "Emission Strength", 0.0)
     return m
 
 
@@ -481,61 +610,164 @@ def cone(x, y, coll=None):
     C.cylinder("ConeBand", 0.115, 0.36, 0.5, x, y, w, coll, 16, 0.085)
 
 
-def rock_cut(path, d0, d1, offset, height=9.0, coll=None, seed=3):
-    """Blasted rock face beside the road (Canadian Shield road cut)."""
-    rock = C.mat("Rock", (0.16, 0.15, 0.15), 0.9)
-    verts, faces = [], []
+def _rock_material():
+    try:
+        return realism.pbr("PH_RockCut", "rock_face_03", 2.7, tint=(0.95, 0.97, 1.0), darken=0.8, normal=1.8, saturation=0.35)
+    except Exception:
+        return C.mat("Rock", (0.16, 0.15, 0.15), 0.9)
+
+
+def rock_cut(path, d0, d1, offset, height=15.0, coll=None, seed=3, side=1):
+    """Blasted rock cut beside the road, like a highway through the Canadian
+    Shield: a tall stepped face (three lifts separated by narrow benches, each
+    lift leaning back a little, so it never overhangs) rising from below grade
+    at its foot, then a wooded plateau behind it. The foot is buried 0.35 m, so
+    there is no gap under it, and its ends taper into the terrain over 25 m.
+    The face carries the Poly Haven rock_face_03 texture plus two displacement
+    layers (large blocks, small fractures). Fallen rocks lie on the shoulder
+    and at the foot. offset = where the foot meets the ground; side = +1 right."""
+    rock = _rock_material()
     r = C.rng(seed)
     i0, i1 = path.index_at(d0), path.index_at(d1)
-    rows = 6
-    for i in range(i0, i1, 2):
-        for k in range(rows + 1):
-            t = k / rows
-            jitter = r.uniform(-0.6, 0.6) if 0 < k < rows else 0
-            verts.append(path.offset(i, offset + t * 3.0 + jitter, t * height + r.uniform(-0.3, 0.3)))
-    n = len(range(i0, i1, 2))
-    for a in range(n - 1):
-        for k in range(rows):
-            p = a * (rows + 1) + k
-            faces.append((p, p + 1, p + rows + 2, p + rows + 1))
+    # profile across the cut: (distance from offset, height). Lifts + benches. It varies along the
+    # road (irregular top edge, leaning face, benches that widen and narrow) so the cut is not a
+    # uniform wall.
+    top = height
+
+    def prof_row(i):
+        nz = 0.5 * math.sin(i * 0.045 + 1.3) + 0.3 * math.sin(i * 0.11 + 0.7) + 0.2 * math.sin(i * 0.23 + 2.1)
+        hv = 1.0 + 0.2 * nz                               # top edge rises and falls +-20 %
+        lean = 0.14 + 0.16 * (0.5 + 0.5 * math.sin(i * 0.07 + 0.4) * math.cos(i * 0.021))
+        bench = 1.0 + 2.4 * (0.5 + 0.5 * math.sin(i * 0.05 + 2.2))
+        tp = top * hv
+        lifts = [(0.3, tp * 0.36), (tp * 0.36, tp * 0.70), (tp * 0.70, tp)]
+        pr = [(0.0, -0.35)]
+        lat = 0.0
+        fi = []
+        for li, (z0, z1) in enumerate(lifts):
+            steps = 7
+            for k in range(steps + 1):
+                z = z0 + (z1 - z0) * k / steps
+                fi.append(len(pr))
+                pr.append((lat + lean * (z - z0), z))
+            lat += lean * (z1 - z0)
+            if li < len(lifts) - 1:
+                lat += bench * (0.7 + 0.6 * li)               # ledge between lifts, different width each time
+                fi.append(len(pr))
+                pr.append((lat, z1))
+        lat_top = lat
+        pr += [(lat + 0.8, tp + 0.5), (lat + 9.0, tp + 1.2), (lat + 28.0, tp + 1.8), (lat + 28.0, -0.35)]
+        return pr, fi, lat_top
+
+    prof0, face_idx, _ = prof_row(i0)
+    npf = len(prof0)
+    verts, faces = [], []
+    idx = list(range(i0, i1 + 1, 2))
+    ramp = 25.0                                    # taper into the terrain at both ends
+    tops = []
+    for a, i in enumerate(idx):
+        dd = min(i - i0, i1 - i)
+        hf = max(0.04, min(1.0, dd / ramp))
+        hf = hf * hf * (3 - 2 * hf)                 # smoothstep: no vertical end wall
+        prof, _fi, lat_top = prof_row(i)
+        tops.append((i, lat_top, hf))
+        for k, (o, z) in enumerate(prof):
+            z2 = -0.35 + (z + 0.35) * hf if z > -0.35 else z
+            jit = jz = 0.0
+            if k in face_idx and k not in (face_idx[0], face_idx[-1]):
+                jit = r.uniform(-0.28, 0.28)        # blasted, uneven face
+                jz = r.uniform(-0.2, 0.2)
+            verts.append(path.offset(i, offset + side * (o * (0.35 + 0.65 * hf) + jit), z2 + jz))
+    for a in range(len(idx) - 1):
+        for k in range(npf - 1):
+            p = a * npf + k
+            q = (p, p + npf, p + npf + 1, p + 1)
+            faces.append(q if side > 0 else q[::-1])
+        p = a * npf + npf - 1                       # back wall down to the foot
+        q = (p, p + npf, a * npf + npf, a * npf)
+        faces.append(q if side > 0 else q[::-1])
+    last = (len(idx) - 1) * npf
+    faces.append(tuple(range(npf))[::-1] if side > 0 else tuple(range(npf)))      # end caps
+    faces.append(tuple(range(last, last + npf)) if side > 0 else tuple(range(last, last + npf))[::-1])
     ob = C.mesh_object("RockCut", verts, faces, [rock], coll)
-    d = ob.modifiers.new("rough", "DISPLACE")
-    tx = bpy.data.textures.new("rock", "VORONOI")
-    tx.noise_scale = 2.2
-    d.texture = tx
-    d.strength = 2.2
-    d.direction = "NORMAL"
     sub = ob.modifiers.new("sub", "SUBSURF")
     sub.subdivision_type = "SIMPLE"
-    sub.levels = sub.render_levels = 2
-    ob.modifiers.move(1, 0)
-    # fallen rocks on the shoulder
-    for k in range(6):
-        i = r.randint(i0, i1)
-        x, y, z = path.offset(i, offset - r.uniform(0.3, 1.2))
-        bpy.ops.mesh.primitive_ico_sphere_add(subdivisions=1, radius=r.uniform(0.12, 0.35), location=(x, y, z))
-        bpy.context.object.data.materials.append(rock)
+    sub.levels = sub.render_levels = 3
+    for nm, kind, scale, strength in (("blocks", "VORONOI", 2.2, 0.55), ("fractures", "CLOUDS", 0.6, 0.32)):
+        d = ob.modifiers.new(nm, "DISPLACE")
+        tx = bpy.data.textures.new("rock_" + nm, kind)
+        tx.noise_scale = scale
+        if kind == "CLOUDS":
+            tx.noise_depth = 4
+        d.texture = tx
+        d.texture_coords = "OBJECT"
+        d.strength = strength
+        d.mid_level = 0.5
+        d.direction = "NORMAL"
+    # fallen rocks: on the shoulder and at the foot of the face (never on the pavement)
+    for k in range(14):
+        i = r.randint(i0 + 30, min(i1 - 30, i0 + 160))
+        rad = r.uniform(0.14, 0.42)
+        x, y, z = path.offset(i, offset - side * r.uniform(0.6, 3.6), rad * 0.4)
+        bpy.ops.mesh.primitive_ico_sphere_add(subdivisions=3, radius=rad, location=(x, y, z))
+        o = bpy.context.object
+        o.name = "FallenRock"
+        o.scale = (r.uniform(0.8, 1.4), r.uniform(0.8, 1.4), r.uniform(0.55, 0.85))
+        o.rotation_euler = (r.uniform(0, 3), r.uniform(0, 3), r.uniform(0, 3))
+        o.data.materials.append(rock)
+        for p_ in o.data.polygons:
+            p_.use_smooth = True
+        d = o.modifiers.new("chip", "DISPLACE")
+        tx = bpy.data.textures.new("chip", "VORONOI")
+        tx.noise_scale = 0.35
+        d.texture, d.strength, d.mid_level = tx, 0.35 * rad, 0.5
+        d.texture_coords = "OBJECT"
+        if coll:
+            C.link(o, coll)
+    # scrub and trees on the plateau behind the top edge (feet are snapped to the rock later)
+    for k in range(38):
+        a = r.randint(2, len(tops) - 3)
+        i, lat_top, hf = tops[a]
+        if hf < 0.9:
+            continue
+        lat_ = (lat_top + r.uniform(0.5, 9.0)) * (0.35 + 0.65 * hf)
+        x, y, z = path.offset(i, offset + side * lat_)
+        tp_ = "conifer" if r.random() < 0.45 else "deciduous"
+        tree(x, y, 0.0, tp_, r.uniform(0.35, 0.8) if k % 3 else r.uniform(0.9, 1.3), seed + 100 + k)
     return ob
 
 
 def bridge(path, d0, length, width, coll=None, lift_towers=False, water=True):
-    """Concrete bridge deck with railings (narrow bridge / lift bridge)."""
-    """The caller must leave a gap in the roadside ribbons over [d0, d0+length]
-    (cfg gaps_right/gaps_left) so the river surface shows."""
+    """Concrete bridge deck with parapets on BOTH sides (symmetric) over a real
+    water channel: sloped earth banks down to the water, abutment wing walls.
+    The caller must leave a gap in the roadside ribbons over [d0+1.5, d0+length-1.5]
+    (cfg gaps_right/gaps_left) and set the base ground plane to z=-1.7."""
     conc = C.concrete("BridgeConcrete", 4.0, (0.55, 0.54, 0.5))
     steel = C.mat("BridgeSteel", (0.22, 0.3, 0.33), 0.55, 0.3)
     x, y, z, h = path.at(path.index_at(d0))
     objs = []
     for sx in (-1, 1):
         x0 = sx * width / 2
-        objs.append(C.box("Parapet", min(x0, x0 + sx * 0.3), max(x0, x0 + sx * 0.3), y, y + length, -0.6, 1.05, conc, coll))
-    C.box("Deck", -width / 2, width / 2, y, y + length, -0.9, -0.01, conc, coll)
+        # concrete parapet wall with a steel handrail on top (both sides identical)
+        objs.append(C.box("Parapet", min(x0, x0 + sx * 0.3), max(x0, x0 + sx * 0.3), y, y + length, -0.6, 0.85, conc, coll))
+        for xr in (x0 + sx * 0.15,):
+            C.box("BridgeRailTop", xr - 0.05, xr + 0.05, y, y + length, 0.85, 0.95, steel, coll)
+            for q in range(int(length / 2.0) + 1):
+                C.box("BridgeRailPost", xr - 0.04, xr + 0.04, y + q * 2.0 - 0.04, y + q * 2.0 + 0.04, 0.85, 1.2, steel, coll)
+            C.box("BridgeRailTop", xr - 0.05, xr + 0.05, y, y + length, 1.17, 1.23, steel, coll)
+    C.box("Deck", -width / 2 - 0.3, width / 2 + 0.3, y, y + length, -0.9, -0.01, conc, coll)
     if water:
-        # river surface sits just under field level (the ground plane is at -0.3)
-        C.box("Water", -400, 400, y + 1.5, y + length - 1.5, -0.32, -0.22,
-              C.mat("Water", (0.015, 0.035, 0.04), 0.04), coll)
-        for yy in (y + 1.5, y + length - 1.5):
-            C.box("Bank", -400, 400, yy - 0.6, yy + 0.6, -0.3, -0.12, C.gravel(), coll)
+        from . import roads as _R
+        grass = C.grass()
+        y0, y1 = y + 1.5, y + length - 1.5           # the channel runs between the abutments
+        zw = -0.8                                    # water surface
+        # earth banks: level with the road for 400 m, then sloping 1:2 down into the channel
+        _R._extrude_x("BankNear", -400, 400, [(y0 - 400, -1.7), (y0 - 400, -0.06), (y0, -0.06), (y0 + 1.6, zw - 0.2), (y0 + 1.6, -1.7)], grass, coll)
+        _R._extrude_x("BankFar", -400, 400, [(y1 + 400, -1.7), (y1 + 400, -0.06), (y1, -0.06), (y1 - 1.6, zw - 0.2), (y1 - 1.6, -1.7)], grass, coll)
+        C.box("Water", -400, 400, y0 + 0.5, y1 - 0.5, zw - 0.3, zw, C.mat("Water", (0.03, 0.07, 0.08), 0.03), coll)
+        # concrete abutment faces under the deck ends
+        for yy in (y0 - 0.4, y1):
+            C.box("BridgeWall", -width / 2 - 0.3, width / 2 + 0.3, yy, yy + 0.4, -1.6, -0.01, conc, coll)
     if lift_towers:
         for sx in (-1, 1):
             for yy in (y + length * 0.35, y + length * 0.65):
@@ -544,13 +776,23 @@ def bridge(path, d0, length, width, coll=None, lift_towers=False, water=True):
     return objs
 
 
-def overpass(y, span=40.0, clearance=3.8, coll=None):
+def overpass(y, span=40.0, clearance=3.8, coll=None, abut=9.0):
+    """Bridge deck across the road at y; abut = distance of each abutment's
+    inner face from the road centreline (just outside the shoulders makes the
+    road clearly pass under it)."""
     conc = C.concrete("Overpass", 5.0, (0.58, 0.57, 0.54))
     C.box("OverpassDeck", -span, span, y, y + 12, clearance, clearance + 1.4, conc, coll)
     C.box("OverpassParapet", -span, span, y - 0.3, y, clearance + 1.4, clearance + 2.4, conc, coll)
     for sx in (-1, 1):
-        C.box("Abutment", sx * 9 - 1, sx * 9 + 1, y, y + 12, 0, clearance, conc, coll)
-        C.box("Embankment", sx * 10, sx * 60, y - 4, y + 16, 0, clearance, C.grass(), coll)
+        a0, a1 = sorted((sx * abut, sx * (abut + 1.6)))
+        C.box("Abutment", a0, a1, y, y + 12, -0.3, clearance, conc, coll)
+        e0, e1 = sorted((sx * (abut + 1.6), sx * 400))
+        # road embankment carrying the deck: level with the deck on top, 1:3 grass slopes down to grade
+        # along the road at both ends (a solid vertical block read as a hedge)
+        from . import roads as _R
+        _R._extrude_x("Embankment", e0, e1,
+                      [(y - 3.0 * clearance, -0.3), (y, clearance), (y + 12, clearance), (y + 12 + 3.0 * clearance, -0.3)],
+                      C.grass(), coll)
 
 
 def crossing_signal(x, y, coll=None, flashing=True, yaw=0.0, art="crossbuck.png"):

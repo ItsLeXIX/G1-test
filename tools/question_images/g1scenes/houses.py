@@ -246,7 +246,7 @@ def house(x_face, y_start, side, seed, coll=None, snow=0.0, curb_x=None, p=None)
     return y_start + p["lot"]
 
 
-def house_rows(cfg, d0=8, d1=260, seed=5, coll=None, snow=0.0, skip_right=()):
+def house_rows(cfg, d0=8, d1=260, seed=5, coll=None, snow=0.0, skip_right=(), skip_left=()):
     """Both sides of the street, lots spaced by each house's real width."""
     r = C.rng(seed)
     for side in (1, -1):
@@ -256,7 +256,7 @@ def house_rows(cfg, d0=8, d1=260, seed=5, coll=None, snow=0.0, skip_right=()):
         while y < d1:
             s = r.randint(0, 99999)
             p = params(s)
-            if side > 0 and any(a <= y + p["lot"] and y <= b for a, b in skip_right):
+            if any(a <= y + p["lot"] and y <= b for a, b in (skip_right if side > 0 else skip_left)):
                 y += p["lot"]
                 continue
             house(e + side * p["setback"], y, side, s, coll, snow, curb_x=curb, p=p)

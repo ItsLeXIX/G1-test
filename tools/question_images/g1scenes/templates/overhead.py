@@ -32,7 +32,7 @@ def build(spec, quality="preview"):
     road.update(spec.get("road", {}))
     dist = spec.get("sign_dist", 17.0 if city else 45.0)
     if city:
-        road["gaps_right"] = road["gaps_left"] = [(dist - 6, dist + 14)]
+        road["gaps_right"] = road["gaps_left"] = [(dist + 3.5, dist + 18.5)]     # the cross street (centre dist + 11)
     R.standard_road(path, road)
 
     if spec.get("twltl"):
@@ -41,19 +41,19 @@ def build(spec, quality="preview"):
             # solid outer + broken inner yellow on each side of the centre lane
             R.line(path, "TwltlSolid", sx * 1.9, 0.1, y_)
             R.line(path, "TwltlBroken", sx * 1.65, 0.1, y_, 3, 6)
-        # opposing left-turn arrows painted in the centre lane
+        # opposing left-turn arrows painted in the centre lane (pairs, as in the OTM)
         w = C.paint("white")
-        for d, flip in ((14, 1), (30, -1), (46, 1)):
-            C.box("ArrowStem", -0.08, 0.08, d, d + 2.4, 0, 0.004, w)
-            C.box("ArrowHead", -0.08 - flip * 0.6, 0.08, d + 2.4 if flip > 0 else d - 0.2, d + 2.6 if flip > 0 else d, 0, 0.004, w)
+        for d in spec.get("twltl_arrows", (44.0, 70.0, 96.0)):
+            _turn_arrow(0.0, d, 1, w)            # northbound: up, then left
+            _turn_arrow(0.0, d + 13.0, -1, w)    # southbound: the same arrow turned 180 deg
 
     if city:
-        R.cross_road(path, dist + 4, "both", width=14, snow=look["snow"], wet=look["wet"])
+        R.cross_road(path, dist + 11, "both", width=14, snow=look["snow"], wet=look["wet"])
         re, le = road["_right_edge"], road["_left_edge"]
-        P.city_block(re + 3.8, -10, dist - 6, 1, seed=21)
-        P.city_block(re + 3.8, dist + 14, 220, 1, seed=22)
-        P.city_block(le - 3.8, -10, dist - 6, -1, seed=23)
-        P.city_block(le - 3.8, dist + 14, 220, -1, seed=24)
+        P.city_block(re + 3.8, -10, dist + 2.5, 1, seed=21)
+        P.city_block(re + 3.8, dist + 19.5, 220, 1, seed=22)
+        P.city_block(le - 3.8, -10, dist + 2.5, -1, seed=23)
+        P.city_block(le - 3.8, dist + 19.5, 220, -1, seed=24)
         # zebra crosswalk on the near side of the intersection
         wpaint = C.paint("white")
         C.box("StopBar", 0.2, re, dist - 4.2, dist - 3.8, 0, 0.004, wpaint)
@@ -77,7 +77,7 @@ def build(spec, quality="preview"):
                                        sign_x=spec.get("sign_x", 1.9), mast=True, night=look["night"],
                                        top=spec.get("span_top"))
         top, y_arm = objs[0]["arm_z"], objs[0]["arm_y"]     # the real arm height (was estimated from the sign centre)
-        for sx in (4.6, 8.0):
+        for sx in spec.get("signal_xs", (4.6, 8.0)):
             if sx < x_right - 0.5:
                 P.traffic_signal(sx, y_arm - 0.05, top - 1.25, spec.get("signal_state", "green"),
                                  hang=(y_arm, top, S.arm_radius(sx, x_right, 0.4 if not spec.get("twltl") else -1.0)))
@@ -89,3 +89,23 @@ def build(spec, quality="preview"):
     cam = E.camera(tuple(spec.get("camera", (1.75, 0.0, E.EYE_HEIGHT))), spec.get("lens", 50.0))
     spec.setdefault("screen", (0.6, 0.62))
     finish(cam, centre, spec, look)
+
+
+def _turn_arrow(cx, y0, flip, mat, L=6.0, sw=0.3, bar=0.8, head=1.1):
+    """Bent left-turn pavement arrow: stem along the lane, then a short bar to
+    the left ending in an arrowhead. flip=-1 rotates it 180 deg about (cx, mid)."""
+    x0 = 0.45                                  # stem sits right of the lane centre
+    pts = [(x0 - sw / 2, 0), (x0 + sw / 2, 0), (x0 + sw / 2, L), (x0 - sw / 2 - bar, L),
+           (x0 - sw / 2 - bar, L + head / 2), (x0 - sw / 2 - bar - head, L - sw / 2),
+           (x0 - sw / 2 - bar, L - sw - head / 2), (x0 - sw / 2 - bar, L - sw), (x0 - sw / 2, L - sw)]
+    mid = (L + head / 2) / 2
+    verts = []
+    for px, py in pts:
+        if flip < 0:
+            px, py = -px, 2 * mid - py
+        verts.append((cx + px, y0 + py, 0.005))
+    # fan from the stem's base corners is not convex: split into stem quad + bar quad + head tri
+    faces = [(0, 1, 2, 8), (8, 2, 3, 7), (3, 4, 5, 6) if False else (4, 5, 6), (7, 3, 4, 6)]
+    if flip < 0:
+        faces = [tuple(reversed(f)) for f in faces]
+    C.mesh_object("TwltlArrow", verts, faces, [mat])

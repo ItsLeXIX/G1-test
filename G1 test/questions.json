@@ -217,10 +217,10 @@
       "test": 1,
       "text": "What does this road sign mean?",
       "options": [
-        "Idling a vehicle's engine for more than 3 minutes is prohibited.",
-        "Stopping for more than 3 minutes is not allowed",
-        "Do not smoke for more than 3 minutes",
-        "Parking in this area is allowed for 3 minutes."
+        "Idling a vehicle's engine for more than X minutes is prohibited.",
+        "Stopping for more than X minutes is not allowed",
+        "Do not smoke for more than X minutes",
+        "Parking in this area is allowed for X minutes."
       ],
       "correctIndex": 0,
       "imageName": "15"
@@ -4417,10 +4417,10 @@
       "test": 1,
       "text": "اين تابلوى راه به چه معناست؟",
       "options": [
-        "روشن گذاشتن موتور خودرو در حالت ساکن برای بیش از ۳ دقیقه ممنوع است.",
-        "توقف بيش از 3 دقيقه غیر مجاز است",
-        "بيش از 3 دقيقه سیگار نكشيد",
-        "پارک کردن خودرو در این محدوده به مدت ۳ دقیقه مجاز است."
+        "روشن گذاشتن موتور خودرو در حالت ساکن برای بیش از X دقیقه ممنوع است.",
+        "توقف بيش از X دقيقه غیر مجاز است",
+        "بيش از X دقيقه سیگار نكشيد",
+        "پارک کردن خودرو در این محدوده به مدت X دقیقه مجاز است."
       ],
       "correctIndex": 0,
       "imageName": "15"

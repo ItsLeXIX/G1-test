@@ -21,7 +21,8 @@ def build(spec, quality="preview"):
     path = R.Path()
     R.standard_road(path, road)
     at = spec.get("crossing_dist", 22.0)
-    R.rail_crossing(path, at, width=300)
+    sh_ = road.get("shoulder", 1.8)
+    R.rail_crossing(path, at, width=2500, span=(road["_left_edge"] - sh_, road["_right_edge"] + sh_))
     art = sign_items(spec)[0][0] if spec.get("sign") else "crossbuck.png"
     flashing = spec.get("flashing", True)
     x = road["_right_edge"] + 2.6

@@ -45,10 +45,10 @@ def _arrow(name, pts, width, colour):
     return C.mesh_object(name, verts, faces, [m])
 
 
-def _turn_left_from_east(steps=12):
+def _turn_left_from_east(steps=12, start=9.0):
     """Path of the westbound car (north lane, y=+1.75) turning left to head
     south in the southbound lane (x=-1.75)."""
-    pts = [(9.0, 1.75), (3.5, 1.75)]
+    pts = [(start, 1.75), (3.5, 1.75)]
     cx, cy, r = 3.5, -3.5, 5.25        # arc centre at the SE of the turn
     for k in range(steps + 1):
         a = math.radians(90 + 90 * k / steps)
@@ -97,10 +97,12 @@ def build(spec, quality="preview"):
                 P.tree(x0 + sx * (9 + 9 * k), y0 + sy * (11 + 4 * (k % 2)), 0.13, seed=k + 7 * sx + 3 * sy, snow=look["snow"])
 
     # vehicles + intended paths (default: question 161)
-    P.car(-11.0, -1.75, -90, "blue")                 # from the west, heading east
-    P.car(11.0, 1.75, 90, "red")                     # from the east, heading west
-    _arrow("PathBlue", [(-8.0, -1.75), (9.0, -1.75)], 0.35, (0.05, 0.2, 1.0))
-    _arrow("PathRed", _turn_left_from_east(), 0.35, (1.0, 0.08, 0.05))
+    # the real car model is 4.8 m long, origin at its centre: front bumpers at +-8.6
+    half = 2.4
+    P.car(-10.0, -1.75, -90, "vivid_blue", recolour=True)     # from the west, heading east
+    P.car(10.0, 1.75, 90, "vivid_red", recolour=True)         # from the east, heading west
+    _arrow("PathBlue", [(-10.0 + half, -1.75), (9.0, -1.75)], 0.35, (0.05, 0.2, 1.0))   # starts at the blue car's bumper, straight on
+    _arrow("PathRed", _turn_left_from_east(start=10.0 - half), 0.35, (1.0, 0.08, 0.05))  # from the red car's bumper, turning left
 
     cam = E.camera(tuple(spec.get("camera", (0.0, -26.0, 19.0))), spec.get("lens", 35.0))
     spec.setdefault("screen", (0.5, 0.5))

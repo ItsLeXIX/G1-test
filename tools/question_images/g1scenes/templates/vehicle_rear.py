@@ -39,13 +39,15 @@ def build(spec, quality="preview"):
 
     vehicle = spec.get("vehicle", "car")
     if setting == "suburban":
-        P.tree_row(path, road["_right_edge"] + 1.4, 0, 220, 14, seed=2, skip=[(0, 30)], snow=look["snow"])
-        P.tree_row(path, road["_left_edge"] - 1.4, 0, 220, 14, seed=3, snow=look["snow"])
-        P.house_rows(road, snow=look["snow"], skip_right=[(0, 30)])
+        sr_skip = [(sr["at"] - 9, sr["at"] + 9)] if sr else []
+        P.tree_row(path, road["_right_edge"] + 1.4, 0, 220, 14, seed=2, skip=[(0, 30)] + sr_skip, snow=look["snow"])
+        P.tree_row(path, road["_left_edge"] - 1.4, 0, 220, 14, seed=3, skip=sr_skip, snow=look["snow"])
+        P.house_rows(road, snow=look["snow"], skip_right=[(0, 30)] + sr_skip, skip_left=sr_skip)
     else:
         for side, seed in ((1, 4), (-1, 5)):
             e = road["_right_edge"] if side > 0 else road["_left_edge"]
-            P.tree_row(path, e + side * 24, 20, 300, 9, "deciduous", seed, jitter=8, snow=look["snow"])
+            P.tree_row(path, e + side * 24, 20, 300, 9, "deciduous", seed, jitter=8, snow=look["snow"],
+                       skip=[(sr["at"] - 9, sr["at"] + 9)] if sr else ())
         # farm fence along the field
         post = C.mat("FencePost", (0.3, 0.24, 0.18), 0.9)
         for d in range(0, 200, 4):

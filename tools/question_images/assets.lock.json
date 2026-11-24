@@ -190,6 +190,36 @@
      "sha256": "641b51370745e7e990c93542716bf46219e7415808a4cea999bb3f0683ec01bf"
     }
    ]
+  },
+  {
+   "id": "rock_face_03",
+   "res": "2k",
+   "files": [
+    {
+     "kind": "texture",
+     "map": "Diffuse",
+     "path": "rock_face_03/diff_2k.jpg",
+     "sha256": "644ee79df7ffbf5f6afc330b64dd3f33794bab8820915fe61ffe0c88ecfd7ece"
+    },
+    {
+     "kind": "texture",
+     "map": "Rough",
+     "path": "rock_face_03/rough_2k.jpg",
+     "sha256": "9ca3e9e196685f702328f24d66f039b72f5330fc35cf2a2c265cfa50a7916301"
+    },
+    {
+     "kind": "texture",
+     "map": "nor_gl",
+     "path": "rock_face_03/nor_gl_2k.jpg",
+     "sha256": "a498cef4ba6191f6959b6d03fb835263c77271948264a289af24497ab7111dec"
+    },
+    {
+     "kind": "texture",
+     "map": "Displacement",
+     "path": "rock_face_03/disp_2k.jpg",
+     "sha256": "5d24ec5a7f4f7333bcf9c158f63d0059d9a3ba234eeff7570a5f6cf2f4522cd5"
+    }
+   ]
   }
  ],
  "sketchfab": [

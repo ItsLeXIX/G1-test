@@ -17,6 +17,10 @@ SIGN_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), "signs")
 
 def artwork(name):
     p = name if os.path.isabs(name) else os.path.join(SIGN_DIR, name)
+    if not os.path.exists(p):      # the render pipeline keeps the official artwork in render_pipeline/sign_assets
+        alt = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))),
+                           "render_pipeline", "sign_assets", name)
+        p = alt if os.path.exists(alt) else p
     if not os.path.exists(p):
         raise FileNotFoundError(f"sign artwork missing: {p} (run prepare_signs.py)")
     img = bpy.data.images.load(p, check_existing=True)
@@ -192,15 +196,73 @@ def build_span(x_left, x_right, y, top, sign_x=None, mast=False, coll=None):
         arm.location = (x_right, y_arm, top)
         span["y_panel"] = y_arm - ARM_R_BASE - 0.02 - 0.003   # panel back just clear of the thickest arm + band
     else:
-        for px in (x_left, x_right):
-            C.cylinder("TrussPost", 0.2, -0.5, top + 0.6, px, y_arm, steel, coll, 20)
         span["chords"] = []
         for dz in (0.0, 0.9):
             z0, z1 = top - 0.35 + dz, top - 0.2 + dz
-            C.box("TrussChord", x_left, x_right, y + 0.22, y + 0.38, z0, z1, steel, coll)
+            ch = C.cylinder("TrussChord", 0.08, 0, x_right - x_left, mat=steel, coll=coll, seg=16)
+            ch.rotation_euler = (0, math.radians(90), 0)
+            ch.location = (x_left, y + 0.30, (z0 + z1) / 2)
             span["chords"].append((z0, z1))
         span["y_panel"] = y + 0.22 - 0.03 - 0.003
+        sign_bridge(x_left, x_right, y, span["chords"], steel, coll)
     return span
+
+
+def _strut(a, b, r, m, coll=None):
+    d = b - a
+    ob = C.cylinder("TrussMember", r, 0, d.length, mat=m, coll=coll, seg=10)
+    ob.rotation_euler = d.to_track_quat("Z", "Y").to_euler()
+    ob.location = a
+    return ob
+
+
+def sign_bridge(x_left, x_right, y, chords, steel, coll=None):
+    """Ontario-style highway sign bridge: a box truss (front chords carry the
+    sign clamps, back chords 1.1 m behind, diagonal web lacing in all four
+    faces) on a laced twin-leg tower at each end, standing on concrete
+    footings outside the shoulders."""
+    yf, yb = y + 0.30, y + 1.40                 # chord centre lines (front = the clamp chords)
+    zl, zh = (chords[0][0] + chords[0][1]) / 2, (chords[1][0] + chords[1][1]) / 2
+    parts = []
+    # back chords (tubes)
+    for z in (zl, zh):
+        parts.append(_strut(Vector((x_left, yb, z)), Vector((x_right, yb, z)), 0.075, steel, coll))
+    # web panels
+    n = max(4, round((x_right - x_left) / 1.6))
+    step = (x_right - x_left) / n
+    for i in range(n + 1):
+        x = x_left + i * step
+        # verticals front/back, cross ties top/bottom
+        for yy in (yf, yb):
+            parts.append(_strut(Vector((x, yy, zl)), Vector((x, yy, zh)), 0.035, steel, coll))
+        for z in (zl, zh):
+            parts.append(_strut(Vector((x, yf, z)), Vector((x, yb, z)), 0.035, steel, coll))
+        if i < n:
+            x2 = x + step
+            flip = i % 2
+            for yy in (yf, yb):                                   # front/back faces
+                a = Vector((x, yy, zl if flip else zh)); b = Vector((x2, yy, zh if flip else zl))
+                parts.append(_strut(a, b, 0.03, steel, coll))
+            for z in (zl, zh):                                    # top/bottom faces
+                a = Vector((x, yf if flip else yb, z)); b = Vector((x2, yb if flip else yf, z))
+                parts.append(_strut(a, b, 0.03, steel, coll))
+    # end towers: two legs each (front/back), laced, on footings
+    foot = C.concrete("Footing", 1.0, (0.6, 0.59, 0.56)) if hasattr(C, "concrete") else steel
+    for px in (x_left, x_right):
+        for yy in (yf, yb):
+            parts.append(_strut(Vector((px, yy, 0.25)), Vector((px, yy, zh + 0.35)), 0.11, steel, coll))
+            C.box("TrussFooting", px - 0.45, px + 0.45, yy - 0.45, yy + 0.45, -0.5, 0.25, foot, coll)
+            C.box("TrussBasePlate", px - 0.25, px + 0.25, yy - 0.25, yy + 0.25, 0.25, 0.28, steel, coll)
+            parts.append(_strut(Vector((px, yy, zh + 0.35)), Vector((px, yy, zh + 0.36)), 0.14, steel, coll))
+        z, k = 0.6, 0
+        while z + 0.9 < zh:
+            z2 = z + 0.9
+            parts.append(_strut(Vector((px, yf, z)), Vector((px, yb, z)), 0.035, steel, coll))
+            a = Vector((px, yf if k % 2 else yb, z)); b = Vector((px, yb if k % 2 else yf, z2))
+            parts.append(_strut(a, b, 0.03, steel, coll))
+            z, k = z2, k + 1
+        parts.append(_strut(Vector((px, yf, z)), Vector((px, yb, z)), 0.035, steel, coll))
+    C.to_bmesh_join(parts, "SignBridgeFrame")
 
 
 def hang_signs(items, span, coll=None, night=False):

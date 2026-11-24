@@ -582,5 +582,202 @@
   "licence": "Public domain",
   "description": "No left turn. (with hours of the day and days of the week when the prohibition applies)",
   "aspect_w_over_h": 0.669
+ },
+ "RA-006": {
+  "commons_file": "File:CA-MUTCDC RA-006.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:CA-MUTCDC_RA-006.svg",
+  "png": "Commons server rasterisation at 1600 px wide",
+  "licence": "Public domain",
+  "description": "Railway level crossing.",
+  "aspect_w_over_h": 1.0
+ },
+ "Rb-055-L-R": {
+  "commons_file": "File:CA-ON road sign Rb-055-L-R.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:CA-ON_road_sign_Rb-055-L-R.svg",
+  "png": "Commons server rasterisation at 1600 px wide",
+  "licence": "Public domain",
+  "description": "No stopping.",
+  "aspect_w_over_h": 1.0
+ },
+ "Rb-33": {
+  "commons_file": "File:Ontario Rb-33.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Ontario_Rb-33.svg",
+  "png": "Commons server rasterisation at 1600 px wide",
+  "licence": "Public domain",
+  "description": "Keep right except to pass.",
+  "aspect_w_over_h": 0.751
+ },
+ "TC-19": {
+  "commons_file": "File:Ontario TC-19.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Ontario_TC-19.svg",
+  "png": "Commons server rasterisation at 1600 px wide",
+  "licence": "Public domain",
+  "description": "Grooved pavement. (A \"GROOVED PAVEMENT\" supplementary plate is optional)",
+  "aspect_w_over_h": 1.0
+ },
+ "TC-1A": {
+  "commons_file": "File:Ontario TC-1A.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Ontario_TC-1A.svg",
+  "png": "Commons server rasterisation at 1600 px wide",
+  "licence": "Public domain",
+  "description": "Construction ahead in 1 kilometre.",
+  "aspect_w_over_h": 1.0
+ },
+ "TC-4R": {
+  "commons_file": "File:Ontario TC-4R.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Ontario_TC-4R.svg",
+  "png": "Commons server rasterisation at 1600 px wide",
+  "licence": "Public domain",
+  "description": "Roadworks sign in Ontario, Canada.",
+  "aspect_w_over_h": 1.0
+ },
+ "Wa-39": {
+  "commons_file": "File:Ontario road sign Wa-39.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Ontario_road_sign_Wa-39.svg",
+  "png": "Commons server rasterisation at 1600 px wide",
+  "licence": "Public domain",
+  "description": "Roundabout.",
+  "aspect_w_over_h": 1.0
+ },
+ "Wa-9L": {
+  "commons_file": "File:Ontario Wa-9L.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Ontario_Wa-9L.svg",
+  "png": "Commons server rasterisation at 1600 px wide",
+  "licence": "Public domain",
+  "description": "Alignment chevron.",
+  "aspect_w_over_h": 0.751
+ },
+ "Wc-007": {
+  "commons_file": "File:CA-ON road sign Wc-007.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:CA-ON_road_sign_Wc-007.svg",
+  "png": "Commons server rasterisation at 1600 px wide",
+  "licence": "Public domain",
+  "description": "Pedestrians.",
+  "aspect_w_over_h": 1.0
+ },
+ "TC-21-diamond": {
+  "derived_from": "TC-21 (File:Ontario TC-21.svg)",
+  "change": "The Commons drawing is a diamond clipped to a square canvas with its four tips cut off and filled opaque black. Black corner fill made transparent and the sign's own orange (sampled from the artwork) extended to the diamond tips so the panel has the OTM diamond shape. Pictogram pixels unchanged.",
+  "review": "flagged for review"
+ },
+ "Wc-2At": {
+  "commons_file": "File:Ontario Wc-2At.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Ontario_Wc-2At.svg",
+  "png": "Commons server rasterisation at 1600 px wide",
+  "licence": "Public domain",
+  "description": "\"CROSSING AHEAD\" supplementary plate. Used under Wc-2 for #57 as the closest official plate to the current image's AHEAD tab (no plain AHEAD plate exists for Wc-2) - REVIEW",
+  "aspect_w_over_h": 1.331
+ },
+ "MTO-accessible": {
+  "source": "MTO Bus Handbook PDF saved from https://www.ontario.ca/document/official-ministry-transportation-mto-bus-handbook/signs (chapter 'Signs'), file 'Signs _ The Official Ministry of Transportation (MTO) Bus Handbook _ ontario.ca.pdf'",
+  "pdf_page": 91,
+  "description": "Accessible facility sign (blue square, wheelchair symbol), used for #49",
+  "licence": "Ontario Crown copyright (MTO publication, Open Government Licence - Ontario). Official artwork as published by MTO.",
+  "change": "Raster image extracted unmodified from the PDF (about 170 px wide); scaled 4x with Lanczos; white page background made transparent by flood fill from the corners (no pixels inside the sign changed). Not redrawn, traced or re-typeset.",
+  "low_resolution_deviation": "Only ~170 px wide in the handbook; no higher-resolution copy found."
+ },
+ "MTO-distance": {
+  "source": "MTO Bus Handbook PDF saved from https://www.ontario.ca/document/official-ministry-transportation-mto-bus-handbook/signs (chapter 'Signs'), file 'Signs _ The Official Ministry of Transportation (MTO) Bus Handbook _ ontario.ca.pdf'",
+  "pdf_page": 88,
+  "description": "Distance sign Kitchener 72 / London 164, used for #59",
+  "licence": "Ontario Crown copyright (MTO publication, Open Government Licence - Ontario). Official artwork as published by MTO.",
+  "change": "Raster image extracted unmodified from the PDF (about 170 px wide); scaled 4x with Lanczos; white page background made transparent by flood fill from the corners (no pixels inside the sign changed). Not redrawn, traced or re-typeset.",
+  "low_resolution_deviation": "Only ~170 px wide in the handbook; no higher-resolution copy found."
+ },
+ "MTO-destination": {
+  "source": "MTO Bus Handbook PDF saved from https://www.ontario.ca/document/official-ministry-transportation-mto-bus-handbook/signs (chapter 'Signs'), file 'Signs _ The Official Ministry of Transportation (MTO) Bus Handbook _ ontario.ca.pdf'",
+  "pdf_page": 88,
+  "description": "Destination sign Barrie / Orillia / Midland, used for #93",
+  "licence": "Ontario Crown copyright (MTO publication, Open Government Licence - Ontario). Official artwork as published by MTO.",
+  "change": "Raster image extracted unmodified from the PDF (about 170 px wide); scaled 4x with Lanczos; white page background made transparent by flood fill from the corners (no pixels inside the sign changed). Not redrawn, traced or re-typeset.",
+  "low_resolution_deviation": "Only ~170 px wide in the handbook; no higher-resolution copy found."
+ },
+ "MTO-lane-arrows": {
+  "source": "MTO Bus Handbook PDF saved from https://www.ontario.ca/document/official-ministry-transportation-mto-bus-handbook/signs (chapter 'Signs'), file 'Signs _ The Official Ministry of Transportation (MTO) Bus Handbook _ ontario.ca.pdf'",
+  "pdf_page": 73,
+  "description": "Lane-use arrow signs numbered 1-3, used for #88",
+  "licence": "Ontario Crown copyright (MTO publication, Open Government Licence - Ontario). Official artwork as published by MTO.",
+  "change": "Raster image extracted unmodified from the PDF (about 170 px wide); scaled 4x with Lanczos; white page background made transparent by flood fill from the corners (no pixels inside the sign changed). Not redrawn, traced or re-typeset.",
+  "low_resolution_deviation": "Only ~170 px wide in the handbook; no higher-resolution copy found."
+ },
+ "MTO-HOV-2plus": {
+  "source": "MTO Bus Handbook PDF saved from https://www.ontario.ca/document/official-ministry-transportation-mto-bus-handbook/signs (chapter 'Signs'), file 'Signs _ The Official Ministry of Transportation (MTO) Bus Handbook _ ontario.ca.pdf'",
+  "pdf_page": 76,
+  "description": "HOV 2 or More Persons, used for #97",
+  "licence": "Ontario Crown copyright (MTO publication, Open Government Licence - Ontario). Official artwork as published by MTO.",
+  "change": "Raster image extracted unmodified from the PDF (about 170 px wide); scaled 4x with Lanczos; white page background made transparent by flood fill from the corners (no pixels inside the sign changed). Not redrawn, traced or re-typeset.",
+  "low_resolution_deviation": "Only ~170 px wide in the handbook; no higher-resolution copy found."
+ },
+ "MTO-HOV-nocross": {
+  "source": "MTO Bus Handbook PDF saved from https://www.ontario.ca/document/official-ministry-transportation-mto-bus-handbook/signs (chapter 'Signs'), file 'Signs _ The Official Ministry of Transportation (MTO) Bus Handbook _ ontario.ca.pdf'",
+  "pdf_page": 76,
+  "description": "HOV Do Not Cross, used for #147",
+  "licence": "Ontario Crown copyright (MTO publication, Open Government Licence - Ontario). Official artwork as published by MTO.",
+  "change": "Raster image extracted unmodified from the PDF (about 170 px wide); scaled 4x with Lanczos; white page background made transparent by flood fill from the corners (no pixels inside the sign changed). Not redrawn, traced or re-typeset.",
+  "low_resolution_deviation": "Only ~170 px wide in the handbook; no higher-resolution copy found."
+ },
+ "MTO-permit-only": {
+  "source": "MTO Bus Handbook PDF saved from https://www.ontario.ca/document/official-ministry-transportation-mto-bus-handbook/signs (chapter 'Signs'), file 'Signs _ The Official Ministry of Transportation (MTO) Bus Handbook _ ontario.ca.pdf'",
+  "pdf_page": 71,
+  "description": "No parking + accessible symbol + BY PERMIT ONLY, used for #104",
+  "licence": "Ontario Crown copyright (MTO publication, Open Government Licence - Ontario). Official artwork as published by MTO.",
+  "change": "Raster image extracted unmodified from the PDF (about 170 px wide); scaled 4x with Lanczos; white page background made transparent by flood fill from the corners (no pixels inside the sign changed). Not redrawn, traced or re-typeset.",
+  "low_resolution_deviation": "Only ~170 px wide in the handbook; no higher-resolution copy found."
+ },
+ "MTO-survey-crew": {
+  "source": "MTO Bus Handbook PDF saved from https://www.ontario.ca/document/official-ministry-transportation-mto-bus-handbook/signs (chapter 'Signs'), file 'Signs _ The Official Ministry of Transportation (MTO) Bus Handbook _ ontario.ca.pdf'",
+  "pdf_page": 85,
+  "description": "Survey crew sign - SUPERSEDED by TC-003 (not used): the handbook image has black corners where the diamond is transparent",
+  "licence": "Ontario Crown copyright (MTO publication, Open Government Licence - Ontario). Official artwork as published by MTO.",
+  "change": "Raster image extracted unmodified from the PDF (about 170 px wide); scaled 4x with Lanczos; white page background made transparent by flood fill from the corners (no pixels inside the sign changed). Not redrawn, traced or re-typeset.",
+  "low_resolution_deviation": "Only ~170 px wide in the handbook; no higher-resolution copy found."
+ },
+ "TC-003": {
+  "commons_file": "File:CA-MUTCDC TC-003.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:CA-MUTCDC_TC-003.svg",
+  "png": "Commons server rasterisation at 1920 px wide (alpha preserved: real diamond with transparent corners)",
+  "licence": "Public domain (Transportation Association of Canada, MUTCDC)",
+  "description": "Survey crew working on the road ahead, used for #141",
+  "change": "none - file used exactly as rasterised"
+ },
+ "TO-red-light-camera": {
+  "source": "https://www.toronto.ca/wp-content/uploads/2021/08/94a2-TSRed-Light-Camera.png",
+  "publisher": "City of Toronto",
+  "licence": "City of Toronto web content; no explicit reuse licence found - confirm before publishing",
+  "description": "Red Light Camera sign (signal + camera + RED LIGHT CAMERA). Original 175x340 px file, unmodified.",
+  "change": "none (original download)"
+ },
+ "TO-red-light-camera-cut": {
+  "derived_from": "TO-red-light-camera.png",
+  "change": "Scaled 4x with Lanczos only; white outer background made transparent by flood fill from the corners. No tracing, vectorising or re-typesetting.",
+  "deviation": "Source is only 175x340 px; no higher-resolution City of Toronto or Ontario version could be found (searched Toronto, Ontario MTO, Wikimedia Commons). Wording is RED LIGHT CAMERA, not 'RED LIGHT PHOTO ENFORCED' as in the old image. Used for #117.",
+  "used_for": "117"
+ },
+ "idling.gif": {
+  "source": "https://www.toronto.ca/wp-content/uploads/2017/10/8f79-idling-metal-sign.gif",
+  "publisher": "City of Toronto (Chapter 517 Idling Control By-law sign)",
+  "licence": "City of Toronto web content; no explicit reuse licence found - confirm before publishing",
+  "description": "NO IDLING / 1 MIN IDLE LIMIT metal sign, original 180x269 px GIF, unmodified.",
+  "change": "none (original download)"
+ },
+ "TO-no-idling": {
+  "derived_from": "idling.gif",
+  "change": "Scaled 4x with Lanczos only; white outer background made transparent by flood fill from the corners. No tracing, vectorising or re-typesetting.",
+  "deviation": "Source is only 180x269 px; no higher-resolution official version found. Used for #15. Idling signs are municipal by-law signs with no single national or provincial design; this is Toronto's (1 minute limit) and the question option text uses 'X minutes'.",
+  "used_for": "15"
+ },
+ "sharrow-mutcd.jpg": {
+  "source": "https://hips.hearstapps.com/hmg-prod/images/1/mutcd-sharrow-1517247089.jpg (illustration from https://www.bicycling.com/news/a20044419/what-are-sharrows-used-for/)",
+  "description": "US MUTCD shared lane marking dimension drawing (112 x 40 in), original 980x816 JPEG, unmodified.",
+  "licence": "US MUTCD figure (US federal government work); hosted by a magazine - confirm before publishing"
+ },
+ "sharrow": {
+  "derived_from": "sharrow-mutcd.jpg",
+  "change": "EDITED: the white symbol was isolated by brightness threshold and dimension lines/text/grey background removed (alpha mask), scaled/cropped. Symbol shape unchanged.",
+  "deviation": "US MUTCD source (side-view bicycle), not the Ontario OTM Book 18 artwork (Fig. 4.18, top-view symbol, 1.0 m x 2.0 m); the only OTM copy found is a 181x280 raster with dimension lines. Used for #160.",
+  "used_for": "160"
+ },
+ "Rb-021-R": {
+  "note": "entry missing from earlier rounds; source not recorded - verify against Commons 'File:Ontario Rb-021.svg' (right-hand variant derived by mirroring)"
  }
 }

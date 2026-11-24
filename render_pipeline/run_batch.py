@@ -25,7 +25,7 @@ import time
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 BLENDER = os.environ.get("BLENDER", r"C:\Users\parsa\Apps\blender-5.2.3-windows-x64\blender.exe")
-ROUND = "2026-11-06"          # bump when a new full re-render round starts
+ROUND = "2026-11-18"          # bump when a new full re-render round starts
 
 
 def parse_only(s):
@@ -37,6 +37,19 @@ def parse_only(s):
         else:
             want.append(part)
     return want
+
+
+def png_size(path):
+    """Width, height from the PNG header (no imaging library needed)."""
+    import struct
+    with open(path, "rb") as f:
+        head = f.read(24)
+    if head[1:4] != b"PNG":
+        return None
+    return struct.unpack(">II", head[16:24])
+
+
+FINAL_SIZE = (2400, 1000)
 
 
 def run(cmd):
@@ -75,7 +88,9 @@ def main():
             json.dump(results, open(tpath, "w"), indent=1)
             continue
         prev = results.get(n, {})
-        if args.resume and prev.get("round") == ROUND and prev.get("quality") == "final" and "render_s" in prev and os.path.exists(os.path.join(out_dir, f"{n}.png")):
+        pth = os.path.join(out_dir, f"{n}.png")
+        if (args.resume and prev.get("round") == ROUND and prev.get("quality") == "final" and "render_s" in prev
+                and os.path.exists(pth) and png_size(pth) == FINAL_SIZE):
             print(f"#{n}: already rendered this round, skipping (resume)", flush=True)
             continue
         if e and e.get("path") != "full":
@@ -88,6 +103,11 @@ def main():
         r, err = run(cmd)
         wall = round(time.time() - t0, 1)
         if r is None:
+            results[n] = {"image": n, "round": ROUND, "error": err, "wall_s": wall}
+            print(f"#{n}: FAILED ({wall}s) - {err}", flush=True)
+        elif args.quality == "final" and png_size(os.path.join(out_dir, f"{n}.png")) != FINAL_SIZE:
+            got = png_size(os.path.join(out_dir, f"{n}.png"))
+            err = f"output is {got[0]}x{got[1]}, not {FINAL_SIZE[0]}x{FINAL_SIZE[1]}" if got else "output is not a PNG"
             results[n] = {"image": n, "round": ROUND, "error": err, "wall_s": wall}
             print(f"#{n}: FAILED ({wall}s) - {err}", flush=True)
         else:
