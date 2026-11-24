@@ -33,3 +33,17 @@ Carthage/Build/
 # ---- Misc ----
 *.swp
 *~
+*_sheets
+
+# ---- Image render pipeline: scratch / generated / downloaded ----
+__pycache__/
+*.pyc
+*render_pipeline
+# Poly Haven / downloaded textures and HDRIs (re-fetched by --install; see assets.lock.json)
+*tools
+*.claude
+*.codex
+tools/question_images/assets/*
+!tools/question_images/assets/CREDITS.md
+*.blend
+*.blend1

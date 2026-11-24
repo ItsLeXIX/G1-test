@@ -42,6 +42,16 @@ struct WelcomeView: View {
             .padding(.horizontal, 40)
         }
         .padding()
+        .toolbar {
+            ToolbarItem(placement: .topBarTrailing) {
+                NavigationLink {
+                    AcknowledgementsView()
+                } label: {
+                    Image(systemName: "info.circle")
+                }
+                .accessibilityLabel("Acknowledgements")
+            }
+        }
     }
 }
 
